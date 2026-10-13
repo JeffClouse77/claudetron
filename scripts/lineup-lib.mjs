@@ -127,7 +127,7 @@ export function parseSearch(html, now) {
           id: lockup.contentId,
           title: String(meta?.title?.content ?? '').trim(),
           published: fromRelative(ageText, now),
-          channel: texts.find(text => !/\bago\b|views?\b|watching/i.test(text))?.trim() ?? '',
+          channel: texts.find(text => !/\bago\b|views?\b|watching|^[\d.,\s]+[KMB]?$/i.test(text.trim()))?.trim() ?? '',
           ageText,
         })
       }
@@ -136,6 +136,12 @@ export function parseSearch(html, now) {
   }
   visit(data)
   return found
+}
+
+/** A channel page's own name, from its og:title. */
+export function channelTitle(html) {
+  const match = html.match(/<meta property="og:title" content="([^"]*)"/)
+  return match ? decodeEntities(match[1]).trim() : ''
 }
 
 /** The videos on a channel's Videos tab, newest first as the tab lists them. */

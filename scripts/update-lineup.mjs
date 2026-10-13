@@ -11,7 +11,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
-import { findChannelId, newestFirst, parseChannelVideos, parseFeed, parseSearch } from './lineup-lib.mjs'
+import { channelTitle, findChannelId, newestFirst, parseChannelVideos, parseFeed, parseSearch } from './lineup-lib.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const CONFIG = `${root}config/stations.json`
@@ -42,8 +42,10 @@ async function fromChannel(station) {
   } catch (error) {
     console.log(`      ${station.slug} feed: ${error.message}`)
   }
-  const videos = parseChannelVideos(await get(`https://www.youtube.com/channel/${id}/videos`), Date.now())
-    .map(video => ({ ...video, channel: video.channel || station.name }))
+  const page = await get(`https://www.youtube.com/channel/${id}/videos`)
+  // Every video on a channel's own tab is that channel's.
+  const owner = channelTitle(page) || station.name
+  const videos = parseChannelVideos(page, Date.now()).map(video => ({ ...video, channel: owner }))
   if (videos.length === 0) throw new Error(`no videos on the Videos tab of ${station.handle}`)
   return { videos, channelId: id, via: 'videos tab' }
 }

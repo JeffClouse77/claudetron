@@ -1,13 +1,14 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
 
-import { findChannelId, fromRelative, newestFirst, parseFeed, parseSearch } from '../lineup-lib.mjs'
+import { channelTitle, findChannelId, fromRelative, newestFirst, parseFeed, parseSearch } from '../lineup-lib.mjs'
 
 const NOW = Date.parse('2026-10-13T12:00:00Z')
 
 test('reads the channel id off a channel page', () => {
   assert.equal(findChannelId('..."externalId":"UCabcdefghijklmnopqrstuv",...'), 'UCabcdefghijklmnopqrstuv')
   assert.equal(findChannelId('<html>nothing</html>'), undefined)
+  assert.equal(channelTitle('<meta property="og:title" content="Atlanta Braves &amp; Co">'), 'Atlanta Braves & Co')
 })
 
 test('reads an uploads feed', () => {
@@ -42,7 +43,7 @@ test('reads the newer lockup layout YouTube uses on channel pages', () => {
       metadata: {
         lockupMetadataViewModel: {
           title: { content: 'Falcons win in overtime' },
-          metadata: { contentMetadataViewModel: { metadataRows: [{ metadataParts: [{ text: { content: '120K views' } }, { text: { content: '2d ago' } }] }] } },
+          metadata: { contentMetadataViewModel: { metadataRows: [{ metadataParts: [{ text: { content: '120K' } }, { text: { content: '2d ago' } }] }] } },
         },
       },
     },
@@ -52,6 +53,7 @@ test('reads the newer lockup layout YouTube uses on channel pages', () => {
   assert.equal(video.id, 'lockup12345')
   assert.equal(video.title, 'Falcons win in overtime')
   assert.equal(video.published, '2026-10-11T12:00:00.000Z')
+  assert.equal(video.channel, '')
 })
 
 test('turns relative times into dates and sorts newest first', () => {
