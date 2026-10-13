@@ -99,6 +99,7 @@ export function parseSearch(html, now) {
           title: textOf(video.title).trim(),
           published: fromRelative(textOf(video.publishedTimeText), now),
           channel: textOf(video.ownerText ?? video.longBylineText).trim(),
+          ageText: textOf(video.publishedTimeText) || JSON.stringify(video.publishedTimeText).slice(0, 120),
         })
       }
     }

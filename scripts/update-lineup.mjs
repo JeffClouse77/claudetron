@@ -52,20 +52,24 @@ async function fromSearch(station, limit) {
 
 async function tuneStation(station, limit) {
   const errors = []
+  const fail = (where, error) => {
+    errors.push(error.message)
+    console.log(`      ${station.slug} ${where}: ${error.message}`)
+  }
   if (station.handle) {
     try {
       const { videos, channelId } = await fromChannel(station)
       return { videos: newestFirst(videos, limit), source: 'channel', channelId }
     } catch (error) {
-      errors.push(error.message)
+      fail('channel', error)
     }
   }
   if (station.query) {
     try {
       const { videos } = await fromSearch(station, limit)
-      return { videos, source: 'search' }
+      return { videos, source: 'search', ...(errors.length ? { channelError: errors.join('; ') } : {}) }
     } catch (error) {
-      errors.push(error.message)
+      fail('search', error)
     }
   }
   throw new Error(errors.join('; ') || 'station has neither handle nor query')

@@ -30,7 +30,7 @@ test('reads search results out of ytInitialData', () => {
   }
   const html = `<script>var ytInitialData = ${JSON.stringify(data)};</script>`
   assert.deepEqual(parseSearch(html, NOW), [
-    { id: 'zzz999YYY88', title: 'Claude does a thing', published: '2026-10-13T09:00:00.000Z', channel: 'Anthropic' },
+    { id: 'zzz999YYY88', title: 'Claude does a thing', published: '2026-10-13T09:00:00.000Z', channel: 'Anthropic', ageText: '3 hours ago' },
   ])
 })
 
