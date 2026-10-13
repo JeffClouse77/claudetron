@@ -1,0 +1,4 @@
+retro-tv/.claude-plugin/types/
+retro-tv/tsconfig.json
+node_modules/
+.DS_Store

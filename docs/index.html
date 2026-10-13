@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claudetron Retro TV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&family=Archivo+Narrow:wght@500;700&display=swap">
+<style>
+  /* Layout: one walnut-cabinet set centered in a dim den; screen left, knob column right, guide below. */
+  :root {
+    --den: #17120d;
+    --den-glow: #2a1f14;
+    --walnut: #6b4423;
+    --walnut-dark: #3e2611;
+    --walnut-light: #8d5d33;
+    --brass: #d4a64a;
+    --phosphor: #7cff9b;
+    --amber: #ffb000;
+    --glass: #0b1a12;
+    --ink: #efe6d6;
+    --ink-dim: #a8977d;
+    --font-osd: "VT323", ui-monospace, "Courier New", monospace;
+    --font-label: "Archivo Narrow", "Arial Narrow", system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at 50% 40%, var(--den-glow), var(--den) 70%);
+    color: var(--ink);
+    font: 15px/1.5 var(--font-label);
+    padding-block: 24px;
+    padding-inline: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .set { width: min(960px, 100%); position: relative; }
+  .antenna {
+    position: relative;
+    height: 110px;
+    margin: 0 auto;
+    width: 220px;
+  }
+  .antenna::before, .antenna::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    height: 110px;
+    background: linear-gradient(#ddd, #777);
+    transform-origin: bottom center;
+    border-radius: 2px;
+  }
+  .antenna::before { transform: rotate(-32deg); }
+  .antenna::after { transform: rotate(28deg); }
+  .antenna span {
+    position: absolute;
+    bottom: -8px;
+    left: calc(50% - 26px);
+    width: 52px;
+    height: 22px;
+    border-radius: 26px 26px 4px 4px;
+    background: #2b2b2b;
+    z-index: 1;
+  }
+  .cabinet {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 22px;
+    padding: 26px;
+    border-radius: 28px;
+    background:
+      repeating-linear-gradient(92deg, rgba(0,0,0,.08) 0 3px, transparent 3px 11px),
+      linear-gradient(160deg, var(--walnut-light), var(--walnut) 40%, var(--walnut-dark));
+    box-shadow: inset 0 2px 0 rgba(255,255,255,.15), inset 0 -6px 14px rgba(0,0,0,.45), 0 30px 60px rgba(0,0,0,.6);
+  }
+  .bezel {
+    min-width: 0;
+    padding: 18px;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #2c2c2c, #0f0f0f);
+    box-shadow: inset 0 0 0 3px #3b3b3b, inset 0 8px 20px rgba(0,0,0,.9);
+  }
+  .tube {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    max-width: 100%;
+    border-radius: 9% / 12%;
+    overflow: hidden;
+    background: var(--glass);
+    box-shadow: 0 0 40px rgba(124,255,155,.12);
+  }
+  .tube iframe, .tube canvas, .tube .card { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .tube iframe { transform: scale(1.02); filter: saturate(1.15) contrast(1.05); }
+  .tube .fx {
+    position: absolute; inset: 0; pointer-events: none;
+    background:
+      repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px),
+      radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.55) 100%);
+    mix-blend-mode: multiply;
+  }
+  .tube .glare {
+    position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse at 30% 18%, rgba(255,255,255,.14), transparent 45%);
+  }
+  .tube .roll {
+    position: absolute; left: 0; right: 0; height: 18%; pointer-events: none;
+    background: linear-gradient(transparent, rgba(255,255,255,.05), transparent);
+    animation: roll 7s linear infinite;
+  }
+  @keyframes roll { from { top: -20%; } to { top: 110%; } }
+  .osd {
+    position: absolute; top: 6%; right: 7%;
+    font: 44px/1 var(--font-osd);
+    color: var(--phosphor);
+    text-shadow: 0 0 8px rgba(124,255,155,.8);
+    pointer-events: none;
+    transition: opacity .6s;
+  }
+  .osd.fade { opacity: 0; }
+  .card {
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px;
+    padding: 8%;
+    text-align: center;
+    background: repeating-linear-gradient(90deg, #c0c0c0 0 14.28%, #c0c000 0 28.57%, #00c0c0 0 42.85%, #00c000 0 57.14%, #c000c0 0 71.42%, #c00000 0 85.71%, #0000c0 0 100%);
+    font-family: var(--font-osd);
+  }
+  .card p { margin: 0; background: #000; color: #fff; padding: 2px 10px; font-size: clamp(18px, 3vw, 28px); }
+  .card form { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+  .card input {
+    font: 18px var(--font-osd); background: #000; color: var(--phosphor);
+    border: 2px solid #000; padding: 4px 8px; width: min(320px, 70vw);
+  }
+  .card button { font: 18px var(--font-osd); }
+  .panel {
+    display: flex; flex-direction: column; align-items: center; gap: 16px;
+    padding: 16px 12px;
+    border-radius: 14px;
+    background: linear-gradient(#2a1a0c, #1a1007);
+    box-shadow: inset 0 0 0 2px rgba(212,166,74,.25);
+  }
+  .panel .label { font: 700 11px var(--font-label); letter-spacing: .14em; color: var(--brass); text-transform: uppercase; }
+  .readout {
+    font: 40px/1 var(--font-osd); color: var(--amber);
+    background: #120a03; padding: 4px 10px; border-radius: 6px;
+    text-shadow: 0 0 8px rgba(255,176,0,.6); font-variant-numeric: tabular-nums;
+  }
+  .knob {
+    width: 74px; height: 74px; border-radius: 50%;
+    border: 0; cursor: pointer;
+    background: conic-gradient(from 0deg, #b9b9b9, #6c6c6c, #d9d9d9, #5c5c5c, #b9b9b9);
+    box-shadow: 0 6px 12px rgba(0,0,0,.6), inset 0 0 0 6px rgba(0,0,0,.25);
+    position: relative;
+    transition: transform .25s cubic-bezier(.3,1.6,.5,1);
+  }
+  .knob::after {
+    content: ""; position: absolute; top: 6px; left: calc(50% - 3px);
+    width: 6px; height: 22px; border-radius: 3px; background: #1d1d1d;
+  }
+  .knob:focus-visible, .btn:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+  .row { display: flex; gap: 8px; }
+  .btn {
+    font: 700 12px var(--font-label); letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink); background: #3a2814; border: 1px solid rgba(212,166,74,.4);
+    border-radius: 6px; padding: 6px 10px; cursor: pointer;
+  }
+  .btn:hover { background: #4a3319; }
+  .power { color: #ff6b5b; }
+  .grille {
+    width: 74px; height: 70px; border-radius: 8px;
+    background: repeating-linear-gradient(0deg, #120b05 0 3px, #3a2814 3px 6px);
+  }
+  .brand {
+    grid-column: 1 / -1;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap;
+    font: 700 14px var(--font-label); letter-spacing: .3em; color: var(--brass); text-transform: uppercase;
+  }
+  .brand small { letter-spacing: .12em; color: rgba(212,166,74,.6); font-weight: 500; }
+  .legs { display: flex; justify-content: space-between; padding: 0 12%; }
+  .legs span { width: 14px; height: 34px; background: linear-gradient(var(--walnut-dark), #1c1108); border-radius: 0 0 4px 4px; }
+  .guide { width: min(960px, 100%); }
+  .guide h2 { font: 700 12px var(--font-label); letter-spacing: .2em; text-transform: uppercase; color: var(--brass); margin: 0 0 8px; }
+  .guide ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .guide button {
+    width: 100%; text-align: left; display: flex; gap: 10px; align-items: baseline;
+    font: 20px/1.3 var(--font-osd); color: var(--ink-dim);
+    background: transparent; border: 0; padding: 4px 8px; border-radius: 6px; cursor: pointer;
+  }
+  .guide button:hover { background: rgba(255,255,255,.04); color: var(--ink); }
+  .guide button[aria-current="true"] { color: var(--phosphor); background: rgba(124,255,155,.06); }
+  .guide .n { color: var(--amber); font-variant-numeric: tabular-nums; min-width: 2.5ch; }
+  .hint { color: var(--ink-dim); font-size: 13px; text-align: center; max-width: 60ch; }
+  .hint code { font-family: var(--font-osd); font-size: 17px; color: var(--phosphor); }
+  .off .tube iframe, .off .tube .card, .off .osd { visibility: hidden; }
+  .off .tube::after {
+    content: ""; position: absolute; left: 50%; top: 50%; width: 6px; height: 6px; border-radius: 50%;
+    background: #fff; box-shadow: 0 0 20px 6px rgba(255,255,255,.6); animation: dot 1.2s forwards;
+  }
+  @keyframes dot { to { opacity: 0; transform: scale(.2); } }
+  @media (max-width: 640px) {
+    .cabinet { grid-template-columns: 1fr; padding: 16px; }
+    .panel { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+    .grille { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .tube .roll { animation: none; display: none; }
+    .knob { transition: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="set" id="set">
+    <div class="antenna" aria-hidden="true"><span></span></div>
+    <div class="cabinet">
+      <div class="bezel">
+        <div class="tube" id="tube">
+          <div class="card" id="card">
+            <p>PLEASE STAND BY</p>
+            <p>Type /tv in Claude Code to tune in</p>
+            <form id="tuner">
+              <input id="paste" aria-label="YouTube link" placeholder="or paste a YouTube link" autocomplete="off">
+              <button type="submit">TUNE</button>
+            </form>
+          </div>
+          <canvas id="static" hidden></canvas>
+          <div class="fx"></div>
+          <div class="roll"></div>
+          <div class="glare"></div>
+          <div class="osd" id="osd">CH --</div>
+        </div>
+      </div>
+      <div class="panel">
+        <span class="label">Channel</span>
+        <div class="readout" id="readout">--</div>
+        <button class="knob" id="knob" aria-label="Next video"></button>
+        <div class="row">
+          <button class="btn" id="prev" aria-label="Previous video">◀</button>
+          <button class="btn" id="next" aria-label="Next video">▶</button>
+        </div>
+        <button class="btn power" id="power">Power</button>
+        <div class="grille" aria-hidden="true"></div>
+      </div>
+      <div class="brand">Claudetron <small id="station">solid state · 19 in. diagonal</small></div>
+    </div>
+    <div class="legs" aria-hidden="true"><span></span><span></span></div>
+  </div>
+
+  <section class="guide" id="guide" hidden>
+    <h2>Tonight's lineup</h2>
+    <ol id="lineup"></ol>
+  </section>
+
+  <p class="hint">In Claude Code: <code>/tv</code>, <code>/tv braves</code>, <code>/tv claude</code>, <code>/tv guide</code>, <code>/tv off</code>. Keys here: <code>←</code> <code>→</code> change video, <code>P</code> power.</p>
+
+<script>
+(() => {
+  const params = new URLSearchParams(location.search);
+  const ID = /^[\w-]{11}$/;
+  const fromLink = text => {
+    const t = (text || '').trim();
+    if (ID.test(t)) return t;
+    const m = t.match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/);
+    return m ? m[1] : null;
+  };
+
+  let list = (params.get('list') || '').split(',').filter(id => ID.test(id));
+  const first = fromLink(params.get('v'));
+  if (first && !list.includes(first)) list.unshift(first);
+  let index = Math.max(0, first ? list.indexOf(first) : 0);
+  const station = (params.get('ch') || '').slice(0, 40);
+  const firstTitle = (params.get('t') || '').slice(0, 140);
+  let on = true;
+
+  const set = document.getElementById('set');
+  const tube = document.getElementById('tube');
+  const card = document.getElementById('card');
+  const canvas = document.getElementById('static');
+  const osd = document.getElementById('osd');
+  const readout = document.getElementById('readout');
+  const lineup = document.getElementById('lineup');
+  const guide = document.getElementById('guide');
+  if (station) document.getElementById('station').textContent = station;
+
+  const pad = n => String(n + 1).padStart(2, '0');
+  let osdTimer;
+  const flashOsd = text => {
+    osd.textContent = text;
+    osd.classList.remove('fade');
+    clearTimeout(osdTimer);
+    osdTimer = setTimeout(() => osd.classList.add('fade'), 2500);
+  };
+
+  // Static between videos, drawn on a small canvas and stretched.
+  const ctx = canvas.getContext('2d');
+  canvas.width = 160; canvas.height = 120;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const burst = ms => new Promise(done => {
+    canvas.hidden = false;
+    const end = performance.now() + (reduce ? 120 : ms);
+    const img = ctx.createImageData(canvas.width, canvas.height);
+    const frame = now => {
+      for (let i = 0; i < img.data.length; i += 4) {
+        const v = Math.random() * 255 | 0;
+        img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+        img.data[i + 3] = 255;
+      }
+      ctx.putImageData(img, 0, 0);
+      if (now < end) requestAnimationFrame(frame);
+      else { canvas.hidden = true; done(); }
+    };
+    requestAnimationFrame(frame);
+  });
+
+  let frameEl;
+  const play = async i => {
+    if (list.length === 0) return;
+    index = (i + list.length) % list.length;
+    readout.textContent = pad(index);
+    renderGuide();
+    await burst(450);
+    const id = list[index];
+    const queue = [...list.slice(index + 1), ...list.slice(0, index)].join(',');
+    const src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1&playsinline=1${queue ? `&playlist=${queue}` : ''}`;
+    if (!frameEl) {
+      frameEl = document.createElement('iframe');
+      frameEl.title = 'Now playing';
+      frameEl.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      frameEl.referrerPolicy = 'strict-origin-when-cross-origin';
+      frameEl.allowFullscreen = true;
+      tube.insertBefore(frameEl, canvas);
+    }
+    frameEl.src = src;
+    card.hidden = true;
+    flashOsd(`CH ${pad(index)}`);
+  };
+
+  const titles = {};
+  if (first && firstTitle) titles[first] = firstTitle;
+  function renderGuide() {
+    if (list.length < 2) { guide.hidden = true; return; }
+    guide.hidden = false;
+    lineup.replaceChildren(...list.map((id, i) => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.setAttribute('aria-current', String(i === index));
+      const n = document.createElement('span'); n.className = 'n'; n.textContent = pad(i);
+      const t = document.createElement('span'); t.textContent = titles[id] || `youtu.be/${id}`;
+      b.append(n, t);
+      b.addEventListener('click', () => play(i));
+      li.append(b);
+      return li;
+    }));
+  }
+
+  let turns = 0;
+  const knob = document.getElementById('knob');
+  const turn = by => {
+    if (!on || list.length === 0) return;
+    turns += by;
+    knob.style.transform = `rotate(${turns * 30}deg)`;
+    play(index + by);
+  };
+  knob.addEventListener('click', () => turn(1));
+  document.getElementById('next').addEventListener('click', () => turn(1));
+  document.getElementById('prev').addEventListener('click', () => turn(-1));
+
+  const power = () => {
+    on = !on;
+    set.classList.toggle('off', !on);
+    if (!on && frameEl) frameEl.src = 'about:blank';
+    if (on && list.length) play(index);
+  };
+  document.getElementById('power').addEventListener('click', power);
+
+  document.addEventListener('keydown', e => {
+    if (e.target instanceof HTMLInputElement) return;
+    if (e.key === 'ArrowRight') turn(1);
+    else if (e.key === 'ArrowLeft') turn(-1);
+    else if (e.key.toLowerCase() === 'p') power();
+  });
+
+  document.getElementById('tuner').addEventListener('submit', e => {
+    e.preventDefault();
+    const id = fromLink(document.getElementById('paste').value);
+    if (!id) { flashOsd('NO SIGNAL'); return; }
+    list = [id, ...list.filter(x => x !== id)];
+    play(0);
+  });
+
+  if (list.length) play(index);
+  else { readout.textContent = '--'; flashOsd('CH --'); }
+})();
+</script>
+</body>
+</html>

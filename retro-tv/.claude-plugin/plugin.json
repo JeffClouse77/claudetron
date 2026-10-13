@@ -1,0 +1,17 @@
+{
+  "name": "retro-tv",
+  "version": "0.1.0",
+  "description": "An old-school CRT TV pane (/tv) tuned to the latest Claude and Atlanta sports YouTube videos",
+  "author": {
+    "name": "Jeff Clouse"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "tvUrl": {
+      "type": "string",
+      "title": "TV player page",
+      "description": "Web page that plays the picked video on a CRT screen (the docs/ page of the claudetron repo on GitHub Pages)",
+      "default": "https://jeffclouse77.github.io/claudetron/"
+    }
+  }
+}

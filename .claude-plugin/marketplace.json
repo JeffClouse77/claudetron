@@ -1,0 +1,12 @@
+{
+  "name": "claudetron",
+  "owner": { "name": "Jeff Clouse" },
+  "description": "Claudetron retro TV for Claude Code",
+  "plugins": [
+    {
+      "name": "retro-tv",
+      "source": "./retro-tv",
+      "description": "An old-school CRT TV pane (/tv) tuned to the latest Claude and Atlanta sports YouTube videos"
+    }
+  ]
+}
