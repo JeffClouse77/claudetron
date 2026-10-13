@@ -195,6 +195,16 @@
   .guide button:hover { background: rgba(255,255,255,.04); color: var(--ink); }
   .guide button[aria-current="true"] { color: var(--phosphor); background: rgba(124,255,155,.06); }
   .guide .n { color: var(--amber); font-variant-numeric: tabular-nums; min-width: 2.5ch; }
+  .stations { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+  .stations button {
+    font: 700 11px var(--font-label); letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink-dim); background: #24180c; border: 1px solid rgba(212,166,74,.25);
+    border-radius: 999px; padding: 5px 10px; cursor: pointer; width: auto;
+  }
+  .stations button[aria-pressed="true"] { color: #1a1007; background: var(--amber); border-color: var(--amber); }
+  .guide .meta { margin-left: auto; color: var(--ink-dim); font-size: 16px; white-space: nowrap; }
+  .guide .t { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .updated { color: var(--ink-dim); font-size: 12px; margin: 8px 0 0; }
   .hint { color: var(--ink-dim); font-size: 13px; text-align: center; max-width: 60ch; }
   .hint code { font-family: var(--font-osd); font-size: 17px; color: var(--phosphor); }
   .off .tube iframe, .off .tube .card, .off .osd { visibility: hidden; }
@@ -222,7 +232,7 @@
         <div class="tube" id="tube">
           <div class="card" id="card">
             <p>PLEASE STAND BY</p>
-            <p>Type /tv in Claude Code to tune in</p>
+            <p id="cardline">Warming up the tube…</p>
             <form id="tuner">
               <input id="paste" aria-label="YouTube link" placeholder="or paste a YouTube link" autocomplete="off">
               <button type="submit">TUNE</button>
@@ -238,7 +248,12 @@
       <div class="panel">
         <span class="label">Channel</span>
         <div class="readout" id="readout">--</div>
-        <button class="knob" id="knob" aria-label="Next video"></button>
+        <button class="knob" id="knob" aria-label="Next channel"></button>
+        <div class="row">
+          <button class="btn" id="chdown" aria-label="Previous channel">CH ▼</button>
+          <button class="btn" id="chup" aria-label="Next channel">CH ▲</button>
+        </div>
+        <span class="label">Video</span>
         <div class="row">
           <button class="btn" id="prev" aria-label="Previous video">◀</button>
           <button class="btn" id="next" aria-label="Next video">▶</button>
@@ -252,11 +267,13 @@
   </div>
 
   <section class="guide" id="guide" hidden>
-    <h2>Tonight's lineup</h2>
+    <h2>TV guide</h2>
+    <div class="stations" id="stations" role="group" aria-label="Channels"></div>
     <ol id="lineup"></ol>
+    <p class="updated" id="updated"></p>
   </section>
 
-  <p class="hint">In Claude Code: <code>/tv</code>, <code>/tv braves</code>, <code>/tv claude</code>, <code>/tv guide</code>, <code>/tv off</code>. Keys here: <code>←</code> <code>→</code> change video, <code>P</code> power.</p>
+  <p class="hint">Turn the knob or press <code>↑</code> <code>↓</code> to change channel, <code>←</code> <code>→</code> to change video, <code>P</code> for power. The lineup refreshes itself every hour. In Claude Code, type <code>/tv</code>.</p>
 
 <script>
 (() => {
@@ -268,26 +285,36 @@
     const m = t.match(/(?:v=|youtu\.be\/|embed\/|shorts\/|live\/)([\w-]{11})/);
     return m ? m[1] : null;
   };
+  const ago = iso => {
+    const minutes = Math.round((Date.now() - Date.parse(iso)) / 60000);
+    if (!Number.isFinite(minutes)) return '';
+    if (minutes < 60) return `${Math.max(0, minutes)}m ago`;
+    if (minutes < 2880) return `${Math.round(minutes / 60)}h ago`;
+    return `${Math.round(minutes / 1440)}d ago`;
+  };
 
-  let list = (params.get('list') || '').split(',').filter(id => ID.test(id));
-  const first = fromLink(params.get('v'));
-  if (first && !list.includes(first)) list.unshift(first);
-  let index = Math.max(0, first ? list.indexOf(first) : 0);
-  const station = (params.get('ch') || '').slice(0, 40);
-  const firstTitle = (params.get('t') || '').slice(0, 140);
+  // Channels: CH 00 mixes every station; the rest come from lineup.json,
+  // which a GitHub job rebuilds every hour. A link with ?v= and ?list= adds
+  // its own channel in front (what Claude Code's Watch button sends).
+  let channels = [];
+  let ch = 0;
+  let index = 0;
   let on = true;
 
   const set = document.getElementById('set');
   const tube = document.getElementById('tube');
   const card = document.getElementById('card');
+  const cardline = document.getElementById('cardline');
   const canvas = document.getElementById('static');
   const osd = document.getElementById('osd');
   const readout = document.getElementById('readout');
   const lineup = document.getElementById('lineup');
   const guide = document.getElementById('guide');
-  if (station) document.getElementById('station').textContent = station;
+  const stationsEl = document.getElementById('stations');
+  const stationLabel = document.getElementById('station');
+  const updated = document.getElementById('updated');
 
-  const pad = n => String(n + 1).padStart(2, '0');
+  const pad = n => String(n).padStart(2, '0');
   let osdTimer;
   const flashOsd = text => {
     osd.textContent = text;
@@ -296,7 +323,6 @@
     osdTimer = setTimeout(() => osd.classList.add('fade'), 2500);
   };
 
-  // Static between videos, drawn on a small canvas and stretched.
   const ctx = canvas.getContext('2d');
   canvas.width = 160; canvas.height = 120;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -317,15 +343,30 @@
     requestAnimationFrame(frame);
   });
 
+  const current = () => channels[ch] || { videos: [] };
+
   let frameEl;
-  const play = async i => {
-    if (list.length === 0) return;
-    index = (i + list.length) % list.length;
-    readout.textContent = pad(index);
-    renderGuide();
+  const showCard = text => {
+    if (frameEl) frameEl.src = 'about:blank';
+    card.hidden = false;
+    cardline.textContent = text;
+  };
+
+  const play = async () => {
+    const channel = current();
+    readout.textContent = pad(ch);
+    stationLabel.textContent = channel.name || 'solid state · 19 in. diagonal';
+    render();
     await burst(450);
-    const id = list[index];
-    const queue = [...list.slice(index + 1), ...list.slice(0, index)].join(',');
+    const videos = channel.videos;
+    if (videos.length === 0) {
+      showCard(channel.error ? `NO SIGNAL · ${channel.name}` : `CH ${pad(ch)} · no videos yet`);
+      flashOsd(`CH ${pad(ch)}`);
+      return;
+    }
+    index = (index + videos.length) % videos.length;
+    const id = videos[index].id;
+    const queue = [...videos.slice(index + 1), ...videos.slice(0, index)].map(v => v.id).join(',');
     const src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1&playsinline=1${queue ? `&playlist=${queue}` : ''}`;
     if (!frameEl) {
       frameEl = document.createElement('iframe');
@@ -337,22 +378,30 @@
     }
     frameEl.src = src;
     card.hidden = true;
-    flashOsd(`CH ${pad(index)}`);
+    flashOsd(`CH ${pad(ch)}`);
   };
 
-  const titles = {};
-  if (first && firstTitle) titles[first] = firstTitle;
-  function renderGuide() {
-    if (list.length < 2) { guide.hidden = true; return; }
+  function render() {
+    if (channels.length === 0) { guide.hidden = true; return; }
     guide.hidden = false;
-    lineup.replaceChildren(...list.map((id, i) => {
+    stationsEl.replaceChildren(...channels.map((channel, i) => {
+      const b = document.createElement('button');
+      b.textContent = `${pad(i)} ${channel.name}`;
+      b.setAttribute('aria-pressed', String(i === ch));
+      b.addEventListener('click', () => tuneChannel(i));
+      return b;
+    }));
+    const videos = current().videos;
+    lineup.replaceChildren(...videos.map((video, i) => {
       const li = document.createElement('li');
       const b = document.createElement('button');
       b.setAttribute('aria-current', String(i === index));
-      const n = document.createElement('span'); n.className = 'n'; n.textContent = pad(i);
-      const t = document.createElement('span'); t.textContent = titles[id] || `youtu.be/${id}`;
-      b.append(n, t);
-      b.addEventListener('click', () => play(i));
+      const n = document.createElement('span'); n.className = 'n'; n.textContent = pad(i + 1);
+      const t = document.createElement('span'); t.className = 't'; t.textContent = video.title || `youtu.be/${video.id}`;
+      const m = document.createElement('span'); m.className = 'meta';
+      m.textContent = [ch === 0 || current().source === 'search' ? video.channel : '', video.published ? ago(video.published) : ''].filter(Boolean).join(' · ');
+      b.append(n, t, m);
+      b.addEventListener('click', () => { index = i; play(); });
       li.append(b);
       return li;
     }));
@@ -360,28 +409,39 @@
 
   let turns = 0;
   const knob = document.getElementById('knob');
-  const turn = by => {
-    if (!on || list.length === 0) return;
-    turns += by;
+  const tuneChannel = i => {
+    if (!on || channels.length === 0) return;
+    turns += i > ch ? 1 : -1;
     knob.style.transform = `rotate(${turns * 30}deg)`;
-    play(index + by);
+    ch = (i + channels.length) % channels.length;
+    index = 0;
+    play();
   };
-  knob.addEventListener('click', () => turn(1));
-  document.getElementById('next').addEventListener('click', () => turn(1));
-  document.getElementById('prev').addEventListener('click', () => turn(-1));
+  const stepVideo = by => {
+    if (!on || current().videos.length === 0) return;
+    index += by;
+    play();
+  };
+  knob.addEventListener('click', () => tuneChannel(ch + 1));
+  document.getElementById('chup').addEventListener('click', () => tuneChannel(ch + 1));
+  document.getElementById('chdown').addEventListener('click', () => tuneChannel(ch - 1));
+  document.getElementById('next').addEventListener('click', () => stepVideo(1));
+  document.getElementById('prev').addEventListener('click', () => stepVideo(-1));
 
   const power = () => {
     on = !on;
     set.classList.toggle('off', !on);
     if (!on && frameEl) frameEl.src = 'about:blank';
-    if (on && list.length) play(index);
+    if (on) play();
   };
   document.getElementById('power').addEventListener('click', power);
 
   document.addEventListener('keydown', e => {
     if (e.target instanceof HTMLInputElement) return;
-    if (e.key === 'ArrowRight') turn(1);
-    else if (e.key === 'ArrowLeft') turn(-1);
+    if (e.key === 'ArrowRight') stepVideo(1);
+    else if (e.key === 'ArrowLeft') stepVideo(-1);
+    else if (e.key === 'ArrowUp') { e.preventDefault(); tuneChannel(ch + 1); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); tuneChannel(ch - 1); }
     else if (e.key.toLowerCase() === 'p') power();
   });
 
@@ -389,12 +449,61 @@
     e.preventDefault();
     const id = fromLink(document.getElementById('paste').value);
     if (!id) { flashOsd('NO SIGNAL'); return; }
-    list = [id, ...list.filter(x => x !== id)];
-    play(0);
+    channels.unshift({ slug: 'pasted', name: 'YOUR PICK', videos: [{ id, title: '', published: '', channel: '' }] });
+    ch = 0; index = 0;
+    play();
   });
 
-  if (list.length) play(index);
-  else { readout.textContent = '--'; flashOsd('CH --'); }
+  const mixOf = stations => {
+    const seen = new Set();
+    return stations.flatMap(s => s.videos.map(v => ({ ...v, channel: v.channel || s.name })))
+      .filter(v => (seen.has(v.id) ? false : (seen.add(v.id), true)))
+      .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
+      .slice(0, 25);
+  };
+
+  const fromParams = () => {
+    let list = (params.get('list') || '').split(',').filter(id => ID.test(id));
+    const first = fromLink(params.get('v'));
+    if (first && !list.includes(first)) list.unshift(first);
+    if (list.length === 0) return null;
+    const title = (params.get('t') || '').slice(0, 140);
+    return {
+      slug: 'link',
+      name: (params.get('ch') || 'FROM CLAUDE').slice(0, 40),
+      videos: list.map(id => ({ id, title: id === first ? title : '', published: '', channel: '' })),
+    };
+  };
+
+  const start = async () => {
+    let stations = [];
+    try {
+      const response = await fetch('lineup.json', { cache: 'no-store' });
+      const data = await response.json();
+      stations = (data.stations || []).filter(s => Array.isArray(s.videos));
+      if (data.updatedAt) updated.textContent = `Lineup updated ${ago(data.updatedAt)}.`;
+    } catch {
+      updated.textContent = '';
+    }
+    channels = stations.length ? [{ slug: 'mix', name: 'ALL CHANNELS', source: 'mix', videos: mixOf(stations) }, ...stations] : [];
+    const linked = fromParams();
+    const wanted = (params.get('ch') || '').toLowerCase();
+    if (linked) {
+      const same = channels.findIndex(c => c.name.toLowerCase() === linked.name.toLowerCase());
+      if (same > 0) { ch = same; index = Math.max(0, channels[same].videos.findIndex(v => v.id === linked.videos[0].id)); }
+      else { channels.unshift(linked); ch = 0; }
+    } else if (wanted) {
+      const found = channels.findIndex(c => c.slug === wanted || c.name.toLowerCase().includes(wanted));
+      if (found >= 0) ch = found;
+    }
+    if (channels.length === 0) {
+      showCard('No lineup yet. It fills in within the hour.');
+      readout.textContent = '--';
+      return;
+    }
+    play();
+  };
+  start();
 })();
 </script>
 </body>

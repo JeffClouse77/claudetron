@@ -1,0 +1,12 @@
+{
+  "perStation": 15,
+  "stations": [
+    { "slug": "claude", "name": "CLAUDE / ANTHROPIC", "handle": "@anthropic-ai", "query": "Anthropic Claude" },
+    { "slug": "claude-news", "name": "CLAUDE AI NEWS", "query": "Claude AI" },
+    { "slug": "braves", "name": "ATLANTA BRAVES", "handle": "@Braves", "query": "Atlanta Braves highlights" },
+    { "slug": "falcons", "name": "ATLANTA FALCONS", "handle": "@AtlantaFalcons", "query": "Atlanta Falcons highlights" },
+    { "slug": "hawks", "name": "ATLANTA HAWKS", "handle": "@ATLHawks", "query": "Atlanta Hawks highlights" },
+    { "slug": "united", "name": "ATLANTA UNITED", "handle": "@ATLUTD", "query": "Atlanta United highlights" },
+    { "slug": "atl-sports", "name": "ATL SPORTS NEWS", "query": "Atlanta sports news" }
+  ]
+}

@@ -3,13 +3,14 @@ import type { EngineInterface, Register, Timer } from 'claude-code'
 
 import type { Feed, Video } from '../types'
 import {
-  CHANNELS,
   STATIONS,
+  channelsOf,
   age,
   cellsBase64,
   findChannelId,
   mix,
   parseFeed,
+  parseLineup,
   plain,
   screenCells,
   tune,
@@ -27,6 +28,11 @@ const video = atom({ plugin: 'retro-tv', key: 'video' } as const, 0)
 const feeds = atom({ plugin: 'retro-tv', key: 'feeds' } as const, {} as Record<string, Feed>)
 const staticUntil = atom({ plugin: 'retro-tv', key: 'staticUntil' } as const, 0)
 const isOn = atom({ plugin: 'retro-tv', key: 'isOn' } as const, false)
+const stations = atom({ plugin: 'retro-tv', key: 'stations' } as const, STATIONS)
+const lineupAt = atom({ plugin: 'retro-tv', key: 'lineupAt' } as const, 0)
+
+const DEFAULT_TV_URL = 'https://jeffclouse77.github.io/claudetron/'
+let tvUrl = DEFAULT_TV_URL
 
 const WOOD = '#8b5a2b'
 const WOOD_DARK = '#5c3a1a'
@@ -40,18 +46,18 @@ const GLASS = '#0b1a12'
 let ticker: Timer | undefined
 let frame = 0
 
-function videosOf(all: Record<string, Feed>, index: number): Video[] {
-  const picked = CHANNELS[index]
+function videosOf(all: Record<string, Feed>, list: readonly Channel[], index: number): Video[] {
+  const picked = channelsOf(list)[index]
   if (picked === undefined) return []
-  if (picked.slug === 'mix') return mix(STATIONS.map(station => all[station.slug]?.videos ?? []))
+  if (picked.slug === 'mix') return mix(list.map(station => all[station.slug]?.videos ?? []))
   return all[picked.slug]?.videos ?? []
 }
 
-function statusOf(all: Record<string, Feed>, index: number): Feed['status'] {
-  const picked = CHANNELS[index]
+function statusOf(all: Record<string, Feed>, list: readonly Channel[], index: number): Feed['status'] {
+  const picked = channelsOf(list)[index]
   if (picked === undefined) return 'error'
   if (picked.slug !== 'mix') return all[picked.slug]?.status ?? 'idle'
-  const states = STATIONS.map(station => all[station.slug]?.status ?? 'idle')
+  const states = list.map(station => all[station.slug]?.status ?? 'idle')
   if (states.includes('ok')) return 'ok'
   if (states.includes('loading') || states.includes('idle')) return 'loading'
   return 'error'
@@ -61,10 +67,52 @@ async function setFeed($: EngineInterface, slug: string, feed: Feed) {
   await update($, feeds, all => ({ ...all, [slug]: feed }))
 }
 
-async function loadStation($: EngineInterface, station: Channel, force: boolean) {
+/**
+ * The lineup the player page publishes: every station's newest videos,
+ * found by a GitHub job every hour from the topics in config/stations.json.
+ * True when it was read.
+ */
+async function loadLineup($: EngineInterface): Promise<boolean> {
+  try {
+    const response = await $.http.fetch(new URL('lineup.json', tvUrl).toString())
+    if (!response.ok) return false
+    const lineup = parseLineup(response.text)
+    if (lineup === undefined) return false
+    await update($, stations, () => lineup.stations.map(entry => entry.station))
+    await update($, feeds, all => {
+      const next = { ...all }
+      for (const { station, videos, error } of lineup.stations) {
+        next[station.slug] = {
+          status: videos.length > 0 ? 'ok' : 'error',
+          videos,
+          fetchedAt: lineup.updatedAt,
+          ...(error !== undefined ? { error } : {}),
+        }
+      }
+      return next
+    })
+    await update($, lineupAt, () => Date.now())
+    return true
+  } catch {
+    return false
+  }
+}
+
+/** Reads one channel's uploads feed straight from YouTube: the fallback. */
+async function loadStation($: EngineInterface, station: Channel) {
   const current = (await read($, feeds))[station.slug]
-  if (!force && current?.status === 'loading') return
-  if (!force && current?.status === 'ok' && Date.now() - current.fetchedAt < STALE_MS) return
+  if (!station.handle) {
+    if (current === undefined || current.videos.length === 0) {
+      await setFeed($, station.slug, {
+        status: 'error',
+        videos: [],
+        fetchedAt: 0,
+        error: 'topic channel: waits for the online lineup',
+      })
+    }
+    return
+  }
+  if (current?.status === 'loading') return
   await setFeed($, station.slug, {
     status: 'loading',
     videos: current?.videos ?? [],
@@ -95,8 +143,12 @@ async function loadStation($: EngineInterface, station: Channel, force: boolean)
   }
 }
 
-function loadAll($: EngineInterface, force = false) {
-  return Promise.all(STATIONS.map(station => loadStation($, station, force)))
+/** Fills every channel: the online lineup first, YouTube's own feeds if that fails. */
+async function loadAll($: EngineInterface, force = false) {
+  if (!force && Date.now() - (await read($, lineupAt)) < STALE_MS) return
+  if (await loadLineup($)) return
+  const list = await read($, stations)
+  await Promise.all(list.map(station => loadStation($, station)))
 }
 
 function startTicker($: EngineInterface) {
@@ -113,14 +165,15 @@ function stopTicker() {
 }
 
 async function switchTo($: EngineInterface, index: number) {
-  const wrapped = (index + CHANNELS.length) % CHANNELS.length
+  const count = channelsOf(await read($, stations)).length
+  const wrapped = (index + count) % count
   await update($, channel, () => wrapped)
   await update($, video, () => 0)
   await update($, staticUntil, () => Date.now() + STATIC_MS)
 }
 
 async function step($: EngineInterface, by: number) {
-  const list = videosOf(await read($, feeds), await read($, channel))
+  const list = videosOf(await read($, feeds), await read($, stations), await read($, channel))
   if (list.length === 0) return
   await update($, video, n => (n + by + list.length) % list.length)
 }
@@ -159,10 +212,10 @@ async function openInBrowser($: EngineInterface, url: string): Promise<boolean> 
   return false
 }
 
-function guideText(all: Record<string, Feed>): string {
-  return CHANNELS.map((picked, index) => {
-    const list = videosOf(all, index)
-    const newest = list[0]
+function guideText(all: Record<string, Feed>, list: readonly Channel[]): string {
+  return channelsOf(list).map((picked, index) => {
+    const videos = videosOf(all, list, index)
+    const newest = videos[0]
     const label = `CH ${String(index).padStart(2, '0')}  ${picked.name}`
     return newest === undefined ? `${label}: (no signal yet)` : `${label}: ${newest.title}`
   }).join('\n')
@@ -194,7 +247,7 @@ export const register: Register = (on, options) => {
     }
     if (arg === 'guide') {
       await loadAll($)
-      return { text: `TV GUIDE\n${guideText(await read($, feeds))}` }
+      return { text: `TV GUIDE\n${guideText(await read($, feeds), await read($, stations))}` }
     }
     if (arg === 'refresh') {
       void loadAll($, true)
@@ -202,14 +255,16 @@ export const register: Register = (on, options) => {
       return { text: 'Retuning every channel for the newest uploads.' }
     }
     if (arg !== '') {
-      const index = tune(arg)
+      await loadAll($)
+      const channels = channelsOf(await read($, stations))
+      const index = tune(arg, channels)
       if (index === undefined) {
-        return { text: `No channel "${arg}". Try: ${CHANNELS.map(c => c.slug).join(', ')}, or 0-${CHANNELS.length - 1}.` }
+        return { text: `No channel "${arg}". Try: ${channels.map(c => c.slug).join(', ')}, or 0-${channels.length - 1}.` }
       }
       await switchTo($, index)
     }
     const opened = await turnOn($)
-    const name = CHANNELS[await read($, channel)]?.name ?? ''
+    const name = channelsOf(await read($, stations))[await read($, channel)]?.name ?? ''
     if (!opened.isPlaced) {
       $.ui.toast('Retro TV is on, but this window has no room for it. Widen the terminal.')
     }
@@ -229,9 +284,11 @@ export const register: Register = (on, options) => {
     const index = await read($, channel)
     const pick = await read($, video)
     const until = await read($, staticUntil)
-    const picked = CHANNELS[index] ?? CHANNELS[0]!
-    const list = videosOf(all, index)
-    const status = statusOf(all, index)
+    const lineup = await read($, stations)
+    const channels = channelsOf(lineup)
+    const picked = channels[index] ?? channels[0]!
+    const list = videosOf(all, lineup, index)
+    const status = statusOf(all, lineup, index)
     const current = list[Math.min(pick, Math.max(0, list.length - 1))]
     const now = Date.now()
     const number = String(index).padStart(2, '0')

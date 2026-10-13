@@ -1,19 +1,58 @@
-import type { Video } from '../types'
+import type { Station, Video } from '../types'
 
-export type Channel = { slug: string; name: string; handle: string }
+export type Channel = Station
 
 // CH 00 mixes the newest uploads from every station below it.
-export const MIX: Channel = { slug: 'mix', name: 'ALL CHANNELS', handle: '' }
+export const MIX: Channel = { slug: 'mix', name: 'ALL CHANNELS' }
 
+// The lineup the TV starts with. The live list comes from the player page's
+// lineup.json (built hourly from config/stations.json); this is the fallback
+// when that can't be reached, and only its channel stations can be read here.
 export const STATIONS: Channel[] = [
-  { slug: 'claude', name: 'CLAUDE / ANTHROPIC', handle: '@anthropic-ai' },
-  { slug: 'braves', name: 'ATLANTA BRAVES', handle: '@Braves' },
-  { slug: 'falcons', name: 'ATLANTA FALCONS', handle: '@AtlantaFalcons' },
-  { slug: 'hawks', name: 'ATLANTA HAWKS', handle: '@ATLHawks' },
-  { slug: 'united', name: 'ATLANTA UNITED', handle: '@ATLUTD' },
+  { slug: 'claude', name: 'CLAUDE / ANTHROPIC', handle: '@anthropic-ai', query: 'Anthropic Claude' },
+  { slug: 'claude-news', name: 'CLAUDE AI NEWS', query: 'Claude AI' },
+  { slug: 'braves', name: 'ATLANTA BRAVES', handle: '@Braves', query: 'Atlanta Braves highlights' },
+  { slug: 'falcons', name: 'ATLANTA FALCONS', handle: '@AtlantaFalcons', query: 'Atlanta Falcons highlights' },
+  { slug: 'hawks', name: 'ATLANTA HAWKS', handle: '@ATLHawks', query: 'Atlanta Hawks highlights' },
+  { slug: 'united', name: 'ATLANTA UNITED', handle: '@ATLUTD', query: 'Atlanta United highlights' },
+  { slug: 'atl-sports', name: 'ATL SPORTS NEWS', query: 'Atlanta sports news' },
 ]
 
-export const CHANNELS: Channel[] = [MIX, ...STATIONS]
+export function channelsOf(stations: readonly Channel[]): Channel[] {
+  return [MIX, ...stations]
+}
+
+type LineupStation = { slug?: unknown; name?: unknown; videos?: unknown; error?: unknown }
+
+/** Reads the player page's lineup.json; undefined when it holds no stations. */
+export function parseLineup(
+  text: string,
+): { updatedAt: number; stations: { station: Channel; videos: Video[]; error?: string }[] } | undefined {
+  let data: { updatedAt?: unknown; stations?: unknown }
+  try {
+    data = JSON.parse(text)
+  } catch {
+    return undefined
+  }
+  if (!Array.isArray(data.stations) || data.stations.length === 0) return undefined
+  const stations = (data.stations as LineupStation[])
+    .filter(s => typeof s.slug === 'string' && typeof s.name === 'string' && Array.isArray(s.videos))
+    .map(s => {
+      const name = String(s.name)
+      const videos = (s.videos as Record<string, unknown>[])
+        .filter(v => typeof v.id === 'string' && /^[\w-]{11}$/.test(v.id))
+        .map(v => ({
+          id: String(v.id),
+          title: typeof v.title === 'string' ? v.title : '',
+          published: typeof v.published === 'string' ? v.published : '',
+          channel: typeof v.channel === 'string' && v.channel !== '' ? v.channel : name,
+        }))
+      return { station: { slug: String(s.slug), name }, videos, ...(typeof s.error === 'string' ? { error: s.error } : {}) }
+    })
+  if (stations.length === 0) return undefined
+  const updatedAt = typeof data.updatedAt === 'string' ? Date.parse(data.updatedAt) : NaN
+  return { updatedAt: Number.isFinite(updatedAt) ? updatedAt : Date.now(), stations }
+}
 
 const ENTITIES: Record<string, string> = {
   amp: '&',
@@ -85,12 +124,14 @@ export function watchUrl(base: string, channel: Channel, videos: Video[], index:
   return url.toString()
 }
 
-export function tune(query: string): number | undefined {
+export function tune(query: string, channels: readonly Channel[]): number | undefined {
   const wanted = query.trim().toLowerCase()
   if (wanted === '') return undefined
   const asNumber = Number(wanted)
-  if (Number.isInteger(asNumber) && asNumber >= 0 && asNumber < CHANNELS.length) return asNumber
-  const found = CHANNELS.findIndex(
+  if (Number.isInteger(asNumber) && asNumber >= 0 && asNumber < channels.length) return asNumber
+  const exact = channels.findIndex(channel => channel.slug === wanted)
+  if (exact !== -1) return exact
+  const found = channels.findIndex(
     channel => channel.slug.startsWith(wanted) || channel.name.toLowerCase().includes(wanted),
   )
   return found === -1 ? undefined : found

@@ -10,6 +10,9 @@ claude plugin validate retro-tv
 echo "== Running mod tests"
 claude plugin test retro-tv
 
+echo "== Running lineup tests"
+node --test scripts/tests/*.test.mjs
+
 echo "== Packaging the claude.ai skill"
 mkdir -p dist
 rm -f dist/retro-tv-skill.zip

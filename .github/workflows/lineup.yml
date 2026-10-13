@@ -1,0 +1,43 @@
+name: Update TV lineup
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - config/stations.json
+      - scripts/update-lineup.mjs
+      - scripts/lineup-lib.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lineup
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test the parsers
+        run: node --test scripts/tests/*.test.mjs
+      - name: Find the newest videos
+        run: node scripts/update-lineup.mjs
+      - name: Save the lineup
+        run: |
+          if git diff --quiet -- docs/lineup.json; then
+            echo "Lineup unchanged."
+            exit 0
+          fi
+          git config user.name "claudetron-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/lineup.json
+          git commit -m "Update TV lineup"
+          git push

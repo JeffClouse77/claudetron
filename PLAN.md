@@ -5,14 +5,18 @@
 Bring up an old-school CRT TV with one command, inside Claude Code and regular
 Claude (claude.ai), and use it to play the newest YouTube videos from:
 
-| Ch | Station | YouTube handle |
+| Ch | Station | How videos are found |
 | --- | --- | --- |
-| 00 | All channels, newest first | (mix of the five below) |
-| 01 | Claude / Anthropic | `@anthropic-ai` |
-| 02 | Atlanta Braves | `@Braves` |
-| 03 | Atlanta Falcons | `@AtlantaFalcons` |
-| 04 | Atlanta Hawks | `@ATLHawks` |
-| 05 | Atlanta United | `@ATLUTD` |
+| 00 | All channels | Newest from every station below |
+| 01 | Claude / Anthropic | `@anthropic-ai` uploads |
+| 02 | Claude AI news | Search "Claude AI", this week |
+| 03 | Atlanta Braves | `@Braves` uploads |
+| 04 | Atlanta Falcons | `@AtlantaFalcons` uploads |
+| 05 | Atlanta Hawks | `@ATLHawks` uploads |
+| 06 | Atlanta United | `@ATLUTD` uploads |
+| 07 | Atlanta sports news | Search "Atlanta sports news", this week |
+
+The channels fill themselves: nobody loads a list of videos by hand.
 
 ## The constraint that shapes the design
 
@@ -25,6 +29,19 @@ the work is split in two:
   opens in a browser tab beside Claude.
 
 ## Components
+
+### 0. Automatic lineup: `config/`, `scripts/`, `.github/workflows/lineup.yml`
+
+- `config/stations.json` names each station: a YouTube `handle` (read its
+  uploads feed), a search `query` (newest uploads on that topic), or both
+  (search is the fallback when the channel can't be read).
+- `scripts/update-lineup.mjs` finds up to 15 newest videos per station and
+  writes `docs/lineup.json`. A station that fails keeps last run's videos.
+- The GitHub workflow runs it every hour, on any change to the config, and on
+  demand from the Actions tab, then commits the new lineup.
+- The player page, the Claude Code mod and the claude.ai skill all read that
+  one `lineup.json`. The mod falls back to reading the channel feeds itself
+  when the page can't be reached.
 
 ### 1. Claude Code mod: `retro-tv/`
 
@@ -50,9 +67,9 @@ the work is split in two:
 **Pane keys:** `n`/`p` channel, `j`/`k` video, `w` watch, `r` refresh, `x` off.
 
 **How it gets videos (no API key):**
-1. Fetch `youtube.com/@handle` once, read the `UC…` channel ID, cache it.
-2. Fetch `youtube.com/feeds/videos.xml?channel_id=UC…` (public uploads feed).
-3. Parse the newest entries; refresh when older than 15 minutes.
+1. Read `lineup.json` from the player page; refresh when older than 15 minutes.
+2. If that fails, read each channel's public uploads feed straight from YouTube
+   (topic-only stations then wait for the lineup).
 
 **Watch:** builds a link to the player page carrying the picked video and the
 rest of the channel as a queue, then opens it in the default browser.
@@ -62,17 +79,17 @@ rest of the channel as a queue, then opens it in the default browser.
 A static page served by GitHub Pages at
 `https://jeffclouse77.github.io/claudetron/`.
 
-- Reads `?v=<id>&list=<ids>&ch=<station>&t=<title>` from the link.
+- Loads `lineup.json` on its own and opens on CH 00; `?ch=braves` opens a channel.
+- Still takes `?v=<id>&list=<ids>&ch=<station>&t=<title>` links from the mod.
 - Plays through a `youtube-nocookie.com` embed inside a curved, scanlined tube.
-- Channel knob, ◀ ▶ buttons, power button, static bursts between videos,
-  on-screen channel number, and a lineup list.
+- Channel knob and CH ▲▼ buttons change station, ◀ ▶ change video; power
+  button, static bursts, on-screen channel number, TV guide with every station.
 - With no link parameters it shows color bars and a box to paste any YouTube link.
 
 ### 3. claude.ai skill: `claude-ai-skill/retro-tv/SKILL.md`
 
-`/retro-tv` (or `/retro-tv hawks`) makes Claude search the web for the newest
-uploads, collect their video IDs, and reply with a TV-guide lineup plus a
-**Turn on the TV** link to the player page.
+`/retro-tv` (or `/retro-tv hawks`) makes Claude read `lineup.json`, reply with
+a TV-guide lineup, and give a **Turn on the TV** link (`?ch=<slug>`).
 
 ### 4. Distribution: `.claude-plugin/marketplace.json`
 
@@ -82,6 +99,7 @@ Makes this repo a plugin marketplace so the mod installs with one command.
 
 - [ ] Push this repo to `github.com/jeffclouse77/claudetron` (branch `main`)
 - [ ] GitHub → Settings → Pages → Deploy from a branch → `main`, folder `/docs`
+- [ ] GitHub → Actions → Update TV lineup → Run workflow (fills the first lineup)
 - [ ] Claude Code: `/plugin install retro-tv --marketplace jeffclouse77/claudetron`
 - [ ] Claude Code: run `/tv` and confirm all five stations load
 - [ ] claude.ai: zip `claude-ai-skill/retro-tv`, upload under Settings → Capabilities → Skills
@@ -93,9 +111,11 @@ Makes this repo a plugin marketplace so the mod installs with one command.
 | --- | --- |
 | Mod passes `claude plugin validate` | Done |
 | Mod type-checks | Done |
-| Mod tests (2) pass on terminal and desktop | Done |
+| Mod tests (4) pass on terminal and desktop, lineup and fallback paths | Done |
+| Lineup parser tests (4) pass | Done |
+| Player page loads a sample lineup, tunes `?ch=`, shows NO SIGNAL for an empty station | Done |
 | Player page layout checked at desktop and phone width | Done |
-| Live YouTube feeds and playback | **Not yet tested** (YouTube was unreachable from the build sandbox) |
+| Live YouTube feeds, search and playback | **Not yet tested** (YouTube was unreachable from the build sandbox); the first Actions run is the live test |
 | Channel handles confirmed | **Not yet confirmed**; a wrong one shows "NO SIGNAL" on that channel |
 
 ## Known limits
@@ -103,14 +123,16 @@ Makes this repo a plugin marketplace so the mod installs with one command.
 - Video plays in a browser tab, not inside the terminal or the claude.ai chat.
 - Browsers may block sound on autoplay; press play once on the first video.
 - `/tv guide` lists what has loaded so far; run it again if a channel is still tuning.
-- The claude.ai skill depends on web search finding recent uploads.
+- Topic search reads YouTube's results page, which YouTube can change; if a
+  topic station goes quiet, the job keeps its last videos and the scraper in
+  `scripts/lineup-lib.mjs` needs a look.
+- GitHub pauses scheduled workflows after 60 days with no repo activity; the
+  lineup commits count as activity, so this only matters if every run fails.
 
 ## Next steps
 
-1. Run the setup checklist and fix any channel handle that shows "NO SIGNAL"
-   (edit `STATIONS` in `retro-tv/hooks/tv.ts`).
-2. Let you add or remove channels from `/config` instead of editing code
-   (for example Georgia Bulldogs, Atlanta Dream).
-3. Show video thumbnails on the tube in terminals that support images (kitty, Ghostty).
-4. Optional "new upload" toast when a followed channel posts.
-5. Remember the last channel between sessions.
+1. Run the setup checklist; check the first Actions run's log for any station
+   marked `kept` and fix its handle or query in `config/stations.json`.
+2. Show video thumbnails on the tube in terminals that support images (kitty, Ghostty).
+3. Optional "new upload" toast in Claude Code when a followed channel posts.
+4. Remember the last channel between sessions.
