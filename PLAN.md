@@ -13,7 +13,7 @@ Claude (claude.ai), and use it to play the newest YouTube videos from:
 | 03 | Atlanta Braves | `@Braves` uploads |
 | 04 | Atlanta Falcons | `@AtlantaFalcons` uploads |
 | 05 | Atlanta Hawks | `@ATLHawks` uploads |
-| 06 | Atlanta United | `@ATLUTD` uploads |
+| 06 | Atlanta United | `@AtlantaUnited` uploads |
 | 07 | Atlanta sports news | Search "Atlanta sports news", this week |
 
 The channels fill themselves: nobody loads a list of videos by hand.

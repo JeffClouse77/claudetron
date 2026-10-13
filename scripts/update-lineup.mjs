@@ -11,7 +11,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
-import { findChannelId, newestFirst, parseFeed, parseSearch } from './lineup-lib.mjs'
+import { findChannelId, newestFirst, parseChannelVideos, parseFeed, parseSearch } from './lineup-lib.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const CONFIG = `${root}config/stations.json`
@@ -34,9 +34,18 @@ async function get(url) {
 async function fromChannel(station) {
   const id = station.channelId ?? findChannelId(await get(`https://www.youtube.com/${station.handle}`))
   if (!id) throw new Error(`no channel id on youtube.com/${station.handle}`)
-  const videos = parseFeed(await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`), station.name)
-  if (videos.length === 0) throw new Error(`empty feed for ${station.handle}`)
-  return { videos, channelId: id }
+  // The uploads feed has exact times but YouTube often refuses it to cloud
+  // servers; the channel's Videos tab is the fallback.
+  try {
+    const videos = parseFeed(await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`), station.name)
+    if (videos.length > 0) return { videos, channelId: id, via: 'feed' }
+  } catch (error) {
+    console.log(`      ${station.slug} feed: ${error.message}`)
+  }
+  const videos = parseChannelVideos(await get(`https://www.youtube.com/channel/${id}/videos`), Date.now())
+    .map(video => ({ ...video, channel: video.channel || station.name }))
+  if (videos.length === 0) throw new Error(`no videos on the Videos tab of ${station.handle}`)
+  return { videos, channelId: id, via: 'videos tab' }
 }
 
 async function fromSearch(station, limit) {
@@ -58,8 +67,8 @@ async function tuneStation(station, limit) {
   }
   if (station.handle) {
     try {
-      const { videos, channelId } = await fromChannel(station)
-      return { videos: newestFirst(videos, limit), source: 'channel', channelId }
+      const { videos, channelId, via } = await fromChannel(station)
+      return { videos: newestFirst(videos, limit), source: 'channel', channelId, via }
     } catch (error) {
       fail('channel', error)
     }
@@ -88,9 +97,9 @@ const stations = []
 for (const station of config.stations) {
   const before = previous.stations?.find(old => old.slug === station.slug)
   try {
-    const tuned = await tuneStation({ ...station, channelId: before?.channelId }, limit)
-    stations.push({ slug: station.slug, name: station.name, ...tuned, updatedAt: new Date().toISOString() })
-    console.log(`ok    ${station.slug}: ${tuned.videos.length} videos from ${tuned.source}`)
+    const tuned = await tuneStation({ ...station, channelId: before?.handle === station.handle ? before?.channelId : undefined }, limit)
+    stations.push({ slug: station.slug, name: station.name, handle: station.handle, ...tuned, updatedAt: new Date().toISOString() })
+    console.log(`ok    ${station.slug}: ${tuned.videos.length} videos from ${tuned.source}${tuned.via ? ` (${tuned.via})` : ''}`)
   } catch (error) {
     stations.push({
       slug: station.slug,

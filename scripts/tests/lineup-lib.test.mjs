@@ -34,8 +34,32 @@ test('reads search results out of ytInitialData', () => {
   ])
 })
 
+test('reads the newer lockup layout YouTube uses on channel pages', () => {
+  const lockup = {
+    lockupViewModel: {
+      contentType: 'LOCKUP_CONTENT_TYPE_VIDEO',
+      contentId: 'lockup12345',
+      metadata: {
+        lockupMetadataViewModel: {
+          title: { content: 'Falcons win in overtime' },
+          metadata: { contentMetadataViewModel: { metadataRows: [{ metadataParts: [{ text: { content: '120K views' } }, { text: { content: '2d ago' } }] }] } },
+        },
+      },
+    },
+  }
+  const html = `var ytInitialData = ${JSON.stringify({ items: [lockup] })};`
+  const [video] = parseSearch(html, NOW)
+  assert.equal(video.id, 'lockup12345')
+  assert.equal(video.title, 'Falcons win in overtime')
+  assert.equal(video.published, '2026-10-11T12:00:00.000Z')
+})
+
 test('turns relative times into dates and sorts newest first', () => {
   assert.equal(fromRelative('Streamed 2 days ago', NOW), '2026-10-11T12:00:00.000Z')
+  assert.equal(fromRelative('5d ago', NOW), '2026-10-08T12:00:00.000Z')
+  assert.equal(fromRelative('3h ago', NOW), '2026-10-13T09:00:00.000Z')
+  assert.equal(fromRelative('2mo ago', NOW), '2026-08-14T12:00:00.000Z')
+  assert.equal(fromRelative('45m ago', NOW), '2026-10-13T11:15:00.000Z')
   const sorted = newestFirst(
     [
       { id: 'a', published: '2026-10-01T00:00:00Z' },

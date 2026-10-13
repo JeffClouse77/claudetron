@@ -36,12 +36,18 @@ export function parseFeed(xml, channel) {
 }
 
 const UNITS = { second: 1, minute: 60, hour: 3600, day: 86400, week: 604800, month: 2592000, year: 31536000 }
+const SHORT = { s: 'second', sec: 'second', m: 'minute', min: 'minute', h: 'hour', hr: 'hour', d: 'day', w: 'week', wk: 'week', mo: 'month', y: 'year', yr: 'year' }
 
-/** "3 hours ago" (or "Streamed 2 days ago") as an ISO time, counted back from `now`. */
+/**
+ * "3 hours ago", "5d ago", "2mo ago" or "Streamed 2 days ago" as an ISO time,
+ * counted back from `now`; `now` itself when there is no age to read.
+ */
 export function fromRelative(text, now) {
-  const match = String(text ?? '').match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i)
+  const match = String(text ?? '').match(/(\d+)\s*(seconds?|minutes?|hours?|days?|weeks?|months?|years?|mo|min|sec|hr|yr|wk|[smhdwy])\s+ago/i)
   if (!match) return new Date(now).toISOString()
-  const seconds = Number(match[1]) * UNITS[match[2].toLowerCase()]
+  const word = match[2].toLowerCase()
+  const unit = SHORT[word] ?? word.replace(/s$/, '')
+  const seconds = Number(match[1]) * (UNITS[unit] ?? 0)
   return new Date(now - seconds * 1000).toISOString()
 }
 
@@ -103,11 +109,37 @@ export function parseSearch(html, now) {
         })
       }
     }
+    const lockup = node.lockupViewModel
+    if (lockup && lockup.contentType === 'LOCKUP_CONTENT_TYPE_VIDEO' && /^[\w-]{11}$/.test(lockup.contentId ?? '') && !seen.has(lockup.contentId)) {
+      const meta = lockup.metadata?.lockupMetadataViewModel
+      const texts = []
+      const collect = value => {
+        if (Array.isArray(value)) return value.forEach(collect)
+        if (value === null || typeof value !== 'object') return
+        if (typeof value.content === 'string') texts.push(value.content)
+        Object.values(value).forEach(collect)
+      }
+      collect(meta?.metadata)
+      const ageText = texts.find(text => /\bago\b/i.test(text))
+      if (ageText) {
+        seen.add(lockup.contentId)
+        found.push({
+          id: lockup.contentId,
+          title: String(meta?.title?.content ?? '').trim(),
+          published: fromRelative(ageText, now),
+          channel: texts.find(text => !/\bago\b|views?\b|watching/i.test(text))?.trim() ?? '',
+          ageText,
+        })
+      }
+    }
     Object.values(node).forEach(visit)
   }
   visit(data)
   return found
 }
+
+/** The videos on a channel's Videos tab, newest first as the tab lists them. */
+export const parseChannelVideos = parseSearch
 
 export function newestFirst(videos, limit) {
   const seen = new Set()
