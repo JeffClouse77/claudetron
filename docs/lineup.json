@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T20:19:31.959Z",
+  "updatedAt": "2026-10-15T23:40:11.474Z",
   "stations": [
     {
       "slug": "claude",
@@ -100,120 +100,120 @@
       "source": "channel",
       "channelId": "UCrDwWp7EBBv4NwvScIpBDOA",
       "via": "feed",
-      "updatedAt": "2026-10-15T20:19:29.824Z"
+      "updatedAt": "2026-10-15T23:40:10.090Z"
     },
     {
       "slug": "claude-news",
       "name": "CLAUDE AI NEWS",
       "videos": [
         {
-          "id": "z3Df2tlvUHY",
-          "title": "Claude Motion: Make Animated Videos with Claude AI (Full Tutorial)",
-          "published": "2026-10-15T14:19:29.824Z",
-          "channel": "Hrishikesh Roy",
-          "ageText": "6h ago"
-        },
-        {
-          "id": "4bl0GO16ftE",
-          "title": "I Found the SIMPLEST Way To Make Money Online With AI In 2027",
-          "published": "2026-10-15T11:19:29.824Z",
-          "channel": "Nafay 3D",
-          "ageText": "9h ago"
+          "id": "VVWiJm0sA7Y",
+          "title": "I Finally Solved AI Video Editing! (full guide)",
+          "published": "2026-10-15T18:40:10.091Z",
+          "channel": "Duncan Rogoff | Learn Claude Code",
+          "ageText": "5h ago"
         },
         {
           "id": "l-EfBiKQTc0",
           "title": "How I’d Escape My 9-5 Job With A Claude AI One-Person Business",
-          "published": "2026-10-15T00:19:29.824Z",
+          "published": "2026-10-15T00:40:10.091Z",
           "channel": "Shane Hummus",
-          "ageText": "20h ago"
+          "ageText": "23h ago"
         },
         {
           "id": "yf2OwchM9nw",
           "title": "Claude Just Dropped MOTION. (Get Ahead of 95% in 11 Minutes.)",
-          "published": "2026-10-14T20:19:29.824Z",
+          "published": "2026-10-14T23:40:10.091Z",
           "channel": "Tristen O'Brien",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "DMlBzXvG22g",
-          "title": "⁠⁠8 Free AI Tools to Get You Ahead of 99% of People",
-          "published": "2026-10-14T20:19:29.824Z",
-          "channel": "Austin Marchese",
           "ageText": "1d ago"
         },
         {
           "id": "qZqZ02AsYiA",
           "title": "New Claude Motion is Insane",
-          "published": "2026-10-14T20:19:29.824Z",
+          "published": "2026-10-14T23:40:10.091Z",
           "channel": "The AI Advantage",
           "ageText": "1d ago"
         },
         {
-          "id": "kTN8fpLCF_I",
-          "title": "Claude AI Filed a Fake Murder Tip to the Police",
-          "published": "2026-10-13T20:19:29.824Z",
-          "channel": "Valuetainment",
-          "ageText": "2d ago"
+          "id": "DMlBzXvG22g",
+          "title": "⁠⁠8 Free AI Tools to Get You Ahead of 99% of People",
+          "published": "2026-10-14T23:40:10.091Z",
+          "channel": "Austin Marchese",
+          "ageText": "1d ago"
         },
         {
-          "id": "efjJH2rVykc",
-          "title": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
-          "published": "2026-10-13T20:19:29.824Z",
-          "channel": "AI Revolution",
+          "id": "ossjRWI8s6Q",
+          "title": "Claude Confronts a Fake Version of Itself...",
+          "published": "2026-10-13T23:40:10.091Z",
+          "channel": "Ai Convo",
           "ageText": "2d ago"
         },
         {
           "id": "aJZbo_Wf1Lw",
           "title": "The Most Profitable Claude AI One-Man Business That Nobody Knows Exists",
-          "published": "2026-10-13T20:19:29.824Z",
+          "published": "2026-10-13T23:40:10.091Z",
           "channel": "Shane Hummus",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "ossjRWI8s6Q",
-          "title": "Claude Confronts a Fake Version of Itself...",
-          "published": "2026-10-13T20:19:29.824Z",
-          "channel": "Ai Convo",
           "ageText": "2d ago"
         },
         {
           "id": "MLl41Q9p3Ps",
           "title": "Claude Projects Just Got Rebuilt (Full Guide)",
-          "published": "2026-10-12T20:19:29.824Z",
+          "published": "2026-10-12T23:40:10.091Z",
           "channel": "AI Foundations",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "kTN8fpLCF_I",
+          "title": "Claude AI Filed a Fake Murder Tip to the Police",
+          "published": "2026-10-12T23:40:10.091Z",
+          "channel": "Valuetainment",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "efjJH2rVykc",
+          "title": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
+          "published": "2026-10-12T23:40:10.091Z",
+          "channel": "AI Revolution",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "gvESqM6s0kM",
+          "title": "Claude 5.5 Model Mistakes you may still be making (23 Tips and Fixes)",
+          "published": "2026-10-12T23:40:10.091Z",
+          "channel": "Jay E | RoboNuggets",
           "ageText": "3d ago"
         },
         {
           "id": "lTXeZSgOJLY",
           "title": "ULTIMATE Claude Tutorial: How to Use Claude AI for Beginners in 2026",
-          "published": "2026-10-11T20:19:29.824Z",
+          "published": "2026-10-11T23:40:10.091Z",
           "channel": "AI Master",
           "ageText": "4d ago"
         },
         {
           "id": "Xbevl9AdX7g",
           "title": "Steal this 1 Claude AI landing page strategy until you hit $1M/mo",
-          "published": "2026-10-11T20:19:29.824Z",
+          "published": "2026-10-11T23:40:10.091Z",
           "channel": "Matt Clark",
-          "ageText": "4d ago"
-        },
-        {
-          "id": "8erpJHybmQQ",
-          "title": "Claude AI Edits Videos BETTER Than ChatGPT - CRAZY & FREE - MAKE EASY MONEY",
-          "published": "2026-10-11T20:19:29.824Z",
-          "channel": "All Thingz Real",
           "ageText": "4d ago"
         },
         {
           "id": "UFa8pXW9A3k",
           "title": "Claude's New Updates Are Insane… But Grok Bot Is EVEN Bigger",
-          "published": "2026-10-10T20:19:29.824Z",
+          "published": "2026-10-10T23:40:10.091Z",
           "channel": "Riley Brown",
+          "ageText": "5d ago"
+        },
+        {
+          "id": "xF7fISoiTrI",
+          "title": "ChatGPT Destroyed Claude – STOP Wasting Money on the Wrong AI!",
+          "published": "2026-10-10T23:40:10.091Z",
+          "channel": "AI Master",
           "ageText": "5d ago"
         }
       ],
       "source": "search",
-      "updatedAt": "2026-10-15T20:19:30.649Z"
+      "updatedAt": "2026-10-15T23:40:10.664Z"
     },
     {
       "slug": "braves",
@@ -314,13 +314,31 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-15T20:19:30.797Z"
+      "updatedAt": "2026-10-15T23:40:10.670Z"
     },
     {
       "slug": "falcons",
       "name": "ATLANTA FALCONS",
       "handle": "@AtlantaFalcons",
       "videos": [
+        {
+          "id": "vx2d8RgGoGw",
+          "title": "Atlanta Falcons players Drake London & Kendal Daniels speak to the media | Press Conference",
+          "published": "2026-10-15T23:00:28+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "KL3B47RyOQQ",
+          "title": "Asking the guys to leave a message for the Atlanta Dream going into the Finals! #nfl #atlanta",
+          "published": "2026-10-15T22:00:04+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "ZUSKtPpVszY",
+          "title": "Week 6: Atlanta Falcons vs. Chicago Bears | Atlanta Falcons Pregame Show",
+          "published": "2026-10-15T20:59:10+00:00",
+          "channel": "Atlanta Falcons"
+        },
         {
           "id": "eJyay46KDxM",
           "title": "Jeff Ulbrich, Tommy Rees & Craig Aukerman on preparations for matchup against Chicago Bears",
@@ -392,30 +410,12 @@
           "title": "Drake London shows off his handshakes with Zachariah Branch and Olamide Zaccheaus 🤝  #nfl #falcons",
           "published": "2026-10-13T21:00:26+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "92WFshOnuJU",
-          "title": "Falcons vs Bears Preview: Making the best of big moments | Falcons Audible Podcast",
-          "published": "2026-10-13T20:00:16+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "VxnWkpAIV58",
-          "title": "Michael Penix Jr showcases his ability to take the top of defenses using his deep ball | Film Review",
-          "published": "2026-10-13T18:00:25+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "74Rlq87lqWE",
-          "title": "Drake was FIRED UP after this Zachariah Branch play 💯  #nfl #atlantafalcons",
-          "published": "2026-10-13T17:00:24+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-15T20:19:30.960Z"
+      "updatedAt": "2026-10-15T23:40:10.681Z"
     },
     {
       "slug": "hawks",
@@ -425,7 +425,7 @@
         {
           "id": "5UfaWExtNDg",
           "title": "Dyson Daniels explains house music to DC Young Fly and Shamea Morton 😂🔊 | Hawks AF",
-          "published": "2026-10-15T19:02:51+00:00",
+          "published": "2026-10-15T23:00:10+00:00",
           "channel": "Atlanta Hawks"
         },
         {
@@ -516,13 +516,19 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-15T20:19:31.113Z"
+      "updatedAt": "2026-10-15T23:40:10.784Z"
     },
     {
       "slug": "united",
       "name": "ATLANTA UNITED",
       "handle": "@AtlantaUnited",
       "videos": [
+        {
+          "id": "ZS2CI75-sKs",
+          "title": "Week 29: Atlanta United Prematch Show | Atlanta United vs Inter Miami CF",
+          "published": "2026-10-15T22:55:29+00:00",
+          "channel": "Atlanta United FC"
+        },
         {
           "id": "Wsh6nt_JF6E",
           "title": "Some of the finishes that got us to 500 🤩",
@@ -606,124 +612,125 @@
           "title": "What we gotta do for the Cincy matchup 👀",
           "published": "2026-10-09T20:39:42+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "UNXgx6jxNgU",
-          "title": "Week 28: Atlanta United Prematch Show | Atlanta United vs FC Cincinnati",
-          "published": "2026-10-08T22:30:08+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-15T20:19:31.123Z"
+      "updatedAt": "2026-10-15T23:40:10.876Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATL SPORTS NEWS",
       "videos": [
         {
-          "id": "SsG_M28cuko",
-          "title": "All Signs Point To THIS... | Daily Atlanta Braves News & Rumors",
-          "published": "2026-10-15T15:19:31.123Z",
-          "channel": "Braves Daily",
+          "id": "ls2FF_DCqbE",
+          "title": "Atlanta Falcons News | Coordinators SOUND OFF Before NFL Week 6 Game vs. Chicago Bears",
+          "published": "2026-10-15T22:40:10.876Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "ra_7jeqxvR0",
+          "title": "🚨HUGE Atlanta Falcons News That Falcons Fans NEED To Know Before Bears Game",
+          "published": "2026-10-15T21:40:10.876Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "Streamed 2h ago"
+        },
+        {
+          "id": "f2OG6y08380",
+          "title": "SOPHIE IS TRASH",
+          "published": "2026-10-15T18:40:10.876Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
           "ageText": "5h ago"
+        },
+        {
+          "id": "Zt8lOf3xjfQ",
+          "title": "What Michael Penix Jr.'s rib injury means for the Atlanta Falcons lineup | Pro Football Talk",
+          "published": "2026-10-15T14:40:10.876Z",
+          "channel": "NFL on NBC",
+          "ageText": "9h ago"
         },
         {
           "id": "Lf3WcK9Ecvo",
           "title": "GOLDEN STATE WHO?",
-          "published": "2026-10-15T12:19:31.123Z",
+          "published": "2026-10-15T11:40:10.876Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "8h ago"
+          "ageText": "12h ago"
         },
         {
-          "id": "f6gP3xT0s0M",
-          "title": "NBA team SAVES WNBA and Angel Reese from COMPLETE and TOTAL HUMILIATION during WNBA Finals!",
-          "published": "2026-10-14T20:19:31.123Z",
-          "channel": "Black and White Sports",
+          "id": "f08cMBKLm_8",
+          "title": "Why DeWanna Bonner Was the Missing Piece for the Atlanta Dream",
+          "published": "2026-10-14T23:40:10.876Z",
+          "channel": "Yahoo! Sports",
           "ageText": "1d ago"
         },
         {
-          "id": "saAwaPOPT8w",
-          "title": "🚨HOLY SH**! So Much Atlanta Falcons News Just Happened After Ravens Loss",
-          "published": "2026-10-13T20:19:31.123Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "2d ago"
+          "id": "IBUxxoQ3L6c",
+          "title": "Chicago Bears vs Atlanta Falcons | 2026 Week 6 Game Preview",
+          "published": "2026-10-14T23:40:10.876Z",
+          "channel": "NFL and 2 more",
+          "ageText": "1d ago"
         },
         {
-          "id": "Gzcgbvd8Qeg",
-          "title": "🚨JUST IN: Huge Atlanta Falcons News After Loss vs. Baltimore Ravens | Falcons Injury News",
-          "published": "2026-10-13T20:19:31.123Z",
+          "id": "vlFTlc6krjo",
+          "title": "CONFIRMED: Atlanta Falcons News Delivered In BUNCHES Before Chicago Bears Game",
+          "published": "2026-10-14T23:40:10.876Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "Streamed 2d ago"
+          "ageText": "1d ago"
+        },
+        {
+          "id": "OUAcw1E2d7I",
+          "title": "Hottest sports team in Atlanta without playoff venue",
+          "published": "2026-10-13T23:40:10.876Z",
+          "channel": "Atlanta News First",
+          "ageText": "2d ago"
         },
         {
           "id": "hA3YFMrcJHo",
           "title": "Ravens beat Falcons in OT 😤 49ers stay unbeaten + Commanders' blunder | SC with SVP",
-          "published": "2026-10-12T20:19:31.123Z",
+          "published": "2026-10-12T23:40:10.876Z",
           "channel": "ESPN",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "GCSqItoO2BA",
-          "title": "Falcons vs. Ravens Live Streaming Scoreboard, Free Play-By-Play, Highlights | NFL Week 5 On NBC",
-          "published": "2026-10-12T20:19:31.123Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "Streamed 3d ago"
-        },
-        {
-          "id": "4DAeKkKJSiQ",
-          "title": "Baltimore Ravens vs Atlanta Falcons | Live Play-By-Play & Reactions",
-          "published": "2026-10-12T20:19:31.123Z",
-          "channel": "The Sports Fury",
-          "ageText": "Streamed 3d ago"
-        },
-        {
-          "id": "b5dernyqrak",
-          "title": "Ravens vs. Falcons Live Streaming Scoreboard, Free Play-By-Play, Highlights | NFL Week 5",
-          "published": "2026-10-12T20:19:31.123Z",
-          "channel": "Ravens Rundown by Chat Sports",
-          "ageText": "Streamed 3d ago"
-        },
-        {
-          "id": "2InVooPc1sE",
-          "title": "BALTIMORE RAVENS vs ATLANTA FALCONS LIVE | LIVE STREAM | Play by Play, Scoreboard, Stats & Reaction",
-          "published": "2026-10-12T20:19:31.123Z",
-          "channel": "Football Nation",
-          "ageText": "Streamed 3d ago"
-        },
-        {
-          "id": "fVlmow2jCDA",
-          "title": "Baltimore Ravens vs Atlanta Falcons Game Highlights | 2026 NFL Season Week 5",
-          "published": "2026-10-12T20:19:31.123Z",
-          "channel": "NFL",
           "ageText": "3d ago"
         },
         {
           "id": "AjGsEO0CPx8",
           "title": "Ravens escape Falcons in OT behind Tyler Huntley's heroics | Michael Penix Jr. exits with injury",
-          "published": "2026-10-12T20:19:31.123Z",
+          "published": "2026-10-12T23:40:10.876Z",
           "channel": "CBS Sports",
           "ageText": "3d ago"
         },
         {
-          "id": "kkBBTO-fKl8",
-          "title": "🛑 PUMP THE BRAKES 🛑 Atlanta Falcons News You Can’t Ignore Before Sunday Night Football vs. Ravens",
-          "published": "2026-10-11T20:19:31.123Z",
+          "id": "saAwaPOPT8w",
+          "title": "🚨HOLY SH**! So Much Atlanta Falcons News Just Happened After Ravens Loss",
+          "published": "2026-10-12T23:40:10.876Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "4d ago"
+          "ageText": "3d ago"
         },
         {
-          "id": "S9rLUMQ1RKI",
-          "title": "🚨MAJOR Atlanta Falcons Trade Rumors From Adam Schefter Of ESPN",
-          "published": "2026-10-09T20:19:31.123Z",
+          "id": "awxb-wcp75I",
+          "title": "Tua throws a game-losing interception in overtime | Atlanta Falcons Vs Baltimore Ravens",
+          "published": "2026-10-12T23:40:10.876Z",
+          "channel": "Jackson Krueger Sports",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "Gzcgbvd8Qeg",
+          "title": "🚨JUST IN: Huge Atlanta Falcons News After Loss vs. Baltimore Ravens | Falcons Injury News",
+          "published": "2026-10-12T23:40:10.876Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "6d ago"
+          "ageText": "Streamed 3d ago"
+        },
+        {
+          "id": "kkBBTO-fKl8",
+          "title": "🛑 PUMP THE BRAKES 🛑 Atlanta Falcons News You Can’t Ignore Before Sunday Night Football vs. Ravens",
+          "published": "2026-10-11T23:40:10.876Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "4d ago"
         }
       ],
       "source": "search",
-      "updatedAt": "2026-10-15T20:19:31.959Z"
+      "updatedAt": "2026-10-15T23:40:11.474Z"
     }
   ]
 }
