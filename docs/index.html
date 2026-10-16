@@ -205,6 +205,20 @@
   .guide .meta { margin-left: auto; color: var(--ink-dim); font-size: 16px; white-space: nowrap; }
   .guide .t { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .updated { color: var(--ink-dim); font-size: 12px; margin: 8px 0 0; }
+  .home-setup {
+    width: min(960px, 100%);
+    border: 1px dashed rgba(212,166,74,.35); border-radius: 14px;
+    padding: 14px 16px; display: grid; gap: 8px;
+  }
+  .home-setup h2 { font: 700 12px var(--font-label); letter-spacing: .2em; text-transform: uppercase; color: var(--brass); margin: 0; }
+  .home-setup p, .home-setup ol { margin: 0; color: var(--ink-dim); font-size: 14px; }
+  .home-setup ol { padding-left: 20px; display: grid; gap: 4px; }
+  .bookmarklet {
+    justify-self: start;
+    font: 700 13px var(--font-label); letter-spacing: .08em; text-decoration: none;
+    color: #1a1007; background: var(--amber); border-radius: 999px; padding: 7px 14px; cursor: grab;
+  }
+  .bookmarklet:focus-visible { outline: 3px solid var(--phosphor); outline-offset: 3px; }
   .hint { color: var(--ink-dim); font-size: 13px; text-align: center; max-width: 60ch; }
   .hint code { font-family: var(--font-osd); font-size: 17px; color: var(--phosphor); }
   .off .tube iframe, .off .tube .card, .off .osd { visibility: hidden; }
@@ -273,7 +287,18 @@
     <p class="updated" id="updated"></p>
   </section>
 
-  <p class="hint">Turn the knob or press <code>↑</code> <code>↓</code> to change channel, <code>←</code> <code>→</code> to change video, <code>P</code> for power. The lineup refreshes itself every hour. In Claude Code, type <code>/tv</code>.</p>
+  <section class="home-setup" id="home-setup" aria-labelledby="home-title">
+    <h2 id="home-title">Your YouTube channel</h2>
+    <p id="home-status">Put the videos from your own YouTube home page on the TV.</p>
+    <a class="bookmarklet" id="bookmarklet" href="#" title="Drag me to your bookmarks bar">📺 Send to Claudetron</a>
+    <ol>
+      <li>Drag the yellow button above to your browser's bookmarks bar (one time only).</li>
+      <li>Open <strong>youtube.com</strong> signed in, as you normally would, and scroll a little so your home page loads.</li>
+      <li>Click <strong>Send to Claudetron</strong> in your bookmarks bar. The TV opens on <strong>YOUR YOUTUBE</strong> with those videos. Click it again any time for a fresh batch.</li>
+    </ol>
+  </section>
+
+  <p class="hint">Turn the knob or press <code>↑</code> <code>↓</code> to change channel, <code>←</code> <code>→</code> to change video, <code>P</code> for power. The lineup refreshes itself every hour. In Claude Code, type <code>/tv</code>, or <code>/tv home</code> for your YouTube channel.</p>
 
 <script>
 (() => {
@@ -399,7 +424,7 @@
       const n = document.createElement('span'); n.className = 'n'; n.textContent = pad(i + 1);
       const t = document.createElement('span'); t.className = 't'; t.textContent = video.title || `youtu.be/${video.id}`;
       const m = document.createElement('span'); m.className = 'meta';
-      m.textContent = [ch === 0 || current().source === 'search' ? video.channel : '', video.published ? ago(video.published) : ''].filter(Boolean).join(' · ');
+      m.textContent = [ch === 0 || current().source === 'search' || current().source === 'home' ? video.channel : '', video.published ? ago(video.published) : ''].filter(Boolean).join(' · ');
       b.append(n, t, m);
       b.addEventListener('click', () => { index = i; play(); });
       li.append(b);
@@ -462,6 +487,49 @@
       .slice(0, 25);
   };
 
+  // "Your YouTube": the videos on the viewer's own YouTube home page, sent
+  // here by the bookmarklet below. They never leave this browser: the list is
+  // kept in localStorage until the next send replaces it.
+  const HOME_KEY = 'claudetron-home';
+  const readHome = () => {
+    try {
+      const saved = JSON.parse(localStorage.getItem(HOME_KEY) || 'null');
+      if (saved && Array.isArray(saved.videos) && saved.videos.length) return saved;
+    } catch {}
+    return null;
+  };
+  const saveHome = home => {
+    try { localStorage.setItem(HOME_KEY, JSON.stringify(home)); } catch {}
+  };
+  const homeFromParams = () => {
+    if (params.get('home') !== '1') return null;
+    const ids = (params.get('list') || '').split(',').filter(id => ID.test(id));
+    if (ids.length === 0) return null;
+    let meta = [];
+    try { meta = JSON.parse(params.get('meta') || '[]'); } catch {}
+    const videos = ids.map((id, i) => {
+      const [title, channel] = Array.isArray(meta[i]) ? meta[i] : [];
+      return { id, title: String(title || '').slice(0, 140), published: '', channel: String(channel || '').slice(0, 60) };
+    });
+    return { savedAt: new Date().toISOString(), videos };
+  };
+  const homeChannel = home => ({ slug: 'home', name: 'YOUR YOUTUBE', source: 'home', savedAt: home.savedAt, videos: home.videos });
+
+  // The bookmarklet runs on youtube.com: it reads the video cards on the
+  // page, then opens this TV with their ids, titles and channel names.
+  const BOOKMARKLET = `(()=>{const seen=new Set(),v=[];for(const a of document.querySelectorAll('a[href*="/watch?v="]')){const m=a.href.match(/[?&]v=([\\w-]{11})/);if(!m||seen.has(m[1]))continue;const c=a.closest('ytd-rich-item-renderer,ytd-video-renderer,ytd-compact-video-renderer,ytd-grid-video-renderer,yt-lockup-view-model,ytd-rich-grid-media');if(!c||c.closest('ytd-ad-slot-renderer,ytd-in-feed-ad-layout-renderer'))continue;const q=s=>(c.querySelector(s)?.textContent||'').replace(/\\s+/g,' ').trim();const t=q('#video-title')||q('h3')||a.title||'';const n=q('#channel-name a')||q('ytd-channel-name a')||q('.yt-content-metadata-view-model__metadata-row a')||q('.yt-content-metadata-view-model__metadata-text')||'';seen.add(m[1]);v.push([m[1],t.slice(0,90),n.slice(0,40)]);if(v.length>=40)break}if(!v.length){alert('Claudetron: open your YouTube home page first, let the videos load, then click this again.');return}const u=new URL('${location.origin}${location.pathname}');u.searchParams.set('home','1');u.searchParams.set('list',v.map(x=>x[0]).join(','));u.searchParams.set('meta',JSON.stringify(v.map(x=>[x[1],x[2]])));window.open(u.toString(),'_blank')})()`;
+  document.getElementById('bookmarklet').href = `javascript:${encodeURIComponent(BOOKMARKLET)}`;
+  document.getElementById('bookmarklet').addEventListener('click', e => {
+    e.preventDefault();
+    flashOsd('DRAG ME');
+  });
+  const homeStatus = document.getElementById('home-status');
+  const showHomeStatus = home => {
+    homeStatus.textContent = home
+      ? `Your YouTube channel has ${home.videos.length} videos, sent ${ago(home.savedAt)}. Click Send to Claudetron on YouTube for a fresh batch.`
+      : 'Put the videos from your own YouTube home page on the TV.';
+  };
+
   const fromParams = () => {
     let list = (params.get('list') || '').split(',').filter(id => ID.test(id));
     const first = fromLink(params.get('v'));
@@ -486,8 +554,17 @@
       updated.textContent = '';
     }
     channels = stations.length ? [{ slug: 'mix', name: 'ALL CHANNELS', source: 'mix', videos: mixOf(stations) }, ...stations] : [];
-    const linked = fromParams();
-    const wanted = (params.get('ch') || '').toLowerCase();
+    const sent = homeFromParams();
+    if (sent) {
+      saveHome(sent);
+      // Drop the long link so a reload doesn't count as a fresh send.
+      history.replaceState(null, '', location.pathname);
+    }
+    const home = sent || readHome();
+    showHomeStatus(home);
+    if (home) channels.push(homeChannel(home));
+    const linked = sent ? null : fromParams();
+    const wanted = sent ? 'home' : (params.get('ch') || '').toLowerCase();
     if (linked) {
       const same = channels.findIndex(c => c.name.toLowerCase() === linked.name.toLowerCase());
       if (same > 0) { ch = same; index = Math.max(0, channels[same].videos.findIndex(v => v.id === linked.videos[0].id)); }
@@ -496,6 +573,7 @@
       const found = channels.findIndex(c => c.slug === wanted || c.name.toLowerCase().includes(wanted));
       if (found >= 0) ch = found;
     }
+    if (wanted === 'home' && !home) flashOsd('NO HOME YET');
     if (channels.length === 0) {
       showCard('No lineup yet. It fills in within the hour.');
       readout.textContent = '--';

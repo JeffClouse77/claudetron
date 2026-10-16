@@ -8,6 +8,7 @@ Atlanta United) YouTube videos while you work.
 | --- | --- | --- |
 | Claude Code | `/tv` | Turns the set on or off in a pane beside your work |
 | Claude Code | `/tv braves`, `/tv 3` | Tunes a channel by name or number |
+| Claude Code | `/tv home` | Opens the TV in your browser on YOUR YOUTUBE |
 | Claude Code | `/tv guide` | Prints the lineup in the transcript |
 | Claude Code | `/tv refresh`, `/tv off` | Re-pulls the feeds, or switches it off |
 | claude.ai | `/retro-tv`, `/retro-tv hawks` | Claude shows what's on and hands you a link that turns on the TV |
@@ -30,10 +31,29 @@ Code and `/retro-tv` in claude.ai all read that one file.
 | 05 | Atlanta Hawks | Hawks channel uploads |
 | 06 | Atlanta United | Atlanta United channel uploads |
 | 07 | Atlanta sports news | YouTube search: "Atlanta sports news", this week |
+| 08 | Your YouTube | Your own YouTube home page, sent with one click (below) |
 
 A channel with a `handle` reads that YouTube channel's uploads; one with a
 `query` searches YouTube for the topic. If a channel can't be read, it falls
 back to its search topic, and if that fails too it keeps last hour's videos.
+
+## Your YouTube channel (CH 08)
+
+Your YouTube home page is made for you while you're signed in, and YouTube
+gives no outside program a way to read it, so the hourly job can't fetch it.
+A bookmark does it from your own browser instead:
+
+1. Open the TV page and drag the yellow **📺 Send to Claudetron** button to
+   your bookmarks bar (once).
+2. Open youtube.com signed in, as usual, and let the home page load.
+3. Click **Send to Claudetron**. The TV opens on **YOUR YOUTUBE** with those
+   videos (up to 40, ads and Shorts skipped), and remembers them in that
+   browser until you send a new batch.
+
+Only the video links, titles and channel names go to the TV page, in the
+address bar; nothing is uploaded or stored anywhere but your browser. Open it
+later with `?ch=home`, `/tv home` in Claude Code, or `/retro-tv home` in claude.ai.
+It works in desktop browsers; phone browsers make bookmarks like this awkward.
 
 **To add or change a topic,** edit `config/stations.json`, for example:
 

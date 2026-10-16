@@ -102,6 +102,12 @@ test('/tv braves falls back to YouTube feeds when the lineup is offline and the 
     if (e.url.includes('/@')) return { value: { status: 200, ok: true, headers: {}, text: '"externalId":"UCabcdefghijklmnopqrstuv"' } }
     return { value: { status: 200, ok: true, headers: {}, text: FEED } }
   })
+  const launched: string[][] = []
+  on('process.run', ($, e) => {
+    launched.push([...e.argv])
+    const stdout = e.argv[0] === 'uname' ? 'Darwin\n' : ''
+    return { value: { exitCode: 0, stdout, stderr: '', isStdoutTruncated: false, isStderrTruncated: false } }
+  })
 
   const answer = await $.command.run({ ...RUN, args: 'braves' })
   expect(answer.text).toContain('ATLANTA BRAVES')
@@ -117,6 +123,10 @@ test('/tv braves falls back to YouTube feeds when the lineup is offline and the 
     await ui.press({ key: 'next-vid' })
     await ui.unmount()
   }
+
+  const home = await $.command.run({ ...RUN, args: 'home' })
+  expect(home.text).toContain('YOUR YOUTUBE')
+  expect(launched[launched.length - 1]).toEqual(['open', 'https://jeffclouse77.github.io/claudetron/?ch=home'])
 
   const off = await $.command.run({ ...RUN, args: 'off' })
   expect(off.text).toContain('TV off')

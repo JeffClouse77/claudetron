@@ -23,6 +23,7 @@ search for videos yourself.
 | 05 | hawks | Atlanta Hawks |
 | 06 | united | Atlanta United |
 | 07 | atl-sports | Atlanta sports news |
+| 08 | home | Your YouTube: the person's own YouTube home page |
 
 ## Steps
 
@@ -34,6 +35,15 @@ search for videos yourself.
 3. Reply with a short TV-guide style lineup and the link as **▶ Turn on the TV**:
    - all channels: `https://jeffclouse77.github.io/claudetron/`
    - one channel: `https://jeffclouse77.github.io/claudetron/?ch=<slug>`
+
+## Your YouTube (`/retro-tv home`, "my YouTube", "my feed")
+
+This channel is the person's own YouTube home page, so it is not in
+`lineup.json` and you cannot read it. Give the link
+`https://jeffclouse77.github.io/claudetron/?ch=home` and say: it plays the
+videos they last sent from YouTube in that browser; to fill or refresh it,
+open youtube.com signed in and click the **Send to Claudetron** bookmark (set up
+once from the TV page's "Your YouTube channel" box).
 
 Videos can't play inside a claude.ai artifact (YouTube embeds are blocked
 there), so always give the link: it opens the TV in a browser tab beside Claude.

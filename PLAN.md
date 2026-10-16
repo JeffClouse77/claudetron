@@ -15,6 +15,7 @@ Claude (claude.ai), and use it to play the newest YouTube videos from:
 | 05 | Atlanta Hawks | `@ATLHawks` uploads |
 | 06 | Atlanta United | `@AtlantaUnited` uploads |
 | 07 | Atlanta sports news | Search "Atlanta sports news", this week |
+| 08 | Your YouTube | Your signed-in YouTube home page, sent by a bookmarklet |
 
 The channels fill themselves: nobody loads a list of videos by hand.
 
@@ -43,6 +44,15 @@ the work is split in two:
   one `lineup.json`. The mod falls back to reading the channel feeds itself
   when the page can't be reached.
 
+### 0b. Your YouTube channel: bookmarklet on the player page
+
+YouTube's home feed exists only for a signed-in browser and has no API, so
+the job cannot read it. The player page offers a bookmarklet: run on
+youtube.com, it reads the video cards (both of YouTube's card layouts; ads
+and Shorts skipped, at most 40) and opens the TV with `?home=1&list=…&meta=…`.
+The page saves that to localStorage as CH 08 YOUR YOUTUBE, drops the long
+address, and reopens it later with `?ch=home`. No login or cookie is touched.
+
 ### 1. Claude Code mod: `retro-tv/`
 
 | File | Job |
@@ -60,6 +70,7 @@ the work is split in two:
 | --- | --- |
 | `/tv` | Turn the set on or off |
 | `/tv braves`, `/tv 3` | Tune a channel by name or number |
+| `/tv home` | Open the TV in the browser on YOUR YOUTUBE |
 | `/tv guide` | Print the lineup in the transcript |
 | `/tv refresh` | Re-pull every channel's feed |
 | `/tv off` | Turn it off |
@@ -114,6 +125,8 @@ Makes this repo a plugin marketplace so the mod installs with one command.
 | Mod tests (4) pass on terminal and desktop, lineup and fallback paths | Done |
 | Lineup parser tests (4) pass | Done |
 | Player page loads a sample lineup, tunes `?ch=`, shows NO SIGNAL for an empty station | Done |
+| Bookmarklet on a mock YouTube page: both card layouts read, ad and Short skipped, CH 08 saved and reopened with `?ch=home` | Done |
+| Bookmarklet on the real youtube.com | **Not yet tested** (YouTube unreachable from the build sandbox) |
 | Player page layout checked at desktop and phone width | Done |
 | Live YouTube feeds, search and playback | **Not yet tested** (YouTube was unreachable from the build sandbox); the first Actions run is the live test |
 | Channel handles confirmed | **Not yet confirmed**; a wrong one shows "NO SIGNAL" on that channel |

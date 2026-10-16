@@ -227,8 +227,8 @@ export const register: Register = (on, options) => {
   on('session.start', async ($, e, next) => {
     await $.command.register({
       name: 'tv',
-      description: 'Turn the retro TV on or off, or tune it: /tv braves, /tv 3, /tv guide, /tv off',
-      argumentHint: '[channel | guide | off]',
+      description: 'Turn the retro TV on or off, or tune it: /tv braves, /tv 3, /tv home, /tv guide, /tv off',
+      argumentHint: '[channel | home | guide | off]',
       immediate: true,
     })
     // A hot reload drops the module's timer: start it again if the set was on.
@@ -248,6 +248,18 @@ export const register: Register = (on, options) => {
     if (arg === 'guide') {
       await loadAll($)
       return { text: `TV GUIDE\n${guideText(await read($, feeds), await read($, stations))}` }
+    }
+    if (arg === 'home') {
+      // Your YouTube home feed only exists in your signed-in browser, so this
+      // channel lives on the player page, filled by its bookmarklet.
+      const url = new URL(tvUrl)
+      url.searchParams.set('ch', 'home')
+      const opened = await openInBrowser($, url.toString())
+      return {
+        text: opened
+          ? 'Opening YOUR YOUTUBE on the TV in your browser. If it is empty, open youtube.com and click the "Send to Claudetron" bookmark.'
+          : `Open this for YOUR YOUTUBE: ${url.toString()}`,
+      }
     }
     if (arg === 'refresh') {
       void loadAll($, true)
