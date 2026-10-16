@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T18:47:23.367Z",
+  "updatedAt": "2026-10-16T22:03:55.660Z",
   "stations": [
     {
       "slug": "claude",
@@ -100,7 +100,7 @@
       "source": "channel",
       "channelId": "UCrDwWp7EBBv4NwvScIpBDOA",
       "via": "feed",
-      "updatedAt": "2026-10-16T18:47:21.615Z"
+      "updatedAt": "2026-10-16T22:03:53.806Z"
     },
     {
       "slug": "claude-news",
@@ -108,91 +108,98 @@
       "videos": [
         {
           "id": "An0bnSmS6DE",
-          "title": "ChatGPT vs Claude: Motion Graphics",
-          "published": "2026-10-16T12:47:21.616Z",
+          "title": "ChatGPT vs Claude Motion Graphics (Scary Good)",
+          "published": "2026-10-16T12:03:53.806Z",
           "channel": "Zane Hoyer",
-          "ageText": "6h ago"
+          "ageText": "10h ago"
+        },
+        {
+          "id": "VVWiJm0sA7Y",
+          "title": "I Finally Solved AI Video Editing! (full guide)",
+          "published": "2026-10-15T22:03:53.806Z",
+          "channel": "Duncan Rogoff | Learn Claude Code",
+          "ageText": "1d ago"
         },
         {
           "id": "z3Df2tlvUHY",
           "title": "Claude Motion: Make Animated Videos with Claude AI (Full Tutorial)",
-          "published": "2026-10-15T18:47:21.616Z",
+          "published": "2026-10-15T22:03:53.806Z",
           "channel": "Hrishikesh Roy",
           "ageText": "1d ago"
         },
         {
-          "id": "efjJH2rVykc",
-          "title": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
-          "published": "2026-10-13T18:47:21.616Z",
-          "channel": "AI Revolution",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "lTXeZSgOJLY",
-          "title": "ULTIMATE Claude Tutorial: How to Use Claude AI for Beginners in 2026",
-          "published": "2026-10-12T18:47:21.616Z",
-          "channel": "AI Master",
+          "id": "MLl41Q9p3Ps",
+          "title": "Claude Projects Just Got Rebuilt (Full Guide)",
+          "published": "2026-10-12T22:03:53.806Z",
+          "channel": "AI Foundations",
           "ageText": "4d ago"
         },
         {
           "id": "CwwJQYOYlXQ",
           "title": "Claude Just Changed How I Make AI Dashboards FOREVER! (Claude Motion)",
-          "published": "2026-10-12T18:47:21.616Z",
+          "published": "2026-10-12T22:03:53.806Z",
           "channel": "AI Impact",
           "ageText": "4d ago"
         },
         {
-          "id": "MLl41Q9p3Ps",
-          "title": "Claude Projects Just Got Rebuilt (Full Guide)",
-          "published": "2026-10-12T18:47:21.616Z",
-          "channel": "AI Foundations",
+          "id": "efjJH2rVykc",
+          "title": "Anthropic's New Claude NEXT Leak Exposes a MAJOR Breakthrough",
+          "published": "2026-10-12T22:03:53.806Z",
+          "channel": "AI Revolution",
+          "ageText": "4d ago"
+        },
+        {
+          "id": "HYbRdc_3_LQ",
+          "title": "Claude Opus 5.5 Edited This ENTIRE Video In 5 Minutes 🔥",
+          "published": "2026-10-12T22:03:53.806Z",
+          "channel": "Summia Jamshed",
+          "ageText": "4d ago"
+        },
+        {
+          "id": "x2F3fdn82GU",
+          "title": "Adobe is Freaking Out (Claude Cloned Everything for Free)",
+          "published": "2026-10-12T22:03:53.806Z",
+          "channel": "AI Samson",
           "ageText": "4d ago"
         },
         {
           "id": "gvESqM6s0kM",
           "title": "Claude 5.5 Model Mistakes you may still be making (23 Tips and Fixes)",
-          "published": "2026-10-12T18:47:21.616Z",
+          "published": "2026-10-12T22:03:53.806Z",
           "channel": "Jay E | RoboNuggets",
           "ageText": "4d ago"
         },
         {
-          "id": "UFa8pXW9A3k",
-          "title": "Claude's New Updates Are Insane… But Grok Bot Is EVEN Bigger",
-          "published": "2026-10-11T18:47:21.616Z",
-          "channel": "Riley Brown",
+          "id": "lTXeZSgOJLY",
+          "title": "ULTIMATE Claude Tutorial: How to Use Claude AI for Beginners in 2026",
+          "published": "2026-10-11T22:03:53.806Z",
+          "channel": "AI Master",
           "ageText": "5d ago"
         },
         {
           "id": "Xbevl9AdX7g",
           "title": "Steal this 1 Claude AI landing page strategy until you hit $1M/mo",
-          "published": "2026-10-11T18:47:21.616Z",
+          "published": "2026-10-11T22:03:53.806Z",
           "channel": "Matt Clark",
           "ageText": "5d ago"
         },
         {
-          "id": "8erpJHybmQQ",
-          "title": "Claude AI Edits Videos BETTER Than ChatGPT - CRAZY & FREE - MAKE EASY MONEY",
-          "published": "2026-10-11T18:47:21.616Z",
-          "channel": "All Thingz Real",
-          "ageText": "5d ago"
-        },
-        {
-          "id": "cfb3kuGWymM",
-          "title": "Claude AI Trading Bot Helped Me Quit My 9-5: AI Agent Day Trading",
-          "published": "2026-10-10T18:47:21.616Z",
-          "channel": "Eric Leduc",
+          "id": "UFa8pXW9A3k",
+          "title": "Claude's New Updates Are Insane… But Grok Bot Is EVEN Bigger",
+          "published": "2026-10-10T22:03:53.806Z",
+          "channel": "Riley Brown",
           "ageText": "6d ago"
         },
         {
           "id": "_dudykoLaDg",
           "title": "The Ultimate Claude AI Tutorial (Beginner to Pro)",
-          "published": "2026-10-09T18:47:21.616Z",
+          "published": "2026-10-09T22:03:53.806Z",
           "channel": "Zinho Automates",
           "ageText": "7d ago"
         }
       ],
       "source": "search",
-      "updatedAt": "2026-10-16T18:47:22.177Z"
+      "updatedAt": "2026-10-16T22:03:54.525Z"
     },
     {
       "slug": "braves",
@@ -293,7 +300,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-16T18:47:22.292Z"
+      "updatedAt": "2026-10-16T22:03:54.702Z"
     },
     {
       "slug": "falcons",
@@ -394,7 +401,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-16T18:47:22.443Z"
+      "updatedAt": "2026-10-16T22:03:54.813Z"
     },
     {
       "slug": "hawks",
@@ -495,7 +502,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-16T18:47:22.570Z"
+      "updatedAt": "2026-10-16T22:03:54.914Z"
     },
     {
       "slug": "united",
@@ -596,120 +603,120 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-16T18:47:22.681Z"
+      "updatedAt": "2026-10-16T22:03:54.919Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATL SPORTS NEWS",
       "videos": [
         {
+          "id": "dnWtNCwfw8M",
+          "title": "Trump Heckled at Georgia Rally as Protesters Chant “ICE OUT” and “No ICE at Pools” | AC1N",
+          "published": "2026-10-16T21:17:54.919Z",
+          "channel": "DRM News",
+          "ageText": "46 min ago"
+        },
+        {
+          "id": "TvPuzDG8l4E",
+          "title": "🚨BREAKING: Falcons Fans Just Got A TRUCKLOAD Of News Before Bears Game | Falcons Injury News",
+          "published": "2026-10-16T18:03:54.919Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "4h ago"
+        },
+        {
           "id": "dij2-bgdRuM",
           "title": "THANK YOU JEFF!!!",
-          "published": "2026-10-16T16:47:22.681Z",
+          "published": "2026-10-16T17:03:54.919Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "2h ago"
+          "ageText": "5h ago"
+        },
+        {
+          "id": "V6V9q-GBzwQ",
+          "title": "THE FLOWER GIRL!!",
+          "published": "2026-10-16T12:03:54.919Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "10h ago"
         },
         {
           "id": "-bv2LdMmoFE",
           "title": "JASON BRING YO FAT CHINS HERE!!!!~",
-          "published": "2026-10-16T01:47:22.681Z",
+          "published": "2026-10-16T02:03:54.919Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "ls2FF_DCqbE",
-          "title": "Atlanta Falcons News | Coordinators SOUND OFF Before NFL Week 6 Game vs. Chicago Bears",
-          "published": "2026-10-15T22:47:22.681Z",
-          "channel": "Falcons Today by Chat Sports",
           "ageText": "20h ago"
-        },
-        {
-          "id": "ra_7jeqxvR0",
-          "title": "🚨HUGE Atlanta Falcons News That Falcons Fans NEED To Know Before Bears Game",
-          "published": "2026-10-15T21:47:22.681Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "Streamed 21h ago"
         },
         {
           "id": "Zt8lOf3xjfQ",
           "title": "What Michael Penix Jr.'s rib injury means for the Atlanta Falcons lineup | Pro Football Talk",
-          "published": "2026-10-15T18:47:22.681Z",
+          "published": "2026-10-15T22:03:54.919Z",
           "channel": "NFL on NBC",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "PVZHmmoNBxQ",
+          "title": "Angel Reese & The Atlanta Dream Just Received Some SHOCKING News ‼️👀",
+          "published": "2026-10-15T22:03:54.919Z",
+          "channel": "WOMENS HOOPS REPORT",
           "ageText": "1d ago"
         },
         {
           "id": "tBJHMO2cmeI",
           "title": "Atlanta Hawks Jalen Johnson CANNOT DISAPPEAR This Season!",
-          "published": "2026-10-14T18:47:22.681Z",
+          "published": "2026-10-14T22:03:54.919Z",
           "channel": "Uncut Atlanta Sports",
           "ageText": "2d ago"
         },
         {
           "id": "IBUxxoQ3L6c",
           "title": "Chicago Bears vs Atlanta Falcons | 2026 Week 6 Game Preview",
-          "published": "2026-10-14T18:47:22.681Z",
+          "published": "2026-10-14T22:03:54.919Z",
           "channel": "NFL and 2 more",
           "ageText": "2d ago"
         },
         {
           "id": "OUAcw1E2d7I",
           "title": "Hottest sports team in Atlanta without playoff venue",
-          "published": "2026-10-13T18:47:22.681Z",
+          "published": "2026-10-13T22:03:54.919Z",
           "channel": "Atlanta News First",
           "ageText": "3d ago"
         },
         {
-          "id": "FdAQ16549wM",
-          "title": "The Ravens Knew Tua Tagovailoa Was No Michael Penix | MMQB",
-          "published": "2026-10-13T18:47:22.681Z",
-          "channel": "Sports Illustrated",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "saAwaPOPT8w",
-          "title": "🚨HOLY SH**! So Much Atlanta Falcons News Just Happened After Ravens Loss",
-          "published": "2026-10-13T18:47:22.681Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "Gzcgbvd8Qeg",
-          "title": "🚨JUST IN: Huge Atlanta Falcons News After Loss vs. Baltimore Ravens | Falcons Injury News",
-          "published": "2026-10-13T18:47:22.681Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "Streamed 3d ago"
+          "id": "sZrESe_Y0YA",
+          "title": "Unc & Ocho RIP Tua for COSTLY INT as Derrick Henry & Ravens STUN Falcons! | Nightcap",
+          "published": "2026-10-12T22:03:54.919Z",
+          "channel": "Nightcap",
+          "ageText": "4d ago"
         },
         {
           "id": "AjGsEO0CPx8",
           "title": "Ravens escape Falcons in OT behind Tyler Huntley's heroics | Michael Penix Jr. exits with injury",
-          "published": "2026-10-12T18:47:22.681Z",
+          "published": "2026-10-12T22:03:54.919Z",
           "channel": "CBS Sports",
-          "ageText": "4d ago"
-        },
-        {
-          "id": "sZrESe_Y0YA",
-          "title": "Unc & Ocho RIP Tua for COSTLY INT as Derrick Henry & Ravens STUN Falcons! | Nightcap",
-          "published": "2026-10-12T18:47:22.681Z",
-          "channel": "Nightcap",
           "ageText": "4d ago"
         },
         {
           "id": "hA3YFMrcJHo",
           "title": "Ravens beat Falcons in OT 😤 49ers stay unbeaten + Commanders' blunder | SC with SVP",
-          "published": "2026-10-12T18:47:22.681Z",
+          "published": "2026-10-12T22:03:54.919Z",
           "channel": "ESPN",
           "ageText": "4d ago"
         },
         {
-          "id": "fVlmow2jCDA",
-          "title": "Baltimore Ravens vs Atlanta Falcons Game Highlights | 2026 NFL Season Week 5",
-          "published": "2026-10-12T18:47:22.681Z",
-          "channel": "NFL",
+          "id": "Gzcgbvd8Qeg",
+          "title": "🚨JUST IN: Huge Atlanta Falcons News After Loss vs. Baltimore Ravens | Falcons Injury News",
+          "published": "2026-10-12T22:03:54.919Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "Streamed 4d ago"
+        },
+        {
+          "id": "saAwaPOPT8w",
+          "title": "🚨HOLY SH**! So Much Atlanta Falcons News Just Happened After Ravens Loss",
+          "published": "2026-10-12T22:03:54.919Z",
+          "channel": "Falcons Today by Chat Sports",
           "ageText": "4d ago"
         }
       ],
       "source": "search",
-      "updatedAt": "2026-10-16T18:47:23.367Z"
+      "updatedAt": "2026-10-16T22:03:55.660Z"
     }
   ]
 }
