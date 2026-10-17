@@ -15,25 +15,25 @@ search for videos yourself.
 
 | Ch | Slug | Station |
 | --- | --- | --- |
-| 00 | (none) | All channels, newest first |
-| 01 | claude | Claude / Anthropic |
-| 02 | claude-news | Claude AI news |
-| 03 | braves | Atlanta Braves |
-| 04 | falcons | Atlanta Falcons |
-| 05 | hawks | Atlanta Hawks |
-| 06 | united | Atlanta United |
-| 07 | atl-sports | Atlanta sports news |
-| 08 | home | Your YouTube: the person's own YouTube home page |
+| 00 | home | Your YouTube: the person's own YouTube home page (the default) |
+| 01 | claude | Claude AI: Anthropic's channel plus Claude AI and Claude Code videos |
+| 02 | ai-news | AI news from across YouTube |
+| 03 | atl-sports | Atlanta sports: Braves, Falcons, Hawks, United and local sports news |
+| 04 | braves | Atlanta Braves |
+| 05 | falcons | Atlanta Falcons |
+| 06 | hawks | Atlanta Hawks |
+| 07 | united | Atlanta United |
 
 ## Steps
 
-1. Work out the channel: `/retro-tv` alone means all channels; `/retro-tv hawks`
-   (or a team, topic or number) means that one.
+1. Work out the channel: `/retro-tv` alone means the TV as it starts (CH 00,
+   your YouTube); `/retro-tv hawks` (or a team, topic or number) means that one.
+   For CH 00 follow "Your YouTube" below instead of steps 2-3.
 2. Fetch `https://jeffclouse77.github.io/claudetron/lineup.json` and read the
    matching station's first few videos (title, channel, published time). If
    the fetch fails, skip the lineup and just give the link.
 3. Reply with a short TV-guide style lineup and the link as **▶ Turn on the TV**:
-   - all channels: `https://jeffclouse77.github.io/claudetron/`
+   - the TV as it starts: `https://jeffclouse77.github.io/claudetron/`
    - one channel: `https://jeffclouse77.github.io/claudetron/?ch=<slug>`
 
 ## Your YouTube (`/retro-tv home`, "my YouTube", "my feed")

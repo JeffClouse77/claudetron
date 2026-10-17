@@ -26,6 +26,7 @@
     color-scheme: dark;
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   html, body { height: 100%; }
   body {
     margin: 0;
@@ -213,6 +214,7 @@
   .home-setup h2 { font: 700 12px var(--font-label); letter-spacing: .2em; text-transform: uppercase; color: var(--brass); margin: 0; }
   .home-setup p, .home-setup ol { margin: 0; color: var(--ink-dim); font-size: 14px; }
   .home-setup ol { padding-left: 20px; display: grid; gap: 4px; }
+  .home-setup.nudge { border-style: solid; border-color: var(--amber); }
   .bookmarklet {
     justify-self: start;
     font: 700 13px var(--font-label); letter-spacing: .08em; text-decoration: none;
@@ -289,12 +291,12 @@
 
   <section class="home-setup" id="home-setup" aria-labelledby="home-title">
     <h2 id="home-title">Your YouTube channel</h2>
-    <p id="home-status">Put the videos from your own YouTube home page on the TV.</p>
+    <p id="home-status">Channel 00 is your own YouTube home page. Set it up once and the TV starts there.</p>
     <a class="bookmarklet" id="bookmarklet" href="#" title="Drag me to your bookmarks bar">📺 Send to Claudetron</a>
     <ol>
       <li>Drag the yellow button above to your browser's bookmarks bar (one time only).</li>
       <li>Open <strong>youtube.com</strong> signed in, as you normally would, and scroll a little so your home page loads.</li>
-      <li>Click <strong>Send to Claudetron</strong> in your bookmarks bar. The TV opens on <strong>YOUR YOUTUBE</strong> with those videos. Click it again any time for a fresh batch.</li>
+      <li>Click <strong>Send to Claudetron</strong> in your bookmarks bar. The TV opens on <strong>CH 00 YOUR YOUTUBE</strong> with those videos, and starts there from then on. Click it again any time for a fresh batch.</li>
     </ol>
   </section>
 
@@ -372,7 +374,7 @@
 
   let frameEl;
   const showCard = text => {
-    if (frameEl) frameEl.src = 'about:blank';
+    if (frameEl) { frameEl.src = 'about:blank'; frameEl.hidden = true; }
     card.hidden = false;
     cardline.textContent = text;
   };
@@ -385,7 +387,9 @@
     await burst(450);
     const videos = channel.videos;
     if (videos.length === 0) {
-      showCard(channel.error ? `NO SIGNAL · ${channel.name}` : `CH ${pad(ch)} · no videos yet`);
+      showCard(channel.slug === 'home'
+        ? 'YOUR YOUTUBE is empty. Use Send to Claudetron (box below) on your YouTube home page.'
+        : channel.error ? `NO SIGNAL · ${channel.name}` : `CH ${pad(ch)} · no videos yet`);
       flashOsd(`CH ${pad(ch)}`);
       return;
     }
@@ -402,6 +406,7 @@
       tube.insertBefore(frameEl, canvas);
     }
     frameEl.src = src;
+    frameEl.hidden = false;
     card.hidden = true;
     flashOsd(`CH ${pad(ch)}`);
   };
@@ -424,7 +429,7 @@
       const n = document.createElement('span'); n.className = 'n'; n.textContent = pad(i + 1);
       const t = document.createElement('span'); t.className = 't'; t.textContent = video.title || `youtu.be/${video.id}`;
       const m = document.createElement('span'); m.className = 'meta';
-      m.textContent = [ch === 0 || current().source === 'search' || current().source === 'home' ? video.channel : '', video.published ? ago(video.published) : ''].filter(Boolean).join(' · ');
+      m.textContent = [video.channel || '', video.published ? ago(video.published) : ''].filter(Boolean).join(' · ');
       b.append(n, t, m);
       b.addEventListener('click', () => { index = i; play(); });
       li.append(b);
@@ -474,18 +479,11 @@
     e.preventDefault();
     const id = fromLink(document.getElementById('paste').value);
     if (!id) { flashOsd('NO SIGNAL'); return; }
-    channels.unshift({ slug: 'pasted', name: 'YOUR PICK', videos: [{ id, title: '', published: '', channel: '' }] });
-    ch = 0; index = 0;
+    channels.push({ slug: 'pasted', name: 'YOUR PICK', videos: [{ id, title: '', published: '', channel: '' }] });
+    ch = channels.length - 1; index = 0;
     play();
   });
 
-  const mixOf = stations => {
-    const seen = new Set();
-    return stations.flatMap(s => s.videos.map(v => ({ ...v, channel: v.channel || s.name })))
-      .filter(v => (seen.has(v.id) ? false : (seen.add(v.id), true)))
-      .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
-      .slice(0, 25);
-  };
 
   // "Your YouTube": the videos on the viewer's own YouTube home page, sent
   // here by the bookmarklet below. They never leave this browser: the list is
@@ -527,7 +525,7 @@
   const showHomeStatus = home => {
     homeStatus.textContent = home
       ? `Your YouTube channel has ${home.videos.length} videos, sent ${ago(home.savedAt)}. Click Send to Claudetron on YouTube for a fresh batch.`
-      : 'Put the videos from your own YouTube home page on the TV.';
+      : 'Channel 00 is your own YouTube home page. Set it up once and the TV starts there.';
   };
 
   const fromParams = () => {
@@ -553,7 +551,6 @@
     } catch {
       updated.textContent = '';
     }
-    channels = stations.length ? [{ slug: 'mix', name: 'ALL CHANNELS', source: 'mix', videos: mixOf(stations) }, ...stations] : [];
     const sent = homeFromParams();
     if (sent) {
       saveHome(sent);
@@ -562,23 +559,24 @@
     }
     const home = sent || readHome();
     showHomeStatus(home);
-    if (home) channels.push(homeChannel(home));
+    // CH 00 is always YOUR YOUTUBE, so the numbers match /tv in Claude Code.
+    channels = [homeChannel(home || { savedAt: null, videos: [] }), ...stations];
+    // Start on your YouTube when it has videos, else on the first interest.
+    ch = home ? 0 : Math.min(1, channels.length - 1);
     const linked = sent ? null : fromParams();
     const wanted = sent ? 'home' : (params.get('ch') || '').toLowerCase();
     if (linked) {
       const same = channels.findIndex(c => c.name.toLowerCase() === linked.name.toLowerCase());
       if (same > 0) { ch = same; index = Math.max(0, channels[same].videos.findIndex(v => v.id === linked.videos[0].id)); }
-      else { channels.unshift(linked); ch = 0; }
+      else { channels.push(linked); ch = channels.length - 1; }
     } else if (wanted) {
-      const found = channels.findIndex(c => c.slug === wanted || c.name.toLowerCase().includes(wanted));
+      let found = channels.findIndex(c => c.slug === wanted);
+      if (found < 0) found = channels.findIndex(c => c.slug.startsWith(wanted));
+      if (found < 0) found = channels.findIndex(c => c.name.toLowerCase().includes(wanted));
       if (found >= 0) ch = found;
     }
-    if (wanted === 'home' && !home) flashOsd('NO HOME YET');
-    if (channels.length === 0) {
-      showCard('No lineup yet. It fills in within the hour.');
-      readout.textContent = '--';
-      return;
-    }
+    if (wanted === 'home' && !home) { ch = 0; flashOsd('NO HOME YET'); }
+    if (!home) document.getElementById('home-setup').classList.add('nudge');
     play();
   };
   start();

@@ -8,7 +8,6 @@ import {
   age,
   cellsBase64,
   findChannelId,
-  mix,
   parseFeed,
   parseLineup,
   plain,
@@ -23,7 +22,7 @@ const PANE = 'retro-tv'
 const STALE_MS = 15 * 60 * 1000
 const STATIC_MS = 700
 
-const channel = atom({ plugin: 'retro-tv', key: 'channel' } as const, 1)
+const channel = atom({ plugin: 'retro-tv', key: 'channel' } as const, 0)
 const video = atom({ plugin: 'retro-tv', key: 'video' } as const, 0)
 const feeds = atom({ plugin: 'retro-tv', key: 'feeds' } as const, {} as Record<string, Feed>)
 const staticUntil = atom({ plugin: 'retro-tv', key: 'staticUntil' } as const, 0)
@@ -49,18 +48,14 @@ let frame = 0
 function videosOf(all: Record<string, Feed>, list: readonly Channel[], index: number): Video[] {
   const picked = channelsOf(list)[index]
   if (picked === undefined) return []
-  if (picked.slug === 'mix') return mix(list.map(station => all[station.slug]?.videos ?? []))
   return all[picked.slug]?.videos ?? []
 }
 
 function statusOf(all: Record<string, Feed>, list: readonly Channel[], index: number): Feed['status'] {
   const picked = channelsOf(list)[index]
   if (picked === undefined) return 'error'
-  if (picked.slug !== 'mix') return all[picked.slug]?.status ?? 'idle'
-  const states = list.map(station => all[station.slug]?.status ?? 'idle')
-  if (states.includes('ok')) return 'ok'
-  if (states.includes('loading') || states.includes('idle')) return 'loading'
-  return 'error'
+  if (picked.slug === 'home') return 'ok'
+  return all[picked.slug]?.status ?? 'idle'
 }
 
 async function setFeed($: EngineInterface, slug: string, feed: Feed) {
@@ -217,12 +212,13 @@ function guideText(all: Record<string, Feed>, list: readonly Channel[]): string 
     const videos = videosOf(all, list, index)
     const newest = videos[0]
     const label = `CH ${String(index).padStart(2, '0')}  ${picked.name}`
+    if (picked.slug === 'home') return `${label}: plays in your browser (/tv home)`
     return newest === undefined ? `${label}: (no signal yet)` : `${label}: ${newest.title}`
   }).join('\n')
 }
 
 export const register: Register = (on, options) => {
-  const tvUrl = typeof options.tvUrl === 'string' && options.tvUrl !== '' ? options.tvUrl : 'https://jeffclouse77.github.io/claudetron/'
+  tvUrl = typeof options.tvUrl === 'string' && options.tvUrl !== '' ? options.tvUrl : DEFAULT_TV_URL
 
   on('session.start', async ($, e, next) => {
     await $.command.register({
@@ -312,9 +308,19 @@ export const register: Register = (on, options) => {
 
     let mode: Screen['mode'] = 'picture'
     let lines: string[]
+    const homeUrl = new URL(tvUrl)
+    homeUrl.searchParams.set('ch', 'home')
     if (now < until) {
       mode = 'static'
       lines = [` CH ${number} `]
+    } else if (picked.slug === 'home') {
+      lines = [
+        `CH ${number}  ${picked.name}`,
+        '',
+        ...wrap('Your own YouTube home page. It plays on the TV in your browser.', textWidth, 3),
+        '',
+        '▶ press W to watch',
+      ]
     } else if (current === undefined) {
       mode = 'bars'
       lines =
@@ -328,20 +334,26 @@ export const register: Register = (on, options) => {
         '',
         ...title,
         '',
-        `${picked.slug === 'mix' ? `${current.channel} · ` : ''}${age(current.published, now)} · ${pick + 1}/${list.length}`,
+        `${current.channel ? `${current.channel} · ` : ''}${age(current.published, now)} · ${pick + 1}/${list.length}`,
         '',
         '▶ press W to watch',
       ]
     }
 
-    const watch = current === undefined ? undefined : watchUrl(tvUrl, picked, list, Math.min(pick, list.length - 1))
+    const watch =
+      picked.slug === 'home'
+        ? homeUrl.toString()
+        : current === undefined
+          ? undefined
+          : watchUrl(tvUrl, picked, list, Math.min(pick, list.length - 1))
     const antennaPad = ' '.repeat(Math.max(0, Math.floor(screenColumns / 2) - 2))
 
     const { Box, Text, Button, Link } = $.ui.resolve(e)
     const pressWatch = async () => {
       if (watch === undefined) return
       const opened = await openInBrowser($, watch)
-      $.ui.toast(opened ? `Now playing: ${current?.title ?? ''}` : `Open this to watch: ${watch}`)
+      const what = picked.slug === 'home' ? 'YOUR YOUTUBE' : current?.title ?? ''
+      $.ui.toast(opened ? `Now playing: ${what}` : `Open this to watch: ${watch}`)
     }
 
     let screen = null

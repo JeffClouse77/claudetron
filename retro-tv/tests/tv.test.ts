@@ -33,7 +33,9 @@ test('reads a channel page and its uploads feed', async () => {
   expect(videos.length).toBe(2)
   expect(videos[0]?.title).toBe('Braves walk it off & clinch')
   const channels = channelsOf(STATIONS)
-  expect(tune('braves', channels)).toBe(3)
+  expect(tune('braves', channels)).toBe(4)
+  expect(tune('home', channels)).toBe(0)
+  expect(tune('ai', channels)).toBe(2)
   expect(tune('claude', channels)).toBe(1)
   expect(tune('0', channels)).toBe(0)
   expect(tune('cubs', channels)).toBe(undefined)
@@ -73,13 +75,22 @@ test('/tv tunes from the online lineup without touching YouTube', async ($, on) 
     return { value: { status: 404, ok: false, headers: {}, text: '' } }
   })
 
+  const first = await $.command.run({ ...RUN, args: '' })
+  expect(first.text).toContain('CH 00 YOUR YOUTUBE')
+  expect(asked).toEqual(['https://jeffclouse77.github.io/claudetron/lineup.json'])
+  for (const surface of ['terminal', 'desktop'] as const) {
+    const ui = await $.ui.mount({ ...PANE, surface })
+    expect(await ui.find({ key: 'watch' })).toBeDefined()
+    await ui.unmount()
+  }
+
   const answer = await $.command.run({ ...RUN, args: 'hawks' })
   expect(answer.text).toContain('CH 02 ATLANTA HAWKS')
-  expect(asked).toEqual(['https://jeffclouse77.github.io/claudetron/lineup.json'])
 
   const guide = await $.command.run({ ...RUN, args: 'guide' })
   expect(guide.text).toContain('Hawks open the season')
   expect(guide.text).toContain('ATL SPORTS NEWS: (no signal yet)')
+  expect(guide.text).toContain('CH 00  YOUR YOUTUBE: plays in your browser')
 
   for (const surface of ['terminal', 'desktop'] as const) {
     const ui = await $.ui.mount({ ...PANE, surface })

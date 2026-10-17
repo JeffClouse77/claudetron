@@ -7,15 +7,14 @@ Claude (claude.ai), and use it to play the newest YouTube videos from:
 
 | Ch | Station | How videos are found |
 | --- | --- | --- |
-| 00 | All channels | Newest from every station below |
-| 01 | Claude / Anthropic | `@anthropic-ai` uploads |
-| 02 | Claude AI news | Search "Claude AI", this week |
-| 03 | Atlanta Braves | `@Braves` uploads |
-| 04 | Atlanta Falcons | `@AtlantaFalcons` uploads |
-| 05 | Atlanta Hawks | `@ATLHawks` uploads |
-| 06 | Atlanta United | `@AtlantaUnited` uploads |
-| 07 | Atlanta sports news | Search "Atlanta sports news", this week |
-| 08 | Your YouTube | Your signed-in YouTube home page, sent by a bookmarklet |
+| 00 | Your YouTube (default) | Your signed-in YouTube home page, sent by a bookmarklet |
+| 01 | Claude AI | Blend: `@anthropic-ai` uploads + searches "Claude AI", "Claude Code" |
+| 02 | AI news | Blend: three AI-news searches |
+| 03 | Atlanta sports | Blend: channels 04-07 + search "Atlanta sports news" |
+| 04 | Atlanta Braves | `@Braves` uploads |
+| 05 | Atlanta Falcons | `@AtlantaFalcons` uploads |
+| 06 | Atlanta Hawks | `@ATLHawks` uploads |
+| 07 | Atlanta United | `@AtlantaUnited` uploads |
 
 The channels fill themselves: nobody loads a list of videos by hand.
 
@@ -50,7 +49,7 @@ YouTube's home feed exists only for a signed-in browser and has no API, so
 the job cannot read it. The player page offers a bookmarklet: run on
 youtube.com, it reads the video cards (both of YouTube's card layouts; ads
 and Shorts skipped, at most 40) and opens the TV with `?home=1&list=…&meta=…`.
-The page saves that to localStorage as CH 08 YOUR YOUTUBE, drops the long
+The page saves that to localStorage as CH 00 YOUR YOUTUBE, where the TV starts, drops the long
 address, and reopens it later with `?ch=home`. No login or cookie is touched.
 
 ### 1. Claude Code mod: `retro-tv/`
@@ -125,7 +124,7 @@ Makes this repo a plugin marketplace so the mod installs with one command.
 | Mod tests (4) pass on terminal and desktop, lineup and fallback paths | Done |
 | Lineup parser tests (4) pass | Done |
 | Player page loads a sample lineup, tunes `?ch=`, shows NO SIGNAL for an empty station | Done |
-| Bookmarklet on a mock YouTube page: both card layouts read, ad and Short skipped, CH 08 saved and reopened with `?ch=home` | Done |
+| Bookmarklet on a mock YouTube page: both card layouts read, ad and Short skipped, CH 00 saved and reopened with `?ch=home` | Done |
 | Bookmarklet on the real youtube.com | **Not yet tested** (YouTube unreachable from the build sandbox) |
 | Player page layout checked at desktop and phone width | Done |
 | Live YouTube feeds, search and playback | **Not yet tested** (YouTube was unreachable from the build sandbox); the first Actions run is the live test |

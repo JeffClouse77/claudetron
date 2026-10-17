@@ -23,21 +23,24 @@ Code and `/retro-tv` in claude.ai all read that one file.
 
 | Ch | Channel | How it finds videos |
 | --- | --- | --- |
-| 00 | All channels | The newest from every channel below |
-| 01 | Claude / Anthropic | Anthropic's YouTube uploads |
-| 02 | Claude AI news | YouTube search: "Claude AI", this week |
-| 03 | Atlanta Braves | Braves channel uploads |
-| 04 | Atlanta Falcons | Falcons channel uploads |
-| 05 | Atlanta Hawks | Hawks channel uploads |
-| 06 | Atlanta United | Atlanta United channel uploads |
-| 07 | Atlanta sports news | YouTube search: "Atlanta sports news", this week |
-| 08 | Your YouTube | Your own YouTube home page, sent with one click (below) |
+| 00 | **Your YouTube** (where the TV starts) | Your own YouTube home page, sent with one click (below) |
+| 01 | Claude AI | Anthropic's channel + YouTube searches "Claude AI" and "Claude Code" |
+| 02 | AI news | YouTube searches "AI news", "artificial intelligence news this week", "new AI model release" |
+| 03 | Atlanta sports | Channels 04-07 together, plus a search for "Atlanta sports news" |
+| 04 | Atlanta Braves | Braves channel uploads |
+| 05 | Atlanta Falcons | Falcons channel uploads |
+| 06 | Atlanta Hawks | Hawks channel uploads |
+| 07 | Atlanta United | Atlanta United FC channel uploads |
+
+A channel with several sources blends them, each getting a fair share of the
+20 slots, newest first. Until you've sent your YouTube home once, the TV starts
+on channel 01.
 
 A channel with a `handle` reads that YouTube channel's uploads; one with a
 `query` searches YouTube for the topic. If a channel can't be read, it falls
 back to its search topic, and if that fails too it keeps last hour's videos.
 
-## Your YouTube channel (CH 08)
+## Your YouTube channel (CH 00)
 
 Your YouTube home page is made for you while you're signed in, and YouTube
 gives no outside program a way to read it, so the hourly job can't fetch it.
@@ -46,7 +49,7 @@ A bookmark does it from your own browser instead:
 1. Open the TV page and drag the yellow **📺 Send to Claudetron** button to
    your bookmarks bar (once).
 2. Open youtube.com signed in, as usual, and let the home page load.
-3. Click **Send to Claudetron**. The TV opens on **YOUR YOUTUBE** with those
+3. Click **Send to Claudetron**. The TV opens on **CH 00 YOUR YOUTUBE** with those
    videos (up to 40, ads and Shorts skipped), and remembers them in that
    browser until you send a new batch.
 
@@ -55,10 +58,19 @@ address bar; nothing is uploaded or stored anywhere but your browser. Open it
 later with `?ch=home`, `/tv home` in Claude Code, or `/retro-tv home` in claude.ai.
 It works in desktop browsers; phone browsers make bookmarks like this awkward.
 
-**To add or change a topic,** edit `config/stations.json`, for example:
+**To add or change a channel,** edit `config/stations.json` (or just ask
+Claude to). A one-source channel:
 
 ```json
 { "slug": "dawgs", "name": "GEORGIA BULLDOGS", "handle": "@GeorgiaBulldogs", "query": "Georgia Bulldogs football highlights" }
+```
+
+A blended channel lists `sources`: `{ "handle": "@..." }` for a YouTube
+channel, `{ "query": "..." }` for a search, `{ "from": "<slug>" }` for
+another channel's videos:
+
+```json
+{ "slug": "tech", "name": "TECH", "sources": [{ "handle": "@mkbhd" }, { "query": "tech news" }] }
 ```
 
 Commit it and the job runs right away. Run it by hand any time from the

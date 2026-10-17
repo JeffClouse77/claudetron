@@ -11,7 +11,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
-import { channelTitle, findChannelId, newestFirst, parseChannelVideos, parseFeed, parseSearch } from './lineup-lib.mjs'
+import { blend, channelTitle, findChannelId, newestFirst, parseChannelVideos, parseFeed, parseSearch } from './lineup-lib.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const CONFIG = `${root}config/stations.json`
@@ -86,6 +86,34 @@ async function tuneStation(station, limit) {
   throw new Error(errors.join('; ') || 'station has neither handle nor query')
 }
 
+/**
+ * A station with `sources` blends them all: `{ handle }` a channel's uploads,
+ * `{ query }` a YouTube search, `{ from }` another station's videos.
+ */
+async function tuneBlend(station, limit, tuned) {
+  const lists = []
+  const errors = []
+  for (const source of station.sources) {
+    const label = source.from ? `from ${source.from}` : source.handle ?? `"${source.query}"`
+    try {
+      if (source.from) {
+        const other = tuned.get(source.from)
+        if (!other || other.videos.length === 0) throw new Error('that station has no videos')
+        lists.push(other.videos)
+      } else if (source.handle) {
+        lists.push((await fromChannel({ ...station, handle: source.handle, channelId: undefined })).videos)
+      } else if (source.query) {
+        lists.push((await fromSearch({ ...station, query: source.query }, limit)).videos)
+      }
+    } catch (error) {
+      errors.push(`${label}: ${error.message}`)
+      console.log(`      ${station.slug} ${label}: ${error.message}`)
+    }
+  }
+  if (lists.length === 0) throw new Error(errors.join('; ') || 'no sources')
+  return { videos: blend(lists, limit), source: 'blend', ...(errors.length ? { sourceErrors: errors } : {}) }
+}
+
 const config = JSON.parse(await readFile(CONFIG, 'utf8'))
 const limit = config.perStation ?? 15
 let previous = { stations: [] }
@@ -95,15 +123,22 @@ try {
   // first run
 }
 
-const stations = []
-for (const station of config.stations) {
+// Plain stations first, so a blend can draw on them with `from`.
+const tuned = new Map()
+const ordered = [
+  ...config.stations.filter(station => !station.sources?.some(source => source.from)),
+  ...config.stations.filter(station => station.sources?.some(source => source.from)),
+]
+for (const station of ordered) {
   const before = previous.stations?.find(old => old.slug === station.slug)
   try {
-    const tuned = await tuneStation({ ...station, channelId: before?.handle === station.handle ? before?.channelId : undefined }, limit)
-    stations.push({ slug: station.slug, name: station.name, handle: station.handle, ...tuned, updatedAt: new Date().toISOString() })
-    console.log(`ok    ${station.slug}: ${tuned.videos.length} videos from ${tuned.source}${tuned.via ? ` (${tuned.via})` : ''}`)
+    const result = station.sources
+      ? await tuneBlend(station, limit, tuned)
+      : await tuneStation({ ...station, channelId: before?.handle === station.handle ? before?.channelId : undefined }, limit)
+    tuned.set(station.slug, { slug: station.slug, name: station.name, handle: station.handle, ...result, updatedAt: new Date().toISOString() })
+    console.log(`ok    ${station.slug}: ${result.videos.length} videos from ${result.source}${result.via ? ` (${result.via})` : ''}`)
   } catch (error) {
-    stations.push({
+    tuned.set(station.slug, {
       slug: station.slug,
       name: station.name,
       source: before?.source ?? 'none',
@@ -115,6 +150,7 @@ for (const station of config.stations) {
     console.log(`kept  ${station.slug}: ${error.message}`)
   }
 }
+const stations = config.stations.map(station => tuned.get(station.slug))
 
 const lineup = { updatedAt: new Date().toISOString(), stations }
 const text = `${JSON.stringify(lineup, null, 2)}\n`

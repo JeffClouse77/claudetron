@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
 
-import { channelTitle, findChannelId, fromRelative, newestFirst, parseFeed, parseSearch } from '../lineup-lib.mjs'
+import { blend, channelTitle, findChannelId, fromRelative, newestFirst, parseFeed, parseSearch } from '../lineup-lib.mjs'
 
 const NOW = Date.parse('2026-10-13T12:00:00Z')
 
@@ -71,4 +71,14 @@ test('turns relative times into dates and sorts newest first', () => {
     5,
   )
   assert.deepEqual(sorted.map(v => v.id), ['b', 'a'])
+})
+
+test('blends sources so no single one fills the channel', () => {
+  const at = day => `2026-10-${String(day).padStart(2, '0')}T00:00:00Z`
+  const busy = Array.from({ length: 10 }, (_, i) => ({ id: `busy${i}`, published: at(20 - i) }))
+  const quiet = [{ id: 'quiet0', published: at(1) }, { id: 'quiet1', published: at(2) }]
+  const mixed = blend([busy, quiet], 6)
+  assert.equal(mixed.length, 6)
+  assert.ok(mixed.some(v => v.id.startsWith('quiet')), 'the quiet source still gets a turn')
+  assert.equal(mixed[0].id, 'busy0')
 })

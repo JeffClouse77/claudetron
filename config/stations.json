@@ -1,12 +1,38 @@
 {
-  "perStation": 15,
+  "perStation": 20,
   "stations": [
-    { "slug": "claude", "name": "CLAUDE / ANTHROPIC", "handle": "@anthropic-ai", "query": "Anthropic Claude" },
-    { "slug": "claude-news", "name": "CLAUDE AI NEWS", "query": "Claude AI" },
+    {
+      "slug": "claude",
+      "name": "CLAUDE AI",
+      "sources": [
+        { "handle": "@anthropic-ai" },
+        { "query": "Claude AI" },
+        { "query": "Claude Code" }
+      ]
+    },
+    {
+      "slug": "ai-news",
+      "name": "AI NEWS",
+      "sources": [
+        { "query": "AI news" },
+        { "query": "artificial intelligence news this week" },
+        { "query": "new AI model release" }
+      ]
+    },
+    {
+      "slug": "atl-sports",
+      "name": "ATLANTA SPORTS",
+      "sources": [
+        { "from": "braves" },
+        { "from": "falcons" },
+        { "from": "hawks" },
+        { "from": "united" },
+        { "query": "Atlanta sports news" }
+      ]
+    },
     { "slug": "braves", "name": "ATLANTA BRAVES", "handle": "@Braves", "query": "Atlanta Braves highlights" },
     { "slug": "falcons", "name": "ATLANTA FALCONS", "handle": "@AtlantaFalcons", "query": "Atlanta Falcons highlights" },
     { "slug": "hawks", "name": "ATLANTA HAWKS", "handle": "@ATLHawks", "query": "Atlanta Hawks highlights" },
-    { "slug": "united", "name": "ATLANTA UNITED", "handle": "@AtlantaUnited", "query": "Atlanta United highlights" },
-    { "slug": "atl-sports", "name": "ATL SPORTS NEWS", "query": "Atlanta sports news" }
+    { "slug": "united", "name": "ATLANTA UNITED", "handle": "@AtlantaUnited", "query": "Atlanta United highlights" }
   ]
 }

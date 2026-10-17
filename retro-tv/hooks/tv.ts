@@ -2,24 +2,25 @@ import type { Station, Video } from '../types'
 
 export type Channel = Station
 
-// CH 00 mixes the newest uploads from every station below it.
-export const MIX: Channel = { slug: 'mix', name: 'ALL CHANNELS' }
+// CH 00 is the viewer's own YouTube home page. It exists only in their
+// signed-in browser, so it plays on the player page, never in this pane.
+export const HOME: Channel = { slug: 'home', name: 'YOUR YOUTUBE' }
 
 // The lineup the TV starts with. The live list comes from the player page's
 // lineup.json (built hourly from config/stations.json); this is the fallback
 // when that can't be reached, and only its channel stations can be read here.
 export const STATIONS: Channel[] = [
-  { slug: 'claude', name: 'CLAUDE / ANTHROPIC', handle: '@anthropic-ai', query: 'Anthropic Claude' },
-  { slug: 'claude-news', name: 'CLAUDE AI NEWS', query: 'Claude AI' },
+  { slug: 'claude', name: 'CLAUDE AI', handle: '@anthropic-ai', query: 'Claude AI' },
+  { slug: 'ai-news', name: 'AI NEWS', query: 'AI news' },
+  { slug: 'atl-sports', name: 'ATLANTA SPORTS', query: 'Atlanta sports news' },
   { slug: 'braves', name: 'ATLANTA BRAVES', handle: '@Braves', query: 'Atlanta Braves highlights' },
   { slug: 'falcons', name: 'ATLANTA FALCONS', handle: '@AtlantaFalcons', query: 'Atlanta Falcons highlights' },
   { slug: 'hawks', name: 'ATLANTA HAWKS', handle: '@ATLHawks', query: 'Atlanta Hawks highlights' },
   { slug: 'united', name: 'ATLANTA UNITED', handle: '@AtlantaUnited', query: 'Atlanta United highlights' },
-  { slug: 'atl-sports', name: 'ATL SPORTS NEWS', query: 'Atlanta sports news' },
 ]
 
 export function channelsOf(stations: readonly Channel[]): Channel[] {
-  return [MIX, ...stations]
+  return [HOME, ...stations]
 }
 
 type LineupStation = { slug?: unknown; name?: unknown; videos?: unknown; error?: unknown }
@@ -95,13 +96,6 @@ export function parseFeed(xml: string, channel: string): Video[] {
     .filter(video => video.id !== '')
 }
 
-export function mix(lists: Video[][], limit = 20): Video[] {
-  return lists
-    .flat()
-    .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
-    .slice(0, limit)
-}
-
 export function age(published: string, now: number): string {
   const minutes = Math.max(0, Math.round((now - Date.parse(published)) / 60000))
   if (!Number.isFinite(minutes)) return ''
@@ -131,9 +125,9 @@ export function tune(query: string, channels: readonly Channel[]): number | unde
   if (Number.isInteger(asNumber) && asNumber >= 0 && asNumber < channels.length) return asNumber
   const exact = channels.findIndex(channel => channel.slug === wanted)
   if (exact !== -1) return exact
-  const found = channels.findIndex(
-    channel => channel.slug.startsWith(wanted) || channel.name.toLowerCase().includes(wanted),
-  )
+  const prefix = channels.findIndex(channel => channel.slug.startsWith(wanted))
+  if (prefix !== -1) return prefix
+  const found = channels.findIndex(channel => channel.name.toLowerCase().includes(wanted))
   return found === -1 ? undefined : found
 }
 

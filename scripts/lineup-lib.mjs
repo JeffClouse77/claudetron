@@ -154,3 +154,12 @@ export function newestFirst(videos, limit) {
     .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
     .slice(0, limit)
 }
+
+/**
+ * Several sources' videos as one channel: each source gives at most its
+ * fair share (so one busy channel can't fill it), then newest first.
+ */
+export function blend(lists, limit) {
+  const share = Math.ceil(limit / Math.max(1, lists.length)) + 1
+  return newestFirst(lists.flatMap(list => newestFirst(list, share)), limit)
+}
