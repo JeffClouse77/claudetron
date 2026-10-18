@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:59:05.394Z",
+  "updatedAt": "2026-10-18T17:19:40.879Z",
   "stations": [
     {
       "slug": "claude",
@@ -7,100 +7,100 @@
       "videos": [
         {
           "id": "RbfQayMNtJc",
-          "title": "The goal beyond the goal: how I prompt Claude Code now",
-          "published": "2026-10-18T12:59:01.546Z",
+          "title": "You're Thinking Too SMALL With Claude Code",
+          "published": "2026-10-18T12:19:36.126Z",
           "channel": "Ray Amjad",
-          "ageText": "1h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "0VCUy-51uHM",
           "title": "Meet Claude AI: The Smart Assistant That Makes Everything Easier!",
-          "published": "2026-10-18T10:59:00.947Z",
+          "published": "2026-10-18T11:19:35.354Z",
           "channel": "The AI Times",
-          "ageText": "3h ago"
+          "ageText": "6h ago"
         },
         {
           "id": "EaGvl3Q4qak",
           "title": "🤯 FREE UNLIMITED Claude Code Alternative That Never Expires (No Ollama, No NIM)",
-          "published": "2026-10-18T08:59:00.947Z",
+          "published": "2026-10-18T08:19:35.354Z",
           "channel": "Compile Future",
-          "ageText": "5h ago"
+          "ageText": "9h ago"
         },
         {
           "id": "kEL9cckIgYo",
           "title": "The #1 Claude AI Method To Build A Personal Brand For People Over 50",
-          "published": "2026-10-18T00:59:00.947Z",
+          "published": "2026-10-18T00:19:35.354Z",
           "channel": "Shane Hummus",
-          "ageText": "13h ago"
+          "ageText": "17h ago"
         },
         {
           "id": "YAuWBqZ_gjs",
           "title": "Claude Changed Completely - Every NEW Concept Explained",
-          "published": "2026-10-17T17:59:01.546Z",
+          "published": "2026-10-17T18:19:36.126Z",
           "channel": "Simon Scrapes",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "ErzpefYFz4w",
-          "title": "I Insulted Claude AI - It Went on Strike!",
-          "published": "2026-10-17T17:59:00.947Z",
-          "channel": "The Fat Cat Report",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "86I5kjnNtUQ",
-          "title": "Claude Code + Base44 = $10,000 AI Agents",
-          "published": "2026-10-17T14:59:00.947Z",
-          "channel": "Jake One Page",
           "ageText": "23h ago"
         },
         {
           "id": "TtAx2A8hpTU",
           "title": "I Built a Day Trading Bot using Claude Code (ETH Automated Trading)",
-          "published": "2026-10-17T13:59:01.546Z",
+          "published": "2026-10-17T17:19:36.126Z",
           "channel": "Thomas Sutton",
           "ageText": "1d ago"
         },
         {
           "id": "mKjxGy6vCnY",
           "title": "The SECRET Claude Code Upgrade That Has Everyone Going Nuts (Full Guide)",
-          "published": "2026-10-17T13:59:01.546Z",
+          "published": "2026-10-17T17:19:36.126Z",
           "channel": "Chase AI",
           "ageText": "1d ago"
         },
         {
-          "id": "Z-66nCBE7ew",
-          "title": "Claude Code + OmniRoute: Run It Free Forever (2026)",
-          "published": "2026-10-17T13:59:00.947Z",
-          "channel": "AI with Hassan",
+          "id": "e-sHMT2mvcA",
+          "title": "The 4 Claude Features That Will Put You Ahead of 99% of People Using AI",
+          "published": "2026-10-17T17:19:35.354Z",
+          "channel": "Ali H. Salem",
           "ageText": "1d ago"
         },
         {
           "id": "3fHVhQy4JJ4",
           "title": "The NEW Claude AI \"Second Income\" Plan For People Who Can't Quit Their Job Yet",
-          "published": "2026-10-17T13:59:00.947Z",
+          "published": "2026-10-17T17:19:35.354Z",
           "channel": "Shane Hummus",
           "ageText": "1d ago"
         },
         {
-          "id": "w404b0vcb0s",
-          "title": "How To Connect Claude AI To Roblox Studio - Tutorial",
-          "published": "2026-10-17T13:59:00.947Z",
-          "channel": "GuideRealm",
+          "id": "86I5kjnNtUQ",
+          "title": "Claude Code + Base44 = $10,000 AI Agents",
+          "published": "2026-10-17T17:19:35.354Z",
+          "channel": "Jake One Page",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "ErzpefYFz4w",
+          "title": "I Insulted Claude AI - It Went on Strike!",
+          "published": "2026-10-17T17:19:35.354Z",
+          "channel": "The Fat Cat Report",
           "ageText": "1d ago"
         },
         {
           "id": "fDE5R4fSq2w",
           "title": "Why You Should Use Claude Code (For Everything)",
-          "published": "2026-10-16T13:59:01.546Z",
+          "published": "2026-10-16T17:19:36.126Z",
           "channel": "Riley Brown",
           "ageText": "2d ago"
         },
         {
           "id": "8nh1dcH4uJU",
           "title": "Claude Code 3.0 is CRAZY!",
-          "published": "2026-10-16T13:59:01.546Z",
+          "published": "2026-10-16T17:19:36.126Z",
           "channel": "AICodeKing",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "An0bnSmS6DE",
+          "title": "ChatGPT vs Claude Motion Graphics (Scary Good)",
+          "published": "2026-10-16T17:19:35.354Z",
+          "channel": "Zane Hoyer",
           "ageText": "2d ago"
         },
         {
@@ -141,164 +141,163 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-18T13:59:02.176Z"
+      "updatedAt": "2026-10-18T17:19:36.894Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "tDWtcyeNNew",
-          "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
-          "published": "2026-10-18T03:59:02.176Z",
-          "channel": "AI Search",
-          "ageText": "10h ago"
+          "id": "TIxzkp1IhAo",
+          "title": "Trump intel chief puts AI companies on NOTICE",
+          "published": "2026-10-18T10:19:36.895Z",
+          "channel": "Fox News",
+          "ageText": "7h ago"
         },
         {
-          "id": "X7_RuX-eMn0",
-          "title": "Mythos 5 and Google Just Broke Quantum Computing (Major Breakthroughs)",
-          "published": "2026-10-18T00:59:02.176Z",
-          "channel": "AI Revolution",
+          "id": "tDWtcyeNNew",
+          "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+          "published": "2026-10-18T04:19:36.895Z",
+          "channel": "AI Search",
           "ageText": "13h ago"
         },
         {
           "id": "2mE6bbjVazE",
-          "title": "Former OpenAI Researcher Makes a MASSIVE AI Discovery",
-          "published": "2026-10-17T20:59:02.176Z",
+          "title": "Is This The Biggest AI Discovery Of The Year?",
+          "published": "2026-10-17T21:19:36.895Z",
           "channel": "TheAIGRID",
-          "ageText": "17h ago"
+          "ageText": "20h ago"
         },
         {
           "id": "_ARIGPnYYUk",
           "title": "The whole AI dynamic just changed...",
-          "published": "2026-10-17T13:59:03.369Z",
+          "published": "2026-10-17T17:19:38.431Z",
           "channel": "Logically Answered",
           "ageText": "1d ago"
         },
         {
           "id": "aD_EOImT3AI",
           "title": "Every Closed AI Model Released in September 2026, Explained",
-          "published": "2026-10-17T13:59:03.369Z",
+          "published": "2026-10-17T17:19:38.431Z",
           "channel": "Micah Nettey",
           "ageText": "1d ago"
         },
         {
           "id": "GQsDJxPr2QI",
           "title": "7 AI Releases This Week: RTX Spark, Gemini 4 & More",
-          "published": "2026-10-17T13:59:03.369Z",
+          "published": "2026-10-17T17:19:38.431Z",
           "channel": "Web3 Wesley",
           "ageText": "1d ago"
         },
         {
-          "id": "dAY9cls3NmM",
-          "title": "Frontier Fever 🔥 A Song About Every New AI Model (GPT-6, Claude Opus 5.5, Gemini 4 Argon)",
-          "published": "2026-10-17T13:59:03.369Z",
-          "channel": "Firestorm AI",
+          "id": "eCf3l6plFFM",
+          "title": "'THE PIE IS VERY BIG': Why this AI CEO says there is room for more winners",
+          "published": "2026-10-17T17:19:38.431Z",
+          "channel": "Fox Business",
           "ageText": "1d ago"
         },
         {
-          "id": "8Zxj1kTrkjo",
-          "title": "Hermes Agent Threshold Release: Bot Screen, Local Models, Connectors & More",
-          "published": "2026-10-17T13:59:03.369Z",
-          "channel": "Tonbi's AI Garage",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "hUeWWZbR8Yo",
-          "title": "Why some stocks tied to A.I. TUMBLED this week in global sell-off",
-          "published": "2026-10-17T13:59:02.795Z",
-          "channel": "MS NOW",
+          "id": "axy63-y-RuE",
+          "title": "New GPT Astra 6.1 Leak, Big ChatGPT Upgrade | AI News",
+          "published": "2026-10-17T17:19:38.431Z",
+          "channel": "AI That Works",
           "ageText": "1d ago"
         },
         {
           "id": "pmuGWJte_EY",
           "title": "The Most Important AI Model Announcements This Week",
-          "published": "2026-10-17T13:59:02.795Z",
+          "published": "2026-10-17T17:19:37.626Z",
           "channel": "The AI Daily Brief: Artificial Intelligence News",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "2POoEetH_lU",
-          "title": "Coreweave Slides 25% for the Week as AI Credit Concerns Grow | Closing Bell",
-          "published": "2026-10-17T13:59:02.795Z",
-          "channel": "Bloomberg Television",
           "ageText": "1d ago"
         },
         {
           "id": "D4Z2xwWGudA",
           "title": "AI debt fears fuel tech volatility: The Investment Committee's strategy",
-          "published": "2026-10-17T13:59:02.795Z",
+          "published": "2026-10-17T17:19:37.626Z",
           "channel": "CNBC Television",
           "ageText": "1d ago"
         },
         {
           "id": "7loKqXPzTcQ",
           "title": "Scientists WARN artificial intelligence can DISTORT human memories",
-          "published": "2026-10-17T13:59:02.795Z",
+          "published": "2026-10-17T17:19:37.626Z",
           "channel": "Fox Business Clips",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "6R3gBfn7Dro",
-          "title": "How AI 'reskins' are stealing human content | BBC News",
-          "published": "2026-10-17T13:59:02.795Z",
-          "channel": "BBC News",
           "ageText": "1d ago"
         },
         {
           "id": "e6OzutRXvTs",
           "title": "Anthropic's Opus 6 Ignites a Terrifying AI Theory",
-          "published": "2026-10-17T13:59:02.176Z",
+          "published": "2026-10-17T17:19:36.895Z",
           "channel": "AI Revolution",
           "ageText": "1d ago"
         },
         {
-          "id": "KGcuuhqmPhI",
-          "title": "AI News: 6 New Models & A Nano Banana Killer",
-          "published": "2026-10-17T13:59:02.176Z",
-          "channel": "Matt Wolfe",
+          "id": "W1AhKS_gx-A",
+          "title": "AI News: Gemini 4 Argon, Kling 4.0, Claude Fable 5.5 and More!",
+          "published": "2026-10-17T17:19:36.895Z",
+          "channel": "Zinho Automates",
           "ageText": "1d ago"
         },
         {
-          "id": "8htNqGGxlDo",
-          "title": "Claude Fable 5.5 Leaked + More (AI News)",
-          "published": "2026-10-17T13:59:02.176Z",
-          "channel": "Brock Mesarich | AI for Non Techies",
+          "id": "OAU3lAadXLM",
+          "title": "Why Humanity Might Have to Declare War on AI",
+          "published": "2026-10-17T17:19:36.895Z",
+          "channel": "William Spaniel",
           "ageText": "1d ago"
         },
         {
           "id": "hZPs633_58Q",
           "title": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
-          "published": "2026-10-17T13:59:02.176Z",
+          "published": "2026-10-17T17:19:36.895Z",
           "channel": "WorldofAI",
           "ageText": "1d ago"
         },
         {
-          "id": "1W6kMe4GUr8",
-          "title": "Google Gemini Released Gemini 4 Argon & It’s INSANE! (Automate Anything with Gemini 4)",
-          "published": "2026-10-16T13:59:03.369Z",
-          "channel": "Rob The AI Guy",
+          "id": "KGcuuhqmPhI",
+          "title": "AI News: 6 New Models & A Nano Banana Killer",
+          "published": "2026-10-16T17:19:37.626Z",
+          "channel": "Matt Wolfe",
           "ageText": "2d ago"
         },
         {
-          "id": "rimJ8l1Wf2g",
-          "title": "AI News: Argon Is Insane and Muse Wonder May Be Benchmaxxed",
-          "published": "2026-10-16T13:59:02.176Z",
-          "channel": "Paul J Lipsky",
+          "id": "hUeWWZbR8Yo",
+          "title": "Why some stocks tied to A.I. TUMBLED this week in global sell-off",
+          "published": "2026-10-16T17:19:37.626Z",
+          "channel": "MS NOW",
           "ageText": "2d ago"
+        },
+        {
+          "id": "8htNqGGxlDo",
+          "title": "Claude Fable 5.5 is Coming + More (AI News)",
+          "published": "2026-10-16T17:19:36.895Z",
+          "channel": "Brock Mesarich | AI for Non Techies",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "1W6kMe4GUr8",
+          "title": "Google Gemini Released Gemini 4 Argon & It’s INSANE! (Automate Anything with Gemini 4)",
+          "published": "2026-10-15T17:19:38.431Z",
+          "channel": "Rob The AI Guy",
+          "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-18T13:59:03.915Z"
+      "updatedAt": "2026-10-18T17:19:39.111Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "VyCsa0bDJlI",
+          "title": "Jessie Bates III and his son’s handshake is so ADORABLE 🥹 FOX | NFL+ #nfl #atlantafalcons",
+          "published": "2026-10-18T17:16:40+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
           "id": "Gh0gU-C1VZI",
           "title": "Week 6: Atlanta Falcons vs. Chicago Bears | Atlanta Falcons Game Day Update",
-          "published": "2026-10-18T13:02:36+00:00",
+          "published": "2026-10-18T16:26:10+00:00",
           "channel": "Atlanta Falcons"
         },
         {
@@ -310,16 +309,16 @@
         {
           "id": "RvGM8dTzs0k",
           "title": "SHE WILL NOT FAIL!!!",
-          "published": "2026-10-18T11:59:04.114Z",
+          "published": "2026-10-18T12:19:39.428Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "2h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "eQhshKBVEaA",
           "title": "Kirby Smart full postgame press conference following Georgia's 27-24 loss to Auburn",
-          "published": "2026-10-18T03:59:04.114Z",
+          "published": "2026-10-18T03:19:39.428Z",
           "channel": "Rowdy Sports",
-          "ageText": "10h ago"
+          "ageText": "14h ago"
         },
         {
           "id": "Fm2aIhZXFXw",
@@ -332,13 +331,6 @@
           "title": "MATCH HIGHLIGHTS | Atlanta United vs  Inter Miami CF",
           "published": "2026-10-18T02:20:06+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "K831qkmQIb0",
-          "title": "Why The Golden State Valkyries Are SO Exciting To Root For (Full News Nation Segment!)",
-          "published": "2026-10-18T01:59:04.114Z",
-          "channel": "Linda Cohn",
-          "ageText": "12h ago"
         },
         {
           "id": "v4c67_SI_d0",
@@ -359,18 +351,18 @@
           "channel": "Atlanta United FC"
         },
         {
-          "id": "Gv42XrU75FM",
-          "title": "A TERRIBLE Display Of Basketball! Angel Reese SCORELESS IN 2nd HALF! Atlanta Dream LOSE GAME 1",
-          "published": "2026-10-17T22:59:04.114Z",
-          "channel": "The Ben Daniel Podcast",
-          "ageText": "15h ago"
+          "id": "ZoHAfibUI9Q",
+          "title": "Bears at Falcons Game Preview | NFL Week 6 Picks & Predictions",
+          "published": "2026-10-17T17:19:39.428Z",
+          "channel": "CBS Sports and NFL on CBS",
+          "ageText": "1d ago"
         },
         {
-          "id": "SGABvkAF9fU",
-          "title": "The Falcons Dodged a Major Bullet... | Atlanta Falcons News",
-          "published": "2026-10-17T15:59:04.114Z",
-          "channel": "Falcons Digest",
-          "ageText": "22h ago"
+          "id": "ogKPzCzAnRw",
+          "title": "2026 WNBA Finals Preview: Atlanta Dream vs Golden State Valkyries | Predictions & Pick to Win",
+          "published": "2026-10-17T17:19:39.428Z",
+          "channel": "CBS Sports and hoopHer",
+          "ageText": "1d ago"
         },
         {
           "id": "fhBe53ZHkMU",
@@ -409,20 +401,21 @@
           "channel": "Atlanta Falcons"
         },
         {
-          "id": "sj_tL_kjUM0",
-          "title": "Atlanta Falcons Host Annual Dazzle and Dine Event",
-          "published": "2026-10-16T16:00:25+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
           "id": "5UfaWExtNDg",
           "title": "Dyson Daniels explains house music to DC Young Fly and Shamea Morton 😂🔊 | Hawks AF",
           "published": "2026-10-15T23:00:10+00:00",
           "channel": "Atlanta Hawks"
+        },
+        {
+          "id": "Gzcgbvd8Qeg",
+          "title": "🚨JUST IN: Huge Atlanta Falcons News After Loss vs. Baltimore Ravens | Falcons Injury News",
+          "published": "2026-10-13T17:19:39.428Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "Streamed 5d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-18T13:59:05.394Z"
+      "updatedAt": "2026-10-18T17:19:40.879Z"
     },
     {
       "slug": "braves",
@@ -523,7 +516,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-18T13:59:04.008Z"
+      "updatedAt": "2026-10-18T17:19:39.227Z"
     },
     {
       "slug": "falcons",
@@ -531,9 +524,15 @@
       "handle": "@AtlantaFalcons",
       "videos": [
         {
+          "id": "VyCsa0bDJlI",
+          "title": "Jessie Bates III and his son’s handshake is so ADORABLE 🥹 FOX | NFL+ #nfl #atlantafalcons",
+          "published": "2026-10-18T17:16:40+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
           "id": "Gh0gU-C1VZI",
           "title": "Week 6: Atlanta Falcons vs. Chicago Bears | Atlanta Falcons Game Day Update",
-          "published": "2026-10-18T13:02:36+00:00",
+          "published": "2026-10-18T16:26:10+00:00",
           "channel": "Atlanta Falcons"
         },
         {
@@ -613,18 +612,12 @@
           "title": "Michael Penix Jr. made every throw at practice today #nfl #interview #atlanta",
           "published": "2026-10-15T15:07:33+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "w8HIuXD2OGw",
-          "title": "Michael Penix Jr. speaks on the offense and the run game strategy  #nfl #football #atlantafalcons",
-          "published": "2026-10-15T14:21:03+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-18T13:59:04.014Z"
+      "updatedAt": "2026-10-18T17:19:39.330Z"
     },
     {
       "slug": "hawks",
@@ -725,7 +718,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-18T13:59:04.109Z"
+      "updatedAt": "2026-10-18T17:19:39.421Z"
     },
     {
       "slug": "united",
@@ -826,7 +819,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-18T13:59:04.114Z"
+      "updatedAt": "2026-10-18T17:19:39.427Z"
     }
   ]
 }
