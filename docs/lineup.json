@@ -1,107 +1,107 @@
 {
-  "updatedAt": "2026-10-22T15:14:05.078Z",
+  "updatedAt": "2026-10-22T19:12:58.014Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "uizaxuzgEAk",
-          "title": "Claude Code Mods Explained: Customize Your Setup",
-          "published": "2026-10-22T14:30:59.680Z",
-          "channel": "Traversy Media",
-          "ageText": "43 min ago"
-        },
-        {
           "id": "dhsyihMpqZQ",
           "title": "How Complete Beginners Master Claude Code MCP in 19 minutes",
-          "published": "2026-10-22T14:15:59.680Z",
+          "published": "2026-10-22T15:12:53.333Z",
           "channel": "Mikey No Code",
-          "ageText": "58 min ago"
+          "ageText": "4h ago"
+        },
+        {
+          "id": "uizaxuzgEAk",
+          "title": "Claude Code Mods Explained: Customize Your Setup",
+          "published": "2026-10-22T15:12:53.333Z",
+          "channel": "Traversy Media",
+          "ageText": "4h ago"
         },
         {
           "id": "Dnh3A_XRqN8",
           "title": "Free Claude Code + Claude Opus 5.5 for Free + Free Claude AI Unlimited Claude Tutorial",
-          "published": "2026-10-22T14:13:58.851Z",
+          "published": "2026-10-22T14:12:52.713Z",
           "channel": "Yo, Nadie",
-          "ageText": "1h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "6MpHBHw30OE",
-          "title": "I Reverse Engineered Mario 64 to Make My Own Game",
-          "published": "2026-10-22T13:13:59.680Z",
+          "title": "New Crazy Way To Make Games With AI - /REA + Claude Opus 5.5",
+          "published": "2026-10-22T13:12:53.333Z",
           "channel": "Stefan 3D AI",
-          "ageText": "2h ago"
+          "ageText": "6h ago"
+        },
+        {
+          "id": "9ned78Lb_j8",
+          "title": "Full AI Editing Automation on Claude Opus 5.5 (Highest Quality Results)",
+          "published": "2026-10-22T13:12:52.713Z",
+          "channel": "The Cutting Edge School",
+          "ageText": "6h ago"
+        },
+        {
+          "id": "jCLz4rt3flc",
+          "title": "The times have changed…! Introducing the apps I built myself using Claude Code.",
+          "published": "2026-10-22T11:12:53.333Z",
+          "channel": "Rei丨暮らしとNotion。",
+          "ageText": "8h ago"
         },
         {
           "id": "iVTh1O1UuHc",
           "title": "Free Claude Code + Fable 5.1 for Free + Free Claude Unlimited | Claude AI Tutorial",
-          "published": "2026-10-21T22:13:58.851Z",
+          "published": "2026-10-21T22:12:52.713Z",
           "channel": "Robertin Edites",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "hNsvwUZJFTg",
-          "title": "I Connected Claude to My Fire TV Stick - What Happened Next Is Crazy",
-          "published": "2026-10-21T21:13:58.851Z",
-          "channel": "UG Tech",
-          "ageText": "18h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "imkKVWoIzVM",
           "title": "Claude Just Changed: The 10 Big Updates You Need to Know",
-          "published": "2026-10-21T20:13:59.680Z",
+          "published": "2026-10-21T20:12:53.333Z",
           "channel": "Duncan Rogoff | Learn Claude Code",
-          "ageText": "19h ago"
+          "ageText": "23h ago"
         },
         {
           "id": "92ZDgn8bgLM",
           "title": "Anthropic Just Revealed How Their Engineers Use Claude Code",
-          "published": "2026-10-21T15:13:59.680Z",
+          "published": "2026-10-21T19:12:53.333Z",
           "channel": "AI LABS",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "3rgd2Xx5ceg",
-          "title": "I Used Claude Code to Build a Real App (And It Cost $0)",
-          "published": "2026-10-21T15:13:59.680Z",
-          "channel": "Tech With Tim",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "D-SVFneJ_Nk",
-          "title": "Claude Engineering Lead: \"Stop Using Claude Like It’s 2024\"",
-          "published": "2026-10-21T15:13:58.851Z",
-          "channel": "Silicon Valley Girl",
           "ageText": "1d ago"
         },
         {
           "id": "talxc-N7KqE",
           "title": "Claude Code for Free & Unlimited (If You Set This Up Correctly)",
-          "published": "2026-10-21T15:13:58.851Z",
+          "published": "2026-10-21T19:12:52.713Z",
           "channel": "Malva AI",
           "ageText": "1d ago"
         },
         {
           "id": "Jpyzc9EWA-I",
           "title": "The BEST Claude AI \"Second Income\" For People Over 50",
-          "published": "2026-10-21T15:13:58.851Z",
+          "published": "2026-10-21T19:12:52.713Z",
           "channel": "Shane Hummus",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "LqCPwQ1IcA4",
+          "title": "Give Me 24 minutes, I'll Give You 1,000+ hours of Claude Knowledge",
+          "published": "2026-10-21T19:12:52.713Z",
+          "channel": "Iman Gadzhi",
           "ageText": "1d ago"
         },
         {
           "id": "A48BqMFYmBs",
           "title": "Accenture Caps Anthropic AI Claude Spending to $29 - AI Is Too Expensive",
-          "published": "2026-10-21T15:13:58.851Z",
+          "published": "2026-10-21T19:12:52.713Z",
           "channel": "Eli the Computer Guy",
           "ageText": "1d ago"
         },
         {
-          "id": "LzIWNmD_E1g",
-          "title": "7 Ways To Make Money With Claude AI (and ChatGPT)",
-          "published": "2026-10-21T15:13:58.851Z",
-          "channel": "Joshua Mayo",
-          "ageText": "1d ago"
+          "id": "D-SVFneJ_Nk",
+          "title": "Claude Engineering Lead: \"Stop Using Claude Like It’s 2024\"",
+          "published": "2026-10-20T19:12:52.713Z",
+          "channel": "Silicon Valley Girl",
+          "ageText": "2d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -141,165 +141,203 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-22T15:14:00.397Z"
+      "updatedAt": "2026-10-22T19:12:54.105Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "QCtFWOYNASU",
-          "title": "Sam Altman Shocks Everyone With 3 Possible AI Endgames",
-          "published": "2026-10-22T00:14:00.397Z",
-          "channel": "AI Revolution",
-          "ageText": "15h ago"
+          "id": "J-5m-JBBveI",
+          "title": "Meta Doubles Down on AI Spending, Plans New Class C Shares",
+          "published": "2026-10-22T18:12:55.620Z",
+          "channel": "Bloomberg Tech",
+          "ageText": "1h ago"
         },
         {
-          "id": "moy3waNDQa8",
-          "title": "Websites taken down worldwide as AI reveals critical cyber-security threat | BBC News",
-          "published": "2026-10-21T22:14:01.100Z",
+          "id": "omSYrjCtfD8",
+          "title": "Websites went down around the world. Did AI stop it getting worse? | BBC News",
+          "published": "2026-10-22T12:12:54.106Z",
           "channel": "BBC News",
+          "ageText": "7h ago"
+        },
+        {
+          "id": "7xACUZcyYtU",
+          "title": "AI hacked everything..",
+          "published": "2026-10-22T07:12:54.106Z",
+          "channel": "Singh in USA",
+          "ageText": "12h ago"
+        },
+        {
+          "id": "Js0umS2OAyk",
+          "title": "AI discovery prompts cyber emergency: What you need to know",
+          "published": "2026-10-22T03:12:55.029Z",
+          "channel": "ABC News",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "C9xOYjL7Ino",
+          "title": "How an AI CEO Could Quietly Overthrow the US Government",
+          "published": "2026-10-22T02:12:54.106Z",
+          "channel": "Species | Documenting AGI",
           "ageText": "17h ago"
+        },
+        {
+          "id": "SGTz2kKFZXI",
+          "title": "How an AI-discovered flaw in PHP sparked a global security scramble",
+          "published": "2026-10-22T01:12:54.106Z",
+          "channel": "Reuters",
+          "ageText": "18h ago"
+        },
+        {
+          "id": "QCtFWOYNASU",
+          "title": "Sam Altman Shocks Everyone With 3 Possible AI Endgames",
+          "published": "2026-10-22T00:12:54.106Z",
+          "channel": "AI Revolution",
+          "ageText": "19h ago"
         },
         {
           "id": "TQlf8QqDOV8",
           "title": "AI discovers bug that puts up to 70% of websites at risk",
-          "published": "2026-10-21T22:14:01.100Z",
+          "published": "2026-10-21T22:12:54.106Z",
           "channel": "CBS News",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "7Tne6u5IC44",
-          "title": "China's DeepSeek Terrifies Silicon Valley with Open Source AI Inference.",
-          "published": "2026-10-21T19:14:02.103Z",
-          "channel": "Quantum Silk Route",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "umGZrkyTRtw",
-          "title": "AI Breakthroughs Everyone Missed",
-          "published": "2026-10-21T18:14:00.397Z",
-          "channel": "Matt Wolfe",
           "ageText": "21h ago"
         },
         {
-          "id": "3gXLmy7DK_4",
-          "title": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!",
-          "published": "2026-10-21T16:14:01.100Z",
-          "channel": "Matthew Berman",
-          "ageText": "23h ago"
+          "id": "moy3waNDQa8",
+          "title": "Websites taken down worldwide as AI reveals critical cyber-security threat | BBC News",
+          "published": "2026-10-21T22:12:54.106Z",
+          "channel": "BBC News",
+          "ageText": "21h ago"
         },
         {
           "id": "gD40lPTj1SQ",
           "title": "Open Source AI Is Quietly Closing",
-          "published": "2026-10-21T15:14:02.103Z",
+          "published": "2026-10-21T19:12:55.620Z",
           "channel": "Devsplainers",
           "ageText": "1d ago"
         },
         {
+          "id": "7Tne6u5IC44",
+          "title": "China's DeepSeek Terrifies Silicon Valley with Open Source AI Inference.",
+          "published": "2026-10-21T19:12:55.620Z",
+          "channel": "Quantum Silk Route",
+          "ageText": "1d ago"
+        },
+        {
           "id": "fJBSNEFdm8c",
-          "title": "Sundar Pichai on Gemini 4 and putting data centers in space",
-          "published": "2026-10-21T15:14:02.103Z",
+          "title": "Google CEO on the future of Gemini, Waymo, and AI compute",
+          "published": "2026-10-21T19:12:55.620Z",
           "channel": "Sources Podcast and 2 more",
           "ageText": "1d ago"
         },
         {
           "id": "3eJEDgTF6dY",
           "title": "7 AI News Leaks & Releases This Week: Claude Fable 5.5 Rumor + MiniMax M3.1",
-          "published": "2026-10-21T15:14:02.103Z",
+          "published": "2026-10-21T19:12:55.620Z",
           "channel": "Outclaw AI | Tools, Guides & Newsletter",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "umGZrkyTRtw",
+          "title": "The Coolest AI You’ve Never Heard Of",
+          "published": "2026-10-21T19:12:55.029Z",
+          "channel": "Matt Wolfe",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "3gXLmy7DK_4",
+          "title": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!",
+          "published": "2026-10-21T19:12:55.029Z",
+          "channel": "Matthew Berman",
           "ageText": "1d ago"
         },
         {
           "id": "mLR2Zr1_F2k",
           "title": "AI News: Stay Ahead of 99% With the LATEST AI Updates (Grok, Gemini)",
-          "published": "2026-10-21T15:14:01.100Z",
+          "published": "2026-10-21T19:12:55.029Z",
           "channel": "Mikey No Code",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "hNefZz4z4QA",
-          "title": "Concerns mount over artificial intelligence as Silicon Valley sees AI boom • FRANCE 24 English",
-          "published": "2026-10-21T15:14:01.100Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "J6C4b4EvrdU",
-          "title": "The often neglected AI doom scenario that poses a different kind of threat to humanity",
-          "published": "2026-10-21T15:14:01.100Z",
-          "channel": "CBS News",
           "ageText": "1d ago"
         },
         {
           "id": "iF8-aIDzK84",
           "title": "Anthropic's New Mysterious Model Shows Signs Of Human Intuition",
-          "published": "2026-10-21T15:14:00.397Z",
+          "published": "2026-10-21T19:12:54.106Z",
           "channel": "AI Revolution",
           "ageText": "1d ago"
         },
         {
           "id": "vmVaXfvpZlY",
           "title": "Claude Opus 6 Leaks? Anthropic's Next AI Model Could Be Coming Soon",
-          "published": "2026-10-20T15:14:02.103Z",
+          "published": "2026-10-19T19:12:55.620Z",
           "channel": "BitBiasedAI",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "sKxZq-3oJQ0",
-          "title": "GPT-7? OPENAI LEAKS 3 New Models + DeepSeek Banned by US | AI Updates",
-          "published": "2026-10-20T15:14:02.103Z",
-          "channel": "AI That Works",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "xycRjIcL5-Q",
-          "title": "HUGE Claude Fable 5.5 Update! Gemini 4 Carbon, OpenAI Terra & Anthropic's UBI Plan! AI NEWS",
-          "published": "2026-10-20T15:14:02.103Z",
-          "channel": "AI Effect",
-          "ageText": "2d ago"
+          "ageText": "3d ago"
         },
         {
           "id": "24j6YmsTVng",
           "title": "Anthropic's UBI PLAN?! NEW OpenAI Aurora Models, Fable 5.5 UPGRADE, & OpenCode HACK! AI NEWS",
-          "published": "2026-10-19T15:14:00.397Z",
+          "published": "2026-10-19T19:12:55.620Z",
           "channel": "WorldofAI",
           "ageText": "3d ago"
-        },
-        {
-          "id": "pDHxLmL-F_U",
-          "title": "'RATIONAL FEAR’: Why Gen Z Is ‘TERRIFIED’ of AI",
-          "published": "2026-10-19T15:14:00.397Z",
-          "channel": "Fox Business",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "QJjAkDDxjjA",
-          "title": "What You Need to Know About the 'Freeze AI Now' National Walkout Happening Tuesday October 20th",
-          "published": "2026-10-19T15:14:00.397Z",
-          "channel": "KTLA 5",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "X7_RuX-eMn0",
-          "title": "Mythos 5 and Google Just Broke Quantum Computing (Major Breakthroughs)",
-          "published": "2026-10-18T15:14:00.397Z",
-          "channel": "AI Revolution",
-          "ageText": "4d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-22T15:14:02.787Z"
+      "updatedAt": "2026-10-22T19:12:56.296Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "vfFMxG_OCjw",
+          "title": "Asking players what their favorite movie about aliens is 👀 #nfl #atlantafalcons",
+          "published": "2026-10-22T18:01:27+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "PVlBaJIjEmk",
+          "title": "93 yds 🅱️tw #bijanrobinson #housecall #throwbackgame #touchdown #nfl",
+          "published": "2026-10-22T17:30:35+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "fdfubc3XPo8",
+          "title": "Jeff Ulbrich, Tommy Rees & Craig Aukerman on taking on 6-0 San Francisco 49ers | Press Conference",
+          "published": "2026-10-22T17:30:02+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "uoLWfT-0tns",
+          "title": "LIVE | Media Availability with Head Coach Tata Martino and Alexey Miranchuk",
+          "published": "2026-10-22T15:51:59+00:00",
+          "channel": "Atlanta United FC"
+        },
+        {
           "id": "8ALV697Fsa4",
           "title": "Can you tell Bijan and Christian McCaffrey train together sometimes? 😂 #bijan #christianmccaffrey",
           "published": "2026-10-22T15:00:17+00:00",
           "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "fib-6RzTUa4",
+          "title": "GETCHO BUTT OUTTA HERE!!!",
+          "published": "2026-10-22T13:12:56.656Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "6h ago"
+        },
+        {
+          "id": "dFrwrjPgeqA",
+          "title": "WE TOOK THEIR HEARTS OUT!!!",
+          "published": "2026-10-22T12:12:56.656Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "7h ago"
+        },
+        {
+          "id": "yvS6k_zRlko",
+          "title": "Exclusive: Atlanta Dream's Rhyne Howard speaks to ANF after Game 3 win",
+          "published": "2026-10-22T12:12:56.656Z",
+          "channel": "Atlanta News First",
+          "ageText": "7h ago"
         },
         {
           "id": "ZHreFoIAvU0",
@@ -310,37 +348,16 @@
         {
           "id": "AZiYxI63obk",
           "title": "DON'T Count Out the Dream! Atlanta STEALS Game 3 at Home 🔥 | The Wrap-Up",
-          "published": "2026-10-22T04:14:03.597Z",
+          "published": "2026-10-22T04:12:56.656Z",
           "channel": "ESPN",
-          "ageText": "Streamed 11h ago"
+          "ageText": "Streamed 15h ago"
         },
         {
           "id": "tAov0c6Csog",
           "title": "Highlights: Angel Reese, Atlanta Dream rout Valkyries in divisive Game 3 | WNBA on NBC",
-          "published": "2026-10-22T04:14:03.597Z",
+          "published": "2026-10-22T04:12:56.656Z",
           "channel": "WNBA on NBC",
-          "ageText": "11h ago"
-        },
-        {
-          "id": "RIfX4L5ZBk8",
-          "title": "Fans react as Atlanta Dream win Game 3 of WNBA Finals",
-          "published": "2026-10-22T04:14:03.597Z",
-          "channel": "Atlanta News First",
-          "ageText": "11h ago"
-        },
-        {
-          "id": "xBMaeOl10GE",
-          "title": "Atlanta Dream take Game 3!",
-          "published": "2026-10-22T03:14:03.597Z",
-          "channel": "WNBA on NBC",
-          "ageText": "12h ago"
-        },
-        {
-          "id": "2a-eqbtlTPQ",
-          "title": "LIVE | Atlanta Dream vs Golden State Valkyries | WNBA FINALS GAME 3",
-          "published": "2026-10-22T03:14:03.597Z",
-          "channel": "Keep The Vision",
-          "ageText": "Streamed 12h ago"
+          "ageText": "15h ago"
         },
         {
           "id": "dr_oX2IaAdk",
@@ -373,24 +390,6 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "lbp0QziYDV0",
-          "title": "Atlanta Falcons players speak to the media ahead of Week 7 matchup vs 49ers | Press Conference",
-          "published": "2026-10-21T21:30:14+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "8bnc9e8zU-k",
-          "title": "Bijan Robinson is ready for the Dream Finals at home 🔥 #atlantadream #bijanrobinson #angelreese",
-          "published": "2026-10-21T21:21:13+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "oReiAt1xRK8",
-          "title": "Quarterback Michael Penix Jr. Media Availability | Wednesday, October 21st | Press Conference",
-          "published": "2026-10-21T20:47:24+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
           "id": "mJNsdS9-ax8",
           "title": "ATLANNNNNNA 🗣️",
           "published": "2026-10-20T15:10:04+00:00",
@@ -413,16 +412,10 @@
           "title": "LIVE | Post-Match Press Conference with Head Coach Tata Martino",
           "published": "2026-10-18T02:28:47+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "CKjNwel4Ga0",
-          "title": "MATCH HIGHLIGHTS | Atlanta United vs  Inter Miami CF",
-          "published": "2026-10-18T02:20:06+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-22T15:14:05.078Z"
+      "updatedAt": "2026-10-22T19:12:58.014Z"
     },
     {
       "slug": "braves",
@@ -523,13 +516,31 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-22T15:14:02.931Z"
+      "updatedAt": "2026-10-22T19:12:56.308Z"
     },
     {
       "slug": "falcons",
       "name": "ATLANTA FALCONS",
       "handle": "@AtlantaFalcons",
       "videos": [
+        {
+          "id": "vfFMxG_OCjw",
+          "title": "Asking players what their favorite movie about aliens is 👀 #nfl #atlantafalcons",
+          "published": "2026-10-22T18:01:27+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "PVlBaJIjEmk",
+          "title": "93 yds 🅱️tw #bijanrobinson #housecall #throwbackgame #touchdown #nfl",
+          "published": "2026-10-22T17:30:35+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "fdfubc3XPo8",
+          "title": "Jeff Ulbrich, Tommy Rees & Craig Aukerman on taking on 6-0 San Francisco 49ers | Press Conference",
+          "published": "2026-10-22T17:30:02+00:00",
+          "channel": "Atlanta Falcons"
+        },
         {
           "id": "8ALV697Fsa4",
           "title": "Can you tell Bijan and Christian McCaffrey train together sometimes? 😂 #bijan #christianmccaffrey",
@@ -601,30 +612,12 @@
           "title": "Full circle moment for Falcons fan Jacob Smith 😄 #nfl #atlantafalcons",
           "published": "2026-10-20T16:00:35+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "lOnVug-RLeA",
-          "title": "Jahan Dotson had to tell 'em 🔥 #nfl #highlights #touchdown #atlanta",
-          "published": "2026-10-19T21:16:00+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "VbZQ2QBiBpU",
-          "title": "Breast Cancer survivors celebrated completing their treatment by ringing the bell on the field #nfl",
-          "published": "2026-10-19T21:00:16+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "Y0cOHseQZy8",
-          "title": "Bijan is a true leader 🙌 #nfl #zachariahbranch #bijanrobinson #nfl #falcons",
-          "published": "2026-10-19T19:45:01+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-22T15:14:03.156Z"
+      "updatedAt": "2026-10-22T19:12:56.416Z"
     },
     {
       "slug": "hawks",
@@ -725,13 +718,19 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-22T15:14:03.357Z"
+      "updatedAt": "2026-10-22T19:12:56.543Z"
     },
     {
       "slug": "united",
       "name": "ATLANTA UNITED",
       "handle": "@AtlantaUnited",
       "videos": [
+        {
+          "id": "uoLWfT-0tns",
+          "title": "LIVE | Media Availability with Head Coach Tata Martino and Alexey Miranchuk",
+          "published": "2026-10-22T15:51:59+00:00",
+          "channel": "Atlanta United FC"
+        },
         {
           "id": "mJNsdS9-ax8",
           "title": "ATLANNNNNNA 🗣️",
@@ -815,18 +814,12 @@
           "title": "Some of the finishes that got us to 500 🤩",
           "published": "2026-10-15T17:54:57+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "bA_kNg5xwS8",
-          "title": "Vamos ATL!! 🔥",
-          "published": "2026-10-15T02:00:01+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-22T15:14:03.597Z"
+      "updatedAt": "2026-10-22T19:12:56.656Z"
     }
   ]
 }
