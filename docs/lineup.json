@@ -1,107 +1,114 @@
 {
-  "updatedAt": "2026-10-24T18:05:54.962Z",
+  "updatedAt": "2026-10-24T20:43:54.955Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "9n1EcbURceI",
+          "title": "Can Claude AI Turn GTA 5 Into GTA 6? ... HOW!?",
+          "published": "2026-10-24T17:43:49.137Z",
+          "channel": "HighwayTrooper",
+          "ageText": "3h ago"
+        },
+        {
           "id": "3TwbE7gv6qo",
           "title": "Learn 99% Of Claude Code in One Video",
-          "published": "2026-10-24T14:05:49.766Z",
+          "published": "2026-10-24T14:43:49.947Z",
           "channel": "Tech With Tim",
-          "ageText": "4h ago"
+          "ageText": "6h ago"
         },
         {
           "id": "7HQ4FWVwAsk",
           "title": "Full Claude Tutorial for Beginners - Become A Pro In Just 30 Minutes!",
-          "published": "2026-10-24T12:05:49.101Z",
+          "published": "2026-10-24T11:43:49.137Z",
           "channel": "Ayushman Pandita",
-          "ageText": "6h ago"
+          "ageText": "9h ago"
         },
         {
           "id": "vtryZ5J6rls",
           "title": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)",
-          "published": "2026-10-24T11:05:49.101Z",
+          "published": "2026-10-24T10:43:49.137Z",
           "channel": "Mayank Aggarwal",
-          "ageText": "7h ago"
+          "ageText": "10h ago"
         },
         {
-          "id": "f3qNGWLNJ4o",
-          "title": "AI Trading: Setup Claude AI Crypto Trading Bot In 10 Minutes (Full Setup Guide)",
-          "published": "2026-10-24T05:05:49.101Z",
-          "channel": "Bill",
-          "ageText": "13h ago"
+          "id": "gIvftHxmO8w",
+          "title": "Claude Code for Beginners: Getting Started Without the Terminal (Step-by-Step)",
+          "published": "2026-10-24T09:43:49.947Z",
+          "channel": "Calvin Hollywood (AI)",
+          "ageText": "11h ago"
         },
         {
           "id": "oj2MVUbb4iE",
-          "title": "I Was Tired of Smart TV Ads… So I Built My Own TV OS",
-          "published": "2026-10-23T21:05:49.766Z",
+          "title": "I Used Claude Code to Fix Everything I Hate About Smart TV Menus",
+          "published": "2026-10-23T20:43:49.947Z",
           "channel": "Zubair Trabzada | AI Workshop",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "jC26BnJseAw",
-          "title": "If you use AI, download Claude Duet immediately",
-          "published": "2026-10-23T18:05:49.101Z",
-          "channel": "Alex Finn",
           "ageText": "1d ago"
         },
         {
-          "id": "U-AdnIz1jIk",
-          "title": "Claude Edited This Entire Video (117 Cuts, 0 Manual Edits)",
-          "published": "2026-10-23T18:05:49.101Z",
-          "channel": "Matt Loui",
+          "id": "d20LRac6jdY",
+          "title": "7 Claude AI Side Hustle Ideas That Can Pay A Full-Time Income In 2026",
+          "published": "2026-10-23T20:43:49.137Z",
+          "channel": "Shane Hummus",
           "ageText": "1d ago"
-        },
-        {
-          "id": "imkKVWoIzVM",
-          "title": "Claude Just Changed: The 10 Big Updates You Need to Know",
-          "published": "2026-10-22T18:05:49.766Z",
-          "channel": "Duncan Rogoff | Learn Claude Code",
-          "ageText": "2d ago"
         },
         {
           "id": "dhsyihMpqZQ",
           "title": "How Complete Beginners Master Claude Code MCP in 19 minutes",
-          "published": "2026-10-22T18:05:49.766Z",
+          "published": "2026-10-22T20:43:49.947Z",
           "channel": "Mikey No Code",
           "ageText": "2d ago"
         },
         {
           "id": "uizaxuzgEAk",
           "title": "Claude Code Mods Explained: Customize Your Setup",
-          "published": "2026-10-22T18:05:49.766Z",
+          "published": "2026-10-22T20:43:49.947Z",
           "channel": "Traversy Media",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "XuVY5cV7o1w",
-          "title": "People are using this Claude Code Repo to REVERSE ENGINEER Their Android TVs!",
-          "published": "2026-10-22T18:05:49.766Z",
-          "channel": "AISeeKing",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "TwFDAB2Cr74",
-          "title": "I Got Claude AI Free Unlimited With This Hack So You Don't Have To Pay",
-          "published": "2026-10-22T18:05:49.101Z",
-          "channel": "Lucas AI Finance and RANAsVFX",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "03BNd8ygnq8",
-          "title": "Learn 90% of Claude Video Editing in under 20 Minutes",
-          "published": "2026-10-22T18:05:49.101Z",
-          "channel": "Grow with Alex",
           "ageText": "2d ago"
         },
         {
           "id": "Dnh3A_XRqN8",
           "title": "Free Claude Code + Claude Opus 5.5 for Free + Free Claude AI Unlimited Claude Tutorial",
-          "published": "2026-10-22T18:05:49.101Z",
+          "published": "2026-10-22T20:43:49.947Z",
           "channel": "Yo, Nadie",
           "ageText": "2d ago"
+        },
+        {
+          "id": "03BNd8ygnq8",
+          "title": "Learn 90% of Claude Video Editing in under 20 Minutes",
+          "published": "2026-10-22T20:43:49.137Z",
+          "channel": "Grow with Alex",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "TwFDAB2Cr74",
+          "title": "I Got Claude AI Free Unlimited With This Hack So You Don't Have To Pay",
+          "published": "2026-10-22T20:43:49.137Z",
+          "channel": "Lucas AI Finance and RANAsVFX",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "i0ytu6k8uac",
+          "title": "I Built My Own TV Operating System With Claude Code",
+          "published": "2026-10-21T20:43:49.947Z",
+          "channel": "Lukas Margerie",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "LqCPwQ1IcA4",
+          "title": "Give Me 24 minutes, I'll Give You 1,000+ hours of Claude Knowledge",
+          "published": "2026-10-21T20:43:49.137Z",
+          "channel": "Iman Gadzhi",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "D-SVFneJ_Nk",
+          "title": "Claude Engineering Lead: \"Stop Using Claude Like It’s 2024\"",
+          "published": "2026-10-20T20:43:49.137Z",
+          "channel": "Silicon Valley Girl",
+          "ageText": "4d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -132,169 +139,169 @@
           "title": "We're building a way for AI models to connect to any device and run real experiments.",
           "published": "2026-08-27T19:42:35+00:00",
           "channel": "Anthropic"
-        },
-        {
-          "id": "P1zBiAQU1IA",
-          "title": "AI models can now help run physical science experiments",
-          "published": "2026-08-27T17:54:32+00:00",
-          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T18:05:50.365Z"
+      "updatedAt": "2026-10-24T20:43:50.787Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "oGC8vra5rvI",
+          "title": "Moonshot AI's New AI Model is INSANE: Kimi K3.1 Pro",
+          "published": "2026-10-24T19:43:52.420Z",
+          "channel": "Lifey Guy",
+          "ageText": "1h ago"
+        },
+        {
           "id": "qMUEU3iTe9U",
           "title": "ChatGPT, Google Gemini & Claude’s CRAZIEST AI News From This Week 🤯",
-          "published": "2026-10-24T17:05:50.365Z",
+          "published": "2026-10-24T17:43:50.788Z",
           "channel": "Rob The AI Guy",
-          "ageText": "1h ago"
+          "ageText": "3h ago"
         },
         {
           "id": "Sd3l4BxX1_8",
           "title": "Qwen 4 Kalmia (Tested) - Alibaba’s Next AI Model Could Be HUGE",
-          "published": "2026-10-24T16:05:51.992Z",
+          "published": "2026-10-24T16:43:52.420Z",
           "channel": "Codedigipt",
-          "ageText": "2h ago"
+          "ageText": "4h ago"
         },
         {
           "id": "Q1m25CQrjFY",
           "title": "Grok Bot Drops Artifacts, Claude Duet, Security Issues + more (AI News)",
-          "published": "2026-10-24T15:05:50.365Z",
+          "published": "2026-10-24T15:43:50.788Z",
           "channel": "Brock Mesarich | AI for Non Techies",
-          "ageText": "3h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "2Q1UG9wYgc0",
           "title": "Apple and Meta's AI gamble: The end of data centres? | AI Decoded",
-          "published": "2026-10-24T14:05:50.365Z",
+          "published": "2026-10-24T14:43:50.788Z",
           "channel": "BBC News",
-          "ageText": "4h ago"
+          "ageText": "6h ago"
         },
         {
           "id": "oMpCkdFn754",
           "title": "US banks scramble to control their AI agent activity",
-          "published": "2026-10-24T09:05:50.365Z",
+          "published": "2026-10-24T08:43:50.788Z",
           "channel": "Fox News Clips",
-          "ageText": "9h ago"
+          "ageText": "12h ago"
         },
         {
           "id": "yNlc8nNrHh4",
           "title": "America's AI race: Are the risks being ignored? | DW News",
-          "published": "2026-10-24T08:05:50.365Z",
+          "published": "2026-10-24T08:43:50.788Z",
           "channel": "DW News",
-          "ageText": "10h ago"
+          "ageText": "12h ago"
         },
         {
           "id": "cFTWtg2ELcI",
           "title": "It's Happening... AI Just Started the Biggest Internet Nightmare in History",
-          "published": "2026-10-24T01:05:50.365Z",
+          "published": "2026-10-24T01:43:50.788Z",
           "channel": "AI Revolution",
-          "ageText": "17h ago"
+          "ageText": "19h ago"
         },
         {
           "id": "9bgM_nJfxZM",
           "title": "Kimi K3.1 Is the #1 Open Model and It Beat GPT-6 Astra at Coding!",
-          "published": "2026-10-23T22:05:51.992Z",
+          "published": "2026-10-23T22:43:52.420Z",
           "channel": "Universe of AI",
-          "ageText": "20h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "BkZ6gsIVbsc",
           "title": "Kimi K3.1 Pro: The AI Model You NEED to Try Right Now, Better than Opus 5.5, GPT 6.1 Sol & Gemini 4?",
-          "published": "2026-10-23T22:05:51.992Z",
+          "published": "2026-10-23T22:43:52.420Z",
           "channel": "The Metaverse Guy",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "6_pXW62OR0g",
-          "title": "Kimi K3.1, Qwen 4 and a Gemini 4.5 Argon? Nobody Expected THIS!",
-          "published": "2026-10-23T18:05:51.992Z",
-          "channel": "Universe of AI",
-          "ageText": "1d ago"
+          "ageText": "22h ago"
         },
         {
           "id": "4OLnDc7RI-o",
           "title": "Anthropic Just Dropped DUET: The First AI That Thinks Ahead on Its Own",
-          "published": "2026-10-23T18:05:51.192Z",
+          "published": "2026-10-23T20:43:51.624Z",
           "channel": "AI Revolution",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "pjkbC1dCBiw",
-          "title": "AI agents accessing bank accounts without approval, report says",
-          "published": "2026-10-23T18:05:51.192Z",
-          "channel": "CBS News",
           "ageText": "1d ago"
         },
         {
           "id": "RtAHPtRQTw0",
           "title": "'NIGHTMARE': Unvetted AI agents are accessing U.S. bank accounts, AXIOS reports",
-          "published": "2026-10-23T18:05:51.192Z",
+          "published": "2026-10-23T20:43:51.624Z",
           "channel": "MS NOW",
           "ageText": "1d ago"
         },
         {
           "id": "AkYzDGtB69A",
           "title": "ON ALERT: Rogue AI bots reportedly discovered in customer accounts at major banks",
-          "published": "2026-10-23T18:05:51.192Z",
+          "published": "2026-10-23T20:43:51.624Z",
           "channel": "Fox Business",
           "ageText": "1d ago"
         },
         {
-          "id": "XW4D6NguJmA",
-          "title": "Recent News in Artificial Intelligence: Critical Analysis (Featuring Connor Leahy)",
-          "published": "2026-10-23T18:05:51.192Z",
-          "channel": "Professor Dave Explains",
+          "id": "aU58pYTcKHg",
+          "title": "Unauthorized AI agents detected inside accounts at major banks",
+          "published": "2026-10-23T20:43:51.624Z",
+          "channel": "CBS Mornings",
           "ageText": "1d ago"
         },
         {
           "id": "TVRCcMlvR10",
           "title": "AI News: 24 Things You Need To Know This Week",
-          "published": "2026-10-23T18:05:50.365Z",
+          "published": "2026-10-23T20:43:50.788Z",
           "channel": "Matt Wolfe",
           "ageText": "1d ago"
         },
         {
-          "id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published": "2026-10-23T18:05:50.365Z",
-          "channel": "Paul J Lipsky",
+          "id": "pjkbC1dCBiw",
+          "title": "AI agents accessing bank accounts without approval, report says",
+          "published": "2026-10-23T20:43:50.788Z",
+          "channel": "CBS News",
           "ageText": "1d ago"
+        },
+        {
+          "id": "6_pXW62OR0g",
+          "title": "Kimi K3.1, Qwen 4 and a Gemini 4.5 Argon? Nobody Expected THIS!",
+          "published": "2026-10-22T20:43:52.420Z",
+          "channel": "Universe of AI",
+          "ageText": "2d ago"
         },
         {
           "id": "iF8-aIDzK84",
           "title": "Anthropic's New Mysterious Model Shows Signs Of Human Intuition",
-          "published": "2026-10-21T18:05:51.992Z",
+          "published": "2026-10-21T20:43:52.420Z",
           "channel": "AI Revolution",
           "ageText": "3d ago"
         },
         {
           "id": "gD40lPTj1SQ",
           "title": "Open Source AI Is Quietly Closing",
-          "published": "2026-10-21T18:05:51.992Z",
+          "published": "2026-10-21T20:43:52.420Z",
           "channel": "Devsplainers",
           "ageText": "3d ago"
         },
         {
           "id": "fJBSNEFdm8c",
-          "title": "Sundar Pichai on Gemini 4 and Google’s biggest bets",
-          "published": "2026-10-21T18:05:51.992Z",
+          "title": "Sundar Pichai on what's next for Google Gemini, Waymo, and data centers in space",
+          "published": "2026-10-21T20:43:52.420Z",
           "channel": "Sources Podcast and 2 more",
           "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T18:05:52.673Z"
+      "updatedAt": "2026-10-24T20:43:53.139Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
+        {
+          "id": "wH46T_nkkTY",
+          "title": "LIVE | Atlanta United Unified Team vs Chicago Fire Unified Team",
+          "published": "2026-10-24T18:21:54+00:00",
+          "channel": "Atlanta United FC"
+        },
         {
           "id": "Cor7FWlxsVs",
           "title": "Kyle Pitts Sr. shares his Mt. Rushmore of Tight Ends 🤩 #nfl #atlantafalcons",
@@ -304,16 +311,16 @@
         {
           "id": "yyxXul4lAZA",
           "title": "PARROT TOED KARL IS A GENIUS!!!",
-          "published": "2026-10-24T13:05:53.423Z",
+          "published": "2026-10-24T13:43:53.504Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "5h ago"
+          "ageText": "7h ago"
         },
         {
           "id": "lG5f3KHazwY",
           "title": "COACH KIM IS A REAL ONE!",
-          "published": "2026-10-24T12:05:53.423Z",
+          "published": "2026-10-24T11:43:53.504Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "6h ago"
+          "ageText": "9h ago"
         },
         {
           "id": "far5w_SPrco",
@@ -340,17 +347,24 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "1ai1te2R4U8",
-          "title": "Big weekend for Atlanta sports fans",
-          "published": "2026-10-24T02:05:53.423Z",
-          "channel": "Atlanta News First",
-          "ageText": "16h ago"
-        },
-        {
           "id": "FHVBZeEDLzs",
           "title": "Hawks vs. Hornets Postgame Press Conference: Quin Snyder",
           "published": "2026-10-24T01:56:07+00:00",
           "channel": "Atlanta Hawks"
+        },
+        {
+          "id": "1ai1te2R4U8",
+          "title": "Big weekend for Atlanta sports fans",
+          "published": "2026-10-24T01:43:53.504Z",
+          "channel": "Atlanta News First",
+          "ageText": "19h ago"
+        },
+        {
+          "id": "PLR75BbnCAY",
+          "title": "$75 max, no midnight boots: Your parking rights for Atlanta’s big sports weekend",
+          "published": "2026-10-24T01:43:53.504Z",
+          "channel": "Atlanta News First",
+          "ageText": "19h ago"
         },
         {
           "id": "Cl-TN4Y_HzY",
@@ -359,18 +373,11 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "Z9GiDCv4e_I",
-          "title": "A CANCER IS IN THE LOCKER ROOM ( or is it? )",
-          "published": "2026-10-24T00:05:53.423Z",
+          "id": "w6KFDOibaRY",
+          "title": "GIVE IT UP CANDACE!!! MY GOD!!",
+          "published": "2026-10-23T20:43:53.504Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "_Cyqjl49iK0",
-          "title": "49ers BREAKING: SF Get FINAL Injury News Before Falcons…",
-          "published": "2026-10-23T22:05:53.423Z",
-          "channel": "The Krueg Show",
-          "ageText": "Streamed 20h ago"
+          "ageText": "1d ago"
         },
         {
           "id": "ooE9182VYiI",
@@ -413,16 +420,10 @@
           "title": "A chat with Mr. Hop in the Coop 🙌",
           "published": "2026-10-19T20:08:43+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "IDeflsLPW3I",
-          "title": "Landon knew from the start 🤣",
-          "published": "2026-10-19T19:21:33+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T18:05:54.961Z"
+      "updatedAt": "2026-10-24T20:43:54.955Z"
     },
     {
       "slug": "braves",
@@ -523,7 +524,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-24T18:05:52.795Z"
+      "updatedAt": "2026-10-24T20:43:53.310Z"
     },
     {
       "slug": "falcons",
@@ -624,7 +625,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-24T18:05:53.024Z"
+      "updatedAt": "2026-10-24T20:43:53.318Z"
     },
     {
       "slug": "hawks",
@@ -725,13 +726,19 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-24T18:05:53.191Z"
+      "updatedAt": "2026-10-24T20:43:53.323Z"
     },
     {
       "slug": "united",
       "name": "ATLANTA UNITED",
       "handle": "@AtlantaUnited",
       "videos": [
+        {
+          "id": "wH46T_nkkTY",
+          "title": "LIVE | Atlanta United Unified Team vs Chicago Fire Unified Team",
+          "published": "2026-10-24T18:21:54+00:00",
+          "channel": "Atlanta United FC"
+        },
         {
           "id": "uoLWfT-0tns",
           "title": "LIVE | Media Availability with Head Coach Tata Martino and Alexey Miranchuk",
@@ -815,18 +822,12 @@
           "title": "DID IT ON A COLD NIGHT UP NORTH 🇨🇦 | Nonstop Access, CF Montréal vs. Atlanta United FC",
           "published": "2026-10-16T16:06:33+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "ZS2CI75-sKs",
-          "title": "Week 29: Atlanta United Prematch Show | Atlanta United vs Inter Miami CF",
-          "published": "2026-10-15T22:55:29+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-24T18:05:53.422Z"
+      "updatedAt": "2026-10-24T20:43:53.504Z"
     }
   ]
 }
