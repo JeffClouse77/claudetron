@@ -1,107 +1,121 @@
 {
-  "updatedAt": "2026-10-24T10:52:38.850Z",
+  "updatedAt": "2026-10-24T14:29:09.654Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "iC5v56h3R7E",
-          "title": "Gemini API CLI + Claude Code: Give Your Agent Video, Voice & Music",
-          "published": "2026-10-24T00:52:34.927Z",
-          "channel": "AI with Surya",
-          "ageText": "10h ago"
+          "id": "vtryZ5J6rls",
+          "title": "How to Use Claude Code for FREE in 2026 (Step-by-Step Guide)",
+          "published": "2026-10-24T11:29:04.368Z",
+          "channel": "Mayank Aggarwal",
+          "ageText": "3h ago"
         },
         {
-          "id": "oj2MVUbb4iE",
-          "title": "I Built My Own TV OS With Claude Code (FREE Files)",
-          "published": "2026-10-23T20:52:34.927Z",
-          "channel": "Zubair Trabzada | AI Workshop",
-          "ageText": "14h ago"
+          "id": "yzHBGcWb_F8",
+          "title": "A Hidden Gem! How to Build Your Own Custom Apps with the \"claude -p\" Command in Claude Code",
+          "published": "2026-10-24T09:29:04.368Z",
+          "channel": "にゃんたのAIチャンネル",
+          "ageText": "5h ago"
         },
         {
-          "id": "dhsyihMpqZQ",
-          "title": "How Complete Beginners Master Claude Code MCP in 19 minutes",
-          "published": "2026-10-23T10:52:34.927Z",
-          "channel": "Mikey No Code",
-          "ageText": "1d ago"
+          "id": "Zde4W9bJVhY",
+          "title": "How to Create a Website Using Claude Code in 10 min for FREE",
+          "published": "2026-10-23T17:29:04.368Z",
+          "channel": "Easy AI Coding",
+          "ageText": "21h ago"
         },
         {
           "id": "uizaxuzgEAk",
           "title": "Claude Code Mods Explained: Customize Your Setup",
-          "published": "2026-10-23T10:52:34.927Z",
+          "published": "2026-10-23T14:29:04.368Z",
           "channel": "Traversy Media",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "_spetICpO4Y",
-          "title": "You're Thinking Too Small With Claude Code",
-          "published": "2026-10-23T10:52:34.927Z",
-          "channel": "AI with Avthar",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "03BNd8ygnq8",
-          "title": "Learn 90% of Claude Video Editing in under 20 Minutes",
-          "published": "2026-10-23T10:52:34.388Z",
-          "channel": "Grow with Alex",
           "ageText": "1d ago"
         },
         {
           "id": "TwFDAB2Cr74",
           "title": "I Got Claude AI Free Unlimited With This Hack So You Don't Have To Pay",
-          "published": "2026-10-23T10:52:34.388Z",
+          "published": "2026-10-23T14:29:02.807Z",
           "channel": "Lucas AI Finance and RANAsVFX",
           "ageText": "1d ago"
         },
         {
-          "id": "Dnh3A_XRqN8",
-          "title": "Free Claude Code + Claude Opus 5.5 for Free + Free Claude AI Unlimited Claude Tutorial",
-          "published": "2026-10-23T10:52:34.388Z",
-          "channel": "Yo, Nadie",
-          "ageText": "1d ago"
+          "id": "dhsyihMpqZQ",
+          "title": "How Complete Beginners Master Claude Code MCP in 19 minutes",
+          "published": "2026-10-22T14:29:04.368Z",
+          "channel": "Mikey No Code",
+          "ageText": "2d ago"
         },
         {
           "id": "imkKVWoIzVM",
           "title": "Claude Just Changed: The 10 Big Updates You Need to Know",
-          "published": "2026-10-22T10:52:34.927Z",
+          "published": "2026-10-22T14:29:04.368Z",
           "channel": "Duncan Rogoff | Learn Claude Code",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "92ZDgn8bgLM",
+          "title": "Anthropic Just Revealed How Their Engineers Use Claude Code",
+          "published": "2026-10-22T14:29:04.368Z",
+          "channel": "AI LABS",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "Dnh3A_XRqN8",
+          "title": "Free Claude Code + Claude Opus 5.5 for Free + Free Claude AI Unlimited Claude Tutorial",
+          "published": "2026-10-22T14:29:04.368Z",
+          "channel": "Yo, Nadie",
           "ageText": "2d ago"
         },
         {
           "id": "LqCPwQ1IcA4",
           "title": "Give Me 24 minutes, I'll Give You 1,000+ hours of Claude Knowledge",
-          "published": "2026-10-22T10:52:34.388Z",
+          "published": "2026-10-22T14:29:02.807Z",
           "channel": "Iman Gadzhi",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "talxc-N7KqE",
-          "title": "Claude Code for Free & Unlimited (If You Set This Up Correctly)",
-          "published": "2026-10-22T10:52:34.388Z",
-          "channel": "Malva AI",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "A48BqMFYmBs",
-          "title": "Accenture Caps Anthropic AI Claude Spending to $29 - AI Is Too Expensive",
-          "published": "2026-10-22T10:52:34.388Z",
-          "channel": "Eli the Computer Guy",
           "ageText": "2d ago"
         },
         {
           "id": "D-SVFneJ_Nk",
           "title": "Claude Engineering Lead: \"Stop Using Claude Like It’s 2024\"",
-          "published": "2026-10-21T10:52:34.388Z",
+          "published": "2026-10-21T14:29:02.807Z",
           "channel": "Silicon Valley Girl",
           "ageText": "3d ago"
         },
         {
           "id": "LzIWNmD_E1g",
           "title": "7 Ways To Make Money With Claude AI (and ChatGPT)",
-          "published": "2026-10-21T10:52:34.388Z",
+          "published": "2026-10-21T14:29:02.807Z",
           "channel": "Joshua Mayo",
           "ageText": "3d ago"
+        },
+        {
+          "id": "talxc-N7KqE",
+          "title": "Claude Code for Free & Unlimited (If You Set This Up Correctly)",
+          "published": "2026-10-21T14:29:02.807Z",
+          "channel": "Malva AI",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "Ge1B-Ok1Pfk",
+          "title": "How to Create Insane Motion Graphics With Claude (for free)",
+          "published": "2026-10-20T14:29:02.807Z",
+          "channel": "Futurepedia",
+          "ageText": "4d ago"
+        },
+        {
+          "id": "D5qpBbEWTxo",
+          "title": "I Turned Claude Into a $880/Day Motion Graphics Skill (No After Effects)",
+          "published": "2026-10-19T14:29:02.807Z",
+          "channel": "Sanji Nai-Chien",
+          "ageText": "5d ago"
+        },
+        {
+          "id": "K8lVHiFnN2A",
+          "title": "Unlimited Claude Code For Free (Runs On Your Computer)",
+          "published": "2026-10-18T14:29:02.807Z",
+          "channel": "Sharbel A.",
+          "ageText": "6d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -126,187 +140,175 @@
           "title": "Model Hardware Standard: AI operating physical equipment",
           "published": "2026-08-28T00:40:16+00:00",
           "channel": "Anthropic"
-        },
-        {
-          "id": "djVUCj5i4sw",
-          "title": "We're building a way for AI models to connect to any device and run real experiments.",
-          "published": "2026-08-27T19:42:35+00:00",
-          "channel": "Anthropic"
-        },
-        {
-          "id": "P1zBiAQU1IA",
-          "title": "AI models can now help run physical science experiments",
-          "published": "2026-08-27T17:54:32+00:00",
-          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T10:52:35.588Z"
+      "updatedAt": "2026-10-24T14:29:04.974Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "cFTWtg2ELcI",
-          "title": "It's Happening... AI Just Started the Biggest Internet Nightmare in History",
-          "published": "2026-10-24T00:52:35.588Z",
-          "channel": "AI Revolution",
-          "ageText": "10h ago"
+          "id": "KEHqCIhZwCs",
+          "title": "Every way to get 48GB VRAM for local AI, cheapest first..",
+          "published": "2026-10-24T13:29:06.330Z",
+          "channel": "KernelBrief",
+          "ageText": "1h ago"
         },
         {
-          "id": "BkZ6gsIVbsc",
-          "title": "Kimi K3.1 Pro: The AI Model You NEED to Try Right Now, Better than Opus 5.5, GPT 6.1 Sol & Gemini 4?",
-          "published": "2026-10-23T22:52:36.706Z",
-          "channel": "The Metaverse Guy",
-          "ageText": "12h ago"
+          "id": "oMpCkdFn754",
+          "title": "US banks scramble to control their AI agent activity",
+          "published": "2026-10-24T09:29:05.683Z",
+          "channel": "Fox News Clips",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "cFTWtg2ELcI",
+          "title": "It's Happening... AI Just Started the Biggest Internet Nightmare in History",
+          "published": "2026-10-24T01:29:04.975Z",
+          "channel": "AI Revolution",
+          "ageText": "13h ago"
         },
         {
           "id": "9bgM_nJfxZM",
           "title": "Kimi K3.1 Is the #1 Open Model and It Beat GPT-6 Astra at Coding!",
-          "published": "2026-10-23T21:52:36.706Z",
+          "published": "2026-10-23T22:29:06.330Z",
           "channel": "Universe of AI",
-          "ageText": "13h ago"
+          "ageText": "16h ago"
+        },
+        {
+          "id": "BkZ6gsIVbsc",
+          "title": "Kimi K3.1 Pro: The AI Model You NEED to Try Right Now, Better than Opus 5.5, GPT 6.1 Sol & Gemini 4?",
+          "published": "2026-10-23T22:29:06.330Z",
+          "channel": "The Metaverse Guy",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "WiEXPHYA6xM",
+          "title": "PHP flaw: How AI just hacked an unhackable part of the internet | About That",
+          "published": "2026-10-23T22:29:04.975Z",
+          "channel": "CBC News",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "TVRCcMlvR10",
+          "title": "AI News: 24 Things You Need To Know This Week",
+          "published": "2026-10-23T18:29:04.975Z",
+          "channel": "Matt Wolfe",
+          "ageText": "20h ago"
         },
         {
           "id": "pjkbC1dCBiw",
           "title": "AI agents accessing bank accounts without approval, report says",
-          "published": "2026-10-23T17:52:36.163Z",
+          "published": "2026-10-23T17:29:04.975Z",
           "channel": "CBS News",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "TVRCcMlvR10",
-          "title": "AI News: AI Agents Are Hacking Everything",
-          "published": "2026-10-23T17:52:35.588Z",
-          "channel": "Matt Wolfe",
-          "ageText": "17h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "RtAHPtRQTw0",
           "title": "'NIGHTMARE': Unvetted AI agents are accessing U.S. bank accounts, AXIOS reports",
-          "published": "2026-10-23T15:52:36.163Z",
+          "published": "2026-10-23T16:29:05.683Z",
           "channel": "MS NOW",
-          "ageText": "19h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "aU58pYTcKHg",
           "title": "Financial fears after report that third-party AI agents made their way into accounts at major banks",
-          "published": "2026-10-23T15:52:36.163Z",
+          "published": "2026-10-23T15:29:05.683Z",
           "channel": "CBS Mornings",
-          "ageText": "19h ago"
-        },
-        {
-          "id": "XW4D6NguJmA",
-          "title": "Recent News in Artificial Intelligence: Critical Analysis (Featuring Connor Leahy)",
-          "published": "2026-10-23T14:52:36.163Z",
-          "channel": "Professor Dave Explains",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published": "2026-10-23T13:52:35.588Z",
-          "channel": "Paul J Lipsky",
-          "ageText": "21h ago"
+          "ageText": "23h ago"
         },
         {
           "id": "6_pXW62OR0g",
           "title": "Kimi K3.1, Qwen 4 and a Gemini 4.5 Argon? Nobody Expected THIS!",
-          "published": "2026-10-23T10:52:36.706Z",
+          "published": "2026-10-23T14:29:06.330Z",
           "channel": "Universe of AI",
           "ageText": "1d ago"
         },
         {
           "id": "xHrAqQtxdFA",
           "title": "GPT-7: OpenAI’s Secret 10 Trillion Parameter AI Monster?",
-          "published": "2026-10-23T10:52:36.706Z",
+          "published": "2026-10-23T14:29:06.330Z",
           "channel": "App & Tech Hub",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "XW4D6NguJmA",
+          "title": "Recent News in Artificial Intelligence: Critical Analysis (Featuring Connor Leahy)",
+          "published": "2026-10-23T14:29:04.975Z",
+          "channel": "Professor Dave Explains",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "AkYzDGtB69A",
+          "title": "ON ALERT: Rogue AI bots reportedly discovered in customer accounts at major banks",
+          "published": "2026-10-23T14:29:04.975Z",
+          "channel": "Fox Business",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "vDYqh1FGrgQ",
+          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
+          "published": "2026-10-23T14:29:04.975Z",
+          "channel": "Paul J Lipsky",
           "ageText": "1d ago"
         },
         {
           "id": "4OLnDc7RI-o",
           "title": "Anthropic Just Dropped DUET: The First AI That Thinks Ahead on Its Own",
-          "published": "2026-10-23T10:52:35.588Z",
+          "published": "2026-10-23T14:29:04.975Z",
           "channel": "AI Revolution",
           "ageText": "1d ago"
         },
         {
-          "id": "BpyQtylJqnE",
-          "title": "The PHP internet crisis could just be the beginning",
-          "published": "2026-10-23T10:52:35.588Z",
-          "channel": "Sky News",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "0a3sKN7-Dks",
-          "title": "Rogue AI Agents Target Major US Banks  | Banks Struggle to Tell Humans From AI Agents |WION Breaking",
-          "published": "2026-10-23T10:52:35.588Z",
-          "channel": "WION",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "omSYrjCtfD8",
-          "title": "How did AI expose a decade-old cybersecurity flaw in PHP? | BBC News",
-          "published": "2026-10-23T10:52:35.588Z",
-          "channel": "BBC News",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "IwYY2YVdNjM",
-          "title": "AI model uses facial photos to estimate cancer survival and biological age",
-          "published": "2026-10-23T10:52:35.588Z",
-          "channel": "NBC News",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "7Tne6u5IC44",
-          "title": "China's DeepSeek Terrifies Silicon Valley with Open Source AI Inference.",
-          "published": "2026-10-22T10:52:36.706Z",
-          "channel": "Quantum Silk Route",
-          "ageText": "2d ago"
-        },
-        {
           "id": "fJBSNEFdm8c",
           "title": "Sundar Pichai on the future of Gemini, Waymo, and space data centers",
-          "published": "2026-10-22T10:52:36.706Z",
+          "published": "2026-10-22T14:29:06.330Z",
           "channel": "Sources Podcast and 2 more",
           "ageText": "2d ago"
         },
         {
           "id": "iF8-aIDzK84",
           "title": "Anthropic's New Mysterious Model Shows Signs Of Human Intuition",
-          "published": "2026-10-21T10:52:36.706Z",
+          "published": "2026-10-21T14:29:06.330Z",
           "channel": "AI Revolution",
           "ageText": "3d ago"
         },
         {
           "id": "gD40lPTj1SQ",
           "title": "Open Source AI Is Quietly Closing",
-          "published": "2026-10-21T10:52:36.706Z",
+          "published": "2026-10-21T14:29:06.330Z",
           "channel": "Devsplainers",
           "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T10:52:37.272Z"
+      "updatedAt": "2026-10-24T14:29:07.704Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "yyxXul4lAZA",
+          "title": "PARROT TOED KARL IS A GENIUS!!!",
+          "published": "2026-10-24T13:29:07.940Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "lG5f3KHazwY",
+          "title": "COACH KIM IS A REAL ONE!",
+          "published": "2026-10-24T11:29:07.940Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "3h ago"
+        },
+        {
           "id": "far5w_SPrco",
           "title": "Head Coach Kevin Stefanski Media Availability | Friday, October 23rd | Press Conference",
           "published": "2026-10-24T05:25:37+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "E_29sdZBy4E",
-          "title": "UMMMM JOAKIM NOAH??",
-          "published": "2026-10-24T02:52:37.509Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "8h ago"
         },
         {
           "id": "PnL8D47tKGo",
@@ -335,9 +337,16 @@
         {
           "id": "1ai1te2R4U8",
           "title": "Big weekend for Atlanta sports fans",
-          "published": "2026-10-24T01:52:37.509Z",
+          "published": "2026-10-24T01:29:07.940Z",
           "channel": "Atlanta News First",
-          "ageText": "9h ago"
+          "ageText": "13h ago"
+        },
+        {
+          "id": "Z9GiDCv4e_I",
+          "title": "A CANCER IS IN THE LOCKER ROOM ( or is it? )",
+          "published": "2026-10-24T00:29:07.940Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "14h ago"
         },
         {
           "id": "Cl-TN4Y_HzY",
@@ -346,18 +355,11 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "Z9GiDCv4e_I",
-          "title": "A CANCER IS IN THE LOCKER ROOM ( or is it? )",
-          "published": "2026-10-23T23:52:37.509Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "11h ago"
-        },
-        {
           "id": "_Cyqjl49iK0",
           "title": "49ers BREAKING: SF Get FINAL Injury News Before Falcons…",
-          "published": "2026-10-23T21:52:37.509Z",
+          "published": "2026-10-23T22:29:07.940Z",
           "channel": "The Krueg Show",
-          "ageText": "Streamed 13h ago"
+          "ageText": "Streamed 16h ago"
         },
         {
           "id": "ooE9182VYiI",
@@ -376,13 +378,6 @@
           "title": "Falcons vs 49ers Preview: How injuries & familiar faces will shape the game | Friday Five Podcast",
           "published": "2026-10-23T13:00:31+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "jNJg0L32CMU",
-          "title": "GMFB | \"Brock Purdy is TOO MUCH for Atlanta’s Defense\" - Kyle Brandt believes 49ers dominate Falcons",
-          "published": "2026-10-23T12:52:37.509Z",
-          "channel": "tuan anh",
-          "ageText": "22h ago"
         },
         {
           "id": "uoLWfT-0tns",
@@ -422,7 +417,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-24T10:52:38.849Z"
+      "updatedAt": "2026-10-24T14:29:09.653Z"
     },
     {
       "slug": "braves",
@@ -523,7 +518,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-24T10:52:37.277Z"
+      "updatedAt": "2026-10-24T14:29:07.711Z"
     },
     {
       "slug": "falcons",
@@ -624,7 +619,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-24T10:52:37.393Z"
+      "updatedAt": "2026-10-24T14:29:07.717Z"
     },
     {
       "slug": "hawks",
@@ -725,7 +720,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-24T10:52:37.399Z"
+      "updatedAt": "2026-10-24T14:29:07.936Z"
     },
     {
       "slug": "united",
@@ -826,7 +821,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-24T10:52:37.509Z"
+      "updatedAt": "2026-10-24T14:29:07.940Z"
     }
   ]
 }
