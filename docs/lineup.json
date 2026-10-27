@@ -1,105 +1,105 @@
 {
-  "updatedAt": "2026-10-27T14:25:34.696Z",
+  "updatedAt": "2026-10-27T20:03:07.144Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "FEjkiSwSoc8",
+          "title": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙",
+          "published": "2026-10-27T16:03:01.833Z",
+          "channel": "Patrick Dang",
+          "ageText": "4h ago"
+        },
+        {
           "id": "5QM78yqpONI",
           "title": "How to Build Your First Website with Claude Code + Seedance 2.5",
-          "published": "2026-10-27T14:15:30.400Z",
+          "published": "2026-10-27T15:03:02.596Z",
           "channel": "Mikey Website",
-          "ageText": "10 min ago"
+          "ageText": "5h ago"
+        },
+        {
+          "id": "3cmX82M_o58",
+          "title": "How to Use Claude for Coding Like a Pro (Full Tutorial)",
+          "published": "2026-10-27T15:03:02.596Z",
+          "channel": "Mikey Vibe Coding",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "FQ6wG--gFIM",
+          "title": "Get 1.7 BILLION Free Tokens for Claude Code (Full Setup) | OmniRoute",
+          "published": "2026-10-27T15:03:02.596Z",
+          "channel": "Verma Tech icon",
+          "ageText": "5h ago"
         },
         {
           "id": "XYrMJ529Lro",
           "title": "Claude AI Can Automate EVERYTHING? 🤯 (தமிழில்)",
-          "published": "2026-10-27T13:25:29.581Z",
+          "published": "2026-10-27T14:03:01.833Z",
           "channel": "The AI Dude - Tamil",
-          "ageText": "1h ago"
+          "ageText": "6h ago"
         },
         {
           "id": "u_J77nEB15M",
           "title": "How to Make Motion Graphics With Claude AI for FREE (Game Changer)",
-          "published": "2026-10-27T12:25:29.581Z",
+          "published": "2026-10-27T12:03:01.833Z",
           "channel": "Nafay 3D",
-          "ageText": "2h ago"
-        },
-        {
-          "id": "8-NrvPP5e80",
-          "title": "This Claude Code Security Skill Found 21 Real Bugs",
-          "published": "2026-10-27T06:25:30.400Z",
-          "channel": "Eric Tech",
           "ageText": "8h ago"
         },
         {
           "id": "Ty0LmE5JjfA",
           "title": "The NEW Claude AI \"Second Income\" Plan For People Stuck In Their 9-5",
-          "published": "2026-10-27T00:25:29.581Z",
+          "published": "2026-10-27T00:03:01.833Z",
           "channel": "Shane Hummus",
-          "ageText": "14h ago"
+          "ageText": "20h ago"
+        },
+        {
+          "id": "gN6wl-OX8-Q",
+          "title": "This Free Repo Lets Claude Code Build Any Mac App",
+          "published": "2026-10-26T21:03:02.596Z",
+          "channel": "Dave Ebbelaar",
+          "ageText": "23h ago"
         },
         {
           "id": "eYFiyX0ew7A",
           "title": "Did Claude Really Ban REA? (Fact-Check)",
-          "published": "2026-10-26T20:25:30.400Z",
+          "published": "2026-10-26T20:03:02.596Z",
           "channel": "Code Bear",
-          "ageText": "18h ago"
+          "ageText": "1d ago"
         },
         {
-          "id": "xxf6D9jynFw",
-          "title": "EGM: Google's New Way To Use Claude Code Is Insane",
-          "published": "2026-10-26T14:25:30.400Z",
-          "channel": "AI LABS",
+          "id": "gfd3BD0T020",
+          "title": "How to Edit Videos with Claude AI | Complete Step-by-Step Tutorial",
+          "published": "2026-10-26T20:03:01.833Z",
+          "channel": "Hello Tejaa",
           "ageText": "1d ago"
         },
         {
           "id": "QDEFSbl8BxY",
           "title": "Claude Code Monetized My YouTube Channel in 14 Days",
-          "published": "2026-10-26T14:25:29.581Z",
+          "published": "2026-10-26T20:03:01.833Z",
           "channel": "Danny Why",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "BVlpYqOOhNg",
-          "title": "Claude AI INTERVIEWS Oxford tutor for uni place!? #ai #claude #oxford #university #interview",
-          "published": "2026-10-26T14:25:29.581Z",
-          "channel": "Jesus College Oxford",
           "ageText": "1d ago"
         },
         {
           "id": "DceFrd65KUg",
           "title": "I Made This Viral Reel Using ONLY EffectCraft & Claude Code",
-          "published": "2026-10-25T14:25:30.400Z",
+          "published": "2026-10-25T20:03:02.596Z",
           "channel": "MoSidd",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "Cft-TBQv_Y4",
-          "title": "I Tested Claude Motion vs. Claude Code for Motion Design",
-          "published": "2026-10-25T14:25:30.400Z",
-          "channel": "Duncan Rogoff | Learn Claude Code",
           "ageText": "2d ago"
         },
         {
           "id": "J5EbL1UaqG8",
           "title": "Claude 2.0 is Insane (All Updates Explained)",
-          "published": "2026-10-25T14:25:29.581Z",
+          "published": "2026-10-25T20:03:01.833Z",
           "channel": "Ben AI",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "ZCPq7e8TklY",
-          "title": "Master Claude AI Agents to Get Rich in 2027 (HyperFrames, Cowork & MCP Explained)",
-          "published": "2026-10-25T14:25:29.581Z",
-          "channel": "The Cutting Edge School",
           "ageText": "2d ago"
         },
         {
           "id": "KphrV76DJoI",
           "title": "Claude Video 2.0 Just Changed Everything (FREE Skill)",
-          "published": "2026-10-25T14:25:29.581Z",
+          "published": "2026-10-25T20:03:01.833Z",
           "channel": "Jack Roberts",
           "ageText": "2d ago"
         },
@@ -141,151 +141,170 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-27T14:25:31.017Z"
+      "updatedAt": "2026-10-27T20:03:03.197Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "O--vRiGdW60",
+          "title": "AI News Today: OpenAI GPT-6.1 Terra, Kimi K3.1 Pro, Cursor Agent SDK & MiniMax M3.1 Flash",
+          "published": "2026-10-27T15:03:04.831Z",
+          "channel": "Aira Tech",
+          "ageText": "5h ago"
+        },
+        {
           "id": "ZRV0LJ5eOjo",
           "title": "GEMINI 5: The New AI Era Is Here!",
-          "published": "2026-10-27T08:25:32.445Z",
+          "published": "2026-10-27T09:03:04.831Z",
           "channel": "AI Master",
-          "ageText": "6h ago"
+          "ageText": "11h ago"
+        },
+        {
+          "id": "4Td1ubsXICs",
+          "title": "Intelligence agency warns of growing AI-powered cybersecurity threats | ABC NEWS",
+          "published": "2026-10-27T09:03:03.198Z",
+          "channel": "ABC News (Australia)",
+          "ageText": "11h ago"
         },
         {
           "id": "SyUjFWgqDNo",
           "title": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
-          "published": "2026-10-27T06:25:31.017Z",
+          "published": "2026-10-27T07:03:03.198Z",
           "channel": "WorldofAI",
-          "ageText": "8h ago"
+          "ageText": "13h ago"
         },
         {
           "id": "jRuK-oOZHDs",
-          "title": "Why Elon Musk Is Calling Out The AI Bubble",
-          "published": "2026-10-27T04:25:31.017Z",
+          "title": "Elon Musk Sounds Alarm On The AI Bubble",
+          "published": "2026-10-27T04:03:03.198Z",
           "channel": "The Young Turks",
-          "ageText": "10h ago"
+          "ageText": "16h ago"
         },
         {
           "id": "l8JleC6D14Q",
           "title": "OpenAI's New GPT-6.1 Terra Is WAY Better Than It Should Be (10x Cheaper, 3x Faster)",
-          "published": "2026-10-27T01:25:31.017Z",
+          "published": "2026-10-27T01:03:03.198Z",
           "channel": "AI Revolution",
-          "ageText": "13h ago"
-        },
-        {
-          "id": "_LmCcskMxHA",
-          "title": "Physics Just Changed Forever (Thanks To AI)",
-          "published": "2026-10-26T23:25:32.445Z",
-          "channel": "Interstellar Dreams and Sunrise Theories",
-          "ageText": "15h ago"
-        },
-        {
-          "id": "cKMzsKM3imk",
-          "title": "HUGE GPT-7 BEL UPDATE! Claude REA BAN + Gemini 4 Carbon New Results & More",
-          "published": "2026-10-26T21:25:32.445Z",
-          "channel": "AI That Works",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "iw_Auk-9uQU",
-          "title": "US banks SCRAMBLE to contain rogue AI threat: 'BIG CONCERN'",
-          "published": "2026-10-26T20:25:31.719Z",
-          "channel": "Fox News Clips",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "LvvG21CpaS4",
-          "title": "AI is Proving Things No One Understands*",
-          "published": "2026-10-26T20:25:31.017Z",
-          "channel": "Hank Green",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "IjCJKr_KzRw",
-          "title": "AI startup Anthropic unveils its public IPO filing for the first time",
-          "published": "2026-10-26T16:25:31.017Z",
-          "channel": "NBC News",
-          "ageText": "22h ago"
+          "ageText": "19h ago"
         },
         {
           "id": "6pVDrfFckbY",
           "title": "It's over... China's New AI Just Caught Up With America's Best",
-          "published": "2026-10-26T14:25:32.445Z",
+          "published": "2026-10-26T20:03:04.831Z",
           "channel": "AI Revolution",
           "ageText": "1d ago"
         },
         {
-          "id": "IQOlynguqmQ",
-          "title": "Moonshot's Latest AI Upgrade Takes on Top-Tier US Models",
-          "published": "2026-10-26T14:25:32.445Z",
-          "channel": "Bloomberg Television",
+          "id": "IjCJKr_KzRw",
+          "title": "AI startup Anthropic unveils its public IPO filing for the first time",
+          "published": "2026-10-26T20:03:04.040Z",
+          "channel": "NBC News",
           "ageText": "1d ago"
         },
         {
           "id": "W3Zn_sjdHxM",
           "title": "Inside the secret race to build artificial intelligence | The Gray Area",
-          "published": "2026-10-26T14:25:31.719Z",
+          "published": "2026-10-26T20:03:04.040Z",
           "channel": "Vox",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "LvvG21CpaS4",
+          "title": "AI is Proving Things No One Understands*",
+          "published": "2026-10-26T20:03:03.198Z",
+          "channel": "Hank Green",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "Unr2sqQEpQE",
+          "title": "I Tested the MOST POWERFUL Uncensored AI That's BREAKING the Internet",
+          "published": "2026-10-26T20:03:03.198Z",
+          "channel": "Mark Gadala-Maria",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "iw_Auk-9uQU",
+          "title": "US banks SCRAMBLE to contain rogue AI threat: 'BIG CONCERN'",
+          "published": "2026-10-26T20:03:03.198Z",
+          "channel": "Fox News Clips",
           "ageText": "1d ago"
         },
         {
           "id": "qMp7Gpu2OXA",
           "title": "HUGE AI NEWS! GPT-7 Rumors, Gemini 4 Breakthroughs, Qwen 4 Leaks & Claude Controversy!”",
-          "published": "2026-10-26T14:25:31.017Z",
+          "published": "2026-10-26T20:03:03.198Z",
           "channel": "AI Decode",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "SIZsFGvtClM",
-          "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know",
-          "published": "2026-10-26T14:25:31.017Z",
-          "channel": "IBM Technology and IBM Developer",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "MFP7CRm2xW4",
-          "title": "This New AI Breakthrough Changes Everything",
-          "published": "2026-10-26T14:25:31.017Z",
-          "channel": "TheAIGRID",
           "ageText": "1d ago"
         },
         {
           "id": "aZMKzHhlTh8",
           "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
-          "published": "2026-10-25T14:25:32.445Z",
+          "published": "2026-10-25T20:03:04.831Z",
           "channel": "WorldofAI",
           "ageText": "2d ago"
         },
         {
-          "id": "oGC8vra5rvI",
-          "title": "Moonshot AI's New AI Model is INSANE: Kimi K3.1 Pro",
-          "published": "2026-10-25T14:25:32.445Z",
-          "channel": "Lifey Guy",
+          "id": "DiMVQWFKyNg",
+          "title": "Texas Sues OpenAI Over New AI Models | AI Midday Update (+5)",
+          "published": "2026-10-25T20:03:04.831Z",
+          "channel": "Hit list AI",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "JrDll-sYtZk",
+          "title": "Suno's New Terms: You Might Not Be Allowed to Release Your Own Song",
+          "published": "2026-10-25T20:03:04.831Z",
+          "channel": "YECKXO",
           "ageText": "2d ago"
         },
         {
           "id": "OnXVUXktKxQ",
           "title": "Why so many AI developers are freaked out about AI",
-          "published": "2026-10-25T14:25:32.445Z",
+          "published": "2026-10-25T20:03:04.040Z",
           "channel": "CNN",
           "ageText": "2d ago"
+        },
+        {
+          "id": "9bgM_nJfxZM",
+          "title": "Kimi K3.1 Is the #1 Open Model and It Beat GPT-6 Astra at Coding!",
+          "published": "2026-10-24T20:03:04.831Z",
+          "channel": "Universe of AI",
+          "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-27T14:25:33.161Z"
+      "updatedAt": "2026-10-27T20:03:05.612Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
-          "id": "Ysj-HR4CnGk",
-          "title": "WE DEFINITELY GOT DEFEATED!!!",
-          "published": "2026-10-27T11:25:33.341Z",
+          "id": "JFmzb6sdOtg",
+          "title": "Kendal Daniels' first career pick put the game on ice 🥶 NFL+ #nfl #atlanta #highlights",
+          "published": "2026-10-27T19:06:45+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "WJHbTZvK4XI",
+          "title": "Tommy Rees' play calling shines in Falcons' upset win over San Francicso 49ers | Film Review",
+          "published": "2026-10-27T18:00:06+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "CWbkPYD9wLI",
+          "title": "PUT THEM ON CHILD SUPPORT!",
+          "published": "2026-10-27T17:03:05.721Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "c-s9jfBuPI0",
+          "title": "Is Michael Penix Jr. Doing Enough to Secure His Future in Atlanta?",
+          "published": "2026-10-27T17:03:05.721Z",
+          "channel": "680 The Fan",
           "ageText": "3h ago"
         },
         {
@@ -313,11 +332,25 @@
           "channel": "Atlanta Falcons"
         },
         {
-          "id": "_Epz2ALPYjo",
-          "title": "ARE WE PUTTING TOO MUCH PRESSURE!?",
-          "published": "2026-10-26T20:25:33.341Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "18h ago"
+          "id": "k49njciDYKc",
+          "title": "Michael Penix Jr.'s big game helps Falcons hand 49ers first loss of season",
+          "published": "2026-10-26T20:03:05.721Z",
+          "channel": "CBS Sports",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "hBgk2yipaeU",
+          "title": "49ers' 4 turnovers lead to first loss of the season vs Falcons | Should we be concerned?",
+          "published": "2026-10-26T20:03:05.721Z",
+          "channel": "CBS Sports",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "NZIr4gOu9YA",
+          "title": "San Francisco 49ers Highlights vs. Atlanta Falcons | Week 7",
+          "published": "2026-10-26T20:03:05.721Z",
+          "channel": "San Francisco 49ers",
+          "ageText": "1d ago"
         },
         {
           "id": "-x4F37e-V3k",
@@ -338,43 +371,10 @@
           "channel": "Atlanta United FC"
         },
         {
-          "id": "iFesIgX6o9w",
-          "title": "San Francisco 49ers were 'sloppy' in upset loss to Atlanta Falcons | Chris Simms Unbuttoned",
-          "published": "2026-10-26T18:25:33.341Z",
-          "channel": "NFL on NBC",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "ImtTy7v9UYA",
-          "title": "Class act 👏 #nfl #atlantafalcons #highlights",
-          "published": "2026-10-26T18:00:31+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "hThp_VNNhrU",
-          "title": "Head Coach Kevin Stefanski Week 8 Media Availability | Monday, October 26th | Press Conference",
-          "published": "2026-10-26T17:14:42+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
           "id": "NvEKeGoeaIg",
           "title": "Onyeka Okongwu, Jock Landale, Mo Gueye, & Corey Kispert preview Atlanta's season | Hawks AF",
           "published": "2026-10-26T16:00:08+00:00",
           "channel": "Atlanta Hawks"
-        },
-        {
-          "id": "k49njciDYKc",
-          "title": "Michael Penix Jr.'s big game helps Falcons hand 49ers first loss of season",
-          "published": "2026-10-26T14:25:33.341Z",
-          "channel": "CBS Sports",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "hBgk2yipaeU",
-          "title": "49ers' 4 turnovers lead to first loss of the season vs Falcons | Should we be concerned?",
-          "published": "2026-10-26T14:25:33.341Z",
-          "channel": "CBS Sports",
-          "ageText": "1d ago"
         },
         {
           "id": "pOEcJtEd8ys",
@@ -408,7 +408,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-27T14:25:34.696Z"
+      "updatedAt": "2026-10-27T20:03:07.144Z"
     },
     {
       "slug": "braves",
@@ -509,13 +509,25 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-27T14:25:33.186Z"
+      "updatedAt": "2026-10-27T20:03:05.619Z"
     },
     {
       "slug": "falcons",
       "name": "ATLANTA FALCONS",
       "handle": "@AtlantaFalcons",
       "videos": [
+        {
+          "id": "JFmzb6sdOtg",
+          "title": "Kendal Daniels' first career pick put the game on ice 🥶 NFL+ #nfl #atlanta #highlights",
+          "published": "2026-10-27T19:06:45+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "WJHbTZvK4XI",
+          "title": "Tommy Rees' play calling shines in Falcons' upset win over San Francicso 49ers | Film Review",
+          "published": "2026-10-27T18:00:06+00:00",
+          "channel": "Atlanta Falcons"
+        },
         {
           "id": "dDUJIA0Yqps",
           "title": "Kendal Daniels felt the love and got to work 🤯 #nfl #kendaldaniels #defense #tackle",
@@ -593,24 +605,12 @@
           "title": "Inside the locker room after the DUB in Atlanta! #win #atlanta #falcons #nfl",
           "published": "2026-10-25T21:56:30+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "g5G8uKovSn8",
-          "title": "Falcons top highlights after win vs. 49ers | Week 7 | NFL",
-          "published": "2026-10-25T21:48:09+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "zZOejIBLvdk",
-          "title": "Kevin Stefanski's Locker Room Speech After ELECTRIC WIN over the 49ers | Falcons",
-          "published": "2026-10-25T21:44:09+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-27T14:25:33.208Z"
+      "updatedAt": "2026-10-27T20:03:05.711Z"
     },
     {
       "slug": "hawks",
@@ -711,7 +711,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-27T14:25:33.227Z"
+      "updatedAt": "2026-10-27T20:03:05.716Z"
     },
     {
       "slug": "united",
@@ -812,7 +812,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-27T14:25:33.341Z"
+      "updatedAt": "2026-10-27T20:03:05.721Z"
     }
   ]
 }
