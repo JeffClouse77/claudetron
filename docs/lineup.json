@@ -1,114 +1,107 @@
 {
-  "updatedAt": "2026-10-31T18:30:17.729Z",
+  "updatedAt": "2026-10-31T22:27:08.548Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "mYIgtixNPBk",
-          "title": "We Built and Backtested a Trading Strategy Using Claude!",
-          "published": "2026-10-31T14:30:11.566Z",
-          "channel": "Trading with Groww",
-          "ageText": "4h ago"
+          "id": "xjSzEzVC3vc",
+          "title": "Claude Code Just got 10X Better (Master it in 24 Minutes)",
+          "published": "2026-10-31T20:27:04.061Z",
+          "channel": "Jack Roberts",
+          "ageText": "2h ago"
         },
         {
           "id": "to4Me479A2s",
           "title": "Grok Bot + Claude Code, Why is Everyone Switching to This?",
-          "published": "2026-10-31T12:30:12.517Z",
+          "published": "2026-10-31T12:27:04.061Z",
           "channel": "Rob Shocks - Switch Dimension",
-          "ageText": "6h ago"
+          "ageText": "10h ago"
         },
         {
           "id": "P_58qzW25Ww",
           "title": "Claude AI Full Course in Hindi - Zero to Pro in 16 Minutes!",
-          "published": "2026-10-31T10:30:11.566Z",
+          "published": "2026-10-31T11:27:03.234Z",
           "channel": "Hrishikesh Roy",
-          "ageText": "8h ago"
+          "ageText": "11h ago"
         },
         {
           "id": "rlEjn_y39sM",
           "title": "Top 10 BEST Claude AI Side Hustles To Start If You're Over 50",
-          "published": "2026-10-31T00:30:11.566Z",
+          "published": "2026-10-31T00:27:03.234Z",
           "channel": "Shane Hummus",
-          "ageText": "18h ago"
+          "ageText": "22h ago"
         },
         {
-          "id": "tcb5q_6jwvY",
-          "title": "Every Claude 2.0 Concept Explained for Normal People",
-          "published": "2026-10-30T23:30:12.517Z",
-          "channel": "Nate Herk | AI Automation",
-          "ageText": "19h ago"
-        },
-        {
-          "id": "S49gppZl8H0",
-          "title": "Anthropic Just Released A New System For Using Claude Code",
-          "published": "2026-10-30T18:30:12.517Z",
-          "channel": "AI LABS",
+          "id": "mVbnPsUORDE",
+          "title": "I'm Sorry Claude Code, but OMP just works.",
+          "published": "2026-10-30T22:27:04.061Z",
+          "channel": "exit node",
           "ageText": "1d ago"
         },
         {
-          "id": "9da97FP75lk",
-          "title": "I tested OpenCode 2.0 vs. Claude Code: The results will surprise you",
-          "published": "2026-10-30T18:30:12.517Z",
-          "channel": "Bruno Vega and Kai",
+          "id": "v8hMT8HYoNk",
+          "title": "Claude + VPS + Doppler: The setup I should have known about much sooner",
+          "published": "2026-10-30T22:27:04.061Z",
+          "channel": "Shubham SHARMA",
           "ageText": "1d ago"
         },
         {
-          "id": "sPpTWl3Cs14",
-          "title": "I Built My Own Software Factory with Claude Code",
-          "published": "2026-10-30T18:30:12.517Z",
-          "channel": "Jan Marshal",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "Mb9H43ia0kE",
-          "title": "Agentic engineering with Claude Code and Android CLI",
-          "published": "2026-10-30T18:30:12.517Z",
-          "channel": "Android Developers",
+          "id": "yFYr507rkZ4",
+          "title": "Claude 2.0 est fou (je t'explique les nouveautés)",
+          "published": "2026-10-30T22:27:04.061Z",
+          "channel": "Colin Blain",
           "ageText": "1d ago"
         },
         {
           "id": "F8jidmEkIeM",
           "title": "Claude Code: Build Your First AI Agent in 20 Minutes (100% No Coding)",
-          "published": "2026-10-30T18:30:11.566Z",
+          "published": "2026-10-30T22:27:03.234Z",
           "channel": "Grace Leung",
           "ageText": "1d ago"
         },
         {
           "id": "Sa_1q6cJHeQ",
-          "title": "The Easiest Claude AI Side Hustle Everyone Is Overlooking",
-          "published": "2026-10-30T18:30:11.566Z",
+          "title": "The Simple Way I’m Making Money Online With Claude AI",
+          "published": "2026-10-30T22:27:03.234Z",
           "channel": "Joshua Mayo",
           "ageText": "1d ago"
         },
         {
           "id": "kT3P1Gdrzzs",
-          "title": "1000+ hours of Learning Claude Code in 8 minutes (2026 tutorial / unknown tricks / newest model)",
-          "published": "2026-10-29T18:30:12.517Z",
+          "title": "1000+ hours of Learning Claude in 8 Minutes",
+          "published": "2026-10-29T22:27:04.061Z",
           "channel": "The Coding Gopher",
           "ageText": "2d ago"
         },
         {
           "id": "1MLGhb-jvws",
-          "title": "Claude 2.0 Is Insane: Every New Update Explained (No Coding)",
-          "published": "2026-10-29T18:30:11.566Z",
+          "title": "Claude 2.0 Just Dropped. Here's How to Use Every New Update (No Coding)",
+          "published": "2026-10-29T22:27:03.234Z",
           "channel": "Vaibhav Sisinty",
           "ageText": "2d ago"
         },
         {
           "id": "1OMfOqCttx0",
           "title": "The #1 Claude AI Side Hustle I'd Recommend To My Own Family",
-          "published": "2026-10-29T18:30:11.566Z",
+          "published": "2026-10-29T22:27:03.234Z",
           "channel": "Shane Hummus",
           "ageText": "2d ago"
         },
         {
-          "id": "78Eo_-4P1Zc",
-          "title": "Claude 2.0 Completely Changed How I Use AI",
-          "published": "2026-10-28T18:30:11.566Z",
-          "channel": "AI Edge",
+          "id": "yMnFHFf43Qg",
+          "title": "Anthropic Just Shipped Claude 2.0 (Master it in 17 minutes)",
+          "published": "2026-10-28T22:27:03.234Z",
+          "channel": "Jay E | RoboNuggets",
           "ageText": "3d ago"
+        },
+        {
+          "id": "FEjkiSwSoc8",
+          "title": "I Tried the LAZIEST Way to Make Money with Claude AI at Night 🌙",
+          "published": "2026-10-27T22:27:03.234Z",
+          "channel": "Patrick Dang",
+          "ageText": "4d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -139,10 +132,16 @@
           "title": "We're building a way for AI models to connect to any device and run real experiments.",
           "published": "2026-08-27T19:42:35+00:00",
           "channel": "Anthropic"
+        },
+        {
+          "id": "P1zBiAQU1IA",
+          "title": "AI models can now help run physical science experiments",
+          "published": "2026-08-27T17:54:32+00:00",
+          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-31T18:30:13.333Z"
+      "updatedAt": "2026-10-31T22:27:04.745Z"
     },
     {
       "slug": "ai-news",
@@ -150,151 +149,156 @@
       "videos": [
         {
           "id": "UIYoKcIvSVo",
-          "title": "The AI Industry Is Moving Too Fast...",
-          "published": "2026-10-31T16:30:13.334Z",
+          "title": "AI News Is Getting Absolutely RIDICULOUS",
+          "published": "2026-10-31T16:27:04.745Z",
           "channel": "TheAIGRID",
-          "ageText": "2h ago"
+          "ageText": "6h ago"
         },
         {
           "id": "upaSZ7QkgHo",
           "title": "The AI Boom Is Turning Into A Financial NIGHTMARE",
-          "published": "2026-10-31T03:30:13.334Z",
+          "published": "2026-10-31T03:27:04.745Z",
           "channel": "The Young Turks",
-          "ageText": "15h ago"
+          "ageText": "19h ago"
         },
         {
-          "id": "eDiQNFa-zYg",
-          "title": "AI News: The Only 6 Stories Worth Knowing This Week",
-          "published": "2026-10-30T21:30:13.334Z",
-          "channel": "Matt Wolfe",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "7rNIW_R0qVw",
-          "title": "Huge GPT-6.2 Bel Leak: AGI Capabilities + Fable 5.5 New Results",
-          "published": "2026-10-30T20:30:14.806Z",
-          "channel": "AI That Works",
+          "id": "kId19sUYuic",
+          "title": "Market drop wipes out more than a trillion dollars in value",
+          "published": "2026-10-31T00:27:04.745Z",
+          "channel": "NBC News",
           "ageText": "22h ago"
-        },
-        {
-          "id": "yNI84SU9x4I",
-          "title": "Google Just Built the World's Smartest AI... (Beats Opus 5.5 and GPT-6 Astra)",
-          "published": "2026-10-30T18:30:14.806Z",
-          "channel": "TheAIGRID",
-          "ageText": "1d ago"
         },
         {
           "id": "GlRVbIdc_Mk",
           "title": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-          "published": "2026-10-30T18:30:14.806Z",
+          "published": "2026-10-30T22:27:06.109Z",
           "channel": "WorldofAI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "fgT8jVLZWRg",
-          "title": "HUGE Claude Fable 5.5 LEAK?! Gemini 4 Xenon, GPT-6.2 Betelgeuse & More! AI NEWS",
-          "published": "2026-10-30T18:30:14.806Z",
-          "channel": "NewEraAi",
           "ageText": "1d ago"
         },
         {
           "id": "Tyoyvspkcfc",
           "title": "Claude Fable 5.5 Spotted, Opus 5.6 Coming? Google Has MORE Models Ready",
-          "published": "2026-10-30T18:30:14.806Z",
+          "published": "2026-10-30T22:27:06.109Z",
           "channel": "Universe of AI",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "yqf6ueMaL5s",
+          "title": "Mistral Released an AI Model It Can't Take Back",
+          "published": "2026-10-30T22:27:06.109Z",
+          "channel": "Ohmhytte",
           "ageText": "1d ago"
         },
         {
           "id": "K8NgeOuZmWU",
           "title": "AI exposes a major web security flaw, plus a new kind of voice model",
-          "published": "2026-10-30T18:30:14.806Z",
+          "published": "2026-10-30T22:27:06.109Z",
           "channel": "IBM Technology",
           "ageText": "1d ago"
         },
         {
           "id": "A-dxxTV1b_o",
           "title": "Investors in AI race spooked after Google value drops $500bn | BBC News",
-          "published": "2026-10-30T18:30:14.107Z",
+          "published": "2026-10-30T22:27:05.383Z",
           "channel": "BBC News",
           "ageText": "1d ago"
         },
         {
           "id": "oeq8PziWTeo",
           "title": "Jensen Huang Just Named the Next Wave of AI",
-          "published": "2026-10-30T18:30:13.334Z",
+          "published": "2026-10-30T22:27:04.745Z",
           "channel": "Julia McCoy",
           "ageText": "1d ago"
         },
         {
-          "id": "Ku3hwyd51aw",
-          "title": "Bill Gates: 20 Years Of CHAOS COMING From AI",
-          "published": "2026-10-30T18:30:13.334Z",
-          "channel": "Breaking Points",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "lXLmgsNP3MY",
-          "title": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon & A Terrifying Voice Model",
-          "published": "2026-10-30T18:30:13.334Z",
-          "channel": "Paul J Lipsky",
+          "id": "eDiQNFa-zYg",
+          "title": "AI News: The Only 6 Stories Worth Knowing This Week",
+          "published": "2026-10-30T22:27:04.745Z",
+          "channel": "Matt Wolfe",
           "ageText": "1d ago"
         },
         {
           "id": "XAfxi-Xo_sk",
           "title": "Google's New CARBON is Now the Most Powerful AI in the World",
-          "published": "2026-10-30T18:30:13.334Z",
+          "published": "2026-10-30T22:27:04.745Z",
           "channel": "AI Revolution",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "lXLmgsNP3MY",
+          "title": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon & A Terrifying Voice Model",
+          "published": "2026-10-30T22:27:04.745Z",
+          "channel": "Paul J Lipsky",
           "ageText": "1d ago"
         },
         {
           "id": "tOeFyixOgD0",
           "title": "Jon Stewart & The News Team Tackle AI’s Looming Threat, Rebrand & Lax Regulations | The Daily Show",
-          "published": "2026-10-30T18:30:13.334Z",
+          "published": "2026-10-30T22:27:04.745Z",
           "channel": "The Daily Show",
           "ageText": "1d ago"
         },
         {
+          "id": "yNI84SU9x4I",
+          "title": "Gemini 4 Carbon Just DESTROYED the AI Competition",
+          "published": "2026-10-29T22:27:06.109Z",
+          "channel": "TheAIGRID",
+          "ageText": "2d ago"
+        },
+        {
           "id": "mv8jD6bA53A",
           "title": "Gemini 4 Carbon: What Google’s New #1 AI Means for Your Work",
-          "published": "2026-10-29T18:30:14.806Z",
+          "published": "2026-10-29T22:27:06.109Z",
           "channel": "AI with Surya",
           "ageText": "2d ago"
         },
         {
           "id": "JPHT9AvoPSA",
           "title": "Every Way to Get 256 GB of VRAM for Local AI at Full Context",
-          "published": "2026-10-29T18:30:14.806Z",
+          "published": "2026-10-29T22:27:06.109Z",
           "channel": "Kai",
           "ageText": "2d ago"
         },
         {
-          "id": "HOgj6cJ9oxQ",
-          "title": "AI Can Now Create Worlds You Can Change in Real Time",
-          "published": "2026-10-29T18:30:14.107Z",
-          "channel": "The AI Daily Brief: Artificial Intelligence News",
-          "ageText": "2d ago"
+          "id": "3sDzlv-VI2U",
+          "title": "Data Centers, Debt & the Risks of AI’s Finances w/ Ed Zitron | The Weekly Show with Jon Stewart",
+          "published": "2026-10-28T22:27:05.383Z",
+          "channel": "The Weekly Show with Jon Stewart and Better Offline",
+          "ageText": "3d ago"
         },
         {
-          "id": "tUMm5rP4SwU",
-          "title": "What’s Stopping AI From Copying Itself?",
-          "published": "2026-10-28T18:30:14.107Z",
-          "channel": "StarTalk Plus",
-          "ageText": "3d ago"
+          "id": "SyUjFWgqDNo",
+          "title": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+          "published": "2026-10-27T22:27:06.109Z",
+          "channel": "WorldofAI",
+          "ageText": "4d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-31T18:30:15.484Z"
+      "updatedAt": "2026-10-31T22:27:06.798Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "YWAWxQXv4TQ",
+          "title": "Spooky szn 👻",
+          "published": "2026-10-31T21:07:36+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "xFee2kc2h1o",
+          "title": "Georgia-Florida score predictions 👀 #nfl #collegefootball #score #atlanta",
+          "published": "2026-10-31T18:57:47+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
           "id": "VH73piJqTC0",
           "title": "NASTY WEATHER IN TAMPA! | LIVE FROM TAMPA FALCONS VS BUCCANEERS",
-          "published": "2026-10-31T17:30:15.949Z",
+          "published": "2026-10-31T17:27:07.049Z",
           "channel": "Uncut Atlanta Sports",
-          "ageText": "Streamed 1h ago"
+          "ageText": "Streamed 5h ago"
         },
         {
           "id": "30I3LZZit_o",
@@ -317,9 +321,9 @@
         {
           "id": "VM_o26nBtvE",
           "title": "YAHOO SPORTS HATES ANGEL!",
-          "published": "2026-10-31T14:30:15.949Z",
+          "published": "2026-10-31T14:27:07.049Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "4h ago"
+          "ageText": "8h ago"
         },
         {
           "id": "O_5JTAqu5dI",
@@ -330,9 +334,9 @@
         {
           "id": "lSNvdd7jsHA",
           "title": "COACH KIM \" THE BEST IVE EVER HAD \"",
-          "published": "2026-10-31T11:30:15.949Z",
+          "published": "2026-10-31T11:27:07.049Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "7h ago"
+          "ageText": "11h ago"
         },
         {
           "id": "Hyr9F-Iii70",
@@ -343,20 +347,14 @@
         {
           "id": "TWFZF3hfEh0",
           "title": "THE REAL FANS!",
-          "published": "2026-10-31T00:30:15.949Z",
+          "published": "2026-10-31T00:27:07.049Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "9Yc9Rvs67QE",
-          "title": "Jessie Bates III talks about Coach Stefanski’s impact since coming to Atlanta #nfl #atlantafalcons",
-          "published": "2026-10-30T21:05:58+00:00",
-          "channel": "Atlanta Falcons"
+          "ageText": "22h ago"
         },
         {
           "id": "OlEVPp3hRmM",
           "title": "Atlanta Falcons Just Received SO MUCH NEWS Before Buccaneers Game",
-          "published": "2026-10-30T18:30:15.949Z",
+          "published": "2026-10-30T22:27:07.049Z",
           "channel": "Falcons Today by Chat Sports",
           "ageText": "1d ago"
         },
@@ -371,12 +369,6 @@
           "title": "Week 32: Atlanta United Prematch Show | Atlanta United vs Toronto FC",
           "published": "2026-10-30T17:54:42+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "oPaWMmAeOlM",
-          "title": "Testing our players to see if they can escape Freddie 😳 #nfl #halloween #atlantafalcons",
-          "published": "2026-10-30T16:05:48+00:00",
-          "channel": "Atlanta Falcons"
         },
         {
           "id": "vXVzvem1srg",
@@ -416,7 +408,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-10-31T18:30:17.729Z"
+      "updatedAt": "2026-10-31T22:27:08.548Z"
     },
     {
       "slug": "braves",
@@ -517,13 +509,25 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-10-31T18:30:15.658Z"
+      "updatedAt": "2026-10-31T22:27:06.952Z"
     },
     {
       "slug": "falcons",
       "name": "ATLANTA FALCONS",
       "handle": "@AtlantaFalcons",
       "videos": [
+        {
+          "id": "YWAWxQXv4TQ",
+          "title": "Spooky szn 👻",
+          "published": "2026-10-31T21:07:36+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "xFee2kc2h1o",
+          "title": "Georgia-Florida score predictions 👀 #nfl #collegefootball #score #atlanta",
+          "published": "2026-10-31T18:57:47+00:00",
+          "channel": "Atlanta Falcons"
+        },
         {
           "id": "TtKlFfVpsJI",
           "title": "SUNDAY SCARIES | Hype | Atlanta Falcons",
@@ -601,24 +605,12 @@
           "title": "The spider prank strikes again 🤣 #halloween #nfl #atlantafalcons",
           "published": "2026-10-29T17:44:10+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "IIk7yt3nFyw",
-          "title": "Jeff Ulbrich, Tommy Rees & Craig Aukerman on Falcons preparation for Buccaneers | Press Conferences",
-          "published": "2026-10-29T17:32:40+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "D0lS98Ae_XI",
-          "title": "Draaaaakkkkkeeeeee 🗣️ #nfl #atlantafalcons",
-          "published": "2026-10-29T16:30:18+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-10-31T18:30:15.751Z"
+      "updatedAt": "2026-10-31T22:27:07.038Z"
     },
     {
       "slug": "hawks",
@@ -719,7 +711,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-10-31T18:30:15.858Z"
+      "updatedAt": "2026-10-31T22:27:07.044Z"
     },
     {
       "slug": "united",
@@ -820,7 +812,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-10-31T18:30:15.949Z"
+      "updatedAt": "2026-10-31T22:27:07.049Z"
     }
   ]
 }
