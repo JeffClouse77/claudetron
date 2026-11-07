@@ -1,106 +1,106 @@
 {
-  "updatedAt": "2026-11-07T12:54:21.452Z",
+  "updatedAt": "2026-11-07T18:00:39.296Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "3Zq4cceOTa4",
-          "title": "I Tried this Trending Opensource Claude Code Plugin & IT'S ACTUALLY CRAZY!",
-          "published": "2026-11-07T09:54:17.117Z",
-          "channel": "AICodeKing",
-          "ageText": "3h ago"
-        },
-        {
           "id": "1hoICfzfZoE",
           "title": "I Built a Live Trading Bot with Claude Code AI (Ethereum AI Trading)",
-          "published": "2026-11-07T08:54:16.525Z",
+          "published": "2026-11-07T08:00:33.666Z",
           "channel": "Thomas Sutton",
-          "ageText": "4h ago"
-        },
-        {
-          "id": "12M2AIlM_nA",
-          "title": "3 Claude Agents to Build First (Even If You Don't Code)",
-          "published": "2026-11-06T21:54:17.117Z",
-          "channel": "Duncan Rogoff | Learn Claude Code",
-          "ageText": "15h ago"
-        },
-        {
-          "id": "Yj5LpSq_7xI",
-          "title": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)",
-          "published": "2026-11-06T16:54:16.525Z",
-          "channel": "Grow With Kaz",
-          "ageText": "20h ago"
+          "ageText": "10h ago"
         },
         {
           "id": "znWSzW0Zh_Y",
           "title": "Claude Just Dropped 7 Updates (Here's Which 4 to Use)",
-          "published": "2026-11-06T12:54:17.117Z",
+          "published": "2026-11-06T18:00:34.560Z",
           "channel": "Duncan Rogoff | Learn Claude Code",
           "ageText": "1d ago"
         },
         {
           "id": "tCGA_mZtltA",
-          "title": "Claude Code + YouTube will BLOW UP your Channel",
-          "published": "2026-11-06T12:54:17.117Z",
+          "title": "Claude Code Can Help You Get 10x More Views",
+          "published": "2026-11-06T18:00:34.560Z",
           "channel": "Danny Why",
           "ageText": "1d ago"
         },
         {
-          "id": "3DklR44DHnM",
-          "title": "Deepseek Super Agent Just Killed All Agent Harnesses",
-          "published": "2026-11-06T12:54:17.117Z",
-          "channel": "AI LABS",
+          "id": "z5kcsAmoZRo",
+          "title": "I Cancelled Claude Code. Here's What I Use Now",
+          "published": "2026-11-06T18:00:34.560Z",
+          "channel": "Epic Programmer",
           "ageText": "1d ago"
         },
         {
-          "id": "VOd4WDxDHso",
-          "title": "I Set Up a Day Trading Bot using Claude Code and AI Tools - Online Income with DeFi Crypto Trading",
-          "published": "2026-11-06T12:54:17.117Z",
-          "channel": "Tyler Reeves",
+          "id": "Yj5LpSq_7xI",
+          "title": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)",
+          "published": "2026-11-06T18:00:33.666Z",
+          "channel": "Grow With Kaz",
           "ageText": "1d ago"
         },
         {
-          "id": "ge2FmPeVsT8",
-          "title": "Build Your FIRST AI Agent in Claude Code. (11 Minutes).",
-          "published": "2026-11-06T12:54:16.525Z",
-          "channel": "Tristen O'Brien",
+          "id": "RXUy7JwnsIs",
+          "title": "Claude AI + Unity MCP 🔥 AI Will Now Create Games | ft. @ganeshawave",
+          "published": "2026-11-06T18:00:33.666Z",
+          "channel": "AI with Thiru and Ganesha Waves",
           "ageText": "1d ago"
         },
         {
-          "id": "MCwdmt1WHYg",
-          "title": "Can Claude AI Build a Viral Roblox Volleyball Game in 3 Prompts?",
-          "published": "2026-11-06T12:54:16.525Z",
-          "channel": "Yxii",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "7kbDosV5qaU",
-          "title": "Anthropic Just Shipped Claude Office (Master it in 24 Minutes)",
-          "published": "2026-11-05T12:54:16.525Z",
-          "channel": "Jack Roberts",
+          "id": "ec0StkHdO18",
+          "title": "1000+ Hours of Learning Claude Code in 25 Minutes (Beginner to Pro Tutorial)",
+          "published": "2026-11-05T18:00:34.560Z",
+          "channel": "AI Master",
           "ageText": "2d ago"
         },
         {
           "id": "IPKOx66fogE",
           "title": "Don't Give AI Your Data: How I (Actually) Use Claude Code for Data Analysis",
-          "published": "2026-11-05T12:54:16.525Z",
+          "published": "2026-11-05T18:00:34.560Z",
           "channel": "Thu Vu",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "3DklR44DHnM",
+          "title": "Deepseek Super Agent Just Killed All Agent Harnesses",
+          "published": "2026-11-05T18:00:34.560Z",
+          "channel": "AI LABS",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "ge2FmPeVsT8",
+          "title": "Build Your FIRST AI Agent in Claude Code. (11 Minutes).",
+          "published": "2026-11-05T18:00:33.666Z",
+          "channel": "Tristen O'Brien",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "aYinU4Ja_88",
+          "title": "How To Use Claude for Video Editing Like the Top 1%",
+          "published": "2026-11-05T18:00:33.666Z",
+          "channel": "Zinho Automates",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "MCwdmt1WHYg",
+          "title": "Can Claude AI Build a Viral Roblox Volleyball Game in 3 Prompts?",
+          "published": "2026-11-05T18:00:33.666Z",
+          "channel": "Yxii",
           "ageText": "2d ago"
         },
         {
           "id": "tM0dwXhOv2o",
           "title": "Claude 2.0 Is Here. EVERYTHING in 15 Minutes",
-          "published": "2026-11-04T12:54:16.525Z",
+          "published": "2026-11-04T18:00:33.666Z",
           "channel": "Futurepedia",
           "ageText": "3d ago"
         },
         {
-          "id": "e2Fykz51Nxg",
-          "title": "Claude Edited This Netflix-Level Documentary (Copy Me)",
-          "published": "2026-11-04T12:54:16.525Z",
-          "channel": "Zane Hoyer",
+          "id": "7kbDosV5qaU",
+          "title": "Anthropic Just Shipped Claude Office (Master it in 24 Minutes)",
+          "published": "2026-11-04T18:00:33.666Z",
+          "channel": "Jack Roberts",
           "ageText": "3d ago"
         },
         {
@@ -141,160 +141,192 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T12:54:17.616Z"
+      "updatedAt": "2026-11-07T18:00:35.330Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "J6uZkMr4ekI",
-          "title": "AI news Nov 7: AI proof claim, OpenAI's $11B round, ARTEX hacking",
-          "published": "2026-11-07T12:15:17.616Z",
-          "channel": "Snippets Ltd.",
-          "ageText": "39 min ago"
+          "id": "_IwvMEgnbUw",
+          "title": "New AI Model With 594 BILLION Parameters Shocks Everyone!",
+          "published": "2026-11-07T17:00:36.626Z",
+          "channel": "AI decoded",
+          "ageText": "1h ago"
         },
         {
           "id": "ooe-w3IMLTU",
           "title": "New AI Models This Week — GPT-6 Cyber, Images 2.6, Tencent Hy4 & More",
-          "published": "2026-11-07T10:54:18.927Z",
+          "published": "2026-11-07T11:00:36.626Z",
           "channel": "The Invisible",
-          "ageText": "2h ago"
-        },
-        {
-          "id": "LJa_k2JyFsk",
-          "title": "QWEN 4 Preview IS INSANE! First Look at Qwen 4 Max & 27B! Greatest Open Model Ever!",
-          "published": "2026-11-07T08:54:18.927Z",
-          "channel": "WorldofAI",
-          "ageText": "4h ago"
+          "ageText": "7h ago"
         },
         {
           "id": "I8LXJeDXeIU",
           "title": "Trillions lost as investors question the AI boom | DW News",
-          "published": "2026-11-07T05:54:17.616Z",
+          "published": "2026-11-07T05:00:35.330Z",
           "channel": "DW News",
-          "ageText": "7h ago"
+          "ageText": "13h ago"
         },
         {
           "id": "OsNxyxEmVNw",
           "title": "Qwen 4 Is Coming: Can Open Models Catch Up?",
-          "published": "2026-11-07T01:54:18.927Z",
+          "published": "2026-11-07T02:00:36.626Z",
           "channel": "Tech2WiLD",
-          "ageText": "11h ago"
+          "ageText": "16h ago"
         },
         {
           "id": "7eQree8FhKI",
-          "title": "Anthropics Model 4 Just Shocked The AI Industry",
-          "published": "2026-11-06T23:54:17.616Z",
+          "title": "Something HUGE Is Happening Inside Anthropic...",
+          "published": "2026-11-06T23:00:35.330Z",
           "channel": "TheAIGRID",
-          "ageText": "13h ago"
+          "ageText": "19h ago"
         },
         {
           "id": "MP7llHUsQcI",
-          "title": "Why OpenAI Didn't Release GPT-6.2 Astra Today (Vals AI Safety Alert, Codex Leak & IPO Standoff)",
-          "published": "2026-11-06T20:54:18.927Z",
+          "title": "OpenAI Pulled the Brakes on GPT-6.2 Astra & Sol — Here's What Actually Happened Behind the Scenes",
+          "published": "2026-11-06T21:00:36.626Z",
           "channel": "EcoBench",
-          "ageText": "16h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "Itr3Ld5c9yI",
-          "title": "Dramatic tech and AI share sell-off wipes trillions off stock markets",
-          "published": "2026-11-06T20:54:17.616Z",
+          "title": "AI bubble fears prompt dramatic sell-off",
+          "published": "2026-11-06T21:00:35.330Z",
           "channel": "Channel 4 News",
-          "ageText": "16h ago"
+          "ageText": "21h ago"
         },
         {
-          "id": "1bkTINuGubw",
-          "title": "Democrats Set to Launch Investigations Into Big Tech",
-          "published": "2026-11-06T18:54:18.320Z",
-          "channel": "Bloomberg News",
-          "ageText": "18h ago"
+          "id": "of-WwgsQO3U",
+          "title": "Could US Democrats burst the AI bubble after global tech shares plummet? | Global News Podcast",
+          "published": "2026-11-06T20:00:35.330Z",
+          "channel": "BBC News",
+          "ageText": "22h ago"
         },
         {
           "id": "IrAHINf0M6E",
           "title": "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)",
-          "published": "2026-11-06T18:54:17.616Z",
+          "published": "2026-11-06T19:00:35.330Z",
           "channel": "Matt Wolfe",
-          "ageText": "18h ago"
+          "ageText": "23h ago"
         },
         {
           "id": "jpn4XJEC64Q",
-          "title": "Public anger at data centres is hammering AI stocks | BBC News",
-          "published": "2026-11-06T18:54:17.616Z",
+          "title": "How data centre anger led to a tech stock plunge | BBC News",
+          "published": "2026-11-06T19:00:35.330Z",
           "channel": "BBC News",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "F4SNgigJtzk",
-          "title": "Morning News NOW Full Episode – Nov. 6",
-          "published": "2026-11-06T16:54:18.320Z",
-          "channel": "NBC News",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "TAMS6fyuPCI",
-          "title": "LIVE: Is the AI Boom Over? Democratic Wave Shakes Big Tech | The Palki Sharma Show | IGR",
-          "published": "2026-11-06T16:54:17.616Z",
-          "channel": "India Global Review",
-          "ageText": "Streamed 20h ago"
-        },
-        {
-          "id": "jGqi6Ax-N0c",
-          "title": "Anthropic Just Issued a WARNING About Its Own AI…",
-          "published": "2026-11-06T15:54:17.616Z",
-          "channel": "AI Copium",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "dN85GDvp5vY",
-          "title": "Ripple-65B: Is This the New Qwen 3.8 27B Killer From the US?",
-          "published": "2026-11-06T14:54:18.927Z",
-          "channel": "RepoChad",
-          "ageText": "22h ago"
-        },
-        {
-          "id": "85mhGo9jNGY",
-          "title": "AI News: New Grok Bot Limits, Muse Voice Is Here, ChatGPT Images 2.6 and More!",
-          "published": "2026-11-06T14:54:18.320Z",
-          "channel": "Paul J Lipsky",
-          "ageText": "22h ago"
-        },
-        {
-          "id": "CIg4VayVwiM",
-          "title": "Stocks plunge amid new AI uncertainty",
-          "published": "2026-11-06T13:54:18.320Z",
-          "channel": "NBC News",
           "ageText": "23h ago"
         },
         {
           "id": "efnEcbHnRa0",
           "title": "HUGE Claude Sonnet 6 LEAK, Anthropic's SECRET Fable 6?! GPT-6.2 Astra TODAY, & More! AI NEWS",
-          "published": "2026-11-06T12:54:18.927Z",
+          "published": "2026-11-06T18:00:36.626Z",
           "channel": "WorldofAI",
           "ageText": "1d ago"
         },
         {
           "id": "x_5JijpzprU",
           "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4",
-          "published": "2026-11-06T12:54:18.927Z",
+          "published": "2026-11-06T18:00:36.626Z",
           "channel": "IBM Technology",
           "ageText": "1d ago"
         },
         {
           "id": "R1vmfCfNXb8",
           "title": "Stock market meltdown over A.I. fears",
-          "published": "2026-11-06T12:54:18.320Z",
+          "published": "2026-11-06T18:00:36.025Z",
           "channel": "NBC News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "CIg4VayVwiM",
+          "title": "Stocks plunge amid new AI uncertainty",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "NBC News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "1bkTINuGubw",
+          "title": "Democrats Set to Launch Investigations Into Big Tech",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "Bloomberg News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "dyGhAzHwd9Q",
+          "title": "AI Will Replace 90% Of Workers? | The Biggest Employment Crisis Ahead? | AI BOOM, JOBS GONE?",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "Ravi Prakash",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "eP3julUb1y8",
+          "title": "Tech selloff erases trillions from US stock markets | Reuters World News",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "Reuters",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "zDx4HyMOI2k",
+          "title": "Voters Stay Misinformed with AI, Elon Floats Flying Car & Robot Bodyguards Kick Ass | The Daily Show",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "The Daily Show",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "F4SNgigJtzk",
+          "title": "Morning News NOW Full Episode – Nov. 6",
+          "published": "2026-11-06T18:00:36.025Z",
+          "channel": "NBC News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "85mhGo9jNGY",
+          "title": "AI News: New Grok Bot Limits, Muse Voice Is Here, ChatGPT Images 2.6 and More!",
+          "published": "2026-11-06T18:00:35.330Z",
+          "channel": "Paul J Lipsky",
           "ageText": "1d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T12:54:19.503Z"
+      "updatedAt": "2026-11-07T18:00:37.375Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
+        {
+          "id": "fxF6OkWc9K4",
+          "title": "Falcons in Madrid | HYPE | Atlanta Falcons",
+          "published": "2026-11-07T17:30:14+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "9lLYQAGn6uA",
+          "title": "The Real Reason We Became Atlanta Sports Fans",
+          "published": "2026-11-07T17:00:37.946Z",
+          "channel": "The Water Boyz Show",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "TcyrkZhgb6A",
+          "title": "Mayor Andre Dickens came out to our Dirty Birds even in Madrid 😱 #nfl #atlantafalcons #madrid",
+          "published": "2026-11-07T15:39:50+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "wK8KuIATm3c",
+          "title": "The guys are simple 😂 #mcdonaldsspain #nflspain #falcons #atlanta",
+          "published": "2026-11-07T15:30:07+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "49xKoD4zFfg",
+          "title": "SHES NOT PRETTY ENOUGH!",
+          "published": "2026-11-07T13:00:37.946Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "5h ago"
+        },
         {
           "id": "DmnlRKLMs-s",
           "title": "Why they call him Prime Time 😮‍💨 NFL+",
@@ -338,57 +370,25 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "1tCOQUM2dAc",
-          "title": "Ok I like it, Picasso #nfl #atlantafalcons #football #spain #art",
-          "published": "2026-11-06T22:30:04+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "VHbRVtQuWu4",
-          "title": "Kelsey Mitchell rumored to be TRADED to the DREAM to team up with Angel Reese...",
-          "published": "2026-11-06T20:54:19.968Z",
-          "channel": "Mick Talks Hoops",
+          "id": "N9OwNa4wkfY",
+          "title": "Elly De La Cruz Trades For The Dodgers, Braves, Yankees, Blue Jays, Mariners & More.",
+          "published": "2026-11-07T02:00:37.946Z",
+          "channel": "Jim Riley | BALLCAP Sports",
           "ageText": "16h ago"
         },
         {
           "id": "HV53E7GMwqM",
           "title": "Kelsey Mitchell leaving Indiana Fever to join Angel Reese at Atlanta Dream? Rumor Alert!",
-          "published": "2026-11-06T20:54:19.968Z",
+          "published": "2026-11-06T21:00:37.946Z",
           "channel": "Geneva in General",
-          "ageText": "16h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "K0PZ5zQPbgQ",
           "title": "🚨LAST MINUTE Atlanta Falcons Trade Rumors BEFORE NFL Trade Deadline",
-          "published": "2026-11-06T19:54:19.968Z",
+          "published": "2026-11-06T19:00:37.946Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "-hCvYK5U9Cc",
-          "title": "We gave Jude Bellingham a custom Real Madrid Falcons jersey 🤩 #nfl #realmadrid #atlantafalcons",
-          "published": "2026-11-06T18:00:07+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "9prq11aafyI",
-          "title": "NFL Week 9 Picks; Jaguars rout Ravens; Trevor Lawrence “has arrived” | Chris Simms Unbuttoned (FULL)",
-          "published": "2026-11-06T17:54:19.968Z",
-          "channel": "NFL on NBC",
-          "ageText": "Streamed 19h ago"
-        },
-        {
-          "id": "NFgYR7wFb7s",
-          "title": "Bengals Have a HUGE Opportunity in Madrid but CAN'T Start Slow Again...",
-          "published": "2026-11-06T15:54:19.968Z",
-          "channel": "Cincinnati Bengals Talk",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "xvMDoYzbhnE",
-          "title": "Brandon Dorlus, Avieon Terrell, Olamide Zaccheaus, & Kendal Daniels on Bengals matchup in Madrid",
-          "published": "2026-11-06T15:36:24+00:00",
-          "channel": "Atlanta Falcons"
+          "ageText": "23h ago"
         },
         {
           "id": "MXhbdX1iuOk",
@@ -422,7 +422,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T12:54:21.452Z"
+      "updatedAt": "2026-11-07T18:00:39.295Z"
     },
     {
       "slug": "braves",
@@ -523,13 +523,31 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-07T12:54:19.625Z"
+      "updatedAt": "2026-11-07T18:00:37.703Z"
     },
     {
       "slug": "falcons",
       "name": "ATLANTA FALCONS",
       "handle": "@AtlantaFalcons",
       "videos": [
+        {
+          "id": "fxF6OkWc9K4",
+          "title": "Falcons in Madrid | HYPE | Atlanta Falcons",
+          "published": "2026-11-07T17:30:14+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "TcyrkZhgb6A",
+          "title": "Mayor Andre Dickens came out to our Dirty Birds even in Madrid 😱 #nfl #atlantafalcons #madrid",
+          "published": "2026-11-07T15:39:50+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "wK8KuIATm3c",
+          "title": "The guys are simple 😂 #mcdonaldsspain #nflspain #falcons #atlanta",
+          "published": "2026-11-07T15:30:07+00:00",
+          "channel": "Atlanta Falcons"
+        },
         {
           "id": "DmnlRKLMs-s",
           "title": "Why they call him Prime Time 😮‍💨 NFL+",
@@ -601,30 +619,12 @@
           "title": "Atlanta Falcons announce Jerious Norwood as 2026 Salute to Service Award Recipient | NFL",
           "published": "2026-11-05T19:00:36+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "zzGt7rXSJOU",
-          "title": "Bringing NFL football to Madrid 👏 #atlantafalcons #nfl #madrid #spain",
-          "published": "2026-11-05T17:22:03+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "xEnXF8nGSgE",
-          "title": "\"We'd love for there to be a lot of black and red walking around Madrid\" 🇪🇸 #nfl #madrid #spain",
-          "published": "2026-11-05T16:51:16+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "cC_ZPpd3cgM",
-          "title": "Michael Penix, Drake London & Bijan Robinson on Falcons preparation in Madrid | Press Conference",
-          "published": "2026-11-05T16:11:05+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-07T12:54:19.817Z"
+      "updatedAt": "2026-11-07T18:00:37.789Z"
     },
     {
       "slug": "hawks",
@@ -725,7 +725,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-07T12:54:19.821Z"
+      "updatedAt": "2026-11-07T18:00:37.795Z"
     },
     {
       "slug": "united",
@@ -826,7 +826,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-07T12:54:19.968Z"
+      "updatedAt": "2026-11-07T18:00:37.945Z"
     }
   ]
 }
