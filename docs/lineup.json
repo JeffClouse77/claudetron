@@ -1,107 +1,114 @@
 {
-  "updatedAt": "2026-11-07T18:00:39.296Z",
+  "updatedAt": "2026-11-07T21:45:53.065Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "1hoICfzfZoE",
-          "title": "I Built a Live Trading Bot with Claude Code AI (Ethereum AI Trading)",
-          "published": "2026-11-07T08:00:33.666Z",
-          "channel": "Thomas Sutton",
+          "id": "EPrjoVOr8eo",
+          "title": "I Ask Claude AI to Build Blox Fruits with Only 3 Prompts",
+          "published": "2026-11-07T16:45:46.767Z",
+          "channel": "Yxii",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "K2MwtjcHA6U",
+          "title": "Master Claude Code under 3 Hours",
+          "published": "2026-11-07T14:45:47.639Z",
+          "channel": "Vivek Mishra",
+          "ageText": "7h ago"
+        },
+        {
+          "id": "a0BqNDnPM2I",
+          "title": "7 NEW Claude Mods Use Cases (Try These Now)",
+          "published": "2026-11-07T13:45:46.767Z",
+          "channel": "Parker Prompts",
+          "ageText": "8h ago"
+        },
+        {
+          "id": "FZObiJh7Oj0",
+          "title": "Claude Code on a $100 Used Phone… I Didn’t Expect This💀",
+          "published": "2026-11-07T11:45:47.639Z",
+          "channel": "Tech Jarves",
           "ageText": "10h ago"
         },
         {
-          "id": "znWSzW0Zh_Y",
-          "title": "Claude Just Dropped 7 Updates (Here's Which 4 to Use)",
-          "published": "2026-11-06T18:00:34.560Z",
-          "channel": "Duncan Rogoff | Learn Claude Code",
+          "id": "3Zq4cceOTa4",
+          "title": "I Tried this Trending Opensource Claude Code Plugin & IT'S ACTUALLY CRAZY!",
+          "published": "2026-11-07T09:45:47.639Z",
+          "channel": "AICodeKing",
+          "ageText": "12h ago"
+        },
+        {
+          "id": "1hoICfzfZoE",
+          "title": "I Built a Live Trading Bot with Claude Code AI (Ethereum AI Trading)",
+          "published": "2026-11-07T08:45:46.767Z",
+          "channel": "Thomas Sutton",
+          "ageText": "13h ago"
+        },
+        {
+          "id": "Zze_PoI_xh0",
+          "title": "AI Went Crazy Again: Google Omni 1.2, Claude's 2X Acceleration, GPT-6.2",
+          "published": "2026-11-07T00:45:46.767Z",
+          "channel": "AI Revolution",
+          "ageText": "21h ago"
+        },
+        {
+          "id": "z5kcsAmoZRo",
+          "title": "I Cancelled Claude Code. Here's What I Use Now",
+          "published": "2026-11-06T21:45:47.639Z",
+          "channel": "Epic Programmer",
           "ageText": "1d ago"
         },
         {
           "id": "tCGA_mZtltA",
           "title": "Claude Code Can Help You Get 10x More Views",
-          "published": "2026-11-06T18:00:34.560Z",
+          "published": "2026-11-06T21:45:47.639Z",
           "channel": "Danny Why",
           "ageText": "1d ago"
         },
         {
-          "id": "z5kcsAmoZRo",
-          "title": "I Cancelled Claude Code. Here's What I Use Now",
-          "published": "2026-11-06T18:00:34.560Z",
-          "channel": "Epic Programmer",
+          "id": "lsAnNsvIbpQ",
+          "title": "Claude for Free + Claude Code Free + Fable 5.1 for Free Unlimited Claude AI Tutorial",
+          "published": "2026-11-06T21:45:47.639Z",
+          "channel": "Que pasaria?",
           "ageText": "1d ago"
         },
         {
           "id": "Yj5LpSq_7xI",
           "title": "I Made Viral NEW AI Animation Videos Using ONLY Claude (FREE Plugin)",
-          "published": "2026-11-06T18:00:33.666Z",
+          "published": "2026-11-06T21:45:46.767Z",
           "channel": "Grow With Kaz",
           "ageText": "1d ago"
         },
         {
-          "id": "RXUy7JwnsIs",
-          "title": "Claude AI + Unity MCP 🔥 AI Will Now Create Games | ft. @ganeshawave",
-          "published": "2026-11-06T18:00:33.666Z",
-          "channel": "AI with Thiru and Ganesha Waves",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "ec0StkHdO18",
-          "title": "1000+ Hours of Learning Claude Code in 25 Minutes (Beginner to Pro Tutorial)",
-          "published": "2026-11-05T18:00:34.560Z",
-          "channel": "AI Master",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "IPKOx66fogE",
-          "title": "Don't Give AI Your Data: How I (Actually) Use Claude Code for Data Analysis",
-          "published": "2026-11-05T18:00:34.560Z",
-          "channel": "Thu Vu",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "3DklR44DHnM",
-          "title": "Deepseek Super Agent Just Killed All Agent Harnesses",
-          "published": "2026-11-05T18:00:34.560Z",
-          "channel": "AI LABS",
+          "id": "znWSzW0Zh_Y",
+          "title": "Claude Just Dropped 7 Updates (Here's Which 4 to Use)",
+          "published": "2026-11-05T21:45:47.639Z",
+          "channel": "Duncan Rogoff | Learn Claude Code",
           "ageText": "2d ago"
         },
         {
           "id": "ge2FmPeVsT8",
           "title": "Build Your FIRST AI Agent in Claude Code. (11 Minutes).",
-          "published": "2026-11-05T18:00:33.666Z",
+          "published": "2026-11-05T21:45:46.767Z",
           "channel": "Tristen O'Brien",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "aYinU4Ja_88",
-          "title": "How To Use Claude for Video Editing Like the Top 1%",
-          "published": "2026-11-05T18:00:33.666Z",
-          "channel": "Zinho Automates",
           "ageText": "2d ago"
         },
         {
           "id": "MCwdmt1WHYg",
           "title": "Can Claude AI Build a Viral Roblox Volleyball Game in 3 Prompts?",
-          "published": "2026-11-05T18:00:33.666Z",
+          "published": "2026-11-05T21:45:46.767Z",
           "channel": "Yxii",
           "ageText": "2d ago"
         },
         {
-          "id": "tM0dwXhOv2o",
-          "title": "Claude 2.0 Is Here. EVERYTHING in 15 Minutes",
-          "published": "2026-11-04T18:00:33.666Z",
-          "channel": "Futurepedia",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "7kbDosV5qaU",
-          "title": "Anthropic Just Shipped Claude Office (Master it in 24 Minutes)",
-          "published": "2026-11-04T18:00:33.666Z",
-          "channel": "Jack Roberts",
-          "ageText": "3d ago"
+          "id": "aYinU4Ja_88",
+          "title": "How To Use Claude for Video Editing Like the Top 1%",
+          "published": "2026-11-05T21:45:46.767Z",
+          "channel": "Zinho Automates",
+          "ageText": "2d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -132,169 +139,170 @@
           "title": "We're building a way for AI models to connect to any device and run real experiments.",
           "published": "2026-08-27T19:42:35+00:00",
           "channel": "Anthropic"
-        },
-        {
-          "id": "P1zBiAQU1IA",
-          "title": "AI models can now help run physical science experiments",
-          "published": "2026-08-27T17:54:32+00:00",
-          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T18:00:35.330Z"
+      "updatedAt": "2026-11-07T21:45:48.387Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "j8VoXyKEi7g",
+          "title": "New AI Models This Week — Four Labs, Four Days, One Locked Door",
+          "published": "2026-11-07T20:49:49.713Z",
+          "channel": "The Invisible",
+          "ageText": "56 min ago"
+        },
+        {
+          "id": "98ljuFRK2_Y",
+          "title": "We Put Local AI's Progress to a Real-World Test on Our Mac",
+          "published": "2026-11-07T20:45:49.713Z",
+          "channel": "The Dark Factory",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "MuKNTziO7K8",
+          "title": "MANUFACTURING REVOLUTION: Arda CEO says AI can cut a week of engineering work to 2 hours",
+          "published": "2026-11-07T19:45:49.180Z",
+          "channel": "Fox Business",
+          "ageText": "2h ago"
+        },
+        {
           "id": "_IwvMEgnbUw",
           "title": "New AI Model With 594 BILLION Parameters Shocks Everyone!",
-          "published": "2026-11-07T17:00:36.626Z",
+          "published": "2026-11-07T16:45:49.713Z",
           "channel": "AI decoded",
-          "ageText": "1h ago"
+          "ageText": "5h ago"
+        },
+        {
+          "id": "J6uZkMr4ekI",
+          "title": "AI news Nov 7: AI proof claim, OpenAI's $11B round, ARTEX hacking",
+          "published": "2026-11-07T12:45:48.387Z",
+          "channel": "Snippets Ltd.",
+          "ageText": "9h ago"
         },
         {
           "id": "ooe-w3IMLTU",
           "title": "New AI Models This Week — GPT-6 Cyber, Images 2.6, Tencent Hy4 & More",
-          "published": "2026-11-07T11:00:36.626Z",
+          "published": "2026-11-07T11:45:49.713Z",
           "channel": "The Invisible",
-          "ageText": "7h ago"
+          "ageText": "10h ago"
+        },
+        {
+          "id": "LJa_k2JyFsk",
+          "title": "QWEN 4 Preview IS INSANE! First Look at Qwen 4 Max & 27B! Greatest Open Model Ever!",
+          "published": "2026-11-07T08:45:49.713Z",
+          "channel": "WorldofAI",
+          "ageText": "13h ago"
         },
         {
           "id": "I8LXJeDXeIU",
           "title": "Trillions lost as investors question the AI boom | DW News",
-          "published": "2026-11-07T05:00:35.330Z",
+          "published": "2026-11-07T05:45:48.387Z",
           "channel": "DW News",
-          "ageText": "13h ago"
+          "ageText": "16h ago"
+        },
+        {
+          "id": "BMlupoXCQ90",
+          "title": "How will this week's market plunge affect your 401K?",
+          "published": "2026-11-07T03:45:49.180Z",
+          "channel": "NBCLA",
+          "ageText": "18h ago"
         },
         {
           "id": "OsNxyxEmVNw",
           "title": "Qwen 4 Is Coming: Can Open Models Catch Up?",
-          "published": "2026-11-07T02:00:36.626Z",
+          "published": "2026-11-07T02:45:49.713Z",
           "channel": "Tech2WiLD",
-          "ageText": "16h ago"
-        },
-        {
-          "id": "7eQree8FhKI",
-          "title": "Something HUGE Is Happening Inside Anthropic...",
-          "published": "2026-11-06T23:00:35.330Z",
-          "channel": "TheAIGRID",
           "ageText": "19h ago"
         },
         {
-          "id": "MP7llHUsQcI",
-          "title": "OpenAI Pulled the Brakes on GPT-6.2 Astra & Sol — Here's What Actually Happened Behind the Scenes",
-          "published": "2026-11-06T21:00:36.626Z",
-          "channel": "EcoBench",
+          "id": "Zze_PoI_xh0",
+          "title": "AI Went Crazy Again: Google Omni 1.2, Claude's 2X Acceleration, GPT-6.2",
+          "published": "2026-11-07T00:45:49.713Z",
+          "channel": "AI Revolution",
           "ageText": "21h ago"
         },
         {
-          "id": "Itr3Ld5c9yI",
-          "title": "AI bubble fears prompt dramatic sell-off",
-          "published": "2026-11-06T21:00:35.330Z",
-          "channel": "Channel 4 News",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "of-WwgsQO3U",
-          "title": "Could US Democrats burst the AI bubble after global tech shares plummet? | Global News Podcast",
-          "published": "2026-11-06T20:00:35.330Z",
-          "channel": "BBC News",
+          "id": "7eQree8FhKI",
+          "title": "Anthropics Model 4 Just Shocked The AI Industry",
+          "published": "2026-11-06T23:45:48.387Z",
+          "channel": "TheAIGRID",
           "ageText": "22h ago"
-        },
-        {
-          "id": "IrAHINf0M6E",
-          "title": "AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)",
-          "published": "2026-11-06T19:00:35.330Z",
-          "channel": "Matt Wolfe",
-          "ageText": "23h ago"
-        },
-        {
-          "id": "jpn4XJEC64Q",
-          "title": "How data centre anger led to a tech stock plunge | BBC News",
-          "published": "2026-11-06T19:00:35.330Z",
-          "channel": "BBC News",
-          "ageText": "23h ago"
         },
         {
           "id": "efnEcbHnRa0",
           "title": "HUGE Claude Sonnet 6 LEAK, Anthropic's SECRET Fable 6?! GPT-6.2 Astra TODAY, & More! AI NEWS",
-          "published": "2026-11-06T18:00:36.626Z",
+          "published": "2026-11-06T21:45:49.713Z",
           "channel": "WorldofAI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "x_5JijpzprU",
-          "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4",
-          "published": "2026-11-06T18:00:36.626Z",
-          "channel": "IBM Technology",
           "ageText": "1d ago"
         },
         {
           "id": "R1vmfCfNXb8",
           "title": "Stock market meltdown over A.I. fears",
-          "published": "2026-11-06T18:00:36.025Z",
+          "published": "2026-11-06T21:45:49.180Z",
           "channel": "NBC News",
           "ageText": "1d ago"
         },
         {
           "id": "CIg4VayVwiM",
           "title": "Stocks plunge amid new AI uncertainty",
-          "published": "2026-11-06T18:00:36.025Z",
+          "published": "2026-11-06T21:45:49.180Z",
           "channel": "NBC News",
           "ageText": "1d ago"
         },
         {
           "id": "1bkTINuGubw",
           "title": "Democrats Set to Launch Investigations Into Big Tech",
-          "published": "2026-11-06T18:00:36.025Z",
+          "published": "2026-11-06T21:45:49.180Z",
           "channel": "Bloomberg News",
           "ageText": "1d ago"
         },
         {
           "id": "dyGhAzHwd9Q",
           "title": "AI Will Replace 90% Of Workers? | The Biggest Employment Crisis Ahead? | AI BOOM, JOBS GONE?",
-          "published": "2026-11-06T18:00:36.025Z",
+          "published": "2026-11-06T21:45:49.180Z",
           "channel": "Ravi Prakash",
           "ageText": "1d ago"
         },
         {
           "id": "eP3julUb1y8",
           "title": "Tech selloff erases trillions from US stock markets | Reuters World News",
-          "published": "2026-11-06T18:00:36.025Z",
+          "published": "2026-11-06T21:45:49.180Z",
           "channel": "Reuters",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "zDx4HyMOI2k",
-          "title": "Voters Stay Misinformed with AI, Elon Floats Flying Car & Robot Bodyguards Kick Ass | The Daily Show",
-          "published": "2026-11-06T18:00:36.025Z",
-          "channel": "The Daily Show",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "F4SNgigJtzk",
-          "title": "Morning News NOW Full Episode – Nov. 6",
-          "published": "2026-11-06T18:00:36.025Z",
-          "channel": "NBC News",
           "ageText": "1d ago"
         },
         {
           "id": "85mhGo9jNGY",
           "title": "AI News: New Grok Bot Limits, Muse Voice Is Here, ChatGPT Images 2.6 and More!",
-          "published": "2026-11-06T18:00:35.330Z",
+          "published": "2026-11-06T21:45:48.387Z",
           "channel": "Paul J Lipsky",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "YE2hf9WjUME",
+          "title": "Sam Altman JUST Said The RSI Era Has Begun... As Everyone Turns On Him",
+          "published": "2026-11-06T21:45:48.387Z",
+          "channel": "AI Revolution",
           "ageText": "1d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T18:00:37.375Z"
+      "updatedAt": "2026-11-07T21:45:50.546Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
+        {
+          "id": "mwlf_lQ6meE",
+          "title": "🚨Atlanta Falcons Just Got SO MUCH BREAKING NEWS Just Before Madrid Game vs. Bengals",
+          "published": "2026-11-07T21:43:51.563Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "2 min ago"
+        },
         {
           "id": "fxF6OkWc9K4",
           "title": "Falcons in Madrid | HYPE | Atlanta Falcons",
@@ -304,9 +312,9 @@
         {
           "id": "9lLYQAGn6uA",
           "title": "The Real Reason We Became Atlanta Sports Fans",
-          "published": "2026-11-07T17:00:37.946Z",
+          "published": "2026-11-07T16:45:51.563Z",
           "channel": "The Water Boyz Show",
-          "ageText": "1h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "TcyrkZhgb6A",
@@ -323,9 +331,9 @@
         {
           "id": "49xKoD4zFfg",
           "title": "SHES NOT PRETTY ENOUGH!",
-          "published": "2026-11-07T13:00:37.946Z",
+          "published": "2026-11-07T13:45:51.563Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "5h ago"
+          "ageText": "8h ago"
         },
         {
           "id": "DmnlRKLMs-s",
@@ -370,25 +378,18 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "N9OwNa4wkfY",
-          "title": "Elly De La Cruz Trades For The Dodgers, Braves, Yankees, Blue Jays, Mariners & More.",
-          "published": "2026-11-07T02:00:37.946Z",
-          "channel": "Jim Riley | BALLCAP Sports",
-          "ageText": "16h ago"
+          "id": "dhlH9sT8Vbo",
+          "title": "Joe Burrow and the Bengals Eye 6-2… Can Atlanta Stop Them? | LIVE",
+          "published": "2026-11-06T21:45:51.563Z",
+          "channel": "The Sitdown w/ Malik Wright",
+          "ageText": "Streamed 1d ago"
         },
         {
-          "id": "HV53E7GMwqM",
-          "title": "Kelsey Mitchell leaving Indiana Fever to join Angel Reese at Atlanta Dream? Rumor Alert!",
-          "published": "2026-11-06T21:00:37.946Z",
-          "channel": "Geneva in General",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "K0PZ5zQPbgQ",
-          "title": "🚨LAST MINUTE Atlanta Falcons Trade Rumors BEFORE NFL Trade Deadline",
-          "published": "2026-11-06T19:00:37.946Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "23h ago"
+          "id": "i-3kKq7_jF4",
+          "title": "Kevin Stefanski on Atlanta Falcons preparation for Cincinnati Bengals | Press Conference",
+          "published": "2026-11-06T21:45:51.563Z",
+          "channel": "Atlanta Falcons",
+          "ageText": "1d ago"
         },
         {
           "id": "MXhbdX1iuOk",
@@ -422,7 +423,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-07T18:00:39.295Z"
+      "updatedAt": "2026-11-07T21:45:53.064Z"
     },
     {
       "slug": "braves",
@@ -523,7 +524,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-07T18:00:37.703Z"
+      "updatedAt": "2026-11-07T21:45:50.672Z"
     },
     {
       "slug": "falcons",
@@ -624,7 +625,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-07T18:00:37.789Z"
+      "updatedAt": "2026-11-07T21:45:51.061Z"
     },
     {
       "slug": "hawks",
@@ -725,7 +726,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-07T18:00:37.795Z"
+      "updatedAt": "2026-11-07T21:45:51.185Z"
     },
     {
       "slug": "united",
@@ -826,7 +827,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-07T18:00:37.945Z"
+      "updatedAt": "2026-11-07T21:45:51.563Z"
     }
   ]
 }
