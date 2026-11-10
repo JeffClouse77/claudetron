@@ -1,114 +1,121 @@
 {
-  "updatedAt": "2026-11-10T09:42:56.120Z",
+  "updatedAt": "2026-11-10T17:46:13.892Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "QM1hp5bGbFs",
+          "title": "The EASY Amazon AI Coloring Book Side Hustle",
+          "published": "2026-11-10T17:30:08.212Z",
+          "channel": "Wholesale Ted",
+          "ageText": "16 min ago"
+        },
+        {
+          "id": "kUWNrrMqLog",
+          "title": "Best AI Model 2026: Claude vs ChatGPT, Gemini, Grok!",
+          "published": "2026-11-10T14:46:08.212Z",
+          "channel": "Techmo",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "0hUko6Fj9kc",
+          "title": "My Entire AI Agent Setup (Claude Code + Dev Containers)",
+          "published": "2026-11-10T13:46:08.961Z",
+          "channel": "Mischa van den Burg",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "HD02f3-3c7E",
+          "title": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027",
+          "published": "2026-11-10T13:46:08.212Z",
+          "channel": "Tristen O'Brien",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "UqQnG-D7VmU",
+          "title": "Edit Videos FREE with Claude AI | Free Plan Video Editing",
+          "published": "2026-11-10T12:46:08.212Z",
+          "channel": "Hello Tejaa",
+          "ageText": "5h ago"
+        },
+        {
           "id": "NkkAwdm2k7s",
           "title": "How to Use Claude Code for FREE with Ollama",
-          "published": "2026-11-10T08:42:51.751Z",
+          "published": "2026-11-10T08:46:08.961Z",
           "channel": "Kevin Stratvert",
-          "ageText": "1h ago"
+          "ageText": "9h ago"
         },
         {
           "id": "gkuiSAR_DDw",
           "title": "Claude Just Dropped The World’s Most Powerful AI",
-          "published": "2026-11-10T01:42:51.069Z",
+          "published": "2026-11-10T01:46:08.212Z",
           "channel": "Christian Peverelli",
-          "ageText": "8h ago"
+          "ageText": "16h ago"
         },
         {
           "id": "9ps341A2QAg",
           "title": "9 High Paying Claude AI Side Hustles You Can Start At Night",
-          "published": "2026-11-10T00:42:51.069Z",
+          "published": "2026-11-10T00:46:08.212Z",
           "channel": "Shane Hummus",
-          "ageText": "9h ago"
+          "ageText": "17h ago"
+        },
+        {
+          "id": "2TM8W66NI_8",
+          "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
+          "published": "2026-11-09T23:46:08.212Z",
+          "channel": "Matt Wolfe",
+          "ageText": "18h ago"
         },
         {
           "id": "RiaTyJ2POVo",
           "title": "Build a Better Software Factory with Claude Code",
-          "published": "2026-11-09T20:42:51.751Z",
+          "published": "2026-11-09T20:46:08.961Z",
           "channel": "ZazenCodes",
-          "ageText": "13h ago"
-        },
-        {
-          "id": "Z6FWcaCD8Es",
-          "title": "Codex vs Claude Code - One Prompt, Who Wins? (2026 FULL Comparison)",
-          "published": "2026-11-09T17:42:51.751Z",
-          "channel": "Hostinger Academy",
-          "ageText": "16h ago"
-        },
-        {
-          "id": "wqNMoe_fq3U",
-          "title": "Claude Code: Build Your First AI Agent in 30 Minutes (Zero Code)",
-          "published": "2026-11-09T14:42:51.069Z",
-          "channel": "AI Foundations",
-          "ageText": "19h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "zU0jqYKTgMs",
           "title": "This NEW Claude Update Changes EVERYTHING (Claude Code From Your Phone)",
-          "published": "2026-11-09T09:42:51.751Z",
+          "published": "2026-11-09T17:46:08.961Z",
           "channel": "Riley Brown",
           "ageText": "1d ago"
         },
         {
-          "id": "P5QCrpdr9gU",
-          "title": "Claude Code Is Wasting Tokens... Microsoft Built a Fix",
-          "published": "2026-11-09T09:42:51.751Z",
-          "channel": "Better Stack",
+          "id": "wqNMoe_fq3U",
+          "title": "Claude Code: Build Your First AI Agent in 30 Minutes (Zero Code)",
+          "published": "2026-11-09T17:46:08.961Z",
+          "channel": "AI Foundations",
           "ageText": "1d ago"
         },
         {
-          "id": "l-FG6S-5aPY",
-          "title": "Get Unlimited Claude Code on Your Own Computer",
-          "published": "2026-11-09T09:42:51.751Z",
-          "channel": "Sharbel A.",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "VYod5Q7c2k8",
-          "title": "Claude(Code)桌面APP，保姆级全攻略，一期视频精通，顶级Agent软件长什么样？#AI #Agent #Claude #Antropic #编程 #科技 #计算机",
-          "published": "2026-11-09T09:42:51.751Z",
-          "channel": "技术爬爬虾  TechShrimp",
+          "id": "Z6FWcaCD8Es",
+          "title": "Codex vs Claude Code - One Prompt, Who Wins? (2026 FULL Comparison)",
+          "published": "2026-11-09T17:46:08.961Z",
+          "channel": "Hostinger Academy",
           "ageText": "1d ago"
         },
         {
           "id": "7yO7mZh2Hyk",
           "title": "Claude Can Now Design in Fusion 360... Here's What I Made!",
-          "published": "2026-11-09T09:42:51.069Z",
+          "published": "2026-11-09T17:46:08.212Z",
           "channel": "Print N Repeat",
           "ageText": "1d ago"
         },
         {
-          "id": "9tKgn7ulLUU",
-          "title": "Claude AI Made This 3D Animation With Code for $0",
-          "published": "2026-11-09T09:42:51.069Z",
-          "channel": "Leo Ai",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "Ec1TVzF0S4I",
-          "title": "MASTER AI Trading Bots in 61 Minutes (Claude + TradingView)",
-          "published": "2026-11-08T09:42:51.069Z",
-          "channel": "Mind Math Money",
+          "id": "P5QCrpdr9gU",
+          "title": "Claude Code Is Wasting Tokens... Microsoft Built a Fix",
+          "published": "2026-11-08T17:46:08.961Z",
+          "channel": "Better Stack",
           "ageText": "2d ago"
         },
         {
-          "id": "UTubvRLX2j4",
-          "title": "Introducing Personal Finance in Claude",
-          "published": "2026-11-06T09:42:51.069Z",
-          "channel": "Claude",
-          "ageText": "4d ago"
-        },
-        {
-          "id": "BgbJFggbTVE",
-          "title": "7 NEW Claude Features That Will Save You HOURS in 2027",
-          "published": "2026-11-06T09:42:51.069Z",
-          "channel": "Austin Marchese",
-          "ageText": "4d ago"
+          "id": "zsCGS-Yzjnw",
+          "title": "UI Libraries for Claude Code (Ban the AI Look)",
+          "published": "2026-11-08T17:46:08.961Z",
+          "channel": "Griffin Wooldridge",
+          "ageText": "2d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -133,176 +140,163 @@
           "title": "Model Hardware Standard: AI operating physical equipment",
           "published": "2026-08-28T00:40:16+00:00",
           "channel": "Anthropic"
-        },
-        {
-          "id": "djVUCj5i4sw",
-          "title": "We're building a way for AI models to connect to any device and run real experiments.",
-          "published": "2026-08-27T19:42:35+00:00",
-          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-10T09:42:52.354Z"
+      "updatedAt": "2026-11-10T17:46:09.554Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "hhQZs9uALLc",
-          "title": "Anthropic says AI built a prototype operating system",
-          "published": "2026-11-10T09:14:53.665Z",
-          "channel": "Superpower ChatGPT",
-          "ageText": "28 min ago"
+          "id": "J_h3BWL3Eoo",
+          "title": "Claude Fable 5.2: NEW #1 AI Model — Should YOU Switch?",
+          "published": "2026-11-10T14:46:11.231Z",
+          "channel": "Onyx AI",
+          "ageText": "3h ago"
         },
         {
-          "id": "RDhUrGO0jIE",
-          "title": "Claude Fable 5.2 Explained: AI-Built OS, Demos & Benchmarks",
-          "published": "2026-11-10T08:42:53.665Z",
-          "channel": "Extrude Studio",
-          "ageText": "1h ago"
+          "id": "HD02f3-3c7E",
+          "title": "The 6 NEW Claude Features to Get You Ahead of 99% in 2027",
+          "published": "2026-11-10T13:46:11.231Z",
+          "channel": "Tristen O'Brien",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "G9-NoDO_Iwg",
+          "title": "‘Concerned Microsoft Employees’ Rebel Against Aggressive AI Push Amid Buyouts",
+          "published": "2026-11-10T12:46:09.555Z",
+          "channel": "Mint",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "ZfC98aM9C8Y",
+          "title": "'Godfather of AI' says humans face '20% chance of extinction'",
+          "published": "2026-11-10T07:46:09.555Z",
+          "channel": "LBC",
+          "ageText": "10h ago"
         },
         {
           "id": "G3q7uqWJTWo",
-          "title": "Is It Too Late to Save Humans from AI? | Great Question",
-          "published": "2026-11-09T23:42:52.355Z",
+          "title": "Bill Gates on if it's too late to save humans from AI | Great Question",
+          "published": "2026-11-09T23:46:09.555Z",
           "channel": "CBS Evening News",
-          "ageText": "10h ago"
+          "ageText": "18h ago"
         },
         {
           "id": "-NFyMYLlCeg",
           "title": "OpenAI Caught Its AI Deceiving Its Own Researchers…",
-          "published": "2026-11-09T23:42:52.355Z",
+          "published": "2026-11-09T23:46:09.555Z",
           "channel": "AI Copium",
-          "ageText": "10h ago"
+          "ageText": "18h ago"
         },
         {
           "id": "afhwdRkuY7U",
           "title": "Is Nvidia Too Powerful? Jensen Huang Responds",
-          "published": "2026-11-09T22:42:53.034Z",
+          "published": "2026-11-09T22:46:10.357Z",
           "channel": "Bloomberg Originals",
-          "ageText": "11h ago"
+          "ageText": "19h ago"
         },
         {
           "id": "dvEEtuW9LO8",
           "title": "Nvidia's Huang scandal rattles AI industry built around him • FRANCE 24 English",
-          "published": "2026-11-09T20:42:53.034Z",
+          "published": "2026-11-09T20:46:10.357Z",
           "channel": "FRANCE 24 English",
-          "ageText": "13h ago"
-        },
-        {
-          "id": "b1hJWI5MMw0",
-          "title": "Unreal Engine 5.9 Preview Is Here: The First Release Built With AI Agents | Unreal News Episode 4",
-          "published": "2026-11-09T19:42:53.665Z",
-          "channel": "JAKL Studios",
-          "ageText": "14h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "qmWlYz3DfnM",
           "title": "Interior Secretary REVEALED having millions invested in A.I. industry amid data center push",
-          "published": "2026-11-09T19:42:53.034Z",
+          "published": "2026-11-09T19:46:10.357Z",
           "channel": "MS NOW",
-          "ageText": "14h ago"
-        },
-        {
-          "id": "AIVA8X6VdvI",
-          "title": "The AI boom is slowing down | Eli the Computer Guy",
-          "published": "2026-11-09T19:42:52.355Z",
-          "channel": "The Tech Report and Eli the Computer Guy",
-          "ageText": "14h ago"
-        },
-        {
-          "id": "XkM0l6jknYQ",
-          "title": "This Week in AI: Google Pay Try-On, ChatGPT GIFs and More",
-          "published": "2026-11-09T16:42:53.034Z",
-          "channel": "ssktechy",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "X4S2Yd-pMhc",
-          "title": "'Joyless & Demoralising': Microsoft Employees Slam Nadella’s AI Push & Buyouts | Firstpost America",
-          "published": "2026-11-09T16:42:52.355Z",
-          "channel": "Firstpost",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "pdzhZ0mDiGI",
-          "title": "America vs China: Could the Jensen Huang Spy Scandal Change the AI Race? | Vantage",
-          "published": "2026-11-09T16:42:52.355Z",
-          "channel": "Firstpost",
-          "ageText": "17h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "kQKCp7PlVxY",
-          "title": "Don't Miss Out on These GPUs Before Qwen 4's Release!",
-          "published": "2026-11-09T09:42:53.665Z",
+          "title": "11 GPUs You Should Get for Local AI Before Qwen 4's Release!",
+          "published": "2026-11-09T17:46:11.231Z",
           "channel": "Weights & Wonders",
           "ageText": "1d ago"
         },
         {
-          "id": "JLs10oOX6NY",
-          "title": "I Tested Local AI on My Mac Studio So You Don't Have To",
-          "published": "2026-11-09T09:42:53.665Z",
-          "channel": "Kai",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "pzIfLuXvmbQ",
-          "title": "Is This the End of LLMs? Stanford's AI Writes 1,000 Words in 32 Steps",
-          "published": "2026-11-09T09:42:53.665Z",
-          "channel": "Hyperautomation Labs",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "pnK79REV2tQ",
-          "title": "What's Out, What's Coming, and What's Just a Rumor in Frontier AI",
-          "published": "2026-11-09T09:42:53.665Z",
-          "channel": "VRENLY",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "8V-wEHka3AU",
-          "title": "Looks Like a Fish, Steers Like a Cow - The Voter Tsunami Against Local Data Centers",
-          "published": "2026-11-09T09:42:53.034Z",
-          "channel": "This Week in Tech",
+          "id": "DWpQDfhj7Cw",
+          "title": "AI Weekly: A spy story at Nvidia and a tech stock rout",
+          "published": "2026-11-09T17:46:10.357Z",
+          "channel": "Reuters",
           "ageText": "1d ago"
         },
         {
           "id": "UtpOOfxLVTA",
           "title": "The First Message From a Superintelligent AI Has Leaked.. We Have Until January",
-          "published": "2026-11-09T09:42:52.355Z",
+          "published": "2026-11-09T17:46:09.555Z",
           "channel": "Spacialize",
           "ageText": "1d ago"
         },
         {
           "id": "QM3lE1eKppE",
           "title": "Anthropic’s New Model 4 Beats Opus 5.5 (ASI in 2 Years)",
-          "published": "2026-11-09T09:42:52.355Z",
+          "published": "2026-11-09T17:46:09.555Z",
           "channel": "AI Revolution",
           "ageText": "1d ago"
         },
         {
-          "id": "illf65HD_t4",
-          "title": "Is the AI Boom Over? Let's Talk About It.",
-          "published": "2026-11-09T09:42:52.355Z",
-          "channel": "AI News & Strategy Daily | Nate B Jones",
+          "id": "lec4b4Q1yLU",
+          "title": "AI Music News: Suno's CRAZIEST Week of 2026?",
+          "published": "2026-11-09T17:46:09.555Z",
+          "channel": "Chris Wieduwilt (The AI Musicpreneur)",
           "ageText": "1d ago"
+        },
+        {
+          "id": "9RIK3A24ZxA",
+          "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
+          "published": "2026-11-08T17:46:11.231Z",
+          "channel": "AI Search",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "x3vdfNOJTbk",
+          "title": "ChatGPT & Gemini’s New Features are INSANE! (Omni 1.2, GPT-6 Cyber & More)",
+          "published": "2026-11-08T17:46:11.231Z",
+          "channel": "Rob The AI Guy",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "j8VoXyKEi7g",
+          "title": "New AI Models This Week — Four Labs, Four Days, One Locked Door",
+          "published": "2026-11-08T17:46:11.231Z",
+          "channel": "The Invisible",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "MuKNTziO7K8",
+          "title": "MANUFACTURING REVOLUTION: Arda CEO says AI can cut a week of engineering work to 2 hours",
+          "published": "2026-11-08T17:46:10.357Z",
+          "channel": "Fox Business",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "MxvXe1t2QFk",
+          "title": "Would you invite an AI robot into your home? | BBC News",
+          "published": "2026-11-08T17:46:09.555Z",
+          "channel": "BBC News",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "7eQree8FhKI",
+          "title": "Anthropics Model 4 Just Shocked The AI Industry",
+          "published": "2026-11-07T17:46:11.231Z",
+          "channel": "TheAIGRID",
+          "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-10T09:42:54.436Z"
+      "updatedAt": "2026-11-10T17:46:11.966Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
-        {
-          "id": "jVfPBhL8gvs",
-          "title": "CAITLIN IS EXACTLY WHO THEY THOUGHT!!",
-          "published": "2026-11-10T05:42:54.781Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "4h ago"
-        },
         {
           "id": "u4MkNuF6xy4",
           "title": "Hawks vs. Lakers Postgame Press Conference: Dyson Daniels",
@@ -312,9 +306,9 @@
         {
           "id": "O3dE4VlnHSI",
           "title": "Atlanta loses historic SEC title game to CFP | FOX 5 News",
-          "published": "2026-11-10T03:42:54.781Z",
+          "published": "2026-11-10T03:46:12.361Z",
           "channel": "FOX 5 Atlanta",
-          "ageText": "6h ago"
+          "ageText": "14h ago"
         },
         {
           "id": "edNoNKa2dgg",
@@ -329,25 +323,32 @@
           "channel": "Atlanta Hawks"
         },
         {
-          "id": "zv-2CeKbWXU",
-          "title": "DO NOT SIGN BACK WITH ATLANTA!",
-          "published": "2026-11-10T01:42:54.781Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "8h ago"
+          "id": "_Ad8tLT7DTk",
+          "title": "Los Angeles Lakers vs Atlanta Hawks LIVE Play by Play & Reaction",
+          "published": "2026-11-10T02:46:12.361Z",
+          "channel": "Baddog Sports",
+          "ageText": "Streamed 15h ago"
         },
         {
-          "id": "h40ug8djwTI",
-          "title": "Falcons trade Jessie Bates to the Jaguars: Tuesday Takes with Tre'Shon",
-          "published": "2026-11-10T00:42:54.781Z",
-          "channel": "The Falcoholic",
-          "ageText": "9h ago"
+          "id": "zv-2CeKbWXU",
+          "title": "DO NOT SIGN BACK WITH ATLANTA!",
+          "published": "2026-11-10T01:46:12.361Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "f8RzZgB_d-s",
+          "title": "Why the Atlanta Falcons MOVED ON from Jessie Bates III | The Aftermath",
+          "published": "2026-11-10T00:46:12.361Z",
+          "channel": "Ian Rapoport",
+          "ageText": "17h ago"
         },
         {
           "id": "uVNsbRxHHJo",
           "title": "The REAL REASON That The Falcons Traded Jessie Bates III Away",
-          "published": "2026-11-09T22:42:54.781Z",
+          "published": "2026-11-09T22:46:12.361Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "11h ago"
+          "ageText": "19h ago"
         },
         {
           "id": "xIlokAzZoZw",
@@ -423,7 +424,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-10T09:42:56.120Z"
+      "updatedAt": "2026-11-10T17:46:13.892Z"
     },
     {
       "slug": "braves",
@@ -524,7 +525,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-10T09:42:54.578Z"
+      "updatedAt": "2026-11-10T17:46:12.060Z"
     },
     {
       "slug": "falcons",
@@ -625,7 +626,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-10T09:42:54.651Z"
+      "updatedAt": "2026-11-10T17:46:12.161Z"
     },
     {
       "slug": "hawks",
@@ -726,7 +727,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-10T09:42:54.775Z"
+      "updatedAt": "2026-11-10T17:46:12.247Z"
     },
     {
       "slug": "united",
@@ -827,7 +828,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-10T09:42:54.780Z"
+      "updatedAt": "2026-11-10T17:46:12.361Z"
     }
   ]
 }
