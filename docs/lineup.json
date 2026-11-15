@@ -1,445 +1,449 @@
 {
-  "updatedAt": "2026-11-14T21:26:43.365Z",
+  "updatedAt": "2026-11-15T01:51:05.818Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
-          "id": "CzPKk3c_WeA",
-          "title": "Claude Code ( 100% FREE ) | How to use Claude Code for free without a subscription",
-          "published": "2026-11-14T18:26:36.736Z",
-          "channel": "Nid Academy",
-          "ageText": "3h ago"
-        },
-        {
           "id": "Kvk05Q060Yg",
           "title": "Can Claude AI Build a Roblox Soccer Game in Just 3 Prompts?",
-          "published": "2026-11-14T18:26:36.087Z",
+          "published": "2026-11-14T17:50:59.240Z",
           "channel": "Yxii",
-          "ageText": "3h ago"
-        },
-        {
-          "id": "-D00-OnJM6s",
-          "title": "Claude Just Dropped 6 NEW Features You Need to Know",
-          "published": "2026-11-14T16:26:36.087Z",
-          "channel": "Zinho Automates",
-          "ageText": "5h ago"
+          "ageText": "8h ago"
         },
         {
           "id": "m9evl9iWVr8",
           "title": "Master Claude Features to Get Ahead of 99% of AI Users | Beginner’s Guide",
-          "published": "2026-11-14T14:26:36.087Z",
+          "published": "2026-11-14T13:50:59.240Z",
           "channel": "The iScale",
-          "ageText": "7h ago"
+          "ageText": "12h ago"
         },
         {
           "id": "73DrNNvEKH0",
           "title": "The Best Way to Run Claude Code in 2026",
-          "published": "2026-11-14T11:26:36.736Z",
+          "published": "2026-11-14T11:51:00.026Z",
           "channel": "Rob Shocks - Switch Dimension",
-          "ageText": "10h ago"
+          "ageText": "14h ago"
         },
         {
-          "id": "71w6Le62wk0",
-          "title": "If I Wanted to Master Claude in 2027, This is What I'd Do",
-          "published": "2026-11-13T22:26:36.087Z",
-          "channel": "Grace Leung",
-          "ageText": "23h ago"
+          "id": "Of9ylhwSkJE",
+          "title": "Claude Just Changed: The 6 Big Updates You Need to Know",
+          "published": "2026-11-14T01:51:00.026Z",
+          "channel": "Duncan Rogoff | Learn Claude Code",
+          "ageText": "1d ago"
         },
         {
-          "id": "q6zgI-BQ5Uw",
-          "title": "Claude Fable 5.2 is Insane... These are the 9 HUGE Use Cases",
-          "published": "2026-11-13T22:26:36.087Z",
-          "channel": "Jack Roberts",
-          "ageText": "23h ago"
+          "id": "wVoWwo4P3BM",
+          "title": "Use Claude Without Limits (FREE 7.4 BILLION Tokens)",
+          "published": "2026-11-14T01:51:00.026Z",
+          "channel": "Outskill",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "D-G56GdFTW4",
+          "title": "Reverse Engineer ANY Website's SEO With Claude (FREE)!",
+          "published": "2026-11-14T01:51:00.026Z",
+          "channel": "Julian Goldie SEO",
+          "ageText": "1d ago"
         },
         {
           "id": "l2_pKB1EbMQ",
           "title": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)",
-          "published": "2026-11-13T21:26:36.087Z",
+          "published": "2026-11-14T01:50:59.240Z",
           "channel": "Grow With Kaz",
           "ageText": "1d ago"
         },
         {
           "id": "WNWv__q80j8",
           "title": "Claude AI Goes Down as Microsoft Outage Triggers Global Tech Chaos | NewsX World",
-          "published": "2026-11-13T21:26:36.087Z",
+          "published": "2026-11-14T01:50:59.240Z",
           "channel": "NewsX World",
           "ageText": "1d ago"
         },
         {
-          "id": "UwnYP1qG33M",
-          "title": "Claude AI Just Made A Move OpenAI Didn’t See Coming..",
-          "published": "2026-11-13T21:26:36.087Z",
-          "channel": "Your AI Guy",
+          "id": "q6zgI-BQ5Uw",
+          "title": "Claude Fable 5.2 is Insane... Here's EVERYTHING it can do",
+          "published": "2026-11-14T01:50:59.240Z",
+          "channel": "Jack Roberts",
           "ageText": "1d ago"
+        },
+        {
+          "id": "vlfCjWuv4es",
+          "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+          "published": "2026-11-13T01:51:00.026Z",
+          "channel": "AI Engineer",
+          "ageText": "2d ago"
         },
         {
           "id": "VnJiHSS5Pjk",
           "title": "Claude Code Projects is INSANE for Building Apps (From Your Phone)",
-          "published": "2026-11-12T21:26:36.736Z",
+          "published": "2026-11-13T01:51:00.026Z",
           "channel": "Riley Brown",
           "ageText": "2d ago"
         },
         {
-          "id": "F7ygmxQxwWM",
-          "title": "Build Cinematic Websites with Claude Code FAST",
-          "published": "2026-11-12T21:26:36.736Z",
-          "channel": "Kyle Skelly",
+          "id": "6RAjpFNnST8",
+          "title": "New Claude Fable 5.2 Is Insane (Yes, Again!)",
+          "published": "2026-11-13T01:50:59.240Z",
+          "channel": "The AI Advantage",
           "ageText": "2d ago"
         },
         {
-          "id": "Dcxyeb1rB1g",
-          "title": "The Claude Code Extension Wasn't What It Seemed | Threat Wire",
-          "published": "2026-11-12T21:26:36.736Z",
-          "channel": "Hak5 and Ali Diamond",
+          "id": "hRNut6GeWgE",
+          "title": "This is How Smart People Use Claude(21 Insane Ways)",
+          "published": "2026-11-13T01:50:59.240Z",
+          "channel": "Ishan Sharma",
           "ageText": "2d ago"
         },
         {
           "id": "p_8qG98AtgY",
           "title": "How to Build Your First AI Agent in Claude Code (It Runs Your Week)",
-          "published": "2026-11-11T21:26:36.736Z",
+          "published": "2026-11-12T01:51:00.026Z",
           "channel": "Teacher's Tech",
           "ageText": "3d ago"
         },
         {
-          "id": "C33hJGt-ySg",
-          "title": "Fable 5.2 or Opus? When to use each model in Claude Code",
-          "published": "2026-11-11T21:26:36.736Z",
-          "channel": "Claude",
+          "id": "wdyOjcCj2hw",
+          "title": "This dad built a family OS with Claude Code + Obsidian",
+          "published": "2026-11-12T01:51:00.026Z",
+          "channel": "How I AI",
           "ageText": "3d ago"
         },
         {
-          "id": "NkkAwdm2k7s",
-          "title": "How to Use Claude Code for FREE with Ollama",
-          "published": "2026-11-10T21:26:36.736Z",
-          "channel": "Kevin Stratvert",
-          "ageText": "4d ago"
+          "id": "QYZcm1widUI",
+          "title": "Claude AI Just Got An Update That Leaves GPT-6 Behind (+17 AI Updates)",
+          "published": "2026-11-12T01:50:59.240Z",
+          "channel": "Vaibhav Sisinty",
+          "ageText": "3d ago"
         },
         {
           "id": "DdCEmlAydcw",
           "title": "Inside Anthropic's molecular biology lab",
-          "published": "2026-09-23T18:01:32+00:00",
-          "channel": "Anthropic"
-        },
-        {
-          "id": "uVS88gnaxcg",
-          "title": "Meet Claude Fable 5.1",
-          "published": "2026-09-01T19:21:24+00:00",
-          "channel": "Anthropic"
+          "published": "2026-10-16T01:50:59.227Z",
+          "channel": "Anthropic",
+          "ageText": "1mo ago"
         },
         {
           "id": "ROF2Nv_KjOM",
           "title": "Introducing Claude Fable 5.1",
-          "published": "2026-09-01T18:02:31+00:00",
-          "channel": "Anthropic"
+          "published": "2026-09-16T01:50:59.227Z",
+          "channel": "Anthropic",
+          "ageText": "2mo ago"
         },
         {
           "id": "UxJZrCFzTHY",
           "title": "Model Hardware Standard: AI operating physical equipment",
-          "published": "2026-08-28T00:40:16+00:00",
-          "channel": "Anthropic"
+          "published": "2026-09-16T01:50:59.227Z",
+          "channel": "Anthropic",
+          "ageText": "2mo ago"
+        },
+        {
+          "id": "P1zBiAQU1IA",
+          "title": "AI models can now help run physical science experiments",
+          "published": "2026-09-16T01:50:59.227Z",
+          "channel": "Anthropic",
+          "ageText": "2mo ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-14T21:26:37.322Z"
+      "updatedAt": "2026-11-15T01:51:00.626Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "qyoRPtl0480",
+          "title": "AI News: Nvidia's CEO is out, ChatGPT can now pay for you, and a Tesla with no steering wheel",
+          "published": "2026-11-15T00:51:00.626Z",
+          "channel": "Matthew Esposito | AI",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "VaP4gT-ZYmM",
+          "title": "All All U.S. Flights Grounded Because of AI?  | #AIPolicy #AINews #FAA",
+          "published": "2026-11-15T00:51:00.626Z",
+          "channel": "Global AI Policy News",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "Y-6521Mjc4o",
+          "title": "Alibaba Qwen 4 Explained: 1 Million Token LATEST AI Model That Can KILL ChatGPT & Claude?",
+          "published": "2026-11-14T14:51:01.914Z",
+          "channel": "Tab 47 by upGrad and upGrad",
+          "ageText": "11h ago"
+        },
+        {
           "id": "HAF50MLyERU",
           "title": "Is the AI party over after a week from hell? | BBC News",
-          "published": "2026-11-14T14:26:37.322Z",
+          "published": "2026-11-14T14:51:00.626Z",
           "channel": "BBC News",
-          "ageText": "7h ago"
+          "ageText": "11h ago"
         },
         {
           "id": "7GNpNPxJIvU",
           "title": "GPT-7 Is Launching Into a World OpenAI Can’t Control",
-          "published": "2026-11-14T14:26:37.322Z",
+          "published": "2026-11-14T13:51:00.626Z",
           "channel": "AI Master",
-          "ageText": "7h ago"
-        },
-        {
-          "id": "zC-WyRzwcUY",
-          "title": "The US's data center backlash would never happen in China | Meanwhile in Asia",
-          "published": "2026-11-14T12:26:38.019Z",
-          "channel": "CNN",
-          "ageText": "9h ago"
+          "ageText": "12h ago"
         },
         {
           "id": "7lVjI6ODuao",
           "title": "Google Gemini 4 Hydrogen: Ultra-Fast AI Model Unveiled",
-          "published": "2026-11-14T10:26:38.627Z",
+          "published": "2026-11-14T10:51:01.914Z",
           "channel": "Tech EN",
-          "ageText": "11h ago"
+          "ageText": "15h ago"
         },
         {
           "id": "T1LvBjXYcFY",
           "title": "Is Proton's official statement enough? - Linux Weekly News",
-          "published": "2026-11-14T09:26:37.322Z",
+          "published": "2026-11-14T08:51:01.298Z",
           "channel": "The Linux Experiment",
-          "ageText": "12h ago"
+          "ageText": "17h ago"
         },
         {
           "id": "1PJGtLpYGOY",
           "title": "New 145B (6.6B Active) Local AI Runs on 1 GPU & BEATS DeepSeek V4 & Qwen! + Gemini 4 Helix Leaked!",
-          "published": "2026-11-14T08:26:38.627Z",
+          "published": "2026-11-14T08:51:00.626Z",
           "channel": "Shaown Ships AI",
-          "ageText": "13h ago"
+          "ageText": "17h ago"
         },
         {
-          "id": "b0aUPerQ2G0",
-          "title": "FAA ground stop: Officials say no evidence of cyberattack or AI involvement",
-          "published": "2026-11-14T03:26:38.019Z",
-          "channel": "CBS6 Albany",
-          "ageText": "18h ago"
+          "id": "kbKeUEO0EJg",
+          "title": "Why Jensen Huang Was Essential to Nvidia’s Rise",
+          "published": "2026-11-14T04:51:01.298Z",
+          "channel": "The New York Times",
+          "ageText": "21h ago"
         },
         {
           "id": "FaErjxv_nlE",
           "title": "Musk Makes MASSIVE AI Move After Midterm Disaster",
-          "published": "2026-11-14T03:26:37.322Z",
+          "published": "2026-11-14T03:51:00.626Z",
           "channel": "The Young Turks",
-          "ageText": "18h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "wLTb7W4dero",
           "title": "AI News of the Week: Jensen Resigns, Google Carbon is WILD, Grok Bot MAJOR Update",
-          "published": "2026-11-14T03:26:37.322Z",
+          "published": "2026-11-14T02:51:00.626Z",
           "channel": "Alex Finn",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "wHyCycJ2Gag",
-          "title": "Linux Weekly 28: Microsoft Down, Jensen Out",
-          "published": "2026-11-13T22:26:38.019Z",
-          "channel": "Level1Linux",
           "ageText": "23h ago"
         },
         {
           "id": "1iskKtCXsaQ",
           "title": "AI Companies Are Releasing Too Many Models!",
-          "published": "2026-11-13T21:26:38.627Z",
+          "published": "2026-11-14T01:51:01.914Z",
           "channel": "David Linthicum",
           "ageText": "1d ago"
         },
         {
           "id": "3OAx2dNOGsg",
           "title": "Forget GPT-6.2: OpenAI's Secret Model Crushes Mythos + Anthropic IPO + Nvidia CEO",
-          "published": "2026-11-13T21:26:38.627Z",
+          "published": "2026-11-14T01:51:01.914Z",
           "channel": "AI That Works",
           "ageText": "1d ago"
         },
         {
           "id": "nTXUndFOTCw",
           "title": "The Craziest AI Week of The Year...",
-          "published": "2026-11-13T21:26:38.019Z",
+          "published": "2026-11-14T01:51:01.298Z",
           "channel": "Paul J Lipsky",
           "ageText": "1d ago"
         },
         {
           "id": "CvLX2SaSxtQ",
           "title": "The race to control artificial intelligence | Ian Bremmer Explains",
-          "published": "2026-11-13T21:26:38.019Z",
+          "published": "2026-11-14T01:51:01.298Z",
           "channel": "GZERO Media",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "cO1yDH9aJIg",
+          "title": "A 'Fake Horse'? Jensen Huang Defends 'Superintelligence'",
+          "published": "2026-11-14T01:51:01.298Z",
+          "channel": "Bloomberg Originals",
           "ageText": "1d ago"
         },
         {
           "id": "G_Jrexy_5Bg",
           "title": "AI News: Things Will Never Be The Same",
-          "published": "2026-11-13T21:26:37.322Z",
+          "published": "2026-11-14T01:51:00.626Z",
           "channel": "Matt Wolfe",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "HPCayerH1Jw",
-          "title": "It’s Happening... SUPERHUMAN AI Is Almost Here! (Everything Changes)",
-          "published": "2026-11-13T21:26:37.322Z",
-          "channel": "AI Revolution",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "wF2use2NjuM",
-          "title": "Why Microsoft Just Went Dark (Was It an AI Attack?)",
-          "published": "2026-11-13T21:26:37.322Z",
-          "channel": "Atlas From Below",
           "ageText": "1d ago"
         },
         {
           "id": "lhCad7WDyHw",
           "title": "Google's Gemini 4 KRYPTON Is INSANE! Carbon 4, Grok 4.8, GPT-6.2 Release LEAKED, Qwen 4 Max! AI NEWS",
-          "published": "2026-11-12T21:26:38.627Z",
+          "published": "2026-11-13T01:51:01.914Z",
           "channel": "WorldofAI",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "XjpjffsPVpw",
-          "title": "Australia AI Law Forces Safety Tests Before Model Release",
-          "published": "2026-11-12T21:26:38.627Z",
-          "channel": "Nerra Network",
           "ageText": "2d ago"
         },
         {
           "id": "nl17E4KwYjw",
           "title": "Claude AI Just Released Fable 5.2 And It’s CRAZY! (New Claude Model & Upgrades)",
-          "published": "2026-11-11T21:26:38.627Z",
+          "published": "2026-11-12T01:51:01.914Z",
           "channel": "Rob The AI Guy",
           "ageText": "3d ago"
+        },
+        {
+          "id": "GipTWtfaiLs",
+          "title": "Claude Fable 5.2 Just Took AI to Another Level",
+          "published": "2026-11-11T01:51:01.914Z",
+          "channel": "TheAIGRID",
+          "ageText": "4d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-14T21:26:39.236Z"
+      "updatedAt": "2026-11-15T01:51:02.598Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "aBmEwgNYieI",
+          "title": "THE FALSE NARRATIVES!",
+          "published": "2026-11-14T22:51:04.116Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "3h ago"
+        },
+        {
           "id": "7UBhXmvwCl0",
           "title": "DEAL DONE! FALCONS TRADE JESSIE BATES TO THE JAGUARS AT THE DEADLINE! ATLANTA FALCONS NEWS",
-          "published": "2026-11-14T21:01:41.973Z",
+          "published": "2026-11-14T21:51:04.116Z",
           "channel": "Dirty Birds Daily",
-          "ageText": "25 min ago"
+          "ageText": "4h ago"
         },
         {
           "id": "HUAQPkGTq6c",
           "title": "Atlanta Hawks MUST Do This, But They Wont...",
-          "published": "2026-11-14T18:26:41.973Z",
+          "published": "2026-11-14T18:51:04.116Z",
           "channel": "Uncut Atlanta Sports",
-          "ageText": "3h ago"
-        },
-        {
-          "id": "-Nm5F-V46iA",
-          "title": "Chicago Bulls vs Atlanta Hawks Full Game Highlights - November 13, 2026 | Emirates NBA Cup",
-          "published": "2026-11-14T04:26:41.973Z",
-          "channel": "GAMETIME HIGHLIGHTS",
-          "ageText": "17h ago"
+          "ageText": "7h ago"
         },
         {
           "id": "ty3vbfI-88I",
           "title": "Hawks vs. Bulls Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-14T04:26:40.487Z",
+          "published": "2026-11-14T04:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "17h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "lQ5ByGNKgU4",
           "title": "Jalen Johnson puts up 27/11/10 for first triple-double of season in Hawks at Bulls",
-          "published": "2026-11-14T04:26:40.487Z",
+          "published": "2026-11-14T04:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "17h ago"
-        },
-        {
-          "id": "iTccihzOTQE",
-          "title": "Ms. Basketball on Angel Reese, Atlanta Dream & WNBA Championship Expectations",
-          "published": "2026-11-14T00:26:41.973Z",
-          "channel": "The Fumble",
           "ageText": "21h ago"
         },
         {
           "id": "dyHQBS9dqeI",
           "title": "Atlanta Falcons Fans Are FED UP: “Stop Talking to Us Like We’re Dumb!”",
-          "published": "2026-11-13T23:26:41.973Z",
+          "published": "2026-11-14T01:51:04.116Z",
           "channel": "The Water Boyz Show",
-          "ageText": "22h ago"
+          "ageText": "1d ago"
+        },
+        {
+          "id": "UrQA_YaCzAk",
+          "title": "BIG MISTAKE?! THE REAL PROBLEM WITH THE NEW FALCONS TRADE! ATLANTA FALCONS NEWS",
+          "published": "2026-11-14T01:51:04.116Z",
+          "channel": "Dirty Birds Daily",
+          "ageText": "1d ago"
         },
         {
           "id": "A_yBo8xJ24s",
           "title": "History Made | Atlanta United 2 Season Long Documentary",
-          "published": "2026-11-13T23:26:41.967Z",
+          "published": "2026-11-14T01:51:04.108Z",
           "channel": "Atlanta United FC",
-          "ageText": "22h ago"
+          "ageText": "1d ago"
         },
         {
           "id": "Zi1YJP0lae4",
-          "title": "Falcons vs Chiefs Preview: NFL’s top RBs collide in Sunday’s showdown | Friday Five Podcast",
-          "published": "2026-11-13T21:26:40.126Z",
+          "title": "Falcons make roster moves ahead of big time bounce back opportunity vs Chiefs | Friday Five Podcast",
+          "published": "2026-11-14T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "1d ago"
         },
         {
           "id": "orI0zNFRIIc",
           "title": "The Falcons take on the Kansas City Chiefs back at home in Mercedes Benz Stadium | RISE UP TONIGHT",
-          "published": "2026-11-13T21:26:40.126Z",
-          "channel": "Atlanta Falcons",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "7g_J0pQQgP0",
-          "title": "Bijan Robinson & Falcons set for Sunday showdown versus Chiefs | Atlanta Falcons Pregame Show",
-          "published": "2026-11-13T21:26:40.126Z",
+          "published": "2026-11-14T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "1d ago"
         },
         {
           "id": "v1N46gJtrTY",
           "title": "Skilla Baby on The Price of Fame, learning from Nas, & dreams of an Adele feature | Hawks AF",
-          "published": "2026-11-12T21:26:40.487Z",
+          "published": "2026-11-13T01:51:03.721Z",
           "channel": "Atlanta Hawks",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "7g_J0pQQgP0",
+          "title": "Week 10: Atlanta Falcons vs. Kansas City Chiefs | Atlanta Falcons Pregame Show",
+          "published": "2026-11-13T01:51:03.291Z",
+          "channel": "Atlanta Falcons",
           "ageText": "2d ago"
         },
         {
           "id": "8b7D15shRQQ",
           "title": "Tommy Rees, Jeff Ulbrich, & Craig Aukerman on Falcons preparation for Chiefs | Press Conference",
-          "published": "2026-11-12T21:26:40.126Z",
+          "published": "2026-11-13T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "aWZAqlnRPhQ",
-          "title": "Atlanta Falcons players speak to the media on roster moves ahead of Kansas City | Press Conference",
-          "published": "2026-11-12T21:26:40.126Z",
-          "channel": "Atlanta Falcons",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "_2qZqcXSGis",
-          "title": "Behind the Braves Podcast | Braves In The Military",
-          "published": "2026-11-12T21:26:39.690Z",
-          "channel": "Atlanta Braves",
           "ageText": "2d ago"
         },
         {
           "id": "BoMxHCjdrfk",
-          "title": "Guz & Atlanta Mayor Andre Dickens in Mayor's Cup Scramble!",
-          "published": "2026-11-11T21:26:41.967Z",
+          "title": "Atlanta Mayor Andre Dickens on Atlanta City FC, Lemon Pepper Wings, a Day in The Life & More!",
+          "published": "2026-11-12T01:51:04.108Z",
           "channel": "Atlanta United FC",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "aWZAqlnRPhQ",
+          "title": "Atlanta Falcons players speak to the media on roster moves ahead of Kansas City | Press Conference",
+          "published": "2026-11-12T01:51:03.291Z",
+          "channel": "Atlanta Falcons",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "_2qZqcXSGis",
+          "title": "Behind the Braves Podcast | Braves In The Military",
+          "published": "2026-11-12T01:51:02.914Z",
+          "channel": "Atlanta Braves",
           "ageText": "3d ago"
         },
         {
           "id": "u4MkNuF6xy4",
           "title": "Hawks vs. Lakers Postgame Press Conference: Dyson Daniels",
-          "published": "2026-11-10T21:26:40.487Z",
+          "published": "2026-11-11T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "4d ago"
         },
         {
           "id": "edNoNKa2dgg",
           "title": "CJ McCollum eclipses 17,000 Career Points in Hawks matchup vs. Lakers",
-          "published": "2026-11-10T21:26:40.487Z",
+          "published": "2026-11-11T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "4d ago"
         },
         {
-          "id": "h-hnqk5-De8",
-          "title": "Lo-Fi Baseball: 2026 Season | Atlanta Braves",
-          "published": "2026-11-05T21:26:39.690Z",
-          "channel": "Atlanta Braves",
-          "ageText": "9d ago"
-        },
-        {
           "id": "UCayL57xGAE",
           "title": "Week 34: Atlanta United Prematch Show | Atlanta United vs Red Bull New York",
-          "published": "2026-11-04T21:26:41.967Z",
+          "published": "2026-11-05T01:51:04.108Z",
           "channel": "Atlanta United FC",
+          "ageText": "10d ago"
+        },
+        {
+          "id": "h-hnqk5-De8",
+          "title": "Lo-Fi Baseball: 2026 Season | Atlanta Braves",
+          "published": "2026-11-05T01:51:02.914Z",
+          "channel": "Atlanta Braves",
           "ageText": "10d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-14T21:26:43.365Z"
+      "updatedAt": "2026-11-15T01:51:05.818Z"
     },
     {
       "slug": "braves",
@@ -449,140 +453,140 @@
         {
           "id": "_2qZqcXSGis",
           "title": "Behind the Braves Podcast | Braves In The Military",
-          "published": "2026-11-12T21:26:39.690Z",
+          "published": "2026-11-12T01:51:02.914Z",
           "channel": "Atlanta Braves",
-          "ageText": "2d ago"
+          "ageText": "3d ago"
         },
         {
           "id": "h-hnqk5-De8",
           "title": "Lo-Fi Baseball: 2026 Season | Atlanta Braves",
-          "published": "2026-11-05T21:26:39.690Z",
+          "published": "2026-11-05T01:51:02.914Z",
           "channel": "Atlanta Braves",
-          "ageText": "9d ago"
+          "ageText": "10d ago"
         },
         {
           "id": "HrGi724ywW0",
           "title": "The Front Office Report",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "JXl49PNEyOY",
           "title": "Braves Postgame: Postseason Edition | NLDS Game 4",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "fco6grcUBHE",
           "title": "Braves vs. Dodgers NLDS Game 2 Highlights (10/4/26) | MLB Highlights",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "CsaKtdrXHYI",
           "title": "Behind the Braves Podcast | Two Sport Athletes",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "3Qb91gwtoGA",
           "title": "Braves vs. Dodgers | NLDS Game 2 | Raisel Iglesias | \"As It Happened\"",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "k8rwJ9611eA",
           "title": "Braves vs. Dodgers | NLDS Game 2 | Didier Fuentes | \"As It Happened\"",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "QPIXrELQIkE",
           "title": "Braves vs. Dodgers | NLDS Game 2 | Robert Suarez | \"As It Happened\"",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "Q6UaH5kvXVw",
           "title": "Braves vs. Dodgers | NLDS Game 2 | Dylan Lee | \"As It Happened\"",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "tR9y58NFGlg",
           "title": "Braves vs. Dodgers | NLDS Game 2 | Ray Kerr | \"As It Happened\"",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "OhyiG8SDUF4",
           "title": "Braves Postgame: Postseason Edition | NLDS Game 2",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "Pk7ZqaBlPjQ",
           "title": "2026 Wild Card Series Game 3 Recap!",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "ilh1MwoWK5I",
           "title": "Braves Postgame: Postseason Edition | Wild Card Game 3",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "-8e5zB7hdOA",
           "title": "Phillies vs. Braves: Wild Card Full Game 3 Highlights (October 1) | 2026 MLB Postseason",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "XGn3-6RIJOs",
           "title": "Braves On Deck: Postseason Edition | Wild Card Game 2",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "korqwOrE-5w",
           "title": "Phillies vs. Braves: Wild Card Full Game 1 Highlights (September 29) | 2026 MLB Postseason",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "ZvPsmlNSfWg",
           "title": "Braves on Deck: Postseason Preview Show",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "DKNHrWnGdRA",
           "title": "Braves On Deck: Postseason Preview Show | Walt Weiss and CJ Nitkowski Interview",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         },
         {
           "id": "7vWydXh7LnA",
           "title": "Braves On Deck: Postseason Preview Show | Chris Sale and Wiley Ballard Interview",
-          "published": "2026-10-15T21:26:39.690Z",
+          "published": "2026-10-16T01:51:02.914Z",
           "channel": "Atlanta Braves",
           "ageText": "1mo ago"
         }
@@ -590,7 +594,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "videos tab",
-      "updatedAt": "2026-11-14T21:26:39.695Z"
+      "updatedAt": "2026-11-15T01:51:02.922Z"
     },
     {
       "slug": "falcons",
@@ -599,141 +603,141 @@
       "videos": [
         {
           "id": "Zi1YJP0lae4",
-          "title": "Falcons vs Chiefs Preview: NFL’s top RBs collide in Sunday’s showdown | Friday Five Podcast",
-          "published": "2026-11-13T21:26:40.126Z",
+          "title": "Falcons make roster moves ahead of big time bounce back opportunity vs Chiefs | Friday Five Podcast",
+          "published": "2026-11-14T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "1d ago"
         },
         {
           "id": "orI0zNFRIIc",
           "title": "The Falcons take on the Kansas City Chiefs back at home in Mercedes Benz Stadium | RISE UP TONIGHT",
-          "published": "2026-11-13T21:26:40.126Z",
+          "published": "2026-11-14T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "1d ago"
         },
         {
           "id": "7g_J0pQQgP0",
-          "title": "Bijan Robinson & Falcons set for Sunday showdown versus Chiefs | Atlanta Falcons Pregame Show",
-          "published": "2026-11-13T21:26:40.126Z",
+          "title": "Week 10: Atlanta Falcons vs. Kansas City Chiefs | Atlanta Falcons Pregame Show",
+          "published": "2026-11-13T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "1d ago"
+          "ageText": "2d ago"
         },
         {
           "id": "8b7D15shRQQ",
           "title": "Tommy Rees, Jeff Ulbrich, & Craig Aukerman on Falcons preparation for Chiefs | Press Conference",
-          "published": "2026-11-12T21:26:40.126Z",
+          "published": "2026-11-13T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "2d ago"
         },
         {
           "id": "aWZAqlnRPhQ",
           "title": "Atlanta Falcons players speak to the media on roster moves ahead of Kansas City | Press Conference",
-          "published": "2026-11-12T21:26:40.126Z",
+          "published": "2026-11-12T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "2d ago"
+          "ageText": "3d ago"
         },
         {
           "id": "EiZVt5mf6SQ",
-          "title": "Surprising Soldiers with Their Families on Deployment | Atlanta Falcons",
-          "published": "2026-11-11T21:26:40.126Z",
+          "title": "Military Families Surprise Their Soldiers in Madrid | Atlanta Falcons",
+          "published": "2026-11-12T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "3d ago"
         },
         {
           "id": "hfdnVbv6HGs",
-          "title": "Atlanta Falcons look to bounce back vs Mahomes, Kelce & Kansas City Chiefs | Audible Podcast",
-          "published": "2026-11-11T21:26:40.126Z",
+          "title": "Back in Atlanta: 3 keys to stopping Patrick Mahomes & Co. | Falcons Audible Podcast",
+          "published": "2026-11-11T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "3d ago"
+          "ageText": "4d ago"
         },
         {
           "id": "plXlihTHGEg",
           "title": "Breaking down what makes Kyle Pitts Sr. & Travis Kelce a nightmare for defenses | Film Review",
-          "published": "2026-11-10T21:26:40.126Z",
+          "published": "2026-11-11T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "4d ago"
         },
         {
           "id": "-YgaJP7BH4E",
           "title": "Thank you, Jessie Bates III | Atlanta Falcons",
-          "published": "2026-11-09T21:26:40.126Z",
+          "published": "2026-11-10T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "5d ago"
         },
         {
           "id": "XwJNPFvtyho",
           "title": "Atlanta Falcons players reflect on playing in Madrid against the Bengals | Press Conference",
-          "published": "2026-11-09T21:26:40.126Z",
+          "published": "2026-11-09T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "5d ago"
+          "ageText": "6d ago"
         },
         {
           "id": "21GRJm2PzbI",
           "title": "Head Coach Kevin Stefanski on Madrid atmosphere and matchup against Bengals | Press Conference",
-          "published": "2026-11-08T21:26:40.126Z",
+          "published": "2026-11-09T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "6d ago"
         },
         {
           "id": "fxF6OkWc9K4",
           "title": "Falcons in Madrid | HYPE | Atlanta Falcons",
-          "published": "2026-11-07T21:26:40.126Z",
+          "published": "2026-11-08T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "7d ago"
         },
         {
           "id": "xvMDoYzbhnE",
           "title": "Brandon Dorlus, Avieon Terrell, Olamide Zaccheaus, & Kendal Daniels on Bengals matchup in Madrid",
-          "published": "2026-11-06T21:26:40.126Z",
+          "published": "2026-11-07T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "8d ago"
         },
         {
           "id": "i-3kKq7_jF4",
           "title": "Kevin Stefanski on Atlanta Falcons preparation for Cincinnati Bengals | Press Conference",
-          "published": "2026-11-06T21:26:40.126Z",
+          "published": "2026-11-07T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "8d ago"
         },
         {
           "id": "-W6g3g-HVN4",
           "title": "MADRID REPORT: Atlanta Falcons prep for bash with Bengals in the Bernebéu | Friday Five Podcast",
-          "published": "2026-11-06T21:26:40.126Z",
+          "published": "2026-11-07T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "8d ago"
         },
         {
           "id": "w5BWBC2xApA",
           "title": "THE FALCONS TRAVEL TO MADRID, SPAIN TO FACE THE BENGALS IN WEEK 9 | RISE UP TONIGHT",
-          "published": "2026-11-06T21:26:40.126Z",
+          "published": "2026-11-07T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "8d ago"
         },
         {
           "id": "YZgtzJpv33I",
           "title": "Week 9: Atlanta Falcons vs. Cincinnati Bengals | Atlanta Falcons Pregame Show",
-          "published": "2026-11-06T21:26:40.126Z",
+          "published": "2026-11-06T01:51:03.291Z",
           "channel": "Atlanta Falcons",
-          "ageText": "8d ago"
+          "ageText": "9d ago"
         },
         {
           "id": "-FMcZbKTl4c",
           "title": "Atlanta Falcons announce Jerious Norwood as 2026 Salute to Service Award Recipient | NFL",
-          "published": "2026-11-05T21:26:40.126Z",
+          "published": "2026-11-06T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "9d ago"
         },
         {
           "id": "cC_ZPpd3cgM",
           "title": "Michael Penix, Drake London & Bijan Robinson on Falcons preparation in Madrid | Press Conference",
-          "published": "2026-11-05T21:26:40.126Z",
+          "published": "2026-11-06T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "9d ago"
         },
         {
           "id": "vgPXM4RN9zQ",
           "title": "Tommy Rees, Jeff Ulbrich, & Craig Aukerman speak in Madrid | Atlanta Falcons Press Conferences",
-          "published": "2026-11-05T21:26:40.126Z",
+          "published": "2026-11-06T01:51:03.291Z",
           "channel": "Atlanta Falcons",
           "ageText": "9d ago"
         }
@@ -741,7 +745,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "videos tab",
-      "updatedAt": "2026-11-14T21:26:40.132Z"
+      "updatedAt": "2026-11-15T01:51:03.297Z"
     },
     {
       "slug": "hawks",
@@ -751,148 +755,148 @@
         {
           "id": "ty3vbfI-88I",
           "title": "Hawks vs. Bulls Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-14T04:26:40.487Z",
+          "published": "2026-11-14T04:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "17h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "lQ5ByGNKgU4",
           "title": "Jalen Johnson puts up 27/11/10 for first triple-double of season in Hawks at Bulls",
-          "published": "2026-11-14T04:26:40.487Z",
+          "published": "2026-11-14T04:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "17h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "v1N46gJtrTY",
           "title": "Skilla Baby on The Price of Fame, learning from Nas, & dreams of an Adele feature | Hawks AF",
-          "published": "2026-11-12T21:26:40.487Z",
+          "published": "2026-11-13T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "2d ago"
         },
         {
           "id": "u4MkNuF6xy4",
           "title": "Hawks vs. Lakers Postgame Press Conference: Dyson Daniels",
-          "published": "2026-11-10T21:26:40.487Z",
+          "published": "2026-11-11T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "4d ago"
         },
         {
           "id": "edNoNKa2dgg",
           "title": "CJ McCollum eclipses 17,000 Career Points in Hawks matchup vs. Lakers",
-          "published": "2026-11-10T21:26:40.487Z",
+          "published": "2026-11-11T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "4d ago"
         },
         {
           "id": "qLM6wYN8hyQ",
           "title": "Hawks vs. Lakers Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-10T21:26:40.487Z",
+          "published": "2026-11-11T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "4d ago"
         },
         {
           "id": "A-hTZAnBVrk",
           "title": "Hawks vs. Nets Postgame Press Conference: Jalen Johnson",
-          "published": "2026-11-08T21:26:40.487Z",
+          "published": "2026-11-09T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "6d ago"
         },
         {
           "id": "ePrfZObKTXY",
           "title": "Hawks vs. Nets Postgame Press Conference: Aaron Wiggins",
-          "published": "2026-11-08T21:26:40.487Z",
+          "published": "2026-11-09T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "6d ago"
         },
         {
           "id": "_6pcscjyln0",
           "title": "Jalen Johnson drops 30 Points in return from injury in Hawks Win over Nets",
-          "published": "2026-11-08T21:26:40.487Z",
+          "published": "2026-11-09T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "6d ago"
         },
         {
           "id": "xiokZx4FZ74",
           "title": "Hawks vs. Nets Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-08T21:26:40.487Z",
+          "published": "2026-11-09T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "6d ago"
         },
         {
           "id": "NYxPxPKUNSI",
           "title": "Hawks vs. Wizards Postgame Press Conference: Onyeka Okongwu and Dyson Daniels",
-          "published": "2026-11-07T21:26:40.487Z",
+          "published": "2026-11-08T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "7d ago"
         },
         {
           "id": "6J54qK7Anlw",
           "title": "Hawks vs. Wizards Postgame Press Conference: Luguentz Dor",
-          "published": "2026-11-07T21:26:40.487Z",
+          "published": "2026-11-08T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "7d ago"
         },
         {
           "id": "FV47TFMO8uo",
           "title": "Lu Dort explodes for 25 Points, 5 Threes in Hawks Win over Wizards in NBA Cup",
-          "published": "2026-11-07T21:26:40.487Z",
+          "published": "2026-11-08T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "7d ago"
         },
         {
           "id": "bi9Vo4OTgvw",
           "title": "Hawks vs. Wizards Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-07T21:26:40.487Z",
+          "published": "2026-11-08T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "7d ago"
         },
         {
           "id": "HeVV6ZnIBns",
           "title": "Hawks vs. Wizards Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-05T21:26:40.487Z",
+          "published": "2026-11-06T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "9d ago"
         },
         {
           "id": "E8Qaah4oV28",
           "title": "Nickeil Alexander-Walker scores 26 Points, hits 6 more threes in Hawks Win at Washington",
-          "published": "2026-11-05T21:26:40.487Z",
+          "published": "2026-11-06T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "9d ago"
         },
         {
           "id": "tQ8x4v1K1lw",
           "title": "Simon Says: Difficulty Level - Impossible | Atlanta Hawks Halftime",
-          "published": "2026-11-04T21:26:40.487Z",
+          "published": "2026-11-04T01:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "10d ago"
+          "ageText": "11d ago"
         },
         {
           "id": "cJ8DIl8Cvk8",
           "title": "Nickeil Alexander-Walker ties career high with 9 threes, pours in 34 Points in Hawks Win over Pacers",
-          "published": "2026-11-03T21:26:40.487Z",
+          "published": "2026-11-04T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "11d ago"
         },
         {
           "id": "LAwNZJYlivQ",
           "title": "Hawks vs. Pacers Postgame Press Conference: Head Coach Quin Snyder",
-          "published": "2026-11-03T21:26:40.487Z",
+          "published": "2026-11-04T01:51:03.721Z",
           "channel": "Atlanta Hawks",
           "ageText": "11d ago"
         },
         {
           "id": "zX1pKjN4JaM",
           "title": "Volunteers Pack One Million Meals for Atlanta ❤️ Atlanta Hawks and State Farm Million Meal Pack 2026",
-          "published": "2026-11-03T21:26:40.487Z",
+          "published": "2026-11-03T01:51:03.721Z",
           "channel": "Atlanta Hawks",
-          "ageText": "11d ago"
+          "ageText": "12d ago"
         }
       ],
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "videos tab",
-      "updatedAt": "2026-11-14T21:26:40.492Z"
+      "updatedAt": "2026-11-15T01:51:03.727Z"
     },
     {
       "slug": "united",
@@ -902,140 +906,140 @@
         {
           "id": "A_yBo8xJ24s",
           "title": "History Made | Atlanta United 2 Season Long Documentary",
-          "published": "2026-11-13T23:26:41.967Z",
+          "published": "2026-11-14T01:51:04.108Z",
           "channel": "Atlanta United FC",
-          "ageText": "22h ago"
+          "ageText": "1d ago"
         },
         {
           "id": "BoMxHCjdrfk",
-          "title": "Guz & Atlanta Mayor Andre Dickens in Mayor's Cup Scramble!",
-          "published": "2026-11-11T21:26:41.967Z",
+          "title": "Atlanta Mayor Andre Dickens on Atlanta City FC, Lemon Pepper Wings, a Day in The Life & More!",
+          "published": "2026-11-12T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "3d ago"
         },
         {
           "id": "UCayL57xGAE",
           "title": "Week 34: Atlanta United Prematch Show | Atlanta United vs Red Bull New York",
-          "published": "2026-11-04T21:26:41.967Z",
+          "published": "2026-11-05T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "10d ago"
         },
         {
           "id": "lpvcDRfJGv0",
           "title": "Through it all, we are UNITED ❤️ | Nonstop Access, Atlanta United vs. Toronto",
-          "published": "2026-11-03T21:26:41.967Z",
-          "channel": "Atlanta United FC",
-          "ageText": "11d ago"
-        },
-        {
-          "id": "SPYZxJxJM5s",
-          "title": "MATCH HIGHLIGHTS  Atlanta United vs  Toronto FC",
-          "published": "2026-11-02T21:26:41.967Z",
+          "published": "2026-11-03T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "12d ago"
         },
         {
+          "id": "SPYZxJxJM5s",
+          "title": "MATCH HIGHLIGHTS  Atlanta United vs  Toronto FC",
+          "published": "2026-11-02T01:51:04.108Z",
+          "channel": "Atlanta United FC",
+          "ageText": "13d ago"
+        },
+        {
           "id": "Ro7YLFnTCt0",
           "title": "Matt Knows Passion 🥹 | A heartfelt story of a beloved supporter",
-          "published": "2026-11-01T21:26:41.967Z",
+          "published": "2026-11-02T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "13d ago"
         },
         {
           "id": "p2yzp97W7aM",
           "title": "Week 32: Atlanta United Prematch Show | Atlanta United vs Toronto FC",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-11-01T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "2w ago"
         },
         {
           "id": "P5g9xaPJNv0",
           "title": "It’s 𝐬𝐡𝐨𝐫𝐭. Let’s make it 𝓼𝔀𝓮𝓮𝓽. | Our 2026 Sprint Season Schedule 🗓️",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-11-01T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "2w ago"
         },
         {
           "id": "gR-esyjftbw",
           "title": "S1 Ep30 | Andraya Carter: DREAMS Come True!!!",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-11-01T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "2w ago"
         },
         {
           "id": "E-fc3vXLe2Q",
           "title": "Honoring the changemakers in our community 🛠️",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-11-01T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "2w ago"
         },
         {
           "id": "GV_hdqBx_as",
           "title": "HIGHLIGHTS | Atlanta United vs  Chicago Fire FC",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-11-01T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "2w ago"
         },
         {
           "id": "2eCU7wp59A0",
           "title": "MATCH HIGHLIGHTS | Atlanta United Unified vs Chicago Fire Unified | October 24, 2026",
-          "published": "2026-10-31T21:26:41.967Z",
+          "published": "2026-10-25T01:51:04.108Z",
           "channel": "Atlanta United FC",
-          "ageText": "2w ago"
+          "ageText": "3w ago"
         },
         {
           "id": "EDvzO0AdS0o",
           "title": "Week 31: Atlanta United Prematch Show | Atlanta United vs Chicago Fire",
-          "published": "2026-10-24T21:26:41.967Z",
+          "published": "2026-10-25T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "3w ago"
         },
         {
           "id": "CKjNwel4Ga0",
           "title": "MATCH HIGHLIGHTS | Atlanta United vs  Inter Miami CF",
-          "published": "2026-10-24T21:26:41.967Z",
+          "published": "2026-10-25T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "3w ago"
         },
         {
           "id": "VrJqhRDEi0o",
           "title": "ATLANTA UNITED vs. INTER MIAMI CF (9/05/2026)",
-          "published": "2026-10-17T21:26:41.967Z",
+          "published": "2026-10-18T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "4w ago"
         },
         {
           "id": "zFyJcnXboPg",
           "title": "DID IT ON A COLD NIGHT UP NORTH 🇨🇦 | Nonstop Access, CF Montréal vs. Atlanta United FC",
-          "published": "2026-10-17T21:26:41.967Z",
+          "published": "2026-10-18T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "4w ago"
         },
         {
           "id": "ZS2CI75-sKs",
           "title": "Week 29: Atlanta United Prematch Show | Atlanta United vs Inter Miami CF",
-          "published": "2026-10-17T21:26:41.967Z",
+          "published": "2026-10-18T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "4w ago"
         },
         {
           "id": "ML-R_5Aml5A",
           "title": "MATCH HIGHLIGHTS | CF Montréal vs  Atlanta United",
-          "published": "2026-10-17T21:26:41.967Z",
+          "published": "2026-10-18T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "4w ago"
         },
         {
           "id": "NBbpXWArwfM",
           "title": "S1 Ep29 | Landon Donovan: The Greatest Trophy????",
-          "published": "2026-10-15T21:26:41.967Z",
+          "published": "2026-10-16T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "1mo ago"
         },
         {
           "id": "UNXgx6jxNgU",
           "title": "Week 28: Atlanta United Prematch Show | Atlanta United vs FC Cincinnati",
-          "published": "2026-10-15T21:26:41.967Z",
+          "published": "2026-10-16T01:51:04.108Z",
           "channel": "Atlanta United FC",
           "ageText": "1mo ago"
         }
@@ -1043,7 +1047,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "videos tab",
-      "updatedAt": "2026-11-14T21:26:41.972Z"
+      "updatedAt": "2026-11-15T01:51:04.116Z"
     }
   ]
 }
