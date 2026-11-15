@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:23:46.259Z",
+  "updatedAt": "2026-11-15T21:44:50.320Z",
   "stations": [
     {
       "slug": "claude",
@@ -8,106 +8,113 @@
         {
           "id": "FxpXrtVRMxc",
           "title": "Claude AI Trading: How to Make an AI Trading Bot (Full AI Agent Build)",
-          "published": "2026-11-15T15:23:40.763Z",
+          "published": "2026-11-15T15:44:45.563Z",
           "channel": "Rickey Bridges",
-          "ageText": "1h ago"
+          "ageText": "6h ago"
         },
         {
-          "id": "sgGQXq9Plek",
-          "title": "Claude and Claude Code: A Complete Guide from Installation to Advanced Tasks",
-          "published": "2026-11-15T12:23:41.444Z",
-          "channel": "Web3nity",
-          "ageText": "4h ago"
+          "id": "TIdGgaC6g74",
+          "title": "How I'd Learn Claude AI in 2026 (If I Started Over)",
+          "published": "2026-11-15T13:44:45.563Z",
+          "channel": "Parker Prompts",
+          "ageText": "8h ago"
+        },
+        {
+          "id": "jcsg9znZR4s",
+          "title": "I Let Claude AI Build a Roblox Horror Game in 3 Prompts!",
+          "published": "2026-11-15T13:44:45.563Z",
+          "channel": "Yxii",
+          "ageText": "8h ago"
         },
         {
           "id": "OrpR5p0ry3s",
           "title": "I Set Up a Crypto Trading Bot with Claude Code (Crypto Live Trading Strategy)",
-          "published": "2026-11-15T12:23:41.444Z",
+          "published": "2026-11-15T12:44:46.262Z",
           "channel": "Thomas Sutton",
-          "ageText": "4h ago"
+          "ageText": "9h ago"
+        },
+        {
+          "id": "sgGQXq9Plek",
+          "title": "Claude and Claude Code: A Complete Guide from Installation to Advanced Tasks",
+          "published": "2026-11-15T12:44:46.262Z",
+          "channel": "Web3nity",
+          "ageText": "9h ago"
         },
         {
           "id": "Gu9lO8oqGYU",
           "title": "I Made VIRAL 3D Animation Videos Using ONLY Claude AI (FREE Plugin)",
-          "published": "2026-11-15T03:23:40.763Z",
+          "published": "2026-11-15T03:44:45.563Z",
           "channel": "Jacksons AI",
-          "ageText": "13h ago"
-        },
-        {
-          "id": "Kvk05Q060Yg",
-          "title": "Can Claude AI Build a Roblox Soccer Game in Just 3 Prompts?",
-          "published": "2026-11-14T18:23:40.763Z",
-          "channel": "Yxii",
-          "ageText": "22h ago"
+          "ageText": "18h ago"
         },
         {
           "id": "Of9ylhwSkJE",
           "title": "Claude Just Changed: The 6 Big Updates You Need to Know",
-          "published": "2026-11-14T16:23:41.444Z",
+          "published": "2026-11-14T21:44:46.262Z",
           "channel": "Duncan Rogoff | Learn Claude Code",
           "ageText": "1d ago"
         },
         {
           "id": "73DrNNvEKH0",
           "title": "The Best Way to Run Claude Code in 2026",
-          "published": "2026-11-14T16:23:41.444Z",
+          "published": "2026-11-14T21:44:46.262Z",
           "channel": "Rob Shocks - Switch Dimension",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "1OPh7jT6nw8",
+          "title": "Make Claude Code even more useful! A comprehensive guide to Claude Desktop's recommended features...",
+          "published": "2026-11-14T21:44:46.262Z",
+          "channel": "にゃんたのAIチャンネル",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "CzPKk3c_WeA",
+          "title": "Claude Code ( 100% FREE ) | How to use Claude Code for free without a subscription",
+          "published": "2026-11-14T21:44:46.262Z",
+          "channel": "Nid Academy",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "Kvk05Q060Yg",
+          "title": "Can Claude AI Build a Roblox Soccer Game in Just 3 Prompts?",
+          "published": "2026-11-14T21:44:45.563Z",
+          "channel": "Yxii",
           "ageText": "1d ago"
         },
         {
           "id": "l2_pKB1EbMQ",
           "title": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)",
-          "published": "2026-11-14T16:23:40.763Z",
+          "published": "2026-11-13T21:44:45.563Z",
           "channel": "Grow With Kaz",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "q6zgI-BQ5Uw",
-          "title": "9 Insane Things Fable 5.2 Can Do (STEAL THESE)",
-          "published": "2026-11-14T16:23:40.763Z",
-          "channel": "Jack Roberts",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "VnJiHSS5Pjk",
-          "title": "Claude Code Projects is INSANE for Building Apps (From Your Phone)",
-          "published": "2026-11-13T16:23:41.444Z",
-          "channel": "Riley Brown",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "xsMW6v7Yors",
-          "title": "Get 2 Billion AI Tokens Every Month For FREE (Use Inside Claude Code)",
-          "published": "2026-11-13T16:23:41.444Z",
-          "channel": "Astro K Joseph",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "VjZm7H0DHjY",
-          "title": "How To Do Claude AI Video Editing Better than 99% Of People",
-          "published": "2026-11-13T16:23:40.763Z",
-          "channel": "Mira AI",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "YUYeHMsqbmY",
-          "title": "Introducing Claude Meetings",
-          "published": "2026-11-13T16:23:40.763Z",
-          "channel": "Claude",
           "ageText": "2d ago"
         },
         {
           "id": "vlfCjWuv4es",
           "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
-          "published": "2026-11-12T16:23:41.444Z",
+          "published": "2026-11-12T21:44:46.262Z",
           "channel": "AI Engineer",
           "ageText": "3d ago"
         },
         {
           "id": "F7ygmxQxwWM",
           "title": "Build Cinematic Websites with Claude Code FAST",
-          "published": "2026-11-12T16:23:40.763Z",
+          "published": "2026-11-12T21:44:46.262Z",
           "channel": "Kyle Skelly",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "YUYeHMsqbmY",
+          "title": "Introducing Claude Meetings",
+          "published": "2026-11-12T21:44:45.563Z",
+          "channel": "Claude",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "VjZm7H0DHjY",
+          "title": "How To Do Claude AI Video Editing Better than 99% Of People",
+          "published": "2026-11-12T21:44:45.563Z",
+          "channel": "Mira AI",
           "ageText": "3d ago"
         },
         {
@@ -133,215 +140,233 @@
           "title": "Model Hardware Standard: AI operating physical equipment",
           "published": "2026-08-28T00:40:16+00:00",
           "channel": "Anthropic"
-        },
-        {
-          "id": "djVUCj5i4sw",
-          "title": "We're building a way for AI models to connect to any device and run real experiments.",
-          "published": "2026-08-27T19:42:35+00:00",
-          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-15T16:23:42.279Z"
+      "updatedAt": "2026-11-15T21:44:46.899Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "BGLYuiI8jOY",
-          "title": "How To Trade NVDA Earnings & Anthropic IPO",
-          "published": "2026-11-15T16:00:42.279Z",
-          "channel": "OneOption",
-          "ageText": "23 min ago"
-        },
-        {
-          "id": "iXvttGCoc1g",
-          "title": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
-          "published": "2026-11-15T07:23:42.279Z",
-          "channel": "WorldofAI",
-          "ageText": "9h ago"
+          "id": "G19AM_8Cneg",
+          "title": "Debriefing the fallout from the Nvidia scandal and what it could mean for the AI industry #shorts",
+          "published": "2026-11-15T06:44:47.504Z",
+          "channel": "Face the Nation",
+          "ageText": "15h ago"
         },
         {
           "id": "woWo80dPkVk",
-          "title": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
-          "published": "2026-11-15T04:23:42.279Z",
+          "title": "Gemini 4 Carbon & Hydrogen, realtime voices, new TTS, 3D models, Seedream 5.5: AI NEWS",
+          "published": "2026-11-15T03:44:46.899Z",
           "channel": "AI Search",
-          "ageText": "12h ago"
+          "ageText": "18h ago"
         },
         {
           "id": "qyoRPtl0480",
           "title": "AI News: Nvidia's CEO is out, ChatGPT can now pay for you, and a Tesla with no steering wheel",
-          "published": "2026-11-15T01:23:43.181Z",
+          "published": "2026-11-15T00:44:47.504Z",
           "channel": "Matthew Esposito | AI",
-          "ageText": "15h ago"
+          "ageText": "21h ago"
         },
         {
           "id": "ua8OVSw2wYU",
           "title": "Google Just Dropped HYDROGEN: The New King of Everyday AI",
-          "published": "2026-11-14T23:23:42.279Z",
+          "published": "2026-11-14T23:44:46.899Z",
           "channel": "AI Revolution",
-          "ageText": "17h ago"
+          "ageText": "22h ago"
+        },
+        {
+          "id": "qCE5A2bWZz8",
+          "title": "OpenAI's New AI Is Too Powerful To Release",
+          "published": "2026-11-14T21:44:48.120Z",
+          "channel": "TheAIGRID",
+          "ageText": "1d ago"
         },
         {
           "id": "T1LvBjXYcFY",
           "title": "Is Proton's official statement enough? - Linux Weekly News",
-          "published": "2026-11-14T16:23:43.181Z",
+          "published": "2026-11-14T21:44:47.504Z",
           "channel": "The Linux Experiment",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "CvLX2SaSxtQ",
-          "title": "The race to control artificial intelligence | Ian Bremmer Explains",
-          "published": "2026-11-14T16:23:43.181Z",
-          "channel": "GZERO Media",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "mYG218s2QNY",
-          "title": "Ian Bremmer Explains: The AI Safety Race | GZERO World",
-          "published": "2026-11-14T16:23:43.181Z",
-          "channel": "GZERO Media",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "wLTb7W4dero",
-          "title": "AI News of the Week: Jensen Resigns, Google Carbon is WILD, Grok Bot MAJOR Update",
-          "published": "2026-11-14T16:23:43.181Z",
-          "channel": "Alex Finn",
           "ageText": "1d ago"
         },
         {
           "id": "kbKeUEO0EJg",
           "title": "Why Jensen Huang Was Essential to Nvidia’s Rise",
-          "published": "2026-11-14T16:23:43.181Z",
+          "published": "2026-11-14T21:44:47.504Z",
           "channel": "The New York Times",
           "ageText": "1d ago"
         },
         {
-          "id": "cO1yDH9aJIg",
-          "title": "A 'Fake Horse'? Jensen Huang Defends 'Superintelligence'",
-          "published": "2026-11-14T16:23:43.181Z",
+          "id": "zz1DPfPATAo",
+          "title": "Jensen Huang on Safety Fears: 'That’s Just Made Up'",
+          "published": "2026-11-14T21:44:47.504Z",
           "channel": "Bloomberg Originals",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "1kf1QWG_YKQ",
+          "title": "Washington Fired Jensen Huang",
+          "published": "2026-11-14T21:44:47.504Z",
+          "channel": "The AI Daily Brief: Artificial Intelligence News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "b0aUPerQ2G0",
+          "title": "FAA ground stop: Officials say no evidence of cyberattack or AI involvement",
+          "published": "2026-11-14T21:44:47.504Z",
+          "channel": "CBS6 Albany",
           "ageText": "1d ago"
         },
         {
           "id": "7GNpNPxJIvU",
           "title": "GPT-7 Is Launching Into a World OpenAI Can’t Control",
-          "published": "2026-11-14T16:23:42.279Z",
+          "published": "2026-11-14T21:44:46.899Z",
           "channel": "AI Master",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "G_Jrexy_5Bg",
-          "title": "AI News: Things Will Never Be The Same",
-          "published": "2026-11-14T16:23:42.279Z",
-          "channel": "Matt Wolfe",
           "ageText": "1d ago"
         },
         {
           "id": "FaErjxv_nlE",
           "title": "Musk Makes MASSIVE AI Move After Midterm Disaster",
-          "published": "2026-11-14T16:23:42.279Z",
+          "published": "2026-11-14T21:44:46.899Z",
           "channel": "The Young Turks",
           "ageText": "1d ago"
         },
         {
           "id": "HAF50MLyERU",
           "title": "Is the AI party over after a week from hell? | BBC News",
-          "published": "2026-11-14T16:23:42.279Z",
+          "published": "2026-11-14T21:44:46.899Z",
           "channel": "BBC News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "wLTb7W4dero",
+          "title": "AI News of the Week: Jensen Resigns, Google Carbon is WILD, Grok Bot MAJOR Update",
+          "published": "2026-11-14T21:44:46.899Z",
+          "channel": "Alex Finn",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "qWDvaG_IG4Y",
+          "title": "Something Big Is Coming! China’s AI Collapses! Tencent Rumored to Be Laying Off Half Its Staff",
+          "published": "2026-11-14T21:44:46.899Z",
+          "channel": "China Observer",
           "ageText": "1d ago"
         },
         {
           "id": "6RAjpFNnST8",
           "title": "New Claude Fable 5.2 Is Insane (Yes, Again!)",
-          "published": "2026-11-13T16:23:43.728Z",
+          "published": "2026-11-13T21:44:48.120Z",
           "channel": "The AI Advantage",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "G_Jrexy_5Bg",
+          "title": "AI News: Things Will Never Be The Same",
+          "published": "2026-11-13T21:44:46.899Z",
+          "channel": "Matt Wolfe",
           "ageText": "2d ago"
         },
         {
           "id": "lhCad7WDyHw",
           "title": "Google's Gemini 4 KRYPTON Is INSANE! Carbon 4, Grok 4.8, GPT-6.2 Release LEAKED, Qwen 4 Max! AI NEWS",
-          "published": "2026-11-12T16:23:43.728Z",
+          "published": "2026-11-12T21:44:48.120Z",
           "channel": "WorldofAI",
           "ageText": "3d ago"
         },
         {
-          "id": "583ThJIqQ7k",
-          "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
-          "published": "2026-11-11T16:23:43.728Z",
-          "channel": "AI Explained",
-          "ageText": "4d ago"
-        },
-        {
           "id": "0GSvcg9wncc",
           "title": "Gemini 4 Carbon Is INSANE – Seriously, This Model Is Ridiculous!",
-          "published": "2026-11-11T16:23:43.728Z",
+          "published": "2026-11-11T21:44:48.120Z",
           "channel": "Bijan Bowen",
           "ageText": "4d ago"
         },
         {
-          "id": "NjVHvSG_toY",
-          "title": "What Anthropic Isn't Telling You About Fable 5.2.",
-          "published": "2026-11-11T16:23:43.728Z",
-          "channel": "In the Loop AI and Yahoo Finance",
+          "id": "cXgFL4s4KEs",
+          "title": "Gemini 4 Carbon Is Finally Here: I Built 5 Things in One Day",
+          "published": "2026-11-11T21:44:48.120Z",
+          "channel": "AI with Surya",
           "ageText": "4d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-15T16:23:44.301Z"
+      "updatedAt": "2026-11-15T21:44:48.734Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "icT6sq6VTPU",
+          "title": "Falcons vs. Chiefs LIVE Streaming Scoreboard, Pay-By-Play, Highlights | NFL Week 10 On CBS",
+          "published": "2026-11-15T21:21:48.895Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "Streamed 23 min ago"
+        },
+        {
+          "id": "0WyofQAFSSg",
+          "title": "TRADE PACKAGE REVEALED! WHAT THE FALCONS GOT IN DEADLINE MOVE! ATLANTA FALCONS NEWS",
+          "published": "2026-11-15T21:02:48.895Z",
+          "channel": "Dirty Birds Daily",
+          "ageText": "42 min ago"
+        },
+        {
+          "id": "KGGHgIMzfC8",
+          "title": "Bijan Robinson with the TD CBS | NFL+ #nfl #atlantafalcons",
+          "published": "2026-11-15T20:43:25+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "jHRkQLTKIhE",
+          "title": "HC Kevin Stefanski & QB Michael Penix Jr. Post-game Press Conference | Week 10 | Falcons vs. Chiefs",
+          "published": "2026-11-15T20:27:30+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "bO4pZUA1k24",
+          "title": "Brandon Dorlus & Gervon Dexter Sr. get the sack on Mahomes 🔥 CBS | NFL+ #nfl #atlantafalcons",
+          "published": "2026-11-15T19:52:02+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
           "id": "6iz3h2nsox0",
           "title": "Week 10: Atlanta Falcons vs. Kansas City | Atlanta Falcons Game Day Update",
-          "published": "2026-11-15T14:03:56+00:00",
+          "published": "2026-11-15T18:42:37+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "_D8pEh_CN7A",
+          "title": "Falcons take the field vs Kansas City 🔥CBS | NFL+  #nfl #atlantafalcons",
+          "published": "2026-11-15T18:38:56+00:00",
           "channel": "Atlanta Falcons"
         },
         {
           "id": "aBmEwgNYieI",
           "title": "THE FALSE NARRATIVES!",
-          "published": "2026-11-14T22:23:44.742Z",
+          "published": "2026-11-14T22:44:48.895Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "18h ago"
+          "ageText": "23h ago"
+        },
+        {
+          "id": "AiADnzMatNw",
+          "title": "🚨 OT NBA CUP ACTION 🚨 Atlanta Hawks vs. Chicago Bulls | NBA on ESPN",
+          "published": "2026-11-14T21:44:48.895Z",
+          "channel": "NBA on ESPN",
+          "ageText": "1d ago"
         },
         {
           "id": "7UBhXmvwCl0",
           "title": "DEAL DONE! FALCONS TRADE JESSIE BATES TO THE JAGUARS AT THE DEADLINE! ATLANTA FALCONS NEWS",
-          "published": "2026-11-14T21:23:44.742Z",
+          "published": "2026-11-14T21:44:48.895Z",
           "channel": "Dirty Birds Daily",
-          "ageText": "19h ago"
+          "ageText": "1d ago"
         },
         {
           "id": "DMb1j00EGlU",
           "title": "LIVE | Atlanta United Academy vs Nashville SC Academy",
           "published": "2026-11-14T19:36:37+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "7dMmxaGThMw",
-          "title": "BREAKING: Chiefs make MULTIPLE moves... This is wild | Kansas City Chiefs News",
-          "published": "2026-11-14T19:23:44.742Z",
-          "channel": "Chiefs HQ",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "UrQA_YaCzAk",
-          "title": "BIG MISTAKE?! THE REAL PROBLEM WITH THE NEW FALCONS TRADE! ATLANTA FALCONS NEWS",
-          "published": "2026-11-14T16:23:44.742Z",
-          "channel": "Dirty Birds Daily",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "AiADnzMatNw",
-          "title": "🚨 OT NBA CUP ACTION 🚨 Atlanta Hawks vs. Chicago Bulls | NBA on ESPN",
-          "published": "2026-11-14T16:23:44.742Z",
-          "channel": "NBA on ESPN",
-          "ageText": "1d ago"
         },
         {
           "id": "ty3vbfI-88I",
@@ -366,30 +391,6 @@
           "title": "History Made | Atlanta United 2 Season Long Documentary",
           "published": "2026-11-13T22:59:24+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "W-qzcHyehUY",
-          "title": "Head Coach Kevin Stefanski Week 10 Media Availability | Friday, November 13th | Press Conference",
-          "published": "2026-11-13T18:26:50+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "Zi1YJP0lae4",
-          "title": "Falcons make roster moves ahead of big time bounce back opportunity vs Chiefs | Friday Five Podcast",
-          "published": "2026-11-13T15:00:25+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "orI0zNFRIIc",
-          "title": "The Falcons take on the Kansas City Chiefs back at home in Mercedes Benz Stadium | RISE UP TONIGHT",
-          "published": "2026-11-13T05:01:13+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "7g_J0pQQgP0",
-          "title": "Week 10: Atlanta Falcons vs. Kansas City Chiefs | Atlanta Falcons Pregame Show",
-          "published": "2026-11-12T22:00:18+00:00",
-          "channel": "Atlanta Falcons"
         },
         {
           "id": "9iZSEvOf-N8",
@@ -423,7 +424,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-15T16:23:46.259Z"
+      "updatedAt": "2026-11-15T21:44:50.319Z"
     },
     {
       "slug": "braves",
@@ -524,7 +525,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-15T16:23:44.410Z"
+      "updatedAt": "2026-11-15T21:44:48.740Z"
     },
     {
       "slug": "falcons",
@@ -532,9 +533,39 @@
       "handle": "@AtlantaFalcons",
       "videos": [
         {
+          "id": "KGGHgIMzfC8",
+          "title": "Bijan Robinson with the TD CBS | NFL+ #nfl #atlantafalcons",
+          "published": "2026-11-15T20:43:25+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "jHRkQLTKIhE",
+          "title": "HC Kevin Stefanski & QB Michael Penix Jr. Post-game Press Conference | Week 10 | Falcons vs. Chiefs",
+          "published": "2026-11-15T20:27:30+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "bO4pZUA1k24",
+          "title": "Brandon Dorlus & Gervon Dexter Sr. get the sack on Mahomes 🔥 CBS | NFL+ #nfl #atlantafalcons",
+          "published": "2026-11-15T19:52:02+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
           "id": "6iz3h2nsox0",
           "title": "Week 10: Atlanta Falcons vs. Kansas City | Atlanta Falcons Game Day Update",
-          "published": "2026-11-15T14:03:56+00:00",
+          "published": "2026-11-15T18:42:37+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "_D8pEh_CN7A",
+          "title": "Falcons take the field vs Kansas City 🔥CBS | NFL+  #nfl #atlantafalcons",
+          "published": "2026-11-15T18:38:56+00:00",
+          "channel": "Atlanta Falcons"
+        },
+        {
+          "id": "Re91Pi_G_1A",
+          "title": "The rookie with the HYPE #kendaldaniels #atlanta #pregame CBS | NFL+",
+          "published": "2026-11-15T18:03:07+00:00",
           "channel": "Atlanta Falcons"
         },
         {
@@ -590,42 +621,12 @@
           "title": "“How do you say, ‘I love to play football’ in Spanish” 🥹",
           "published": "2026-11-11T22:30:02+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "zgd7bf-8kkQ",
-          "title": "Michael Penix Jr. speaks on trade deadline moves and preparations for the Chiefs | Press Conference",
-          "published": "2026-11-11T22:16:13+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "3-WCkfhdBLg",
-          "title": "Olamide Zaccheaus hid with the soldiers families for the surprise in Madrid 🥹 #nfl #atlantafalcons",
-          "published": "2026-11-11T20:36:42+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "EiZVt5mf6SQ",
-          "title": "Surprising Soldiers with Their Families on Deployment | Atlanta Falcons",
-          "published": "2026-11-11T20:00:38+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "geBHtll0o2Q",
-          "title": "HC Kevin Stefanski on preparations to take on Patrick Mahomes and the Chiefs | Press Conference",
-          "published": "2026-11-11T16:48:08+00:00",
-          "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "hfdnVbv6HGs",
-          "title": "Falcons vs Chiefs Preview: How Atlanta can upset Mahomes & Kansas City | Falcons Audible Podcast",
-          "published": "2026-11-10T22:00:18+00:00",
-          "channel": "Atlanta Falcons"
         }
       ],
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-15T16:23:44.499Z"
+      "updatedAt": "2026-11-15T21:44:48.747Z"
     },
     {
       "slug": "hawks",
@@ -726,7 +727,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-15T16:23:44.644Z"
+      "updatedAt": "2026-11-15T21:44:48.821Z"
     },
     {
       "slug": "united",
@@ -827,7 +828,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-15T16:23:44.742Z"
+      "updatedAt": "2026-11-15T21:44:48.895Z"
     }
   ]
 }
