@@ -1,16 +1,44 @@
 {
-  "updatedAt": "2026-11-20T11:28:03.970Z",
+  "updatedAt": "2026-11-20T20:07:23.047Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "ln1KbRyJdt8",
+          "title": "Anthropic Just Shipped Claude 2.0 (Master it in 15 minutes)",
+          "published": "2026-11-20T18:07:17.542Z",
+          "channel": "Tech With Tim",
+          "ageText": "2h ago"
+        },
+        {
+          "id": "8GCqVb4c_yQ",
+          "title": "Claude Code: How to Build & Deploy Your First AI App",
+          "published": "2026-11-20T15:07:18.212Z",
+          "channel": "Zinho Automates",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "7D72OlM1sHg",
+          "title": "Anthropic Code Mode: Is Claude Code About to Eat Your Agent Setup?",
+          "published": "2026-11-20T14:07:18.212Z",
+          "channel": "Solo Swift Crafter",
+          "ageText": "6h ago"
+        },
+        {
+          "id": "Qf0EzOEall8",
+          "title": "Anthropic Just Shipped Claude's BIGGEST Harness Change Yet (Code Mode)",
+          "published": "2026-11-20T04:07:18.212Z",
+          "channel": "Jay E | RoboNuggets",
+          "ageText": "16h ago"
+        },
+        {
           "id": "nraROC2wl8s",
           "title": "I Tested Claude Code's New Code Mode 6 Times",
-          "published": "2026-11-20T03:27:59.802Z",
+          "published": "2026-11-20T03:07:18.212Z",
           "channel": "Better Stack",
-          "ageText": "8h ago"
+          "ageText": "17h ago"
         },
         {
           "id": "sof3vW4mHTs",
@@ -19,11 +47,39 @@
           "channel": "Anthropic"
         },
         {
+          "id": "IyuUR51Mu4I",
+          "title": "This Experimental Feature Is Claude Code's BIGGEST Upgrade of 2026",
+          "published": "2026-11-19T20:07:18.212Z",
+          "channel": "Chase AI",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "DMdqpLr2DlQ",
+          "title": "How to Put Claude Code on a VPS in 10 Minutes",
+          "published": "2026-11-19T20:07:18.212Z",
+          "channel": "Nate Herk | AI Automation",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "_0C6K545Bzc",
+          "title": "Claude Code for Free With 7 Billion Tokens a Month",
+          "published": "2026-11-19T20:07:18.212Z",
+          "channel": "Nishant Chahar",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "a90pZ1DSyls",
+          "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
+          "published": "2026-11-19T20:07:18.212Z",
+          "channel": "Cole Medin",
+          "ageText": "1d ago"
+        },
+        {
           "id": "B2d7H4PYRd4",
           "title": "The Simplest Business I’d Start With Claude AI in 2027",
-          "published": "2026-11-19T16:27:59.165Z",
+          "published": "2026-11-19T20:07:17.542Z",
           "channel": "Mr. AI CASH",
-          "ageText": "19h ago"
+          "ageText": "1d ago"
         },
         {
           "id": "JDsFHmq9hlA",
@@ -32,102 +88,46 @@
           "channel": "Anthropic"
         },
         {
-          "id": "DMdqpLr2DlQ",
-          "title": "How to Text Claude Code From Anywhere (VPS Setup)",
-          "published": "2026-11-19T14:27:59.802Z",
-          "channel": "Nate Herk | AI Automation",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "IyuUR51Mu4I",
-          "title": "This Experimental Feature Is Claude Code's BIGGEST Upgrade of 2026",
-          "published": "2026-11-19T11:27:59.802Z",
-          "channel": "Chase AI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "_0C6K545Bzc",
-          "title": "Claude Code for Free With 7 Billion Tokens a Month",
-          "published": "2026-11-19T11:27:59.802Z",
-          "channel": "Nishant Chahar",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "a90pZ1DSyls",
-          "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
-          "published": "2026-11-19T11:27:59.802Z",
-          "channel": "Cole Medin",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "X9Osb6L9nBA",
-          "title": "I Let Claude AI Build an Entire Roblox Game From Scratch!",
-          "published": "2026-11-19T11:27:59.165Z",
-          "channel": "Yxii",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "8Pg6G5h05hk",
-          "title": "Anthropic Just Released the New Rules of Claude Code",
-          "published": "2026-11-18T11:27:59.802Z",
-          "channel": "Nate Herk | AI Automation",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "h_U-7ci4aF0",
-          "title": "9+ levels of Claude Code in 17 mins",
-          "published": "2026-11-18T11:27:59.802Z",
-          "channel": "Jam With AI | Shirin Khosravi Jam",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "NXLHz7D2wJU",
-          "title": "I Built a Free AI Clipper for GTA 6 With Claude Code",
-          "published": "2026-11-18T11:27:59.802Z",
-          "channel": "Nik Popov",
-          "ageText": "2d ago"
-        },
-        {
           "id": "_b_Slb6dl5g",
           "title": "Anthropic (Claude AI) IPO Is HERE! $78/Share!!! Are We Investing $10,000? (6 Things You MUST Know)",
-          "published": "2026-11-18T11:27:59.165Z",
+          "published": "2026-11-18T20:07:17.542Z",
           "channel": "Our Rich Journey",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "t637HIssZis",
+          "title": "This Viral YouTube Niche Is INSANE! Create Videos With Claude AI",
+          "published": "2026-11-18T20:07:17.542Z",
+          "channel": "Grow With Kaz",
           "ageText": "2d ago"
         },
         {
           "id": "XSehihyKFqw",
           "title": "The SIMPLEST Way To Make Money Online With Claude AI in 2026",
-          "published": "2026-11-17T11:27:59.165Z",
+          "published": "2026-11-16T20:07:17.542Z",
           "channel": "Nate Herk | AI Automation",
-          "ageText": "3d ago"
+          "ageText": "4d ago"
         },
         {
           "id": "RLTtSw1Wq9A",
           "title": "Day Trading with AI Trading Agents (Claude Tutorial)",
-          "published": "2026-11-17T11:27:59.165Z",
+          "published": "2026-11-16T20:07:17.542Z",
           "channel": "Eric Leduc",
-          "ageText": "3d ago"
+          "ageText": "4d ago"
         },
         {
-          "id": "vJlEseT7qz0",
-          "title": "The BEST Claude AI Side Hustle for Beginners (2027)",
-          "published": "2026-11-17T11:27:59.165Z",
-          "channel": "Sean Dollwet",
-          "ageText": "3d ago"
+          "id": "pjYntsza2FA",
+          "title": "Claude just changed EVERYTHING...",
+          "published": "2026-11-16T20:07:17.542Z",
+          "channel": "Wes Roth",
+          "ageText": "4d ago"
         },
         {
-          "id": "9is06cQ315s",
-          "title": "Stop Paying for Claude Code(Use it for FREE!)",
-          "published": "2026-11-17T11:27:59.165Z",
-          "channel": "Ishan Sharma",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "BGscm2FMIG4",
-          "title": "Claude Code: How To Build & Launch Your First Website",
-          "published": "2026-11-17T11:27:59.165Z",
-          "channel": "Zinho Automates",
-          "ageText": "3d ago"
+          "id": "ZzDRSxx3zgY",
+          "title": "I Built A Business From Scratch Only Following Claude’s Advice",
+          "published": "2026-11-16T20:07:17.542Z",
+          "channel": "Mark Tilbury",
+          "ageText": "4d ago"
         },
         {
           "id": "DdCEmlAydcw",
@@ -143,180 +143,200 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T11:28:00.332Z"
+      "updatedAt": "2026-11-20T20:07:18.779Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "nKOs2G5QdS8",
-          "title": "How an American AI Company Uses Chinese Open-Weight Models | Odd Lots",
-          "published": "2026-11-20T09:28:01.462Z",
-          "channel": "Bloomberg Podcasts",
-          "ageText": "2h ago"
+          "id": "wqNIzUmNt9M",
+          "title": "AI News: This Is The Make or Break Week!!",
+          "published": "2026-11-20T19:07:18.780Z",
+          "channel": "Matt Wolfe",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "6y8Ew6_ymRk",
+          "title": "Anthropic Lost $230 Billion in Hours and the IPO Is Already a Total Sh*tshow",
+          "published": "2026-11-20T15:07:18.780Z",
+          "channel": "House of El: AI",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "1pQ-HPRo3ZU",
+          "title": "AI scientist: ‘We haven’t had Chernobyl yet. We will get Chernobyl’",
+          "published": "2026-11-20T11:07:18.780Z",
+          "channel": "Channel 4 News",
+          "ageText": "9h ago"
         },
         {
           "id": "6NT9TsT6iMc",
           "title": "Google ACHIEVED RSI?! New Stealth Model BEATS Fable 5.2, Anthropic Post IPO, Genie 4 & MORE! AI NEWS",
-          "published": "2026-11-20T08:28:01.462Z",
+          "published": "2026-11-20T09:07:20.341Z",
           "channel": "WorldofAI",
-          "ageText": "3h ago"
+          "ageText": "11h ago"
         },
         {
-          "id": "x70CiWBG_Ps",
-          "title": "'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says",
-          "published": "2026-11-19T21:28:00.949Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "14h ago"
+          "id": "J8LkKwoxfeQ",
+          "title": "AI News for Academics: Free ChatGPT for Researchers, AI Finds 872 Errors & 936 AI-Written Papers",
+          "published": "2026-11-20T02:07:18.780Z",
+          "channel": "Andy Stapleton",
+          "ageText": "18h ago"
+        },
+        {
+          "id": "YbZDDCHDSnE",
+          "title": "This will test if AI truly is a bubble",
+          "published": "2026-11-19T22:07:19.674Z",
+          "channel": "Matt Wolfe",
+          "ageText": "22h ago"
         },
         {
           "id": "fWahdQCpgd0",
           "title": "Anthropic CEO on massive societal change in the hands of a few AI companies #shorts",
-          "published": "2026-11-19T21:28:00.949Z",
+          "published": "2026-11-19T22:07:19.674Z",
           "channel": "60 Minutes",
-          "ageText": "14h ago"
-        },
-        {
-          "id": "KGA7B_c_S4s",
-          "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
-          "published": "2026-11-19T20:28:01.462Z",
-          "channel": "AI Explained",
-          "ageText": "15h ago"
-        },
-        {
-          "id": "FrwAjkqqQU4",
-          "title": "How much do businesses want to pay for AI? • FRANCE 24 English",
-          "published": "2026-11-19T17:28:00.949Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "c-eykeni_iY",
-          "title": "National security and AI leaders urge Justice Department to investigate Nvidia",
-          "published": "2026-11-19T17:28:00.333Z",
-          "channel": "NBC News",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "RSHMptdqgn0",
-          "title": "California Sues OpenAI, Nvidia CEO Resigns, and a Wave of New AI Models",
-          "published": "2026-11-19T14:28:01.462Z",
-          "channel": "JohNews_AI",
-          "ageText": "21h ago"
-        },
-        {
-          "id": "PZ4flERfSzY",
-          "title": "Former FBI investigator makes CHILLING admission about AI terror planning",
-          "published": "2026-11-19T13:28:00.333Z",
-          "channel": "Fox Business",
           "ageText": "22h ago"
         },
         {
+          "id": "x70CiWBG_Ps",
+          "title": "'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says",
+          "published": "2026-11-19T21:07:18.780Z",
+          "channel": "FRANCE 24 English",
+          "ageText": "23h ago"
+        },
+        {
           "id": "-0uvPVwPFgM",
-          "title": "Google is back (and it's INSANE)",
-          "published": "2026-11-19T11:28:01.462Z",
+          "title": "no one sees it coming (Google's Neon)",
+          "published": "2026-11-19T20:07:20.341Z",
           "channel": "Wes Roth",
           "ageText": "1d ago"
         },
         {
           "id": "R0rXSJmymTc",
           "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
-          "published": "2026-11-19T11:28:01.462Z",
+          "published": "2026-11-19T20:07:20.341Z",
           "channel": "WorldofAI",
           "ageText": "1d ago"
         },
         {
-          "id": "Q4uB9rlmNA0",
-          "title": "Qwen 4 Max IS OUT! BEST Chinese AI Model EVER?!..",
-          "published": "2026-11-19T11:28:01.462Z",
-          "channel": "Your AI Guy",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "qwMffFmHn6s",
-          "title": "Does Nvidia scandal upend US-China AI race? • FRANCE 24 English",
-          "published": "2026-11-19T11:28:00.949Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "n8dgLh0ZBj8",
-          "title": "CYBER WARNING: AI attacks could look like 'ROUTINE' failures",
-          "published": "2026-11-19T11:28:00.949Z",
-          "channel": "Fox News",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "ALXbbazn5tc",
-          "title": "President Trump acknowledges the ‘bad elements’ of AI",
-          "published": "2026-11-19T11:28:00.949Z",
-          "channel": "NBC News",
+          "id": "KGA7B_c_S4s",
+          "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+          "published": "2026-11-19T20:07:20.341Z",
+          "channel": "AI Explained",
           "ageText": "1d ago"
         },
         {
           "id": "wWm9s9Q743M",
           "title": "AI lab Anthropic sets stock market record with $81 billion IPO • FRANCE 24 English",
-          "published": "2026-11-19T11:28:00.949Z",
+          "published": "2026-11-19T20:07:19.674Z",
+          "channel": "FRANCE 24 English",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "FrwAjkqqQU4",
+          "title": "How much do businesses want to pay for AI? • FRANCE 24 English",
+          "published": "2026-11-19T20:07:19.674Z",
           "channel": "FRANCE 24 English",
           "ageText": "1d ago"
         },
         {
           "id": "-oA6oLxWpJg",
           "title": "Insane AI Breakthroughs Nobody Is Talking About",
-          "published": "2026-11-19T11:28:00.333Z",
+          "published": "2026-11-19T20:07:18.780Z",
           "channel": "Matt Wolfe",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "PZ4flERfSzY",
+          "title": "Former FBI investigator makes CHILLING admission about AI terror planning",
+          "published": "2026-11-19T20:07:18.780Z",
+          "channel": "Fox Business",
           "ageText": "1d ago"
         },
         {
           "id": "9U5yOWi2W3M",
           "title": "AI chatbots helped plan electrical grid ATTACK, report reveals",
-          "published": "2026-11-19T11:28:00.333Z",
+          "published": "2026-11-19T20:07:18.780Z",
           "channel": "Fox News Clips",
           "ageText": "1d ago"
         },
         {
-          "id": "ye9B7kSn1X8",
-          "title": "Cyber Expert Sounds Alarm on AI, Massive Tech Outages and What Could Come Next",
-          "published": "2026-11-19T11:28:00.333Z",
-          "channel": "CBN News",
-          "ageText": "1d ago"
+          "id": "q8iHsdzd94U",
+          "title": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
+          "published": "2026-11-18T20:07:20.341Z",
+          "channel": "WorldofAI",
+          "ageText": "2d ago"
         },
         {
-          "id": "1oIzVB5Ues4",
-          "title": "OpenAI’s New AI Just Crossed the Self-Improvement Threshold…",
-          "published": "2026-11-19T11:28:00.333Z",
-          "channel": "AI Copium",
-          "ageText": "1d ago"
+          "id": "yQLvjeFU0Gs",
+          "title": "Google Gemini’s New Features & Models Are INSANE! (AI Inbox, Gemini 4 & More)",
+          "published": "2026-11-18T20:07:20.341Z",
+          "channel": "Rob The AI Guy",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "qwMffFmHn6s",
+          "title": "Does Nvidia scandal upend US-China AI race? • FRANCE 24 English",
+          "published": "2026-11-18T20:07:19.674Z",
+          "channel": "FRANCE 24 English",
+          "ageText": "2d ago"
+        },
+        {
+          "id": "nZvsuU0-F5Y",
+          "title": "Daniel Susskind on Raising Kids in the Age of AI | The Daily Show",
+          "published": "2026-11-18T20:07:19.674Z",
+          "channel": "The Daily Show",
+          "ageText": "2d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T11:28:02.143Z"
+      "updatedAt": "2026-11-20T20:07:21.017Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
+          "id": "hkoJfQ8pITE",
+          "title": "Atlanta Falcons News | Colts have Released Daniel Jones! REACTION!",
+          "published": "2026-11-20T19:07:21.445Z",
+          "channel": "Mad Mike Sports (Podcast)",
+          "ageText": "1h ago"
+        },
+        {
+          "id": "M7vmgxmMb_A",
+          "title": "LIVE | Atlanta United Academy vs Orlando City Academy",
+          "published": "2026-11-20T17:57:13+00:00",
+          "channel": "Atlanta United FC"
+        },
+        {
+          "id": "bKHHLpyrSec",
+          "title": "Atlanta Braves GM Is A ABSOLUTE Disaster..",
+          "published": "2026-11-20T16:07:21.445Z",
+          "channel": "Uncut Atlanta Sports",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "80lCGAoSQf8",
+          "title": "IMAGINE THIS!!!!",
+          "published": "2026-11-20T12:07:21.445Z",
+          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
+          "ageText": "8h ago"
+        },
+        {
           "id": "fEMZ2WVzIds",
           "title": "WERE EXPECTATIONS TO HIGH?",
-          "published": "2026-11-20T01:28:02.775Z",
+          "published": "2026-11-20T01:07:21.445Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "10h ago"
+          "ageText": "19h ago"
         },
         {
-          "id": "fWJ-EG9y6tY",
-          "title": "The Real Reason These Missing Brothers Ran Away",
-          "published": "2026-11-20T00:28:02.775Z",
-          "channel": "Indisputable with Dr. Rashad Richey",
-          "ageText": "11h ago"
-        },
-        {
-          "id": "smoSHgpPDvc",
-          "title": "END OF THE EXPERIMENT FALCONS EVALUATING MASSIVE QUARTERBACK DILEMMA! ATLANTA FALCONS NEWS",
-          "published": "2026-11-19T21:28:02.775Z",
-          "channel": "Dirty Birds Daily",
-          "ageText": "14h ago"
+          "id": "UpakWi1RHko",
+          "title": "🚨MAJOR Atlanta Falcons News During The Bye Week | HUGE 2027 Offseason Ahead",
+          "published": "2026-11-20T00:07:21.445Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "Streamed 20h ago"
         },
         {
           "id": "hvqYfYGTycI",
@@ -329,20 +349,6 @@
           "title": "Atlanta United U-16s Highlights: 2-0 Victory Over Nashville SC U-16s",
           "published": "2026-11-19T18:57:30+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "Mx9-Z8TAnX4",
-          "title": "Falcons Made It CLEAR He'll Be Traded In The Offseason",
-          "published": "2026-11-19T11:28:02.775Z",
-          "channel": "Uncut Atlanta Sports",
-          "ageText": "Streamed 1d ago"
-        },
-        {
-          "id": "KZmQ5DcA3Pg",
-          "title": "Details LEAKED From Inside Atlanta ... | Atlanta Falcons News",
-          "published": "2026-11-19T11:28:02.775Z",
-          "channel": "Falcons Digest",
-          "ageText": "1d ago"
         },
         {
           "id": "PjWOBrFNPQo",
@@ -415,16 +421,10 @@
           "title": "LIVE | Atlanta United Academy vs Nashville SC Academy",
           "published": "2026-11-14T19:36:37+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "A_yBo8xJ24s",
-          "title": "History Made | Atlanta United 2 Season Long Documentary",
-          "published": "2026-11-13T22:59:24+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T11:28:03.970Z"
+      "updatedAt": "2026-11-20T20:07:23.047Z"
     },
     {
       "slug": "braves",
@@ -525,7 +525,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-20T11:28:02.242Z"
+      "updatedAt": "2026-11-20T20:07:21.206Z"
     },
     {
       "slug": "falcons",
@@ -626,7 +626,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-20T11:28:02.449Z"
+      "updatedAt": "2026-11-20T20:07:21.284Z"
     },
     {
       "slug": "hawks",
@@ -727,13 +727,19 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-20T11:28:02.586Z"
+      "updatedAt": "2026-11-20T20:07:21.291Z"
     },
     {
       "slug": "united",
       "name": "ATLANTA UNITED",
       "handle": "@AtlantaUnited",
       "videos": [
+        {
+          "id": "M7vmgxmMb_A",
+          "title": "LIVE | Atlanta United Academy vs Orlando City Academy",
+          "published": "2026-11-20T17:57:13+00:00",
+          "channel": "Atlanta United FC"
+        },
         {
           "id": "hvqYfYGTycI",
           "title": "ATL UTD U-18s Three-Piece Victory over Nashville SC U-18s: Match Highlights",
@@ -817,18 +823,12 @@
           "title": "SUPER COOPER 🙂‍↕️",
           "published": "2026-11-01T22:36:52+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "TtF4yjSyW0s",
-          "title": "Miggy & Mira 🔥",
-          "published": "2026-11-01T22:17:43+00:00",
-          "channel": "Atlanta United FC"
         }
       ],
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-20T11:28:02.774Z"
+      "updatedAt": "2026-11-20T20:07:21.445Z"
     }
   ]
 }
