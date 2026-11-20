@@ -1,22 +1,36 @@
 {
-  "updatedAt": "2026-11-19T21:28:01.892Z",
+  "updatedAt": "2026-11-20T03:07:30.199Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "atW53M8223I",
+          "title": "Day Trading with Claude AI Trading Agents (full tutorial)",
+          "published": "2026-11-19T21:07:24.584Z",
+          "channel": "Peter Rush",
+          "ageText": "6h ago"
+        },
+        {
           "id": "sof3vW4mHTs",
-          "title": "Why we built Anthropic",
+          "title": "The making of Anthropic",
           "published": "2026-11-19T21:03:23+00:00",
           "channel": "Anthropic"
         },
         {
-          "id": "B2d7H4PYRd4",
-          "title": "The Simplest Business I’d Start With Claude AI in 2027",
-          "published": "2026-11-19T16:27:56.072Z",
-          "channel": "Mr. AI CASH",
-          "ageText": "5h ago"
+          "id": "BXiO1ziH2Vw",
+          "title": "Claude AI For Free (Claude Code Included)",
+          "published": "2026-11-19T17:07:25.553Z",
+          "channel": "Om Pathak",
+          "ageText": "10h ago"
+        },
+        {
+          "id": "6zDaco92yMI",
+          "title": "Claude Code Is Now FREE — 7.4B Tokens/Month (No Ollama)",
+          "published": "2026-11-19T15:07:25.553Z",
+          "channel": "Nick Puru | AI Automation",
+          "ageText": "12h ago"
         },
         {
           "id": "JDsFHmq9hlA",
@@ -25,108 +39,94 @@
           "channel": "Anthropic"
         },
         {
-          "id": "6zDaco92yMI",
-          "title": "I Tested the Viral GitHub Repo That Gives Claude Code 7.4B Tokens/Month",
-          "published": "2026-11-19T14:27:56.715Z",
-          "channel": "Nick Puru | AI Automation",
-          "ageText": "7h ago"
-        },
-        {
           "id": "_0C6K545Bzc",
           "title": "Claude Code for Free With 7 Billion Tokens a Month",
-          "published": "2026-11-19T11:27:56.072Z",
+          "published": "2026-11-19T11:07:25.553Z",
           "channel": "Nishant Chahar",
-          "ageText": "10h ago"
+          "ageText": "16h ago"
         },
         {
           "id": "IyuUR51Mu4I",
           "title": "This Experimental Feature Is Claude Code's BIGGEST Upgrade of 2026",
-          "published": "2026-11-19T06:27:56.715Z",
+          "published": "2026-11-19T07:07:25.553Z",
           "channel": "Chase AI",
-          "ageText": "15h ago"
-        },
-        {
-          "id": "Z8cL2bdbpZ8",
-          "title": "How to Use Claude AI for Work: Beginner Setup Guide (Connectors + Projects)",
-          "published": "2026-11-19T06:27:56.072Z",
-          "channel": "Jon Law",
-          "ageText": "15h ago"
-        },
-        {
-          "id": "o1vr-A4_uo0",
-          "title": "Gemini 4 Neon vs GPT-6.2 vs Claude (Same Tests, Side by Side)",
-          "published": "2026-11-19T05:27:56.072Z",
-          "channel": "Mark Santos",
-          "ageText": "16h ago"
+          "ageText": "20h ago"
         },
         {
           "id": "a90pZ1DSyls",
           "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
-          "published": "2026-11-19T01:27:56.715Z",
+          "published": "2026-11-19T03:07:25.553Z",
           "channel": "Cole Medin",
-          "ageText": "20h ago"
-        },
-        {
-          "id": "XMRVjsIpCZM",
-          "title": "How Claude Code actually works - the agent loop, step by step",
-          "published": "2026-11-18T21:27:56.715Z",
-          "channel": "LearnThatStack",
           "ageText": "1d ago"
         },
         {
-          "id": "_b_Slb6dl5g",
-          "title": "Anthropic (Claude AI) IPO Is HERE! $78/Share!!! Are We Investing $10,000? (6 Things You MUST Know)",
-          "published": "2026-11-18T21:27:56.072Z",
-          "channel": "Our Rich Journey",
+          "id": "lEVDrPBQkUg",
+          "title": "Jelly + Claude Code: What It Is, Install, Real-Project Test",
+          "published": "2026-11-19T03:07:25.553Z",
+          "channel": "DIY Smart Code",
           "ageText": "1d ago"
         },
         {
-          "id": "EgX-hNcYTfY",
-          "title": "Claude vs Grok vs ChatGPT vs Gemini: Best $20 Plan In 2026?",
-          "published": "2026-11-18T21:27:56.072Z",
-          "channel": "Parker Prompts",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "X9Osb6L9nBA",
-          "title": "I Let Claude AI Build an Entire Roblox Game From Scratch!",
-          "published": "2026-11-18T21:27:56.072Z",
-          "channel": "Yxii",
+          "id": "h_U-7ci4aF0",
+          "title": "1,000+ hours of Claude Code in 17 mins",
+          "published": "2026-11-19T03:07:25.553Z",
+          "channel": "Jam With AI | Shirin Khosravi Jam",
           "ageText": "1d ago"
         },
         {
           "id": "8Pg6G5h05hk",
           "title": "Anthropic Just Released the New Rules of Claude Code",
-          "published": "2026-11-17T21:27:56.715Z",
+          "published": "2026-11-18T03:07:25.553Z",
           "channel": "Nate Herk | AI Automation",
           "ageText": "2d ago"
         },
         {
-          "id": "JhZB3spnuIY",
-          "title": "Google Just Released Their Way To Fix Claude Code",
-          "published": "2026-11-17T21:27:56.715Z",
-          "channel": "AI LABS",
+          "id": "_b_Slb6dl5g",
+          "title": "Anthropic (Claude AI) IPO Is HERE! $78/Share!!! Are We Investing $10,000? (6 Things You MUST Know)",
+          "published": "2026-11-18T03:07:24.584Z",
+          "channel": "Our Rich Journey",
           "ageText": "2d ago"
         },
         {
-          "id": "rLdgRGJDPx0",
-          "title": "STOP Using These Claude Code Plugins (You're Nerfing Yourself)",
-          "published": "2026-11-17T21:27:56.715Z",
-          "channel": "Chase AI",
-          "ageText": "2d ago"
+          "id": "82Xv_bPVtpU",
+          "title": "Bernie Sanders Grills Claude AI Over Data Privacy And Surveillance In Viral Anthropic Conversation",
+          "published": "2026-11-17T03:07:24.584Z",
+          "channel": "CRUX",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "OO6J2w_FBnE",
+          "title": "Claude + Blender Is The Best Way To Make AI Videos (Full Course)",
+          "published": "2026-11-17T03:07:24.584Z",
+          "channel": "Dan Kieft",
+          "ageText": "3d ago"
         },
         {
           "id": "hJ6aYSA-Xq4",
           "title": "Turn Claude Code Into Your AI Operating System (7 Layers)",
-          "published": "2026-11-16T21:27:56.715Z",
+          "published": "2026-11-17T03:07:24.584Z",
           "channel": "Albert Olgaard",
           "ageText": "3d ago"
         },
         {
           "id": "XSehihyKFqw",
           "title": "The SIMPLEST Way To Make Money Online With Claude AI in 2026",
-          "published": "2026-11-16T21:27:56.072Z",
+          "published": "2026-11-17T03:07:24.584Z",
           "channel": "Nate Herk | AI Automation",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "ZzDRSxx3zgY",
+          "title": "I Built A Business From Scratch Only Following Claude’s Advice",
+          "published": "2026-11-17T03:07:24.584Z",
+          "channel": "Mark Tilbury",
+          "ageText": "3d ago"
+        },
+        {
+          "id": "bxfmJLSHLCg",
+          "title": "I Created a NEW 2D Animation Style Using Claude AI (FREE Plugin)",
+          "published": "2026-11-17T03:07:24.584Z",
+          "channel": "Grow With Kaz",
           "ageText": "3d ago"
         },
         {
@@ -143,160 +143,174 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-19T21:27:57.435Z"
+      "updatedAt": "2026-11-20T03:07:26.319Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
-          "id": "FrwAjkqqQU4",
-          "title": "How much do businesses want to pay for AI? • FRANCE 24 English",
-          "published": "2026-11-19T17:27:58.341Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "4h ago"
-        },
-        {
-          "id": "DrZ9yxyXtgc",
-          "title": "Record stock debut for Anthropic turns AI founders into billionaires-to-be | BBC News",
-          "published": "2026-11-19T17:27:57.435Z",
-          "channel": "BBC News",
-          "ageText": "4h ago"
-        },
-        {
-          "id": "tWc6V3n-gS4",
-          "title": "Anthropic CEO acknowledges AI has 'very real risks' shortly before IPO",
-          "published": "2026-11-19T16:27:57.435Z",
-          "channel": "Guardian News",
+          "id": "fWahdQCpgd0",
+          "title": "Anthropic CEO on massive societal change in the hands of a few AI companies #shorts",
+          "published": "2026-11-19T22:07:27.140Z",
+          "channel": "60 Minutes",
           "ageText": "5h ago"
         },
         {
-          "id": "RSHMptdqgn0",
-          "title": "California Sues OpenAI, Nvidia CEO Resigns, and a Wave of New AI Models",
-          "published": "2026-11-19T14:27:59.061Z",
-          "channel": "JohNews_AI",
+          "id": "KGA7B_c_S4s",
+          "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+          "published": "2026-11-19T20:07:27.882Z",
+          "channel": "AI Explained",
           "ageText": "7h ago"
         },
         {
-          "id": "wWm9s9Q743M",
-          "title": "AI lab Anthropic sets stock market record with $81 billion IPO • FRANCE 24 English",
-          "published": "2026-11-19T11:27:58.341Z",
+          "id": "iYq5Ot9qEZg",
+          "title": "Anthropic Makes Record-Breaking IPO as First AI Lab to Go Public | WSJ News",
+          "published": "2026-11-19T18:07:26.319Z",
+          "channel": "WSJ News",
+          "ageText": "9h ago"
+        },
+        {
+          "id": "FrwAjkqqQU4",
+          "title": "How much do businesses want to pay for AI? • FRANCE 24 English",
+          "published": "2026-11-19T17:07:27.140Z",
           "channel": "FRANCE 24 English",
           "ageText": "10h ago"
         },
         {
-          "id": "9U5yOWi2W3M",
-          "title": "AI chatbots helped plan electrical grid ATTACK, report reveals",
-          "published": "2026-11-19T09:27:57.435Z",
-          "channel": "Fox News Clips",
-          "ageText": "12h ago"
+          "id": "c-eykeni_iY",
+          "title": "National security and AI leaders urge Justice Department to investigate Nvidia",
+          "published": "2026-11-19T17:07:26.319Z",
+          "channel": "NBC News",
+          "ageText": "10h ago"
         },
         {
-          "id": "-0uvPVwPFgM",
-          "title": "Google's Neon is wild...",
-          "published": "2026-11-19T05:27:59.061Z",
-          "channel": "Wes Roth",
+          "id": "-VWTQPoo8Y8",
+          "title": "The AI You're Not Allowed to Use",
+          "published": "2026-11-19T16:07:27.882Z",
+          "channel": "The Good Takeoff",
+          "ageText": "11h ago"
+        },
+        {
+          "id": "PZ4flERfSzY",
+          "title": "Former FBI investigator makes CHILLING admission about AI terror planning",
+          "published": "2026-11-19T13:07:26.319Z",
+          "channel": "Fox Business",
+          "ageText": "14h ago"
+        },
+        {
+          "id": "wWm9s9Q743M",
+          "title": "AI lab Anthropic sets stock market record with $81 billion IPO • FRANCE 24 English",
+          "published": "2026-11-19T11:07:27.140Z",
+          "channel": "FRANCE 24 English",
           "ageText": "16h ago"
+        },
+        {
+          "id": "9U5yOWi2W3M",
+          "title": "AI chatbots helped plan electrical grid ATTACK, report reveals",
+          "published": "2026-11-19T09:07:27.140Z",
+          "channel": "Fox News Clips",
+          "ageText": "18h ago"
         },
         {
           "id": "ALXbbazn5tc",
           "title": "President Trump acknowledges the ‘bad elements’ of AI",
-          "published": "2026-11-19T03:27:58.341Z",
+          "published": "2026-11-19T04:07:27.140Z",
           "channel": "NBC News",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "YJeK2gumpEI",
-          "title": "Nvidia & AMD Know AI's CRASHING — RTX 6090 & RDNA 5 Incoming? (Leak)",
-          "published": "2026-11-19T02:27:57.435Z",
-          "channel": "Moore's Law Is Dead",
-          "ageText": "19h ago"
+          "ageText": "23h ago"
         },
         {
           "id": "R0rXSJmymTc",
           "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
-          "published": "2026-11-19T00:27:57.435Z",
+          "published": "2026-11-19T03:07:27.882Z",
           "channel": "WorldofAI",
-          "ageText": "21h ago"
+          "ageText": "1d ago"
         },
         {
-          "id": "-oA6oLxWpJg",
-          "title": "Insane AI Breakthroughs Nobody Is Talking About",
-          "published": "2026-11-18T22:27:57.435Z",
-          "channel": "Matt Wolfe",
-          "ageText": "23h ago"
+          "id": "hx1wLU9fldA",
+          "title": "GPT 6.2 Astra Just Shocked The A.I World",
+          "published": "2026-11-19T03:07:27.882Z",
+          "channel": "TheAIGRID",
+          "ageText": "1d ago"
         },
         {
           "id": "q8iHsdzd94U",
           "title": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-          "published": "2026-11-18T21:27:59.061Z",
+          "published": "2026-11-19T03:07:27.882Z",
           "channel": "WorldofAI",
           "ageText": "1d ago"
         },
         {
-          "id": "Q4uB9rlmNA0",
-          "title": "Qwen 4 Max IS OUT! BEST Chinese AI Model EVER?!..",
-          "published": "2026-11-18T21:27:59.061Z",
-          "channel": "Your AI Guy",
+          "id": "gCK2hv9De5U",
+          "title": "People Are Wrong About GPT-6.2 Astra",
+          "published": "2026-11-19T03:07:27.882Z",
+          "channel": "BetterWay",
           "ageText": "1d ago"
         },
         {
-          "id": "wgWtx1wW6Gk",
-          "title": "GPT-6.2 Astra & Sol Are OUT! (So Why Is Everyone Upset?)",
-          "published": "2026-11-18T21:27:59.061Z",
-          "channel": "Universe of AI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "cwTZ6aVw_UI",
-          "title": "Here's what might be causing the string of tech-related outages",
-          "published": "2026-11-18T21:27:58.341Z",
-          "channel": "CBS News",
+          "id": "mgBroFDscHk",
+          "title": "DeepSeek's $3 AI Is Here… and It Could Be Worse Than Losing the AI Race",
+          "published": "2026-11-19T03:07:27.882Z",
+          "channel": "Ink Intelligence",
           "ageText": "1d ago"
         },
         {
           "id": "qwMffFmHn6s",
           "title": "Does Nvidia scandal upend US-China AI race? • FRANCE 24 English",
-          "published": "2026-11-18T21:27:58.341Z",
+          "published": "2026-11-19T03:07:27.140Z",
           "channel": "FRANCE 24 English",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "eIoWgBIyyg4",
-          "title": "The REAL Dangers of Artificial Intelligence and CHILLING Statements from Anthropic CEO and Elon Musk",
-          "published": "2026-11-18T21:27:58.341Z",
-          "channel": "Megyn Kelly",
           "ageText": "1d ago"
         },
         {
           "id": "Adnf6ZZTZNE",
           "title": "Roundhill Investments CEO Dave Mazza: Don't think investors are worried about AI safety",
-          "published": "2026-11-18T21:27:58.341Z",
+          "published": "2026-11-19T03:07:27.140Z",
           "channel": "CNBC Television",
           "ageText": "1d ago"
         },
         {
-          "id": "aOS2gClexUw",
-          "title": "OpenAI Just Lost Control of Its AI Agents... They're Running Wild!",
-          "published": "2026-11-18T21:27:57.435Z",
-          "channel": "AI Revolution",
+          "id": "-oA6oLxWpJg",
+          "title": "Insane AI Breakthroughs Nobody Is Talking About",
+          "published": "2026-11-19T03:07:26.319Z",
+          "channel": "Matt Wolfe",
           "ageText": "1d ago"
         },
         {
-          "id": "5pl-03BN_gc",
-          "title": "Tech Outages Could be from 'AI Data-Driven Warfare...Autonomous AI Agentic Bots' Explains Expert",
-          "published": "2026-11-18T21:27:57.435Z",
-          "channel": "NTD",
+          "id": "n8dgLh0ZBj8",
+          "title": "CYBER WARNING: AI attacks could look like 'ROUTINE' failures",
+          "published": "2026-11-19T03:07:26.319Z",
+          "channel": "Fox News",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "ye9B7kSn1X8",
+          "title": "Cyber Expert Sounds Alarm on AI, Massive Tech Outages and What Could Come Next",
+          "published": "2026-11-19T03:07:26.319Z",
+          "channel": "CBN News",
           "ageText": "1d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-19T21:27:59.761Z"
+      "updatedAt": "2026-11-20T03:07:28.580Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
+        {
+          "id": "fWJ-EG9y6tY",
+          "title": "The Real Reason These Missing Brothers Ran Away",
+          "published": "2026-11-20T00:07:28.774Z",
+          "channel": "Indisputable with Dr. Rashad Richey",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "smoSHgpPDvc",
+          "title": "END OF THE EXPERIMENT FALCONS EVALUATING MASSIVE QUARTERBACK DILEMMA! ATLANTA FALCONS NEWS",
+          "published": "2026-11-19T21:07:28.774Z",
+          "channel": "Dirty Birds Daily",
+          "ageText": "6h ago"
+        },
         {
           "id": "hvqYfYGTycI",
           "title": "ATL UTD U-18s Three-Piece Victory over Nashville SC U-18s: Match Highlights",
@@ -308,13 +322,6 @@
           "title": "Atlanta United U-16s Highlights: 2-0 Victory Over Nashville SC U-16s",
           "published": "2026-11-19T18:57:30+00:00",
           "channel": "Atlanta United FC"
-        },
-        {
-          "id": "G86FtzGtYvM",
-          "title": "THEY SAID HER TURNOVERS DONT MATTER! LOL",
-          "published": "2026-11-19T14:28:00.276Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "7h ago"
         },
         {
           "id": "PjWOBrFNPQo",
@@ -341,11 +348,25 @@
           "channel": "Atlanta Hawks"
         },
         {
+          "id": "tEgkP1knY9A",
+          "title": "Oklahoma City Thunder vs Atlanta Hawks Full Game Highlights - November 18, 2026 | NBA Season",
+          "published": "2026-11-19T04:07:28.774Z",
+          "channel": "GAMETIME HIGHLIGHTS",
+          "ageText": "23h ago"
+        },
+        {
           "id": "Mx9-Z8TAnX4",
           "title": "Falcons Made It CLEAR He'll Be Traded In The Offseason",
-          "published": "2026-11-19T03:28:00.276Z",
+          "published": "2026-11-19T03:07:28.774Z",
           "channel": "Uncut Atlanta Sports",
-          "ageText": "Streamed 18h ago"
+          "ageText": "Streamed 1d ago"
+        },
+        {
+          "id": "fb3Vy_mwSOg",
+          "title": "BIGGEST MISTAKE?! FALCONS TRADED STARTER AND THE DECISION BACKFIRES! ATLANTA FALCONS NEWS",
+          "published": "2026-11-19T03:07:28.774Z",
+          "channel": "Dirty Birds Daily",
+          "ageText": "1d ago"
         },
         {
           "id": "VRPFSaeBtOU",
@@ -358,27 +379,6 @@
           "title": "EVERY Atlanta Falcons offensive touchdown through the first half of the 2026 season | Highlights",
           "published": "2026-11-18T22:00:19+00:00",
           "channel": "Atlanta Falcons"
-        },
-        {
-          "id": "Gt4N-tDFFo8",
-          "title": "Fire Kevin Stefanski Already? Falcons Fans Are Divided #atlantafalcons",
-          "published": "2026-11-18T21:28:00.276Z",
-          "channel": "The Water Boyz Show",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "0lH3eTA99Sc",
-          "title": "🚨LATEST ESPN Mock Draft Ft. Atlanta Falcons | FRANCHISE QB Acquired?",
-          "published": "2026-11-18T21:28:00.276Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "lrhQTZnVQ_M",
-          "title": "🚨MAJOR Falcons Rumors | Atlanta Falcons Players That Will Be OUT THE DOOR In 2027",
-          "published": "2026-11-18T21:28:00.276Z",
-          "channel": "Falcons Today by Chat Sports",
-          "ageText": "1d ago"
         },
         {
           "id": "IcjL3MAA9uk",
@@ -424,7 +424,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-19T21:28:01.892Z"
+      "updatedAt": "2026-11-20T03:07:30.199Z"
     },
     {
       "slug": "braves",
@@ -525,7 +525,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-19T21:27:59.951Z"
+      "updatedAt": "2026-11-20T03:07:28.590Z"
     },
     {
       "slug": "falcons",
@@ -626,7 +626,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-19T21:28:00.044Z"
+      "updatedAt": "2026-11-20T03:07:28.602Z"
     },
     {
       "slug": "hawks",
@@ -727,7 +727,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-19T21:28:00.145Z"
+      "updatedAt": "2026-11-20T03:07:28.611Z"
     },
     {
       "slug": "united",
@@ -828,7 +828,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-19T21:28:00.276Z"
+      "updatedAt": "2026-11-20T03:07:28.774Z"
     }
   ]
 }
