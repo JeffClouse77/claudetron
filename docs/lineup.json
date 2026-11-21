@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:07:23.047Z",
+  "updatedAt": "2026-11-21T01:27:52.066Z",
   "stations": [
     {
       "slug": "claude",
@@ -7,38 +7,73 @@
       "videos": [
         {
           "id": "ln1KbRyJdt8",
-          "title": "Anthropic Just Shipped Claude 2.0 (Master it in 15 minutes)",
-          "published": "2026-11-20T18:07:17.542Z",
+          "title": "Claude 2.0 - Full Tutorial for Beginners (In 15 Minutes)",
+          "published": "2026-11-20T18:27:46.513Z",
           "channel": "Tech With Tim",
-          "ageText": "2h ago"
+          "ageText": "7h ago"
+        },
+        {
+          "id": "Y8A5L5og_mk",
+          "title": "Riemann Hypothesis Solved by Claude AI?",
+          "published": "2026-11-20T16:27:46.513Z",
+          "channel": "The Math Sorcerer",
+          "ageText": "9h ago"
         },
         {
           "id": "8GCqVb4c_yQ",
           "title": "Claude Code: How to Build & Deploy Your First AI App",
-          "published": "2026-11-20T15:07:18.212Z",
+          "published": "2026-11-20T15:27:47.373Z",
           "channel": "Zinho Automates",
-          "ageText": "5h ago"
+          "ageText": "10h ago"
         },
         {
-          "id": "7D72OlM1sHg",
-          "title": "Anthropic Code Mode: Is Claude Code About to Eat Your Agent Setup?",
-          "published": "2026-11-20T14:07:18.212Z",
-          "channel": "Solo Swift Crafter",
-          "ageText": "6h ago"
+          "id": "hGiADFtU76E",
+          "title": "Claude Code: Create Your First AI Agent in Just 5 Steps",
+          "published": "2026-11-20T15:27:47.373Z",
+          "channel": "Tony Lotis",
+          "ageText": "10h ago"
+        },
+        {
+          "id": "6sE10Oldl6w",
+          "title": "Claude Code for ₹0 | Use This Method🔥",
+          "published": "2026-11-20T15:27:47.373Z",
+          "channel": "AI with Thiru",
+          "ageText": "10h ago"
+        },
+        {
+          "id": "dVM2vk6un0c",
+          "title": "Claude Code Just Unlocked OPUS 5.5 for FREE (1 Million Tokens)",
+          "published": "2026-11-20T10:27:47.373Z",
+          "channel": "RANAsVFX",
+          "ageText": "15h ago"
+        },
+        {
+          "id": "dSBMdZtIsnk",
+          "title": "How to Build a Professional Website with Claude Code (in Minutes)",
+          "published": "2026-11-20T09:27:47.373Z",
+          "channel": "Metics Media",
+          "ageText": "16h ago"
         },
         {
           "id": "Qf0EzOEall8",
           "title": "Anthropic Just Shipped Claude's BIGGEST Harness Change Yet (Code Mode)",
-          "published": "2026-11-20T04:07:18.212Z",
+          "published": "2026-11-20T03:27:47.373Z",
           "channel": "Jay E | RoboNuggets",
-          "ageText": "16h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "nraROC2wl8s",
           "title": "I Tested Claude Code's New Code Mode 6 Times",
-          "published": "2026-11-20T03:07:18.212Z",
+          "published": "2026-11-20T03:27:47.373Z",
           "channel": "Better Stack",
-          "ageText": "17h ago"
+          "ageText": "22h ago"
+        },
+        {
+          "id": "B2d7H4PYRd4",
+          "title": "The Simplest Business I’d Start With Claude AI in 2027",
+          "published": "2026-11-20T01:27:46.513Z",
+          "channel": "Mr. AI CASH",
+          "ageText": "1d ago"
         },
         {
           "id": "sof3vW4mHTs",
@@ -47,85 +82,43 @@
           "channel": "Anthropic"
         },
         {
-          "id": "IyuUR51Mu4I",
-          "title": "This Experimental Feature Is Claude Code's BIGGEST Upgrade of 2026",
-          "published": "2026-11-19T20:07:18.212Z",
-          "channel": "Chase AI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "DMdqpLr2DlQ",
-          "title": "How to Put Claude Code on a VPS in 10 Minutes",
-          "published": "2026-11-19T20:07:18.212Z",
-          "channel": "Nate Herk | AI Automation",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "_0C6K545Bzc",
-          "title": "Claude Code for Free With 7 Billion Tokens a Month",
-          "published": "2026-11-19T20:07:18.212Z",
-          "channel": "Nishant Chahar",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "a90pZ1DSyls",
-          "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
-          "published": "2026-11-19T20:07:18.212Z",
-          "channel": "Cole Medin",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "B2d7H4PYRd4",
-          "title": "The Simplest Business I’d Start With Claude AI in 2027",
-          "published": "2026-11-19T20:07:17.542Z",
-          "channel": "Mr. AI CASH",
-          "ageText": "1d ago"
-        },
-        {
           "id": "JDsFHmq9hlA",
           "title": "What we make of this moment, will make this moment.",
           "published": "2026-11-19T15:02:49+00:00",
           "channel": "Anthropic"
         },
         {
-          "id": "_b_Slb6dl5g",
-          "title": "Anthropic (Claude AI) IPO Is HERE! $78/Share!!! Are We Investing $10,000? (6 Things You MUST Know)",
-          "published": "2026-11-18T20:07:17.542Z",
-          "channel": "Our Rich Journey",
-          "ageText": "2d ago"
+          "id": "tPiEPzy2JKU",
+          "title": "Claude Makes Insane Videos Now (It Can Replace Seedance)",
+          "published": "2026-11-18T01:27:46.513Z",
+          "channel": "AI Samson",
+          "ageText": "3d ago"
         },
         {
-          "id": "t637HIssZis",
-          "title": "This Viral YouTube Niche Is INSANE! Create Videos With Claude AI",
-          "published": "2026-11-18T20:07:17.542Z",
-          "channel": "Grow With Kaz",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "XSehihyKFqw",
-          "title": "The SIMPLEST Way To Make Money Online With Claude AI in 2026",
-          "published": "2026-11-16T20:07:17.542Z",
+          "id": "8Pg6G5h05hk",
+          "title": "Anthropic Engineer Explains: How the Top 1% Use Claude Code",
+          "published": "2026-11-18T01:27:46.513Z",
           "channel": "Nate Herk | AI Automation",
-          "ageText": "4d ago"
+          "ageText": "3d ago"
         },
         {
-          "id": "RLTtSw1Wq9A",
-          "title": "Day Trading with AI Trading Agents (Claude Tutorial)",
-          "published": "2026-11-16T20:07:17.542Z",
-          "channel": "Eric Leduc",
-          "ageText": "4d ago"
+          "id": "uYdbxzxRWl8",
+          "title": "Anthropic Just Revealed How To 10x Your Claude Memory",
+          "published": "2026-11-18T01:27:46.513Z",
+          "channel": "Ben AI",
+          "ageText": "3d ago"
         },
         {
-          "id": "pjYntsza2FA",
-          "title": "Claude just changed EVERYTHING...",
-          "published": "2026-11-16T20:07:17.542Z",
-          "channel": "Wes Roth",
+          "id": "82Xv_bPVtpU",
+          "title": "Bernie Sanders Grills Claude AI Over Data Privacy And Surveillance In Viral Anthropic Conversation",
+          "published": "2026-11-17T01:27:46.513Z",
+          "channel": "CRUX",
           "ageText": "4d ago"
         },
         {
           "id": "ZzDRSxx3zgY",
           "title": "I Built A Business From Scratch Only Following Claude’s Advice",
-          "published": "2026-11-16T20:07:17.542Z",
+          "published": "2026-11-17T01:27:46.513Z",
           "channel": "Mark Tilbury",
           "ageText": "4d ago"
         },
@@ -140,169 +133,188 @@
           "title": "Meet Claude Fable 5.1",
           "published": "2026-09-01T19:21:24+00:00",
           "channel": "Anthropic"
+        },
+        {
+          "id": "ROF2Nv_KjOM",
+          "title": "Introducing Claude Fable 5.1",
+          "published": "2026-09-01T18:02:31+00:00",
+          "channel": "Anthropic"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T20:07:18.779Z"
+      "updatedAt": "2026-11-21T01:27:47.979Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "aRQ5e9uy7Ug",
+          "title": "Google Just Released Its Craziest AI Project Yet",
+          "published": "2026-11-20T23:27:49.572Z",
+          "channel": "The AI Advantage",
+          "ageText": "2h ago"
+        },
+        {
+          "id": "F0RUNceWQUE",
+          "title": "Inside Look at New Anti-Aging Products Developed With AI",
+          "published": "2026-11-20T22:27:48.868Z",
+          "channel": "TODAY",
+          "ageText": "3h ago"
+        },
+        {
           "id": "wqNIzUmNt9M",
           "title": "AI News: This Is The Make or Break Week!!",
-          "published": "2026-11-20T19:07:18.780Z",
+          "published": "2026-11-20T19:27:47.979Z",
           "channel": "Matt Wolfe",
-          "ageText": "1h ago"
+          "ageText": "6h ago"
+        },
+        {
+          "id": "hqxFEugkYl0",
+          "title": "AI Godfather WARNS: We're Not Ready For What's Coming In 18 Months",
+          "published": "2026-11-20T16:27:47.979Z",
+          "channel": "Neuraline",
+          "ageText": "9h ago"
         },
         {
           "id": "6y8Ew6_ymRk",
           "title": "Anthropic Lost $230 Billion in Hours and the IPO Is Already a Total Sh*tshow",
-          "published": "2026-11-20T15:07:18.780Z",
+          "published": "2026-11-20T15:27:47.979Z",
           "channel": "House of El: AI",
-          "ageText": "5h ago"
+          "ageText": "10h ago"
+        },
+        {
+          "id": "s0ZfyXYp3Ns",
+          "title": "OpenAI Just Revealed How Far AI Self-Improvement Has Gone…",
+          "published": "2026-11-20T15:27:47.979Z",
+          "channel": "AI Copium",
+          "ageText": "10h ago"
         },
         {
           "id": "1pQ-HPRo3ZU",
           "title": "AI scientist: ‘We haven’t had Chernobyl yet. We will get Chernobyl’",
-          "published": "2026-11-20T11:07:18.780Z",
+          "published": "2026-11-20T10:27:47.979Z",
           "channel": "Channel 4 News",
-          "ageText": "9h ago"
+          "ageText": "15h ago"
         },
         {
           "id": "6NT9TsT6iMc",
           "title": "Google ACHIEVED RSI?! New Stealth Model BEATS Fable 5.2, Anthropic Post IPO, Genie 4 & MORE! AI NEWS",
-          "published": "2026-11-20T09:07:20.341Z",
+          "published": "2026-11-20T08:27:47.979Z",
           "channel": "WorldofAI",
-          "ageText": "11h ago"
-        },
-        {
-          "id": "J8LkKwoxfeQ",
-          "title": "AI News for Academics: Free ChatGPT for Researchers, AI Finds 872 Errors & 936 AI-Written Papers",
-          "published": "2026-11-20T02:07:18.780Z",
-          "channel": "Andy Stapleton",
-          "ageText": "18h ago"
-        },
-        {
-          "id": "YbZDDCHDSnE",
-          "title": "This will test if AI truly is a bubble",
-          "published": "2026-11-19T22:07:19.674Z",
-          "channel": "Matt Wolfe",
-          "ageText": "22h ago"
-        },
-        {
-          "id": "fWahdQCpgd0",
-          "title": "Anthropic CEO on massive societal change in the hands of a few AI companies #shorts",
-          "published": "2026-11-19T22:07:19.674Z",
-          "channel": "60 Minutes",
-          "ageText": "22h ago"
-        },
-        {
-          "id": "x70CiWBG_Ps",
-          "title": "'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says",
-          "published": "2026-11-19T21:07:18.780Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "23h ago"
+          "ageText": "17h ago"
         },
         {
           "id": "-0uvPVwPFgM",
           "title": "no one sees it coming (Google's Neon)",
-          "published": "2026-11-19T20:07:20.341Z",
+          "published": "2026-11-20T01:27:49.572Z",
           "channel": "Wes Roth",
           "ageText": "1d ago"
         },
         {
-          "id": "R0rXSJmymTc",
-          "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
-          "published": "2026-11-19T20:07:20.341Z",
-          "channel": "WorldofAI",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "KGA7B_c_S4s",
-          "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
-          "published": "2026-11-19T20:07:20.341Z",
-          "channel": "AI Explained",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "wWm9s9Q743M",
-          "title": "AI lab Anthropic sets stock market record with $81 billion IPO • FRANCE 24 English",
-          "published": "2026-11-19T20:07:19.674Z",
-          "channel": "FRANCE 24 English",
+          "id": "HPFiJWG5zrM",
+          "title": "In 2024, 60 Minutes spoke with Jensen Huang #shorts",
+          "published": "2026-11-20T01:27:48.868Z",
+          "channel": "60 Minutes",
           "ageText": "1d ago"
         },
         {
           "id": "FrwAjkqqQU4",
           "title": "How much do businesses want to pay for AI? • FRANCE 24 English",
-          "published": "2026-11-19T20:07:19.674Z",
+          "published": "2026-11-20T01:27:48.868Z",
           "channel": "FRANCE 24 English",
           "ageText": "1d ago"
         },
         {
-          "id": "-oA6oLxWpJg",
-          "title": "Insane AI Breakthroughs Nobody Is Talking About",
-          "published": "2026-11-19T20:07:18.780Z",
-          "channel": "Matt Wolfe",
+          "id": "7471ryHXwlk",
+          "title": "Anthropic goes public after blockbuster IPO but fails to revive AI trade • FRANCE 24 English",
+          "published": "2026-11-20T01:27:48.868Z",
+          "channel": "FRANCE 24 English",
           "ageText": "1d ago"
         },
         {
-          "id": "PZ4flERfSzY",
-          "title": "Former FBI investigator makes CHILLING admission about AI terror planning",
-          "published": "2026-11-19T20:07:18.780Z",
-          "channel": "Fox Business",
+          "id": "fWahdQCpgd0",
+          "title": "Anthropic CEO on massive societal change in the hands of a few AI companies #shorts",
+          "published": "2026-11-20T01:27:48.868Z",
+          "channel": "60 Minutes",
           "ageText": "1d ago"
         },
         {
           "id": "9U5yOWi2W3M",
           "title": "AI chatbots helped plan electrical grid ATTACK, report reveals",
-          "published": "2026-11-19T20:07:18.780Z",
+          "published": "2026-11-20T01:27:48.868Z",
           "channel": "Fox News Clips",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "MGZPIGffCxU",
+          "title": "Anthropic raises record $81.3B in IPO: What it means for AI",
+          "published": "2026-11-20T01:27:47.979Z",
+          "channel": "CNN",
+          "ageText": "1d ago"
+        },
+        {
+          "id": "x70CiWBG_Ps",
+          "title": "'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says",
+          "published": "2026-11-20T01:27:47.979Z",
+          "channel": "FRANCE 24 English",
           "ageText": "1d ago"
         },
         {
           "id": "q8iHsdzd94U",
           "title": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-          "published": "2026-11-18T20:07:20.341Z",
+          "published": "2026-11-19T01:27:49.572Z",
           "channel": "WorldofAI",
           "ageText": "2d ago"
         },
         {
-          "id": "yQLvjeFU0Gs",
-          "title": "Google Gemini’s New Features & Models Are INSANE! (AI Inbox, Gemini 4 & More)",
-          "published": "2026-11-18T20:07:20.341Z",
-          "channel": "Rob The AI Guy",
+          "id": "R0rXSJmymTc",
+          "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
+          "published": "2026-11-19T01:27:49.572Z",
+          "channel": "WorldofAI",
           "ageText": "2d ago"
         },
         {
-          "id": "qwMffFmHn6s",
-          "title": "Does Nvidia scandal upend US-China AI race? • FRANCE 24 English",
-          "published": "2026-11-18T20:07:19.674Z",
-          "channel": "FRANCE 24 English",
-          "ageText": "2d ago"
+          "id": "WRdgKyOTPXA",
+          "title": "GPT-6.2 Astra Is INSANE! Gemini 4 Neon, OpenAI AGI CONFIRMED?!, Claude Code UPGRADES & MORE! AI NEWS",
+          "published": "2026-11-18T01:27:49.572Z",
+          "channel": "WorldofAI",
+          "ageText": "3d ago"
         },
         {
-          "id": "nZvsuU0-F5Y",
-          "title": "Daniel Susskind on Raising Kids in the Age of AI | The Daily Show",
-          "published": "2026-11-18T20:07:19.674Z",
-          "channel": "The Daily Show",
-          "ageText": "2d ago"
+          "id": "8Pg6G5h05hk",
+          "title": "Anthropic Just Released the New Rules of Claude Code",
+          "published": "2026-11-18T01:27:49.572Z",
+          "channel": "Nate Herk | AI Automation",
+          "ageText": "3d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T20:07:21.017Z"
+      "updatedAt": "2026-11-21T01:27:50.368Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
-          "id": "hkoJfQ8pITE",
-          "title": "Atlanta Falcons News | Colts have Released Daniel Jones! REACTION!",
-          "published": "2026-11-20T19:07:21.445Z",
-          "channel": "Mad Mike Sports (Podcast)",
-          "ageText": "1h ago"
+          "id": "TXO02Gms55k",
+          "title": "Yessir 5! #nba #hawks #dysondaniels",
+          "published": "2026-11-21T00:45:24+00:00",
+          "channel": "Atlanta Hawks"
+        },
+        {
+          "id": "7sI3Kfq3Dkk",
+          "title": "Colin Kaepernick Shuts Down Stephen A. Smith's BS Once and for All",
+          "published": "2026-11-20T20:27:50.473Z",
+          "channel": "TYT Sports and Colin Kaepernick",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "V74pwe8Zyec",
+          "title": "Embrace The Tank? Atlanta Falcons PATH To A Top 5 Pick Is POSSIBLE",
+          "published": "2026-11-20T19:27:50.473Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "6h ago"
         },
         {
           "id": "M7vmgxmMb_A",
@@ -313,30 +325,23 @@
         {
           "id": "bKHHLpyrSec",
           "title": "Atlanta Braves GM Is A ABSOLUTE Disaster..",
-          "published": "2026-11-20T16:07:21.445Z",
+          "published": "2026-11-20T16:27:50.473Z",
           "channel": "Uncut Atlanta Sports",
-          "ageText": "4h ago"
+          "ageText": "9h ago"
         },
         {
           "id": "80lCGAoSQf8",
           "title": "IMAGINE THIS!!!!",
-          "published": "2026-11-20T12:07:21.445Z",
+          "published": "2026-11-20T12:27:50.473Z",
           "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "8h ago"
-        },
-        {
-          "id": "fEMZ2WVzIds",
-          "title": "WERE EXPECTATIONS TO HIGH?",
-          "published": "2026-11-20T01:07:21.445Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "19h ago"
+          "ageText": "13h ago"
         },
         {
           "id": "UpakWi1RHko",
           "title": "🚨MAJOR Atlanta Falcons News During The Bye Week | HUGE 2027 Offseason Ahead",
-          "published": "2026-11-20T00:07:21.445Z",
+          "published": "2026-11-20T01:27:50.473Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "Streamed 20h ago"
+          "ageText": "Streamed 1d ago"
         },
         {
           "id": "hvqYfYGTycI",
@@ -372,12 +377,6 @@
           "id": "AOIn_BNpkro",
           "title": "Hawks vs. Thunder Postgame Press Conference: Head Coach Quin Snyder",
           "published": "2026-11-19T04:08:13+00:00",
-          "channel": "Atlanta Hawks"
-        },
-        {
-          "id": "VRPFSaeBtOU",
-          "title": "All love for Lu back in OKC 🫶🫶🫶 #hawks #ludort #nba",
-          "published": "2026-11-19T01:55:35+00:00",
           "channel": "Atlanta Hawks"
         },
         {
@@ -424,7 +423,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-20T20:07:23.047Z"
+      "updatedAt": "2026-11-21T01:27:52.066Z"
     },
     {
       "slug": "braves",
@@ -525,7 +524,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-20T20:07:21.206Z"
+      "updatedAt": "2026-11-21T01:27:50.451Z"
     },
     {
       "slug": "falcons",
@@ -626,13 +625,19 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-20T20:07:21.284Z"
+      "updatedAt": "2026-11-21T01:27:50.462Z"
     },
     {
       "slug": "hawks",
       "name": "ATLANTA HAWKS",
       "handle": "@ATLHawks",
       "videos": [
+        {
+          "id": "TXO02Gms55k",
+          "title": "Yessir 5! #nba #hawks #dysondaniels",
+          "published": "2026-11-21T00:45:24+00:00",
+          "channel": "Atlanta Hawks"
+        },
         {
           "id": "PjWOBrFNPQo",
           "title": "Aaron Wiggins & Lu Dort combine for 30 Points in return to OKC",
@@ -716,18 +721,12 @@
           "title": "Skilla Baby on The Price of Fame, learning from Nas, & dreams of an Adele feature | Hawks AF",
           "published": "2026-11-12T17:58:56+00:00",
           "channel": "Atlanta Hawks"
-        },
-        {
-          "id": "wo_08u6kpQg",
-          "title": "Fellas are very particular about their wings 🫡😆 #nba #hawks #atlanta #wings",
-          "published": "2026-11-11T03:00:37+00:00",
-          "channel": "Atlanta Hawks"
         }
       ],
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-20T20:07:21.291Z"
+      "updatedAt": "2026-11-21T01:27:50.468Z"
     },
     {
       "slug": "united",
@@ -828,7 +827,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-20T20:07:21.445Z"
+      "updatedAt": "2026-11-21T01:27:50.473Z"
     }
   ]
 }
