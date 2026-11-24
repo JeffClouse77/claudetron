@@ -1,120 +1,120 @@
 {
-  "updatedAt": "2026-11-23T20:08:07.090Z",
+  "updatedAt": "2026-11-24T04:44:17.615Z",
   "stations": [
     {
       "slug": "claude",
       "name": "CLAUDE AI",
       "videos": [
         {
+          "id": "74dC-v_JWCE",
+          "title": "Claude Code Just Dropped Code Mode (Master it in 7 Minutes)",
+          "published": "2026-11-24T00:44:13.971Z",
+          "channel": "Duncan Rogoff | Learn Claude Code",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "IMSYKloMFrE",
+          "title": "Anthropic's Engineers Stopped Building AI Agents (Here's What They Build Instead)",
+          "published": "2026-11-23T23:44:13.339Z",
+          "channel": "Jay E | RoboNuggets",
+          "ageText": "5h ago"
+        },
+        {
           "id": "FaF__CALVzE",
           "title": "FULL Claude Code Course for Beginners in 2026! (Become a PRO!)",
-          "published": "2026-11-23T15:08:00.934Z",
+          "published": "2026-11-23T15:44:13.971Z",
           "channel": "AI Master",
-          "ageText": "5h ago"
+          "ageText": "13h ago"
         },
         {
           "id": "W2c5Z3pnqlY",
           "title": "How to Build a Website with Claude Code",
-          "published": "2026-11-23T15:08:00.934Z",
+          "published": "2026-11-23T14:44:13.971Z",
           "channel": "Easy AI Coding",
-          "ageText": "5h ago"
+          "ageText": "14h ago"
         },
         {
           "id": "j6AsGzC2pRk",
-          "title": "How I Make VIRAL YouTube Shorts with Claude Code(Free Skill)",
-          "published": "2026-11-23T14:08:00.934Z",
+          "title": "Master Claude Video Editing in 15 Minutes(Free Plugin)",
+          "published": "2026-11-23T13:44:13.971Z",
           "channel": "Ishan Sharma",
-          "ageText": "6h ago"
+          "ageText": "15h ago"
         },
         {
-          "id": "1hjvu-Fow7s",
-          "title": "Anthropic Just Released the Biggest Change to Claude Code (Code Mode)",
-          "published": "2026-11-22T23:08:00.934Z",
-          "channel": "Maestros da IA",
+          "id": "Qlkf2l6JcFk",
+          "title": "I Made Claude Code FREE with 700M Tokens! (No Subscription) 😱",
+          "published": "2026-11-23T12:44:13.971Z",
+          "channel": "TECH GPT",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "YqeDKgaBHG8",
+          "title": "Claude Code Just Replaced GoHighLevel: $497/Mth → $0/Mth (No Subscription)",
+          "published": "2026-11-23T12:44:13.971Z",
+          "channel": "ambITious | AI",
+          "ageText": "16h ago"
+        },
+        {
+          "id": "n02r6BWHJ2Q",
+          "title": "I Gave Claude AI ONE Plugin... It Created an ENTIRE Documentary! (FREE Plugin)",
+          "published": "2026-11-23T08:44:13.339Z",
+          "channel": "Henry Studioz",
+          "ageText": "20h ago"
+        },
+        {
+          "id": "1jPdehG3Hms",
+          "title": "Claude AI Solved The Secret Of Black Holes",
+          "published": "2026-11-23T07:44:13.339Z",
+          "channel": "Two Minute Papers",
           "ageText": "21h ago"
-        },
-        {
-          "id": "Jz4QT0vH-MU",
-          "title": "Give Me 10 Minutes and I'll Make Claude Code 100x Smarter",
-          "published": "2026-11-22T20:08:00.934Z",
-          "channel": "Eric Tech",
-          "ageText": "1d ago"
         },
         {
           "id": "sLcjXUZYEXc",
           "title": "I Spent 1,000+ Hours in Claude Code",
-          "published": "2026-11-22T20:08:00.934Z",
+          "published": "2026-11-23T04:44:13.971Z",
           "channel": "Duncan Rogoff | Learn Claude Code",
           "ageText": "1d ago"
         },
         {
-          "id": "bQCBfcZZj0Y",
-          "title": "Claude Can Now Prove Your Code Works",
-          "published": "2026-11-22T20:08:00.934Z",
-          "channel": "The Hype Kevin",
+          "id": "Jz4QT0vH-MU",
+          "title": "Give Me 10 Minutes and I'll Make Claude Code 100x Smarter",
+          "published": "2026-11-23T04:44:13.971Z",
+          "channel": "Eric Tech",
           "ageText": "1d ago"
         },
         {
-          "id": "7otuqI6ED9A",
-          "title": "Claude Code Just Unlocked BILLIONS of Free Tokens (Zero Downtime)",
-          "published": "2026-11-22T20:08:00.934Z",
-          "channel": "RANAsVFX",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "OMfU5iq8Eik",
-          "title": "Claude is Replacing EVERY App You Pay For (7 New Features Explained)",
-          "published": "2026-11-22T20:08:00.228Z",
-          "channel": "Jay E | RoboNuggets",
+          "id": "6vNOQIAJr2w",
+          "title": "Claude vs ChatGPT: Which Should You Use in 2027?",
+          "published": "2026-11-23T04:44:13.339Z",
+          "channel": "The AI Productivity Coach",
           "ageText": "1d ago"
         },
         {
           "id": "iMYNtiS2Gqw",
           "title": "I Made Professional Documentary Videos Using ONLY Claude AI (FREE Plugin)",
-          "published": "2026-11-22T20:08:00.228Z",
+          "published": "2026-11-23T04:44:13.339Z",
           "channel": "Grow With Kaz",
           "ageText": "1d ago"
         },
         {
-          "id": "6vNOQIAJr2w",
-          "title": "Claude vs ChatGPT: If I Could Only Keep One (2027)",
-          "published": "2026-11-22T20:08:00.228Z",
-          "channel": "The AI Productivity Coach",
+          "id": "YgoYX3krsaM",
+          "title": "The Secret Way to Create Motion Graphics with Claude AI (FREE)",
+          "published": "2026-11-23T04:44:13.339Z",
+          "channel": "Mash Grow",
           "ageText": "1d ago"
-        },
-        {
-          "id": "xjX3jESpZqs",
-          "title": "Claude JUST solved the Riemann Hypothesis...",
-          "published": "2026-11-21T20:08:00.228Z",
-          "channel": "Wes Roth",
-          "ageText": "2d ago"
         },
         {
           "id": "UUg5oij7ptw",
           "title": "How To Build Self-Improving AI Agents with Claude (Stanford's Method)",
-          "published": "2026-11-21T20:08:00.228Z",
+          "published": "2026-11-22T04:44:13.339Z",
           "channel": "Austin Marchese",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "rb8i-xEqeo0",
-          "title": "Claude AI Full Course 2026 | Claude Tutorial for Beginners | Claude Code, Cowork & Artifacts",
-          "published": "2026-11-21T20:08:00.228Z",
-          "channel": "Great Learning",
           "ageText": "2d ago"
         },
         {
           "id": "B4RAGeZ81k8",
           "title": "Claude Just Did the UNTHINKABLE…",
-          "published": "2026-11-21T20:08:00.228Z",
+          "published": "2026-11-22T04:44:13.339Z",
           "channel": "AI Copium",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "qgZsNSs5qX0",
-          "title": "I Pushed Claude Animations to the Max (Copy My Prompt)",
-          "published": "2026-11-21T20:08:00.228Z",
-          "channel": "Zane Hoyer",
           "ageText": "2d ago"
         },
         {
@@ -143,180 +143,173 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-23T20:08:01.611Z"
+      "updatedAt": "2026-11-24T04:44:14.591Z"
     },
     {
       "slug": "ai-news",
       "name": "AI NEWS",
       "videos": [
         {
+          "id": "qgL_IbP2qKg",
+          "title": "OpenAI board member: High risk of AI takeover in the next 3 years",
+          "published": "2026-11-24T04:00:15.256Z",
+          "channel": "CNN",
+          "ageText": "44 min ago"
+        },
+        {
+          "id": "HbosmW-RS-U",
+          "title": "OpenAI Declares War On Self-Improving AI... Something Is Wrong",
+          "published": "2026-11-24T01:44:15.879Z",
+          "channel": "AI Revolution",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "Xm0Ut_bIAAA",
+          "title": "AI Model Roundup: What Actually Shipped (Nov. 16–22)",
+          "published": "2026-11-24T01:44:15.879Z",
+          "channel": "Quantum Convergence: AI",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "quPhmeeU6rk",
+          "title": "KSAT News at 6 p.m. : Nov 23, 2026",
+          "published": "2026-11-24T01:44:15.256Z",
+          "channel": "KSAT 12",
+          "ageText": "3h ago"
+        },
+        {
+          "id": "knR-mCKOJeE",
+          "title": "#Tech #News #NVIDIA #AI #jensenhuang",
+          "published": "2026-11-24T00:44:14.592Z",
+          "channel": "Ari From Jelly",
+          "ageText": "4h ago"
+        },
+        {
+          "id": "4_Cppk1ON-U",
+          "title": "The Week in AI: 17 – 23 Nov 2026 #shorts",
+          "published": "2026-11-23T23:44:15.256Z",
+          "channel": "Phil Bishop",
+          "ageText": "5h ago"
+        },
+        {
+          "id": "VCg2RlsPxBU",
+          "title": "Yes, you should panic about AI",
+          "published": "2026-11-23T18:44:14.592Z",
+          "channel": "Rutger Bregman",
+          "ageText": "10h ago"
+        },
+        {
+          "id": "atwnkFRcB4g",
+          "title": "Even AI Sceptics Are Changing Their Forecasts",
+          "published": "2026-11-23T16:44:14.592Z",
+          "channel": "Sabine Hossenfelder",
+          "ageText": "12h ago"
+        },
+        {
+          "id": "GqYKnWFLxvI",
+          "title": "Anthropic CEO WARNS: New Wave Of AI Threat Is Coming",
+          "published": "2026-11-23T16:44:14.592Z",
+          "channel": "Neural Nutshell",
+          "ageText": "12h ago"
+        },
+        {
+          "id": "lNCeeIYbaH8",
+          "title": "Google’s AI Agent Is Free in India—Plus HeyGen Avatar 6, Suno Visuals, Inkling 2 Mini, Picsart",
+          "published": "2026-11-23T16:44:14.592Z",
+          "channel": "The AI Hustle",
+          "ageText": "12h ago"
+        },
+        {
           "id": "-lkjO6_RFSU",
           "title": "AI Weekly: Anthropic's debut falters, Paris Hilton shows Defiance",
-          "published": "2026-11-23T12:08:02.382Z",
+          "published": "2026-11-23T12:44:15.256Z",
           "channel": "Reuters",
-          "ageText": "8h ago"
+          "ageText": "16h ago"
+        },
+        {
+          "id": "twaK5HGPLzE",
+          "title": "AI at Work: Releases, Job Cuts and Security | 14 Nov 2026",
+          "published": "2026-11-23T09:44:15.879Z",
+          "channel": "THB_GUY",
+          "ageText": "19h ago"
         },
         {
           "id": "DeiqiwVsFgY",
           "title": "US Stocks Set to Rebound After AI Selloff",
-          "published": "2026-11-23T08:08:01.611Z",
+          "published": "2026-11-23T08:44:15.256Z",
           "channel": "Bloomberg Television",
-          "ageText": "12h ago"
+          "ageText": "20h ago"
         },
         {
           "id": "7n3cZzR0tVE",
           "title": "GEMINI 5 LEAKED?! GLM 5.4 Is Out, OpenAI GPT-7 Bel, Nano Banana Pro 2 & MORE! AI NEWS",
-          "published": "2026-11-23T07:08:03.009Z",
+          "published": "2026-11-23T06:44:15.879Z",
           "channel": "WorldofAI",
-          "ageText": "13h ago"
-        },
-        {
-          "id": "yO9FY8NjAaU",
-          "title": "AI-Tech News Today🚨OpenAI Wallet, Google AI Hacking, Microsoft Ignite, GTA 6 | Weekly Top Tech News",
-          "published": "2026-11-23T04:08:02.382Z",
-          "channel": "Adda247 Skills Academy and Adda247 Skills",
-          "ageText": "16h ago"
+          "ageText": "22h ago"
         },
         {
           "id": "cUuVObUqbn0",
           "title": "Inkling 2 Mini Is INSANE! NEW 26B Local AI Model BEATS Qwen 3.8 27B! (Fully Tested)",
-          "published": "2026-11-22T20:08:03.009Z",
+          "published": "2026-11-23T04:44:15.879Z",
           "channel": "WorldofAI",
           "ageText": "1d ago"
         },
         {
-          "id": "3GHg0maol8U",
-          "title": "Market Anxiety Over Tech Trade, Governors Release AI Framework, Game On for the Holidays",
-          "published": "2026-11-22T20:08:02.382Z",
-          "channel": "Bloomberg Television",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "ZEYtG84Sf1w",
-          "title": "How the U.S. Economy Is Tied to A.I.",
-          "published": "2026-11-22T20:08:02.382Z",
-          "channel": "The New York Times",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "xZ8laXyHS5w",
-          "title": "AI Plays Major Role in Series of Tech Outages, Experts Say",
-          "published": "2026-11-22T20:08:02.382Z",
-          "channel": "TODAY",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "_4NZedIB55o",
-          "title": "It Happened... The AI Bubble Just Cracked (Worst Week For AI Ever)",
-          "published": "2026-11-22T20:08:01.611Z",
-          "channel": "AI Revolution",
-          "ageText": "1d ago"
-        },
-        {
-          "id": "Wty1Hs4K99Y",
-          "title": "Americans begin DOOMSDAY prep, House launches bipartisan A.I. safety caucus, as Trump says ‘relax’",
-          "published": "2026-11-22T20:08:01.611Z",
-          "channel": "MS NOW",
+          "id": "yO9FY8NjAaU",
+          "title": "AI-Tech News Today🚨OpenAI Wallet, Google AI Hacking, Microsoft Ignite, GTA 6 | Weekly Top Tech News",
+          "published": "2026-11-23T04:44:15.256Z",
+          "channel": "Adda247 Skills Academy and Adda247 Skills",
           "ageText": "1d ago"
         },
         {
           "id": "fvN_vCRuBec",
           "title": "'Where do we go next?' Mathematics after AI cracks the Riemann hypothesis • FRANCE 24 English",
-          "published": "2026-11-22T20:08:01.611Z",
+          "published": "2026-11-23T04:44:14.592Z",
           "channel": "FRANCE 24 English",
           "ageText": "1d ago"
         },
         {
-          "id": "hjTvlmduU68",
-          "title": "AI Music News: Suno FINALLY Did It & Suno Scandal in a GTA6 Mode",
-          "published": "2026-11-22T20:08:01.611Z",
-          "channel": "Chris Wieduwilt (The AI Musicpreneur)",
+          "id": "ZEYtG84Sf1w",
+          "title": "How the U.S. Economy Is Tied to A.I.",
+          "published": "2026-11-23T04:44:14.592Z",
+          "channel": "The New York Times",
           "ageText": "1d ago"
         },
         {
-          "id": "aRQ5e9uy7Ug",
-          "title": "Google Just Released Its Craziest AI and It´s Bigger Than It Looks!",
-          "published": "2026-11-21T20:08:03.009Z",
-          "channel": "The AI Advantage",
+          "id": "bj3JTd-ezYg",
+          "title": "Riemann solved, realtime waifus, unforced Navier-Stokes, new GPT, Gemini Neon: AI NEWS",
+          "published": "2026-11-22T04:44:15.879Z",
+          "channel": "AI Search",
           "ageText": "2d ago"
         },
         {
-          "id": "Nf3P6kGBtRQ",
-          "title": "AI Arms Race: How Artificial Intelligence is Turning Against Humanity | Weekly News Roundup",
-          "published": "2026-11-21T20:08:02.382Z",
-          "channel": "Switched to Linux",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "YKS34sswxbg",
-          "title": "AI that builds itself: Golden age or time to panic? | BBC News",
-          "published": "2026-11-21T20:08:01.611Z",
-          "channel": "BBC News",
-          "ageText": "2d ago"
-        },
-        {
-          "id": "TfnQju0-0i4",
-          "title": "Google Unleashes Gemini 4 Neon, Microsoft Drops 3 New Models, New RSI, Kling Reaches 8K...",
-          "published": "2026-11-20T20:08:03.009Z",
+          "id": "_4NZedIB55o",
+          "title": "It Happened... The AI Bubble Just Cracked (Worst Week For AI Ever)",
+          "published": "2026-11-22T04:44:14.592Z",
           "channel": "AI Revolution",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "6NT9TsT6iMc",
-          "title": "Google ACHIEVED RSI?! New Stealth Model BEATS Fable 5.2, Anthropic Post IPO, Genie 4 & MORE! AI NEWS",
-          "published": "2026-11-20T20:08:03.009Z",
-          "channel": "WorldofAI",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "gxoKLsWRRxs",
-          "title": "Big AI News: OpenAI Fumbled but Google Won The Week (Again)",
-          "published": "2026-11-20T20:08:01.611Z",
-          "channel": "Paul J Lipsky",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "wqNIzUmNt9M",
-          "title": "AI News: This Is The Make or Break Week!!",
-          "published": "2026-11-20T20:08:01.611Z",
-          "channel": "Matt Wolfe",
-          "ageText": "3d ago"
-        },
-        {
-          "id": "R0rXSJmymTc",
-          "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
-          "published": "2026-11-19T20:08:03.009Z",
-          "channel": "WorldofAI",
-          "ageText": "4d ago"
+          "ageText": "2d ago"
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-23T20:08:05.335Z"
+      "updatedAt": "2026-11-24T04:44:16.441Z"
     },
     {
       "slug": "atl-sports",
       "name": "ATLANTA SPORTS",
       "videos": [
         {
-          "id": "6JRVt1I0C_Q",
-          "title": "What Went Wrong Against the 49ers in Mexico City  and What to Expect Next Against Atlanta",
-          "published": "2026-11-23T19:29:05.738Z",
-          "channel": "BleavNFC",
-          "ageText": "39 min ago"
+          "id": "ovu9XEukn8M",
+          "title": "This is HUGE for the Atlanta Hawks",
+          "published": "2026-11-24T02:44:16.466Z",
+          "channel": "Hawks Digest",
+          "ageText": "2h ago"
         },
         {
-          "id": "RvoR08GtcgY",
-          "title": "The Atlanta Falcons Just Received SO MUCH NEWS After The Bye Week",
-          "published": "2026-11-23T19:08:05.738Z",
+          "id": "OfxakWnAUPY",
+          "title": "The Atlanta Falcons Literally LOST On Their Bye Week",
+          "published": "2026-11-23T23:44:16.466Z",
           "channel": "Falcons Today by Chat Sports",
-          "ageText": "1h ago"
-        },
-        {
-          "id": "451Oi5dueNg",
-          "title": "Atlanta Falcons First Pick In The Draft MUST Be HIM!",
-          "published": "2026-11-23T19:08:05.738Z",
-          "channel": "Uncut Atlanta Sports",
-          "ageText": "1h ago"
+          "ageText": "5h ago"
         },
         {
           "id": "CPVwIkpsxiQ",
@@ -325,11 +318,18 @@
           "channel": "Atlanta Falcons"
         },
         {
-          "id": "XpMoJWkuPtU",
-          "title": "Adam Thielen Reacts to Kirk Cousins' Frustration & Vikings' Loss to 49ers",
-          "published": "2026-11-23T18:08:05.738Z",
-          "channel": "KFAN",
-          "ageText": "2h ago"
+          "id": "451Oi5dueNg",
+          "title": "Atlanta Falcons First Pick In The Draft MUST Be HIM!",
+          "published": "2026-11-23T18:44:16.466Z",
+          "channel": "Uncut Atlanta Sports",
+          "ageText": "10h ago"
+        },
+        {
+          "id": "RvoR08GtcgY",
+          "title": "The Atlanta Falcons Just Received SO MUCH NEWS After The Bye Week",
+          "published": "2026-11-23T18:44:16.466Z",
+          "channel": "Falcons Today by Chat Sports",
+          "ageText": "10h ago"
         },
         {
           "id": "a9pxPq_j5iA",
@@ -338,11 +338,11 @@
           "channel": "Atlanta Falcons"
         },
         {
-          "id": "HqVge_yJLsk",
-          "title": "WE ARE NOT THEM!",
-          "published": "2026-11-23T15:08:05.738Z",
-          "channel": "GET OUTCHO FEELINGS SPORTS PODCAST",
-          "ageText": "5h ago"
+          "id": "pSoTEB0bWbI",
+          "title": "Atlanta Falcons Somehow Managed to Lose During Their Bye Week | Falcons Podcast",
+          "published": "2026-11-23T14:44:16.466Z",
+          "channel": "Scott Kennedy",
+          "ageText": "Streamed 14h ago"
         },
         {
           "id": "CS3FlGY1-Aw",
@@ -424,7 +424,7 @@
         }
       ],
       "source": "blend",
-      "updatedAt": "2026-11-23T20:08:07.090Z"
+      "updatedAt": "2026-11-24T04:44:17.615Z"
     },
     {
       "slug": "braves",
@@ -525,7 +525,7 @@
       "source": "channel",
       "channelId": "UCNWnkblY5_kmf4OQ9l0LgnA",
       "via": "feed",
-      "updatedAt": "2026-11-23T20:08:05.438Z"
+      "updatedAt": "2026-11-24T04:44:16.450Z"
     },
     {
       "slug": "falcons",
@@ -626,7 +626,7 @@
       "source": "channel",
       "channelId": "UCzjCfV3LHyarKbdb-2ScGZg",
       "via": "feed",
-      "updatedAt": "2026-11-23T20:08:05.542Z"
+      "updatedAt": "2026-11-24T04:44:16.456Z"
     },
     {
       "slug": "hawks",
@@ -727,7 +727,7 @@
       "source": "channel",
       "channelId": "UCpfcwELvR1wtcRJ0UxNXHYw",
       "via": "feed",
-      "updatedAt": "2026-11-23T20:08:05.632Z"
+      "updatedAt": "2026-11-24T04:44:16.461Z"
     },
     {
       "slug": "united",
@@ -828,7 +828,7 @@
       "source": "channel",
       "channelId": "UC8fg8L4X7qpQdHJgxpM4qxw",
       "via": "feed",
-      "updatedAt": "2026-11-23T20:08:05.738Z"
+      "updatedAt": "2026-11-24T04:44:16.466Z"
     }
   ]
 }
